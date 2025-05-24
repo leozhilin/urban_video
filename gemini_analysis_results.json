@@ -1,0 +1,886 @@
+{
+  "5010": {
+    "video_id": "RealWorld_GN_21_1.mp4",
+    "question": "Question: At the initial position, you are asked to navigate to the vicinity of the tower crane at the construction site ahead. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. The area near the tower crane at the construction site ahead is currently at the lower left of my field of view.  \nB. The area near the tower crane at the construction site ahead is currently in the center of my field of view.  \nC. The area near the tower crane at the construction site ahead is not within my field of view.  \nD. The tower crane at the construction site ahead is currently in the upper right corner of my field of view.  \nE. The tower crane at the construction site ahead is currently on the right side of my field of view.  ",
+    "answer": "B",
+    "question_category": "Goal Detection",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: [D]\nReason: At the initial position, the tower crane at the construction site is visible in the upper right corner of the field of view.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.13933626343222225
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 10915,
+        "candidatesTokenCount": 34,
+        "totalTokenCount": 10949,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 255
+          },
+          {
+            "modality": "VIDEO",
+            "tokenCount": 10660
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 34
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "1650": {
+    "video_id": "EmbodiedCity_59_1.mp4",
+    "question": "Question: At the initial position, you are asked to navigate to a store with the sign \"Mr. Fan.\" Thinking back on past actions and objects you have seen, what should you approach next in order to get from your current location to the destination?  \nchoose:  \nA. I approach a crosswalk on a street.  \nB. I approach the entrance of a high-rise building.  \nC. I approach the lawn next to the high-rise building.  \nD. I approach low-rise ancillary buildings at the bottom of high-rise buildings.  \nE. I approach rooftops of adjacent buildings.  ",
+    "answer": "D",
+    "question_category": "High-level Planning",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: [A]\nReason:The video shows that I am currently positioned above a building next to a street with a crosswalk. To navigate to a store, I should first approach the crosswalk to cross the street and continue my search on the other side.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.32591649835759945
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 9830,
+        "candidatesTokenCount": 55,
+        "totalTokenCount": 9885,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 210
+          },
+          {
+            "modality": "VIDEO",
+            "tokenCount": 9620
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 55
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "401": {
+    "video_id": "AerialVLN_40_37QW5D2ZRPK2HZ8ZHIGWYD0OVCQS8V.mp4",
+    "question": "Question: Why does your height increase after you are aimed at the edge of a building?  \nChoice:  \nA. To avoid low-altitude air traffic.  \nB. Due to unexpected weather conditions.  \nC. To capture a wider area of \u200b\u200byour surroundings.  \nD. Due to malfunction.  \nE. To reach the terrace more directly.  ",
+    "answer": "E",
+    "question_category": "Causal",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: E\nReason: The video shows the agent ascending to reach the top of the building, which is the terrace."
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.43466178894042967
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 17577,
+        "candidatesTokenCount": 25,
+        "totalTokenCount": 17602,
+        "promptTokensDetails": [
+          {
+            "modality": "VIDEO",
+            "tokenCount": 17420
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 157
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 25
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "4222": {
+    "video_id": "RealWorld_17.mp4",
+    "question": "Question: Why do you drop to a position diagonally above the road and bus stop after moving slightly forward and downward over the road?\n\nChoice: A. To get a better view of traffic flow on the road.\n            B. The bus stop is the final destination.\n            C. Due to low battery power.\n            D. To avoid collision with nearby buildings.\n            E. To take a clearer shot of the parked car.",
+    "answer": "B",
+    "question_category": "Causal",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: A\nReason: The drone moves to a position diagonally above the road and bus stop to get a better view of the traffic flow on the road. This position allows for a wider perspective of the road and the vehicles moving on it."
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.3117096180818519
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 41769,
+        "candidatesTokenCount": 49,
+        "totalTokenCount": 41818,
+        "promptTokensDetails": [
+          {
+            "modality": "VIDEO",
+            "tokenCount": 41600
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 169
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 49
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "1684": {
+    "video_id": "EmbodiedCity_60_1.mp4",
+    "question": "Question: At the initial position, you are asked to navigate to a store. The yellow sign in the store reads \"Ubrao Craft Brewery.\" When you reach the current location, what is the relative position relationship between you and the destination?  \nchoose:  \nA. I am currently located in the right rear direction of the destination, giving a bird's eye view.  \nB. I am currently located directly above the destination.  \nC. I am currently located at the front left of the destination, at street level.  \nD. I am currently located in the air outside the building's exterior wall, over the sidewalk, and my relative position to the store is unknown.  \nE. I am currently located in front and right of the destination, flying at high altitude.  ",
+    "answer": "D",
+    "question_category": "Landmark Position",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: B\nReason: The video shows a top-down view, and the camera descends until it is directly above the building. Therefore, I am currently located directly above the destination.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.2248844733605018
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 8825,
+        "candidatesTokenCount": 39,
+        "totalTokenCount": 8864,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 245
+          },
+          {
+            "modality": "VIDEO",
+            "tokenCount": 8580
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 39
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "33": {
+    "video_id": "EmbodiedCity_28.mp4",
+    "question": "Question: Which object is located near the round rooftop of a tower?  \nChoices:  \nA. A radio antenna.  \nB. Another UAV.  \nC. A curved facade leading to the terrace.  \nD. A large billboard.  \nE. A series of blue windows.  ",
+    "answer": "E",
+    "question_category": "Object Recall",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: A\nReason:The video shows a round rooftop of a tower. Located near the round rooftop of the tower is a radio antenna."
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.30886827666183997
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 32643,
+        "candidatesTokenCount": 29,
+        "totalTokenCount": 32672,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 143
+          },
+          {
+            "modality": "VIDEO",
+            "tokenCount": 32500
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 29
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "290": {
+    "video_id": "AerialVLN_17_32ZKVD547OLHZGLRUFZ5H7IDB2WB35.mp4",
+    "question": "Question: Which of the following choices better summarizes your movement route?  \nChoices:  \nA. I go from the rooftop with antennas to the buildings on the right by ascending and then descending towards the road.  \nB. I go from the road leading towards the city to the fourth-floor window by making a semicircular path around the park.  \nC. I go from the rooftop with antennas to the targeted fourth-floor window by flying forward while gradually descending along the road aligned with trees.  \nD. I go from the path along the edge of the park to the rooftop with antennas by flying in a straight trajectory.  \nE. I go from the road with tall buildings on the right to the targeted fourth-floor window by turning sharply to the left.  ",
+    "answer": "C",
+    "question_category": "Trajectory Captioning",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: C\nReason: I started from a rooftop with antennas and gradually descended while flying forward along a road with trees to reach the fourth-floor window."
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.32584497332572937
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 22339,
+        "candidatesTokenCount": 32,
+        "totalTokenCount": 22371,
+        "promptTokensDetails": [
+          {
+            "modality": "VIDEO",
+            "tokenCount": 22100
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 239
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 32
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "3265": {
+    "video_id": "AerialVLN_58_30BUDKLTXMTIKYKFIPPOXCMISXQE5S_1.mp4",
+    "question": "Question: Navigation Instruction given at initial position: [take off and turn right and cross the trees towards the pond. now turn right and move forward and go over the trees and get down towards the tree. now turn right and move forward and go over the buildings towards the white building. now turn right and move forward reach the top of the brown building and stay there.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your landmark position to the white building?  \nchoose:  \nA. I am to the left of the white building.  \nB. I am above the white building.  \nC. I am located underneath the white building.  \nD. I am located to the right of the white building.  \nE. I am located behind the white building.  ",
+    "answer": "A",
+    "question_category": "Landmark Position",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: [E]\nReason:The instructions were to go over the buildings towards the white building, then turn right and reach the top of the brown building. The video shows that I have crossed the pond and am now looking at the city skyline. The white building is in the distance, and I am positioned behind it relative to the initial starting point."
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.4175428549448649
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 17937,
+        "candidatesTokenCount": 72,
+        "totalTokenCount": 18009,
+        "promptTokensDetails": [
+          {
+            "modality": "VIDEO",
+            "tokenCount": 17680
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 257
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 72
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "5327": {
+    "video_id": "RealWorld_41.mp4",
+    "question": "```\n\u201c\u201c\u201c\nQuestion: You are moving following a series of movement instructions: \"Rotate and observe the surrounding environment. Then move towards the direction of the road between the gray and light blue buildings. Fly along the road for a distance.\" What is the positional relationship between you and the intersection beside the tall building when it reached current position?\nChoices:\nA.\tI am located to the right of the intersection beside the tall building.\nB.\tI am located above the intersection beside the tall building.\nC.\tI am located to the left of the intersection beside the tall building.\nD.\tI am located behind the intersection beside the tall building.\nE.\tI am located in front of the intersection beside the tall building.\n\n\u201d\u201d\u201d\n```\n",
+    "answer": "B",
+    "question_category": "Landmark Position",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: E\nReason:From the video, I rotated and observed the surrounding environment. Then I moved towards the direction of the road between the gray and light blue buildings. I flew along the road for a distance. At the current position, I am located in front of the intersection beside the tall building.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.16931629180908203
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 22186,
+        "candidatesTokenCount": 63,
+        "totalTokenCount": 22249,
+        "promptTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 1925
+          },
+          {
+            "modality": "VIDEO",
+            "tokenCount": 20020
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 241
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 63
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "3235": {
+    "video_id": "AerialVLN_56_3YMTUJH0D1E2DYYCUFV9R6G5SZVT4E_6.mp4",
+    "question": "Question: Navigation Instruction given at initial position: [fly to the left side of the bridge. go forward to the end of the bridge. pass one road and take a right. fly over the short building near the park with the billboard on top. fly to the left down the road. fly down after you pass one road. go to the yellow billboard on the left over the building. go straight to the end of the park. go to the next road and fly over the buildings on the right. fly back to the left to the road and look at the billboard on the right. fly over the billboard and go straight. go around the right side of the building behind the yellow billboard. go to the road behind the sky scraper. turn left and look down the road. the red phone booths will be on your right. fly up and look left at the sky scraper. fly to the top and stop.]. At the initial position, you are asked to follow a series of movement instructions. What is the best next step for you?  \nchoose:  \nA. I fly forward and then rise.  \nB. I descend and turn right.  \nC. I fly forward while rising.  \nD. I turn left and descend.  \nE. I rotate the camera downward.  ",
+    "answer": "A",
+    "question_category": "Action Generation",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: C\nReason: The first instruction is to \"fly to the left side of the bridge\". Since I am currently on the bridge, I need to move forward and to the left. Also, the instruction says to \"go forward to the end of the bridge\", so I need to keep moving forward. Therefore, the best next step is to fly forward while rising."
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.3965768061186138
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 89523,
+        "candidatesTokenCount": 76,
+        "totalTokenCount": 89599,
+        "promptTokensDetails": [
+          {
+            "modality": "VIDEO",
+            "tokenCount": 89180
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 343
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 76
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "4214": {
+    "video_id": "RealWorld_16.mp4",
+    "question": "Question: If you do not fly directly to the building with the green mesh balcony, but choose to fly over the intersection first, can you still reach your destination, and how does the route compare?\n\nChoice: A. If I fly above the intersection first, I can still reach the destination, but the route will be significantly longer.  \n           B. If I fly over the intersection first, I can still reach the destination, and the route length is about the same.  \n           C. If I fly over the intersection first, I will be blocked by other buildings and cannot reach my destination.  ",
+    "answer": "C",
+    "question_category": "Counterfactual",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: A\nReason: From my perspective, flying over the intersection first would require me to fly around the buildings on the left side of the road, making the route significantly longer than flying directly to the building with the green mesh balcony."
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.38216161727905273
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 27503,
+        "candidatesTokenCount": 48,
+        "totalTokenCount": 27551,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 203
+          },
+          {
+            "modality": "VIDEO",
+            "tokenCount": 27300
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 48
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "3403": {
+    "video_id": "AerialVLN_66_3EFVCAY5LC79IWP9UO7I6C91ZZGJ8L_1.mp4",
+    "question": "Question: Navigation Instruction given at initial position: [take off then move forward towards the tall building then turn left and move forward. move forward until it get closer to the building then turn left and look up then fly higher and forward then turn left. move forward and fly lower between the buildings then move forward until it get closer to the building fly lower then turn left. turn right and move forward towards the building until it get closer to the advertisement board then turn left. turn right and move forward to get closer to the building then turn right and fly higher and move forward towards the corner building along the road then turn right. move forward until it get closer to the building then turn left and fly lower towards the ground then turn left and move forward towards the tree then fly lower to the ground then turn right. turn right and turn left then look around the place then look up to focus the car advertisement board in the building.]. At the initial position, you are asked to move according to a series of movement instructions. When you arrive at your current location, what is your landmark position relative to the billboard on the building?  \nchoose:  \nA. I am to the right of the building's billboard.  \nB. I am far from the building's billboard.  \nC. I am above the building's billboard.  \nD. I am to the left of the building's billboard.  \nE. I am beneath the building's billboard.  ",
+    "answer": "B",
+    "question_category": "Landmark Position",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: [D]\nReason:The instructions lead me to a position where I am looking up at the car advertisement board on the building. The final instructions were to look up to focus on the car advertisement board. Therefore, I must be to the left of the building's billboard.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.32316341400146487
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 30020,
+        "candidatesTokenCount": 60,
+        "totalTokenCount": 30080,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 380
+          },
+          {
+            "modality": "VIDEO",
+            "tokenCount": 29640
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 60
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "5005": {
+    "video_id": "RealWorld_GN_21_0.mp4",
+    "question": "Question: You are navigating to the vicinity of the tower crane at the construction site ahead. Thinking back on past actions and objects seen, what does the surroundings of your current location look like?  \nChoice:  \nA. There are many high-rise residential buildings in front. To the right is a large construction site with a tower crane. Behind me is a street full of parked cars.  \nB. There is a large park behind me with a small vegetable patch. In front is a street filled with motorcycles and cars. There are several high-rise buildings in front and to my right.  \nC. I am located over a busy road with many vehicles. On the left, there is a large open space, and in front, there is a small house. There are no construction sites nearby.  \nD. There is a wide river in front. There are a few low-rise buildings on the right and a small park with trees on the left.  \nE. There are several small houses surrounding me. In front is an open space covered with some small shrubs. There aren't any high-rise buildings in sight.  ",
+    "answer": "A",
+    "question_category": "Cognitive Map",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: [B]\nReason: The video shows that behind me is a street filled with motorcycles and cars. In front, there are several high-rise buildings and to my right is a construction site with a tower crane. There is also a small vegetable patch behind me.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.2926115738718133
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 5514,
+        "candidatesTokenCount": 57,
+        "totalTokenCount": 5571,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 314
+          },
+          {
+            "modality": "VIDEO",
+            "tokenCount": 5200
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 57
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "3700": {
+    "video_id": "AerialVLN_81_34S6N1K2Z4H86XE20DD1Z4FS2MUHL9_2.mp4",
+    "question": "Question: Navigation Instruction given at initial position: [Take off, rise, and go left over the flat roof. Fly straight to the building with a lady on a billboard, then veer right and continue straight. Head to the yellow billboard, make a half right turn, and fly over the fountain towards the trees. Fly over the treetops, veer right towards the road between buildings, then take a near full left turn over trees until you see water. Rise near a tree, turn right until you see four buildings, then go straight to the car banner. Fly between the banner and building, continue straight, veer left of the high-rise, then a bit right. Descend to see a 5-story building, turn left, rise above it, and make a half left turn. Fly right of the car banner building to see the skyline, then turn left slightly and fly high over the trees.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I fly over the treetops, then turn right onto a road with buildings on either side.  \nB. I go directly between the banner and the building it will be on top of.  \nC. I am flying over the treetops.  \nD. I point down until I see the front of a 5-story building.  \nE. I turn slightly left and go straight.  ",
+    "answer": "E",
+    "question_category": "Progress Evaluation",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: [A]\nReason:The instructions were: \"Fly over the treetops, veer right towards the road between buildings, then take a near full left turn over trees until you see water.\" The video shows that I am flying over the treetops, then turning right onto a road with buildings on either side."
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.1853195337148813
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 37810,
+        "candidatesTokenCount": 65,
+        "totalTokenCount": 37875,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 370
+          },
+          {
+            "modality": "VIDEO",
+            "tokenCount": 37440
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 65
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "1075": {
+    "video_id": "EmbodiedCity_21.mp4",
+    "question": "Question: You are navigating to the 12th-floor balcony. Thinking back on past Action Generations and objects you have seen, what is the surrounding environment like at your current location?  \nChoice:  \nA. There are three buildings across the street in front of me, the middle one being shorter than the others. Behind me is a large parking lot. Directly below me is a road.  \nB. There is a low-rise building directly in front of me. There is a tall building on my left. A small park is visible behind me. Below me is the roof.  \nC. There are roads and trees next to me. There are many high-rise buildings around me.  \nD. There is a large park in front of me with trees and fountains. There is a high-rise building to my left. Below me is a highway.  \nE. There are many buildings of varying heights surrounding me, and a busy highway directly below.  ",
+    "answer": "C",
+    "question_category": "Cognitive Map",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: E\nReason:Based on the video, there are many buildings of varying heights surrounding the agent. There is also a busy highway directly below."
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.2878100795130576
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 22901,
+        "candidatesTokenCount": 31,
+        "totalTokenCount": 22932,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 281
+          },
+          {
+            "modality": "VIDEO",
+            "tokenCount": 22620
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 31
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "925": {
+    "video_id": "EmbodiedCity_14_1.mp4",
+    "question": "Question: At the initial position, you are asked to navigate to the balcony on the 19th floor. When you reach the current location, what is the direction to the destination?  \nchoose:  \nA. I am currently locating on the left side of the target building, far below the 19th floor.  \nB. I am currently locating directly above the target building, much higher than the 19th floor.  \nC. I am currently locating on the left side of the target building, close to the 19th floor.  \nD. I am currently locating on the ground to the right of the target building.  \nE. I am currently locating on the right side of the target building, much higher than the 19th floor.  ",
+    "answer": "E",
+    "question_category": "Landmark Position",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: B\nReason: The video shows the aerial agent starting far away from the target building and then moving directly above it. The camera then pans down, showing the numbers of the floors. The agent is much higher than the 19th floor.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.3948445230160119
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 8044,
+        "candidatesTokenCount": 53,
+        "totalTokenCount": 8097,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 244
+          },
+          {
+            "modality": "VIDEO",
+            "tokenCount": 7800
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 53
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "4076": {
+    "video_id": "AerialVLN_98_3QAVNHZ3EV2TWA6OU739IISOPDPALK_6.mp4",
+    "question": "Question: Navigation Instruction given at initial position: [fly up over the power lines and turn left. go to the short building across the channel. fly up and go to the top of the tallest building ahead. turn right and look down. turn back forward and go to the similar sized building across the channel. fly down to the ground and turn left. go to the end of the channel and go behind the trees. go to the left towards the open area. go to the tan coloured apartments and land on the ground.]. You move according to a series of movement instructions. In terms of next steps, what is your best next step?  \nchoose:  \nA. I rise and then fly forward.  \nB. I go forward and turn left.  \nC. I fly forward while descending.  \nD. I turn right and go up.  \nE. I rotate the camera downward and then lower it.  ",
+    "answer": "B",
+    "question_category": "Action Generation",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: B (I go forward and turn left.)\nReason: The instructions were: [fly up over the power lines and turn left. go to the short building across the channel. fly up and go to the top of the tallest building ahead. turn right and look down. turn back forward and go to the similar sized building across the channel. fly down to the ground and turn left. go to the end of the channel and go behind the trees. go to the left towards the open area. go to the tan coloured apartments and land on the ground.]. The video shows that I have reached the similar sized building across the channel. The next instruction is to fly down to the ground and turn left. Therefore, the best next step is to go forward and turn left.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.11607563646533821
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 33029,
+        "candidatesTokenCount": 158,
+        "totalTokenCount": 33187,
+        "promptTokensDetails": [
+          {
+            "modality": "VIDEO",
+            "tokenCount": 32760
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 269
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 158
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "4066": {
+    "video_id": "AerialVLN_98_3QAVNHZ3EV2TWA6OU739IISOPDPALK_2.mp4",
+    "question": "Question: Navigation Instruction given at initial position: [fly up over the power lines and turn left. go to the short building across the channel. fly up and go to the top of the tallest building ahead. turn right and look down. turn back forward and go to the similar sized building across the channel. fly down to the ground and turn left. go to the end of the channel and go behind the trees. go to the left towards the open area. go to the tan coloured apartments and land on the ground.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is your best next step?  \nchoose:  \nA. I go up and turn left.  \nB. I turn right and fly forward.  \nC. I fly forward and rotate the camera downward.  \nD. I turn right and go up.  \nE. I turn left and descend.  ",
+    "answer": "B",
+    "question_category": "Action Generation",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: [A]\nReason:The initial instruction is to \"fly up over the power lines and turn left\". Therefore, the best next step is to go up and turn left.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.12402442785409781
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 14316,
+        "candidatesTokenCount": 39,
+        "totalTokenCount": 14355,
+        "promptTokensDetails": [
+          {
+            "modality": "VIDEO",
+            "tokenCount": 14040
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 276
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 39
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "2642": {
+    "video_id": "AerialVLN_25_3DY46V3X3YGIOFRM7OWLTIG5F2055N_0.mp4",
+    "question": "Question: Navigation Instruction given at initial position: [turning left and going straight to the buildings and slight right turn. coming near the lake and turning right and going up to the building. coming down to the building and again going up and going straight. going top of the building and turning left and coming down to the building. roaming around a tower and searching each floor of apartment.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is the best next step for you?\n\nchoose:  \nA. I go up and turn left.  \nB. I descend, turn right, and fly forward.  \nC. I fly forward and rotate the camera upward.  \nD. I turn right and go up.  \nE. I turn left and descend.  ",
+    "answer": "B",
+    "question_category": "Action Generation",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: E (I turn left and descend.)\nReason: The instructions state \"going top of the building and turning left and coming down to the building.\" Since I am currently on top of a building, the next logical step is to turn left and descend.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.1757303343878852
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 12731,
+        "candidatesTokenCount": 54,
+        "totalTokenCount": 12785,
+        "promptTokensDetails": [
+          {
+            "modality": "VIDEO",
+            "tokenCount": 12480
+          },
+          {
+            "modality": "TEXT",
+            "tokenCount": 251
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 54
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  },
+  "2972": {
+    "video_id": "AerialVLN_40_3ITXP059P5HR1G4I8MDNN3928CGJSD_0.mp4",
+    "question": "Question: Navigation Instruction given at initial position: [zoom in on the left tower. resume flying over green bush. turn left at grey building. reverse backwards to the green bush. turn left and zoom in on satellite dish. resume flying over the city buildings. stop and turn left. zoom in on red bulletin board. go to ground level of grey building. turn left at the brown sandstone house. zoom in on ord window of the blue building.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I go to the ground floor of the gray building.  \nB. I fly forward along the road.  \nC. I zoom in on the red bulletin board.  \nD. I zoom in on the left tower.  \nE. I turn left at the gray building.  ",
+    "answer": "B",
+    "question_category": "Progress Evaluation",
+    "gemini_response": {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "Option: A (I go to the ground floor of the gray building.)\nReason:The instructions were: zoom in on the left tower, resume flying over green bush, turn left at grey building, reverse backwards to the green bush, turn left and zoom in on satellite dish, resume flying over the city buildings, stop and turn left, zoom in on red bulletin board, go to ground level of grey building. The video shows that I have already completed the previous steps and am now going to the ground floor of the gray building.\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "avgLogprobs": -0.1292470704524889
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 11181,
+        "candidatesTokenCount": 109,
+        "totalTokenCount": 11290,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 261
+          },
+          {
+            "modality": "VIDEO",
+            "tokenCount": 10920
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 109
+          }
+        ]
+      },
+      "modelVersion": "gemini-2.0-flash"
+    }
+  }
+}
