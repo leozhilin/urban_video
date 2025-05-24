@@ -559,63 +559,63 @@ A. I turn right and descend.
 B. I rise and fly forward.  
 C. I descend and fly forward.  
 D. I turn left and go up.  
-E. I rotate the camera downward and fly forward.  ",C,Action Generation,3169,
+E. I rotate the camera downward and fly forward.  ",C,Action Generation,3169,"Option: B; Reason: The initial instruction is to ""take off go straight and reach the pool."" Since the agent is at the initial position, the best next step is to rise and fly forward to align with the path towards the pool as indicated in the instructions."
 79,AerialVLN_42_30OG32W0S39MANQLMPLARTM4IDDNE3_0.mp4,"Question: Navigation Instruction given at initial position: [take off and turn right move forward and fly towards the top of brown tower. now turn right move little forward near by pond slow down to the floor. now turn left move towards the mid centre of pond behind the tree slow down and stay there.]. At the initial position, you are asked to follow a series of movement instructions. In terms of next steps, what is your best next step?  
 choose:  
 A. I go up and turn right.  
 B. I descend and then fly forward.  
 C. I fly forward while descending.  
 D. I turn left and descend.  
-E. I rotate the camera up, then down.  ",B,Action Generation,2990,
+E. I rotate the camera up, then down.  ",B,Action Generation,2990,"Option: A; Reason: The navigation instruction starts with ""take off and turn right,"" which means the first action should be to ascend (take off) and then make a right turn. This aligns with option A, ""I go up and turn right."" The other options do not match the initial steps of the given instructions."
 80,RealWorld_12.mp4,"Question: You move according to a series of movement instructions. In terms of next steps, what is your best next step?  
 choose:  
 A. I fly forward.  
 B. I descend and turn right.  
 C. I fly forward and rotate the camera upward.  
 D. I turn left and go up.  
-E. I turn right and descend.  ",A,Action Generation,4367,
+E. I turn right and descend.  ",A,Action Generation,4367,"Option: C; Reason: The current perspective suggests that the agent is already at a high vantage point, likely from an aerial view. To continue exploring or surveying the environment effectively, flying forward and rotating the camera upward would allow for a broader view of the surrounding area, including any distant features or obstacles. This action helps in maintaining a comprehensive understanding of the landscape ahead."
 81,AerialVLN_51_3RSDURM96JKGMMUZTRUL89KBMYHEYM_2.mp4,"Question: Navigation Instruction given at initial position: [take of from the river and turn left towards the city and go straight towards the buildings. then take left and then take immediate right towards the board and then suddenly take left and go straight towards the statue then turn right and take of. then go towards the drink ice cold, sun noon board and then take left there was an highest building and then take right from the building then take immediate left from that building in opposite there was an bolt cola board is that our destination.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?
 choose:  
 A. I am crossing the water.  
 B. I am turning right at the building.  
 C. I am turning right and taking a path.  
 D. I am flying over buildings.  
-E. I am turning left at the tallest building.  ",B,Progress Evaluation,3132,
+E. I am turning left at the tallest building.  ",B,Progress Evaluation,3132,"Option: A; Reason: The initial frames show a view of a river with the city skyline in the background, indicating that the agent is at the starting point and about to take off from the river as per the navigation instruction. Therefore, the agent is crossing the water."
 82,EmbodiedCity_86_0.mp4,"Question: At the initial position, you are asked to navigate to the open space to the right of the ""Mr. Fan"" shop in the residential area below. What are your next steps?  
 choose:  
 A. I rise and rotate the camera upward.  
 B. I descend and rotate the camera upward.  
 C. I fly forward.  
 D. I turn left.  
-E. I rotate around.  ",E,Action Generation,1876,
+E. I rotate around.  ",E,Action Generation,1876,"Option: C; Reason: To navigate to the open space to the right of the ""Mr. Fan"" shop in the residential area, the most direct action is to fly forward, assuming an aerial perspective. This allows for a clear and efficient path towards the target location without unnecessary maneuvers."
 83,AerialVLN_36_3UJ1CZ6IZQNJUHPXJK9TMTQXTML5S2_7.mp4,"Question: Navigation Instruction given at initial position: [rise up and turn to the right and move forward and keep moving till you are about at the middle of the lake. stop and turn to the right so that you are having the two large towers and move forward. stop right over the trees, turn to the right then lower you height then turn back again to the left. rise up and move the trees and stop when you are in front of the building. move slightly to the right so that you are able to go between the buildings keep moving so that you are in front or the blue building. rise up and look at the billboard then drop your height and stop.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I go up to see the billboard, then I go down.  
 B. I stand up, move toward the tree, and stop in front of the building.  
 C. I turn back.  
 D. I turn right at the building.  
-E. I move slightly to the right so that I can navigate between buildings.  ",A,Progress Evaluation,2907,
+E. I move slightly to the right so that I can navigate between buildings.  ",A,Progress Evaluation,2907,"Option: A; Reason: The sequence of images shows that the agent has followed the navigation instructions and is now at the final step, which involves rising up to see the billboard and then dropping height to stop. The last few frames depict a view from an elevated position looking at a billboard, matching the final instruction in the series."
 84,AerialVLN_65_3IUZPWIU1X5FJHR9ACN0L7C0VNSKWS_7.mp4,"Question: Navigation Instruction given at initial position: [take of and go straight towards the daves car wash building and go up of the building and again down to the building. take right from the shop and suddenly take left and go straight toward the street and cross the farmers market on the left. and take up to the building and go straight the turn the first right and go straight towards the loans building then take immediate left from the building. go straight toward the charlie a chocolate shop and again return to the front building of national optician health insurance is our destination.]. You move according to a series of movement instructions. At this point, what is the best next step for you?  
 choose:  
 A. I fly forward and then rise.  
 B. I descend and turn right.  
 C. I turn left and fly forward.  
 D. I go up and turn left.  
-E. I fly forward while rotating the camera downward.  ",C,Action Generation,3398,
+E. I fly forward while rotating the camera downward.  ",C,Action Generation,3398,"Option: B; Reason: The navigation instruction indicates that after going up and down the building, the next step is to ""take right from the shop."" The current position appears to be at a point where a right turn is feasible, aligning with the instruction to descend and turn right."
 85,AerialVLN_0_35H6S234SJYE7JR0C76QLOU436G65H_6.mp4,"Question: Navigation Instruction given at initial position: [rise from the concrete and turn right. fly over the middle of the street until you reach the buildings on the left with the short concrete wall like structure around them. turn left right beside the buildings and fly along beside them. when you get to the middle darker brown building then angle straight up and fly toward the top of the building. before you get to the top turn right and begin to level off. fly toward the building with the half pipe or half circle design on the edge of the roof. when you get to the half circle then turn left and downward and fly toward the red roof of the smaller building beside the one you climbed. stop well before you get to the roof.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  
 choose:  
 A. I go up and turn right.  
 B. I descend and fly forward.  
 C. I fly forward while rising.  
 D. I turn left and descend.  
-E. I rotate the camera downward and fly forward.  ",B,Action Generation,2117,
+E. I rotate the camera downward and fly forward.  ",B,Action Generation,2117,"Option: A; Reason: The navigation instruction starts with ""rise from the concrete and turn right,"" which indicates that the first action should be to go up and then make a right turn. This matches option A, ""I go up and turn right."""
 86,AerialVLN_85_3M81GAB8A9H96HRTSQB1UFBOLXQBQU.mp4,"Question: What objects do you observe when approaching a multi-story building?  
 Choice:  
 A. I observe a large park with a lake and the facade of a multi-story building.  
 B. I observe wide streets and rooftop gardens while flying close to buildings.  
 C. I observe billboards and prominent buildings below the vantage point.  
 D. I observe a monument and a playground near a multi-story building.  
-E. I observe trees and benches on the roadside near the building.",A,Scene Recall,624,
+E. I observe trees and benches on the roadside near the building.",A,Scene Recall,624,"Option: A; Reason: The frames show a large park with a lake and the facade of a multi-story building as the agent approaches. The presence of greenery, water, and the detailed view of the building's exterior align with this option."
 87,RealWorld_3.mp4,"Question: Starting from your position, you are required to navigate to the entrance of the community. There is a moon-shaped blue pool in front. What is the correct summary of your trajectory from the beginning to the current position?  
 Choice:  
 A. I start from above the playground, rise to a certain height, turn left and adjust the field of view, fly forward, and then adjust the field of view to reach the current position.  

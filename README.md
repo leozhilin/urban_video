@@ -3,7 +3,7 @@ git clone git@hf.co:datasets/EmbodiedCity/UrbanVideo-Bench
 
 # 工作目录
 export PYTHONPATH=$(pwd):$PYTHON
-
+```shell
 .
 ├── baseline #按UrbanVideo给的提示词实现的代码，理论上会和论文给出的baseline达成一样的结果
 │   ├── gemini_baseline.py
@@ -30,3 +30,4 @@ export PYTHONPATH=$(pwd):$PYTHON
 │   ├── MCQ.parquet
 │   ├── README.md
 │   └── videos
+```
