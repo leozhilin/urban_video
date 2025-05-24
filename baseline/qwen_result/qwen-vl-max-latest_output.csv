@@ -409,25 +409,25 @@ C. I fly forward.
 D. I turn left.  
 E. I turn right.  
 F. I rotate the camera upward.  
-G. I descend.  ",G,Action Generation,1323,
+G. I descend.  ",G,Action Generation,1323,"Option: E; Reason: The green trees behind the bus stop are located to the right side of the current perspective. Therefore, turning right is the appropriate next move to navigate towards the target location."
 57,AerialVLN_101_3Q5C1WP23VZJ0XQ361U9QS3O2S551Q.mp4,"Question: Which one takes longer, flying under the trees or flying along the river bank?  
 Choice: A. I take longer to fly under the tree.  
           B. I fly along the river bank for a long time.  
-          C. Both take the same amount of time.  ",B,Duration,711,
+          C. Both take the same amount of time.  ",B,Duration,711,"Option: B; Reason: The sequence of images shows that the agent continues to fly along the river bank for a significant duration, as indicated by the consistent view of the river and surrounding buildings across multiple frames. In contrast, the agent only briefly flies under the trees, which is evident from the limited number of frames showing the trees overhead. Therefore, flying along the river bank takes longer."
 58,AerialVLN_64_3GDTJDAPV39ZJ4VUXLKAM41I3Q58M2.mp4,"Question: Which of the following options better summarizes your movement?  
 Choice:  
 A. Start from the high-rise building in the city, fly along the path parallel to the skyscraper, head to the woods in the middle of the intersection, and climb.  
 B. Fly from the intersection over the trees to the top of the skyscraper.  
 C. Descend from the rooftop to the trees in the middle of the intersection.  
 D. Go from the trees in the middle of the zebra crossing, directly through the skyscrapers, to the nearby parking lot.  
-E. Fly from a cluster of skyscrapers to the roof of a lower building while maintaining altitude.  ",B,Trajectory Captioning,505,
+E. Fly from a cluster of skyscrapers to the roof of a lower building while maintaining altitude.  ",B,Trajectory Captioning,505,"Option: C; Reason: The sequence of images shows a descent from a higher vantage point, likely a rooftop, towards the trees located in the middle of an intersection. The perspective shifts from an elevated view of the cityscape to a closer view of the street level, indicating a downward movement rather than flying upwards or maintaining altitude. There is no indication of flying over trees to a skyscraper, going through skyscrapers to a parking lot, or moving parallel to skyscrapers towards woods. Therefore, option C best summarizes the movement depicted in the images."
 59,EmbodiedCity_98_2.mp4,"Question: You are navigating to the parking space on the right after entering the entrance of the community. Thinking back on past Action Generations and objects you have seen, what does your current surroundings look like?  
 Choice:  
 A. There are two tall buildings on each side of me, with a small park and a winding road in the middle. A bus stop is visible on the left.  
 B. There is a large open space on my left, with several low-rise buildings and sparse trees. The street ahead is wide and straight.  
 C. I am surrounded by high-rise buildings, and there is a small courtyard and playground directly below. The streets are narrow and crowded.  
 D. There are three high-rise buildings in front of me, forming an ""L"" shape around a small open space. There is a small park behind me with a few trees and a circular trail.  
-E. I am positioned above a busy street, flanked by various buildings of varying heights with a park to my left. There are no visible parking spaces.  ",D,Cognitive Map,2078,
+E. I am positioned above a busy street, flanked by various buildings of varying heights with a park to my left. There are no visible parking spaces.  ",D,Cognitive Map,2078,"Option: D; Reason: The current surroundings show three high-rise buildings forming an ""L"" shape around a small open space, with a small park featuring a few trees and a circular trail visible behind the agent's position. This matches the description in option D."
 60,RealWorld_23.mp4,"Question: What objects did you observe when descending toward the entrance of the community?  
 
 Choice:  
@@ -435,45 +435,45 @@ A. A large parking lot, several small shops, and a group of people gathering.
 B. A pond and the roof of a building with lettering.  
 C. A busy highway, a series of traffic lights, and several pedestrians crossing the street.  
 D. A large open land, sparse trees, and mountains in the distance.  
-E. Only the entrance to the residential area and no other objects at all.  ",B,Scene Recall,4264,
+E. Only the entrance to the residential area and no other objects at all.  ",B,Scene Recall,4264,"Option: E; Reason: The frames show a clear view of the entrance to the residential area with no other objects like a parking lot, shops, people, pond, roof, highway, traffic lights, pedestrians, open land, trees, or mountains in the immediate vicinity. The focus is solely on the entrance and its immediate surroundings."
 61,AerialVLN_78_3K772S5NPH9U0R4AJRQXM9P7C8XHE9.mp4,"Question: When the bridge comes into view, what is next to the river?  
 Choice: A. A ""Keep Out"" sign by the river.  
            B. A ""WELCOME"" sign by the river.  
            C. Traffic lights by the river.  
            D. A bus stop by the river.  
-           E. A fountain by the river.  ",A,Object Recall,584,
+           E. A fountain by the river.  ",A,Object Recall,584,"Option: A; Reason: When the bridge comes into view, a ""Keep Out"" sign is visible by the river, indicating restricted access to the area."
 62,AerialVLN_15_32XVDSJFP8VOXPT5H4B9CDOFHRK2M2.mp4,"Question: What objects did you observe while flying over the waterfront?  
 Choices:  
 A. A garden, a tree, and a bench.  
 B. A statue, a fountain, and a flowerbed.  
 C. A parking lot, a car, and a lamppost.  
 D. Streets, lower buildings, and the sea.  
-E. A playground, a swing, and a slide.  ",D,Scene Recall,279,
+E. A playground, a swing, and a slide.  ",D,Scene Recall,279,"Option: D; Reason: The images show a view from above a cityscape with visible streets, lower buildings, and the sea in the background, which aligns with option D."
 63,AerialVLN_55_3JBT3HLQFH0KO3TUYRCFGSSH6W7PZN_4.mp4,"Question: Navigation Instruction given at initial position: [take off and rise up to the top of the buildings. go right through the column of buildings. go straight and toward the red and green trees. go across the water and stop at the edge where the trees are. take a left turn toward the buildings. go straight toward the tall building and rise to the top of that building.]. You move according to a series of movement instructions. In terms of next steps, what is your best next step?  
 choose:  
 A. I fly forward and rise.  
 B. I turn right and go up.  
 C. I turn left and go up.  
 D. I descend and fly forward.  
-E. I fly forward.  ",C,Action Generation,3207,
+E. I fly forward.  ",C,Action Generation,3207,"Option: C; Reason: The agent has reached the edge where the trees are, as indicated by the presence of red and green trees near the water. The next step according to the navigation instruction is to ""take a left turn toward the buildings."" Therefore, turning left and going up aligns with moving toward the buildings as instructed."
 64,AerialVLN_56_3E47SOBEYZUFZOVGTI2NWXQKCCTICX.mp4,"Question: How does the distance between you and the tall building change after you turn slightly left and aim towards the building?  
 Choice: A. I increase the distance between myself and the tall building.  
           B. I decrease the distance between myself and the tall building.  
-          C. The distance between me and the tall building remains constant.  ",B,Proximity,465,
+          C. The distance between me and the tall building remains constant.  ",B,Proximity,465,"Option: B; Reason: After turning slightly left and aiming towards the building, the building appears larger and more detailed in the subsequent frames, indicating that the distance between the agent and the tall building is decreasing."
 65,EmbodiedCity_57_0.mp4,"Question: At the initial position, you are asked to navigate to a store with the signboard ""贝壳生鲜 Food."" Thinking back on past Action Generations and objects you have seen, what should you approach next in order to get from your current location to the destination?  
 choose:  
 A. I approach sidewalks adjacent to high-rise buildings.  
 B. I approach the entrance of a high-rise building.  
 C. I approach green spaces near high-rise buildings.  
 D. I approach the parking lot next to the high-rise building.  
-E. I approach rooftops of adjacent buildings.  ",B,High-level Planning,1616,
+E. I approach rooftops of adjacent buildings.  ",B,High-level Planning,1616,"Option: A; Reason: To navigate to the store with the signboard ""贝壳生鲜 Food,"" approaching the sidewalks adjacent to high-rise buildings is a logical step. This path likely provides access to various commercial areas, including the desired store, while also following typical urban navigation routes that connect different parts of the city efficiently."
 66,AerialVLN_56_3YMTUJH0D1E2DYYCUFV9R6G5SZVT4E_0.mp4,"Question: Navigation Instruction given at initial position: [fly to the left side of the bridge. go forward to the end of the bridge. pass one road and take a right. fly over the short building near the park with the billboard on top. fly to the left down the road. fly down after you pass one road. go to the yellow billboard on the left over the building. go straight to the end of the park. go to the next road and fly over the buildings on the right. fly back to the left to the road and look at the billboard on the right. fly over the billboard and go straight. go around the right side of the building behind the yellow billboard. go to the road behind the sky scraper. turn left and look down the road. the red phone booths will be on your right. fly up and look left at the sky scraper. fly to the top and stop.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your Landmark Position from the skyscrapers?  
 choose:  
 A. I am to the right of the skyscraper.  
 B. I am far away from the skyscraper.  
 C. I am above a skyscraper.  
 D. I am underneath a skyscraper.  
-E. I am to the left of the skyscraper.  ",B,Landmark Position,3217,
+E. I am to the left of the skyscraper.  ",B,Landmark Position,3217,"Option: C; Reason: The navigation instructions lead to a final position at the top of a skyscraper, indicating that the agent is now above it. The sequence of movements described, especially ""fly to the top and stop,"" suggests that the current location is atop a skyscraper, making option C the correct choice."
 67,AerialVLN_7_3HVVDCPGTNQIB5CWJMJG7VKB4LPYTK_3.mp4,"Question: Navigation Instruction given at initial position: [ascend straight up, turn to the left, and fly past the soccer fields. go to the tennis courts, turn to the right, and fly straight towards the river. turn around and fly past the bridge. once the second bridge is reached, turn to the right. fly straight past the baseball diamond, and once the intersection is approached, make a descent until the drone lands. turn around and face the construction cones.]. You move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I go straight up.  
@@ -481,28 +481,28 @@ B. I fly straight to the river.
 C. I go to the tennis court.  
 D. I turn around and fly across the bridge.  
 E. I turn right.  
-",D,Progress Evaluation,2244,
+",D,Progress Evaluation,2244,"Option: B; Reason: The sequence of images shows the agent moving towards and then flying over a river, which aligns with the instruction to ""fly straight towards the river."" This is evident from the progression of frames where the river becomes more prominent in the view. Therefore, the current action is flying straight to the river."
 68,RealWorld_31.mp4,"Question: At the initial position, you are asked to navigate to the underground garage near the residential area consisting of gray buildings in front of you for access. Thinking back on past actions and objects you saw, what should you approach next in order to get from your current location to your destination?  
 choose:  
 A. I approach the top of the tallest crane on the construction site.  
 B. I approach the underground garage.  
 C. I approach the street light closest to the building entrance.  
 D. I approach the crosswalk in front of the store.  
-E. I approach the residential area entrance.  ",B,High-level Planning,5222,
+E. I approach the residential area entrance.  ",B,High-level Planning,5222,"Option: E; Reason: The goal is to navigate to the underground garage near the residential area consisting of gray buildings. From the current perspective, approaching the residential area entrance (Option E) is the logical next step. This will allow access into the residential complex where the underground garage is likely located. Other options like approaching a crane, street light, or crosswalk do not directly lead to the residential area or the underground garage."
 69,AerialVLN_10_32EYX73OY97OEHFZ5WHW4VDH3OSRUM.mp4,"Question: Why did you slightly adjust your path to align with the road's curve towards the left?  
 Choices:  
 A. To ascend to a higher altitude.  
 B. To avoid an obstacle on the road.  
 C. To capture a better view of the lake.  
 D. Because my destination is more likely to exist on the left side of the road by the lake.  
-E. To descend towards the ground.  ",D,Causal,239,
+E. To descend towards the ground.  ",D,Causal,239,"Option: D; Reason: The path was adjusted to align with the road's curve towards the left, likely because the destination is more likely to exist on the left side of the road by the lake, as indicated by the continuous movement in that direction and the eventual focus on a structure near the lake."
 70,AerialVLN_83_3JWH6J9I91BO3KE1CYJKQLGJFT2BNJ_5.mp4,"Question: Navigation Instruction given at initial position: [take off and turn back and move forward and go over the buildings and pond and get down at beside the tree and again turn back and fly up. now move forward and go over the trees and road and turn back at top of the brown building and get down at front of the this building. now get down and fly up and turn right and little move forward and turn left and move forward and turn left and move forward and turn back and fly up and beside the blue building and move forward and go over the top of the buildings and turn right and and fly up at front of the brown building. now turn right and again turn right and beside pond and move forward and go over the road and tip of the buildings and turn right and get up and move forward and stay at front of the building.]. You are moving according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I get off the bus in front of the brown building.  
 B. I fly over the top of a building.  
 C. I turn right, then right again, to reach next to the high-rise building.  
 D. I turn right at the building.  
-E. I move forward and stay in front of the building.  ",C,Progress Evaluation,3757,
+E. I move forward and stay in front of the building.  ",C,Progress Evaluation,3757,"Option: E; Reason: The final frames show a stable position in front of a building, indicating that the agent has completed its navigation instructions and is now staying in front of the building as described in the last part of the navigation instruction."
 71,RealWorld_43_0.mp4,"```
 Question: Where are your starting point and ending point in the video?
 Choices:    A. I start at the area surrounding the CEM building and end at a tennis court surrounded by trees.
@@ -512,47 +512,47 @@ Choices:    A. I start at the area surrounding the CEM building and end at a ten
              E. I start at a road with greenery on both sides and end at a city skyline with the CEM building in the distance.
 
 ```
-",B,Start/End Position,5274,
+",B,Start/End Position,5274,"Option: A; Reason: The video starts with an aerial view of a tennis court surrounded by trees, as seen in the initial frames. As the video progresses, the perspective shifts to show various buildings and eventually ends with a broader view of the area surrounding the CEM building, which is visible in the later frames. This matches the description in option A."
 72,AerialVLN_100_3OVR4I9USYHPLI6KDB1EM15IB5R4QZ.mp4,"Question: What objects do you observe while flying over the park?  
 Choice: A. I observe lakes, treetops, and bridges.  
            B. I observe a tall building, street lights, and a fountain.  
            C. I observe parking lots, benches, and the river.  
            D. I observe the playground, bikes, and roads.  
-           E. I observe streets, cars, and sculptures.  ",A,Scene Recall,705,
+           E. I observe streets, cars, and sculptures.  ",A,Scene Recall,705,"Option: A; Reason: The video frames show a view from above the park, where lakes (or ponds), treetops, and bridges are visible. These elements are characteristic of a park setting as depicted in the sequence of images."
 73,EmbodiedCity_54_0.mp4,"Question: At the initial position, you are asked to navigate to an open space at the front entrance of the building. At your current location, if the open space at the front door of the building is not within sight, what is the most relevant object in sight, and where is this object?  
 choose:  
 A. I cannot see the open space at the front entrance of the building, but there is a bus stop in the lower part of my field of view.  
 B. I cannot see the open space at the main entrance of the building, but there is a low-rise building in the lower right corner of my field of view.  
 C. I cannot see the open space at the front entrance of the building, but the front entrance of a high-rise building across the street is on the left side of my field of view.  
 D. I cannot see the open space at the front entrance of the building, but there is a parking lot in the middle of my field of view.  
-E. The open space at the front entrance of the building is in view.  ",E,Association Reasoning,1569,
+E. The open space at the front entrance of the building is in view.  ",E,Association Reasoning,1569,"Option: E; Reason: The open space at the front entrance of the building is clearly visible in the initial frames, as it occupies a significant portion of the field of view with its wide plaza and surrounding structures."
 74,EmbodiedCity_74.mp4,"Question: What is your next action after hovering above a narrow street directly over trees?  
 Choices: A. I descend to street level.  
            B. I fly around the building.  
            C. I reverse direction.  
            D. I ascend to a higher altitude.  
-           E. I turn right towards the main entrance.  ",A,Sequence Recall,84,
+           E. I turn right towards the main entrance.  ",A,Sequence Recall,84,"Option: A; Reason: After hovering above a narrow street directly over trees, the most logical next action is to descend to street level to continue navigating or interacting with the environment at ground level. This aligns with typical movement patterns in urban settings where descending to street level facilitates further exploration or tasks."
 75,AerialVLN_94_3MX2NQ3YCISRQYBWDUFGL17P7ZU5XC_4.mp4,"Question: Navigation Instruction given at initial position: [take off and turn back towards the buildings at back. now move forward over the buildings till the small white building arrives at your front and get down towards it top. now get up and turn left towards the gray tower at left and move closer it. now turn back and move forward over the buildings and get down to the top of the yellow banner at below. now get up and turn back and fly over the buildings till the white building arrives before the road. now move closer to the white building at right and get up and turn left towards the buildings at left. now move forward over the buildings and move towards the gray building at front of you and move closer to it and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  
 choose:  
 A. I fly forward and then rise.  
 B. I drop down and turn left.  
 C. I fly forward while rising.  
 D. I turn left and descend.  
-E. I rotate the camera downward.  ",B,Action Generation,3986,
+E. I rotate the camera downward.  ",B,Action Generation,3986,"Option: A; Reason: The initial instruction is to ""take off and turn back towards the buildings at back."" This implies that the first action should be to fly forward and then rise, which aligns with option A. The other options do not match the initial step of taking off and moving towards the buildings."
 76,EmbodiedCity_88.mp4,"Question: In the starting position, you are asked to navigate over a residential lawn with a small blue house. Thinking back on past action generations and objects you have seen, what is the surrounding environment like at your current location?  
 Choice:  
 A. There is a large open space below me. High-rise buildings are to my right and behind me.  
 B. Two adjacent high-rise buildings are on my right side, and there is a large parking lot in front. A wide road is to my left.  
 C. Three buildings are in a row across the street in front of me. The middle one is much taller than the other two. There is a park behind me with pedal paths and trees. A walkway is underneath me.  
 D. A high-rise building is directly in front of me. There is a large highway to my left and a smaller road to my right.  
-E. Many small buildings are clustered around me, with narrow streets between them.  ",A,Cognitive Map,1919,
+E. Many small buildings are clustered around me, with narrow streets between them.  ",A,Cognitive Map,1919,"Option: E; Reason: The environment depicted shows a dense urban area with many small buildings closely packed together, connected by narrow streets. This matches the description in option E, which states ""Many small buildings are clustered around me, with narrow streets between them."" The other options describe scenarios involving high-rise buildings, large open spaces, or specific features like a park or highway, which are not evident in the provided frames."
 77,RealWorld_GN_4_0.mp4,"Question: At the initial position, you are asked to navigate to the roof of a building three floors ahead. Is the destination within sight at the current location? If yes, where is the destination in your view?  
 choose:  
 A. I see the roof of the three-story building ahead in the lower right part of my field of view.  
 B. I see the roof of the three-story building ahead in the lower left part of my field of view.  
 C. I see the roof of the three-story building ahead in the upper center of my field of view.  
 D. I cannot see the roof of the three-story building ahead in my field of view.  
-E. I see the roof of the three-story building ahead on the right side of my field of view.  ",C,Goal Detection,4562,
+E. I see the roof of the three-story building ahead on the right side of my field of view.  ",C,Goal Detection,4562,"Option: D; Reason: The provided frames show an aerial view of a building and its surroundings, but the perspective is from above, not from a first-person view at the initial position on the ground. Therefore, it is not possible to determine if the roof of a three-story building three floors ahead is within sight from the current location based on these images. The question asks for a first-person perspective view, which is not depicted in the given frames."
 78,AerialVLN_53_3II4UPYCOS52LEPD6M27P5ZONEUQDZ_7.mp4,"Question: Navigation Instruction given at initial position: [take off go straight and reach the pool land slightly and see the city. from the pool take left and go straight and next to the top building comes a little right. from there taking right and reaching the four side road. take a left fro the road and travel to the large building opposite to the charlie chocolate. take a right from the chocolate factory and go to the roof top. after the roof top and reach the road then landed before the lamp post.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is your best next step?  
 choose:  
 A. I turn right and descend.  
