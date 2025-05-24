@@ -1,7 +1,7 @@
-# 数据集下载指令
+## 数据集下载指令
 git clone git@hf.co:datasets/EmbodiedCity/UrbanVideo-Bench
 
-# 工作目录
+## 工作目录
 export PYTHONPATH=$(pwd):$PYTHON
 ```shell
 .
@@ -31,3 +31,26 @@ export PYTHONPATH=$(pwd):$PYTHON
 │   ├── README.md
 │   └── videos
 ```
+
+## baseline
+qwen-vl-max baseline 复现结果（100个样例下）：和论文提供的结果大体一致
+
+| Category | Accuracy | Num |
+|----------|----------|-----|
+| Action Generation | 0.285714286 | 21 |
+| Association Reasoning | 0.666666667 | 3 |
+| Causal | 0.4 | 5 |
+| Cognitive Map | 0.777777778 | 9 |
+| Counterfactual | 0.5 | 2 |
+| Duration | 1 | 2 |
+| Goal Detection | 0.6 | 5 |
+| High-level Planning | 0.285714286 | 7 |
+| Landmark Position | 0.538461538 | 13 |
+| Object Recall | 0.75 | 4 |
+| Progress Evaluation | 0.5 | 12 |
+| Proximity | 1 | 2 |
+| Scene Recall | 0.5 | 6 |
+| Sequence Recall | 1 | 2 |
+| Start/End Position | 0 | 2 |
+| Trajectory Captioning | 0.4 | 5 |
+| **Total** | **0.5** | |

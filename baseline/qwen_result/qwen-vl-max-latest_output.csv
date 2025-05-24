@@ -622,14 +622,14 @@ A. I start from above the playground, rise to a certain height, turn left and ad
 B. I start from a high-rise building, descend to the ground, move along the road, and reach the current location.  
 C. I start from the park, fly over the basketball court, rise to a higher altitude, and move towards the residential area.  
 D. I start from the scooter lane in the park, turn left to face the street outside the park, gradually rise to the height above the high-rise building, and move forward to my current location, which is the residential area above the park entrance, with a blue moon-shaped pool in front.  
-E. I start from the high-rise building and move directly to the entrance of the community.  ",A,Trajectory Captioning,4553,
+E. I start from the high-rise building and move directly to the entrance of the community.  ",A,Trajectory Captioning,4553,"Option: D; Reason: The trajectory described in option D matches the visual sequence of the frames. It starts from a scooter lane in the park, turns left to face the street outside the park, gradually rises above the high-rise buildings, and moves forward to the current location, which is identified as the residential area above the park entrance with a blue moon-shaped pool in front. This aligns with the aerial view progression shown in the images."
 88,AerialVLN_77_3DHE4R9OC59O5FXJ61DEZ84IL4AG28_5.mp4,"Question: Navigation Instruction given at initial position: [take off and fly upwards same to the building height and take a turn and fly straight to the opposite building after reaching the building turn left. after turning left fly between the gap of the building and fly downwards to the lake and fly upwards from the lake and turn left and fly straight towards the building at the opposite and fly near to the entrance of the park. fly upwards and take a turn and start flying straight to the building at the opposite crossover the lake after reaching the building fly near the eds butcher shop and fly upwards and again take a turn. after taking a turn fly straight towards the tall building in the opposite fly at the same height of the building. after reaching the tall building turn right to the opposite of the building and start flying downwards continuously towards the lake fly downwards at the center of the lake.]. You move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I fly over buildings.  
 B. I fly near Ed's Butcher Shop.  
 C. I go to the chair between the buildings.  
 D. I turn right at the building.  
-E. I go across the water.  ",E,Progress Evaluation,3618,
+E. I go across the water.  ",E,Progress Evaluation,3618,"Option: E; Reason: The current frames show a view of the city from a high vantage point with a clear path towards a body of water, indicating that the agent is moving towards or across the water as part of the navigation instructions."
 89,EmbodiedCity_11.mp4,"Question: Where do you start and end your journey?
 
 Choices:  
@@ -637,23 +637,23 @@ A. Start between the skyscrapers and end at the rooftop of the city center build
 B. Start at the city square and end at the conical rooftop of a tower.  
 C. Start between tall buildings and end at the balcony on the 22nd floor.  
 D. Start at the base of a tower and end at the numbered floors of another building.  
-E. Start at the parking lot and end at the cityscape view.  ",C,Start/End Position,15,
+E. Start at the parking lot and end at the cityscape view.  ",C,Start/End Position,15,"Option: B; Reason: The journey starts at a view that includes multiple tall buildings, indicative of a city square area, and ends with a focus on the conical rooftop of a distinct tower, as seen in the later frames."
 90,EmbodiedCity_68.mp4,"Question: Which takes longer, your descent to the shop with the red sign displaying ""安个家"" or your navigation over the narrow pathway between tall structures?  
 Choices: A. My descent takes the same time as my navigation over the narrow pathway.  
          B. My descent takes shorter than my navigation over the narrow pathway.  
-         C. My descent takes longer than my navigation over the narrow pathway.  ",C,Duration,79,
+         C. My descent takes longer than my navigation over the narrow pathway.  ",C,Duration,79,"Option: C; Reason: The descent to the shop with the red sign displaying ""安个家"" involves a significant vertical movement from a high vantage point, which typically takes more time compared to horizontal navigation over the narrow pathway between tall structures. The frames show a gradual downward movement, indicating a longer duration for the descent."
 91,AerialVLN_44_392CY0QWGAPC4KI103W5DZEWKVCI4C_4.mp4,"Question: Navigation Instruction given at initial position: [take off and turn left and move forward and get down towards the white building terrace. now turn right and go over the buildings and trees towards the pond. now turn left and go over the buildings and get down reach the road and landed.]. At the initial position, you are asked to navigate based on a series of movement instructions. In terms of next steps, what is the best next step for you?  
 choose:  
 A. I go up and turn left.  
 B. I descend and then fly forward.  
 C. I fly forward while descending and turning right.  
 D. I turn left and go up.  
-E. I rotate the camera downward.  ",A,Action Generation,3048,
+E. I rotate the camera downward.  ",A,Action Generation,3048,"Option: A; Reason: The navigation instruction starts with ""take off and turn left,"" which means the first action should be to ascend (take off) and then make a left turn. This aligns with option A, ""I go up and turn left,"" making it the best next step to follow the given instructions accurately."
 92,EmbodiedCity_87.mp4,"Question: Instead of descending further, if you choose to maintain your altitude, can you still reach the two-story small house with a blue roof in the community?  
 Choices:  
 A. I cannot complete the task because I may overshoot the target, and the hypothetical movement takes longer.  
 B. I can complete the task because I have a clear line of sight, but the hypothetical movement takes longer.  
-C. I cannot complete the task because the house is obscured by taller buildings.  ",B,Counterfactual,167,
+C. I cannot complete the task because the house is obscured by taller buildings.  ",B,Counterfactual,167,"Option: B; Reason: The two-story small house with a blue roof is visible and accessible from the current altitude, providing a clear line of sight. However, maintaining this altitude would indeed take longer to reach the target compared to descending, as the path would be more circuitous."
 93,RealWorld_GN_21_1.mp4,"Question: You are navigating to the vicinity of the tower crane at the construction site ahead. Thinking back on past actions and objects seen, what do the surroundings of your current location look like?  
 Choice:  
 A. There is a big park in front of you with a pond. There are several low-rise buildings on the right. Behind you is a busy street with many vehicles.  
@@ -664,46 +664,46 @@ C. There are several high-rise residential buildings on the left and right sides
 
 D. There is a high-rise residential building directly behind you. Ahead is a highway and a large industrial area. There is a small park on the left.  
 
-E. There is a large open space in front of you. Directly behind is a row of high-rise apartments. There is a small shop on the right.  ",B,Cognitive Map,5012,
+E. There is a large open space in front of you. Directly behind is a row of high-rise apartments. There is a small shop on the right.  ",B,Cognitive Map,5012,"Option: B; Reason: The surroundings include a construction site with a crane and concrete mixers, a street on the left with vehicles, and an undeveloped area with small sheds and gardens behind, which matches the description in option B."
 94,AerialVLN_40_3ITXP059P5HR1G4I8MDNN3928CGJSD_6.mp4,"Question: Navigation Instruction given at initial position: [zoom in on the left tower. resume flying over green bush. turn left at grey building. reverse backwards to the green bush. turn left and zoom in on satellite dish. resume flying over the city buildings. stop and turn left. zoom in on red bulletin board. go to ground level of grey building. turn left at the brown sandstone house. zoom in on ord window of the blue building.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I fly over buildings.  
 B. I go to the ground floor of the gray building.  
 C. I continue flying over the green bushes.  
 D. I turn left at the brown sandstone house.  
-E. I zoom in on the satellite dish.  ",A,Progress Evaluation,2984,
+E. I zoom in on the satellite dish.  ",A,Progress Evaluation,2984,"Option: A; Reason: The sequence of images shows a progression from an initial position over a bridge towards flying over various city buildings. This aligns with the instruction to ""resume flying over the city buildings,"" indicating that the current action is flying over buildings."
 95,AerialVLN_29_3OHYZ19UGL312V9L7ZJ1AZWIN8TOAX_6.mp4,"Question: Navigation Instruction given at initial position: [take off and turn left and move forward and go over the buildings and road and turn right and move forward and go over the buildings and turn left at front of the dates car wash board and move forward. now move forward and get down and besidecharlies chocolate building and turn back and move forward and go over the buildings and get down at intersection road and get up and turn back and move forward. now move forward and get down at front of the white building and turn right and beside sea and move forward and go over the building alley and get down at tastes board with building and land there.]. At the initial position, you are asked to navigate according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I get off the bus in front of the white building.  
 B. I fly over buildings.  
 C. I turn right at the building.  
 D. I turn left before the date car wash board.  
-E. I go through the alley between the buildings.  ",B,Progress Evaluation,2751,
+E. I go through the alley between the buildings.  ",B,Progress Evaluation,2751,"Option: B; Reason: The sequence of images shows a bird's-eye view of the city, indicating that the agent is flying over buildings. This aligns with the navigation instruction to ""go over the buildings,"" which is a recurring action in the given instructions. Therefore, the current action being performed is flying over buildings."
 96,EmbodiedCity_42_2.mp4,"Question: You are navigating to ALL-STAR Cafe in Central. Thinking back on past Action Generations and objects you’ve seen, what is the surrounding environment like at your current location?  
 Choice:  
 A. There is a large park with a playground in front of you, a building to your right, and a two-lane road below you.  
 B. There is a large open square in front of me, residential buildings behind me, and a busy intersection below.  
 C. There is a building directly in front of me, a busy highway behind me, and a bike path directly below.  
 D. There are countless skyscrapers in all directions around me, a small park to my left, and a multi-lane highway below me.  
-E. There are several low-rise buildings around me, wide roads, an intersection, many vehicles, street lights, and trees all around.  ",E,Cognitive Map,1406,
+E. There are several low-rise buildings around me, wide roads, an intersection, many vehicles, street lights, and trees all around.  ",E,Cognitive Map,1406,"Option: E; Reason: The environment depicted shows several low-rise buildings, wide roads with multiple lanes of traffic, an intersection, numerous vehicles, street lights, and trees lining the streets, which matches the description in option E. Options A, B, C, and D do not accurately describe the scene as they mention elements like a large park, open square, busy highway, or countless skyscrapers that are not present in the images."
 97,AerialVLN_83_3JWH6J9I91BO3KE1CYJKQLGJFT2BNJ_3.mp4,"Question: Navigation Instruction given at initial position: [take off and turn back and move forward and go over the buildings and pond and get down at beside the tree and again turn back and fly up. now move forward and go over the trees and road and turn back at top of the brown building and get down at front of the this building. now get down and fly up and turn right and little move forward and turn left and move forward and turn left and move forward and turn back and fly up and beside the blue building and move forward and go over the top of the buildings and turn right and and fly up at front of the brown building. now turn right and again turn right and beside pond and move forward and go over the road and tip of the buildings and turn right and get up and move forward and stay at front of the building.]. At the initial position, you are asked to navigate according to a series of movement instructions. In terms of next steps, what is your best next step?  
 choose:  
 A. I go up and turn right.  
 B. I descend and then fly forward.  
 C. I fly forward when rising.  
 D. I turn left and descend.  
-E. I rotate the camera downward.  ",A,Action Generation,3753,
+E. I rotate the camera downward.  ",A,Action Generation,3753,"Option: C; Reason: The initial instruction is to ""take off and turn back and move forward,"" which implies the first action should be to ascend (fly up) and then proceed with the subsequent directions. Therefore, flying forward while rising aligns with the starting part of the given navigation instructions."
 98,EmbodiedCity_5_1.mp4,"Question: At the initial position, you are asked to navigate to the 28th-floor balcony. Thinking back on past Action Generations and objects you have seen, what should you approach next in order to get from your current location to your destination?  
 choose:  
 A. I approach the height of the building at 28 stories.  
 B. I approach the roof height of high-rise buildings.  
 C. I approach the lamppost on the street corner.  
 D. I approach the parking lot across the street.  
-E. I approach the windows on the 28th floor.  ",A,High-level Planning,1488,
+E. I approach the windows on the 28th floor.  ",A,High-level Planning,1488,"Option: E; Reason: The goal is to navigate to the 28th-floor balcony. Based on the images, the agent is currently at a high vantage point and needs to approach the windows on the 28th floor as the next logical step to reach the balcony. This aligns with option E, which directs the agent to approach the windows on the 28th floor."
 99,AerialVLN_49_3NJM2BJS4547GAIK6DS75URVDUYPCB_4.mp4,"Question: Navigation Instruction given at initial position: [take off and turn left and move forward and go over the building and and turn left and little move forward and turn right and move forward and get down at intersection road and turn right at tree and fly up and move forward. now get down at intersection road and turn left and move forward and our back and fly up and move forward and go over the building and road. now get down front of the pink building and turn back and your see daves car wash building and fly up and move forward and go over the building. now move towards the american board of the building and turn left and fly up and move forward. now get down beside white building and move forward and go over the road and turn left and forward and turn right and move forward and landed at front of american board of the building.]. You move according to a series of movement instructions. In terms of the next steps, what is the best next step for you?  
 choose:  
 A. I drop down and turn left.  
 B. I rise and fly forward.  
 C. I fly forward while rising.  
 D. I turn right and descend.  
-E. I rotate the camera downward.  ",A,Action Generation,3094,
+E. I rotate the camera downward.  ",A,Action Generation,3094,"Option: C; Reason: The current view suggests that the agent is at a high vantage point with a clear path forward. Given the navigation instruction to ""fly up and move forward,"" the best next step is to continue moving forward while rising to navigate over any potential obstacles or buildings in the path. This aligns with the directive to maintain forward momentum and elevation, making option C the most appropriate choice."
