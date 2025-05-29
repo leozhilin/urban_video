@@ -1,0 +1,1791 @@
+,video_id,question,answer,question_category,Question_id,Output
+0,RealWorld_GN_21_1.mp4,"Question: At the initial position, you are asked to navigate to the vicinity of the tower crane at the construction site ahead. Is the destination within sight at the current location? If yes, where is the destination in the view?  
+choose:  
+A. The area near the tower crane at the construction site ahead is currently at the lower left of my field of view.  
+B. The area near the tower crane at the construction site ahead is currently in the center of my field of view.  
+C. The area near the tower crane at the construction site ahead is not within my field of view.  
+D. The tower crane at the construction site ahead is currently in the upper right corner of my field of view.  
+E. The tower crane at the construction site ahead is currently on the right side of my field of view.  ",B,Goal Detection,5010,"<think>Let me think about this carefully. The question asks whether the destination, which is the vicinity of the tower crane at the construction site ahead, is within sight from the current location. 
+
+Firstly, let's consider the spatial arrangement of the scene. The tower crane is a prominent feature in the image, and it's located towards the right side of the frame. This suggests that the crane is indeed visible and not obscured by any other elements.
+
+Now, let's analyze the options:
+
+A. The area near the tower crane at the construction site ahead is currently at the lower left of my field of view.
+- This doesn't seem correct because the crane is clearly visible and not in the lower left corner.
+
+B. The area near the tower crane at the construction site ahead is currently in the center of my field of view.
+- This also doesn't seem accurate because the crane is not centered; it's more towards the right.
+
+C. The area near the tower crane at the construction site ahead is not within my field of view.
+- This is unlikely because the crane is clearly visible and not hidden.
+
+D. The tower crane at the construction site ahead is currently in the upper right corner of my field of view.
+- This seems plausible because the crane is indeed in the upper right corner of the image.
+
+E. The tower crane at the construction site ahead is currently on the right side of my field of view.
+- This is similar to option D and also seems correct because the crane is on the right side of the image.
+
+After considering all the options, it seems that the most accurate description is that the tower crane is in the upper right corner of the field of view.
+
+Oh, I see. The correct answer should be D, as it accurately describes the position of the tower crane in the image.
+
+Let's break it down one last time to ensure. The crane is indeed in the upper right corner, and this matches the description in option D.
+
+Final answer: D
+
+Let's verify one last time. Yes, the crane is in the upper right corner, and this is the correct description.</think>
+<answer>D</answer>"
+1,EmbodiedCity_59_1.mp4,"Question: At the initial position, you are asked to navigate to a store with the sign ""Mr. Fan."" Thinking back on past actions and objects you have seen, what should you approach next in order to get from your current location to the destination?  
+choose:  
+A. I approach a crosswalk on a street.  
+B. I approach the entrance of a high-rise building.  
+C. I approach the lawn next to the high-rise building.  
+D. I approach low-rise ancillary buildings at the bottom of high-rise buildings.  
+E. I approach rooftops of adjacent buildings.  ",D,High-level Planning,1650,
+2,AerialVLN_40_37QW5D2ZRPK2HZ8ZHIGWYD0OVCQS8V.mp4,"Question: Why does your height increase after you are aimed at the edge of a building?  
+Choice:  
+A. To avoid low-altitude air traffic.  
+B. Due to unexpected weather conditions.  
+C. To capture a wider area of ​​your surroundings.  
+D. Due to malfunction.  
+E. To reach the terrace more directly.  ",E,Causal,401,"<think>Let me think about this for a moment. The question is asking why my height increases when I'm aimed at the edge of a building. Let's break it down step by step.
+
+First, consider the context. I am being aimed at the edge of a building, which implies that there is some kind of objective or purpose behind this action. The options provided offer different reasons, so let's evaluate each one carefully.
+
+A. To avoid low-altitude air traffic. - This seems plausible because aiming at the edge of a building could be a way to ensure that I don't collide with any obstacles or other objects at lower altitudes. However, this doesn't fully explain the increase in height.
+
+B. Due to unexpected weather conditions. - This option is less likely because weather conditions typically don't cause a sudden increase in height. Weather can affect visibility and control, but it doesn't usually change altitude in such a specific manner.
+
+C. To capture a wider area of surroundings. - This could be a valid reason. By increasing my height, I might be able to get a better view of the entire area around the building, which could be useful for navigation or observation purposes.
+
+D. Due to malfunction. - This is possible, but it seems like a less likely explanation. Malfunctions usually cause erratic behavior rather than a specific increase in height.
+
+E. To reach the terrace more directly. - This could be a reason, but it's not as comprehensive as option C. Reaching the terrace directly is a specific goal, but capturing a wider area of surroundings is a broader objective.
+
+Hmm, after considering all the options, C seems the most comprehensive and logical reason. It allows for a broader objective while still addressing the specific action of increasing height.
+
+Oh, I see. The best answer is C, as it captures the essence of the action and the potential benefits of increasing height.
+
+Let's verify one last time. Yes, C fits the context and the purpose of the action best.</think>
+<answer>C</answer>"
+3,RealWorld_17.mp4,"Question: Why do you drop to a position diagonally above the road and bus stop after moving slightly forward and downward over the road?
+
+Choice: A. To get a better view of traffic flow on the road.
+            B. The bus stop is the final destination.
+            C. Due to low battery power.
+            D. To avoid collision with nearby buildings.
+            E. To take a clearer shot of the parked car.",B,Causal,4222,
+4,EmbodiedCity_60_1.mp4,"Question: At the initial position, you are asked to navigate to a store. The yellow sign in the store reads ""Ubrao Craft Brewery."" When you reach the current location, what is the relative position relationship between you and the destination?  
+choose:  
+A. I am currently located in the right rear direction of the destination, giving a bird's eye view.  
+B. I am currently located directly above the destination.  
+C. I am currently located at the front left of the destination, at street level.  
+D. I am currently located in the air outside the building's exterior wall, over the sidewalk, and my relative position to the store is unknown.  
+E. I am currently located in front and right of the destination, flying at high altitude.  ",D,Landmark Position,1684,
+5,EmbodiedCity_28.mp4,"Question: Which object is located near the round rooftop of a tower?  
+Choices:  
+A. A radio antenna.  
+B. Another UAV.  
+C. A curved facade leading to the terrace.  
+D. A large billboard.  
+E. A series of blue windows.  ",E,Object Recall,33,
+6,AerialVLN_17_32ZKVD547OLHZGLRUFZ5H7IDB2WB35.mp4,"Question: Which of the following choices better summarizes your movement route?  
+Choices:  
+A. I go from the rooftop with antennas to the buildings on the right by ascending and then descending towards the road.  
+B. I go from the road leading towards the city to the fourth-floor window by making a semicircular path around the park.  
+C. I go from the rooftop with antennas to the targeted fourth-floor window by flying forward while gradually descending along the road aligned with trees.  
+D. I go from the path along the edge of the park to the rooftop with antennas by flying in a straight trajectory.  
+E. I go from the road with tall buildings on the right to the targeted fourth-floor window by turning sharply to the left.  ",C,Trajectory Captioning,290,"<think>Let me think about this carefully. The question is asking which choice best summarizes my movement route based on the given options. 
+
+Firstly, let's break down the sequence of events in the video:
+1. I start at the rooftop with antennas.
+2. I move towards the buildings on the right.
+3. I ascend slightly.
+4. I descend towards the road.
+
+Now, let's consider each option:
+
+A. This option suggests going from the rooftop to the buildings on the right by ascending and then descending towards the road. This aligns well with the observed sequence of movements.
+
+B. This option involves a semicircular path around the park, which doesn't match the observed route.
+
+C. This option involves flying forward while gradually descending along the road, which also aligns with the observed route.
+
+D. This option involves a straight trajectory from the path along the edge of the park to the rooftop, which doesn't match the observed route.
+
+E. This option involves turning sharply to the left, which doesn't match the observed route.
+
+Hmm, both A and C seem plausible, but C provides a more detailed description of the exact path taken, including the gradual descent along the road.
+
+Oh, I see. The most accurate summary of the movement route is provided by option C, as it captures the exact sequence of actions and the gradual descent along the road.
+
+Let's verify one last time. Yes, C is the best fit for the observed route.
+
+Final answer: C
+
+Let's break it down one last time to ensure. C is the most detailed and accurate description of the movement route.</think>
+<answer>C</answer>"
+7,AerialVLN_58_30BUDKLTXMTIKYKFIPPOXCMISXQE5S_1.mp4,"Question: Navigation Instruction given at initial position: [take off and turn right and cross the trees towards the pond. now turn right and move forward and go over the trees and get down towards the tree. now turn right and move forward and go over the buildings towards the white building. now turn right and move forward reach the top of the brown building and stay there.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your landmark position to the white building?  
+choose:  
+A. I am to the left of the white building.  
+B. I am above the white building.  
+C. I am located underneath the white building.  
+D. I am located to the right of the white building.  
+E. I am located behind the white building.  ",A,Landmark Position,3265,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, but let's break it down step by step.
+
+First, we start at the initial position and follow the instructions:
+1. Take off and turn right.
+2. Cross the trees towards the pond.
+3. Turn right and move forward.
+4. Go over the trees and get down towards the tree.
+5. Turn right and move forward.
+6. Go over the buildings towards the white building.
+7. Turn right and move forward to reach the top of the brown building and stay there.
+
+Now, the question asks about the landmark position relative to the white building when we reach the current location. 
+
+Hmm, let's consider the sequence of movements. We start from a specific point and follow a series of turns and directions. Each turn and direction change helps us navigate through the environment. 
+
+Oh, I see. The last instruction is to ""reach the top of the brown building and stay there."" This means that after all the previous movements, we end up on top of the brown building. 
+
+Given the sequence of movements, it seems logical that we would be positioned to the right of the white building when we reach the top of the brown building. The brown building is likely closer to the center of the scene, and the white building is further to the right.
+
+Let's verify this. If we were to draw a map of the scene, the brown building would be in the middle, and the white building would be to its right. Therefore, when we reach the top of the brown building, we would indeed be to the right of the white building.
+
+So, the correct answer should be that we are located to the right of the white building.
+
+Let's break it down one more time to ensure. The sequence of movements leads us to the top of the brown building, and from there, we are clearly to the right of the white building.
+
+Final answer: D
+
+Let's double-check. Yes, the sequence of movements confirms that we are to the right of the white building.</think>
+<answer>D</answer>"
+8,RealWorld_41.mp4,"```
+“““
+Question: You are moving following a series of movement instructions: ""Rotate and observe the surrounding environment. Then move towards the direction of the road between the gray and light blue buildings. Fly along the road for a distance."" What is the positional relationship between you and the intersection beside the tall building when it reached current position?
+Choices:
+A.	I am located to the right of the intersection beside the tall building.
+B.	I am located above the intersection beside the tall building.
+C.	I am located to the left of the intersection beside the tall building.
+D.	I am located behind the intersection beside the tall building.
+E.	I am located in front of the intersection beside the tall building.
+
+”””
+```
+",B,Landmark Position,5327,
+9,AerialVLN_56_3YMTUJH0D1E2DYYCUFV9R6G5SZVT4E_6.mp4,"Question: Navigation Instruction given at initial position: [fly to the left side of the bridge. go forward to the end of the bridge. pass one road and take a right. fly over the short building near the park with the billboard on top. fly to the left down the road. fly down after you pass one road. go to the yellow billboard on the left over the building. go straight to the end of the park. go to the next road and fly over the buildings on the right. fly back to the left to the road and look at the billboard on the right. fly over the billboard and go straight. go around the right side of the building behind the yellow billboard. go to the road behind the sky scraper. turn left and look down the road. the red phone booths will be on your right. fly up and look left at the sky scraper. fly to the top and stop.]. At the initial position, you are asked to follow a series of movement instructions. What is the best next step for you?  
+choose:  
+A. I fly forward and then rise.  
+B. I descend and turn right.  
+C. I fly forward while rising.  
+D. I turn left and descend.  
+E. I rotate the camera downward.  ",A,Action Generation,3235,"<think>Let me think about this carefully. The task involves navigating through a complex set of instructions that require precise movements and attention to detail. The goal is to follow a specific path involving various turns, rises, and descents.
+
+Firstly, let's break down the initial instruction: ""fly to the left side of the bridge. go forward to the end of the bridge. pass one road and take a right."" This suggests that we need to move forward from the current position, which likely means flying forward initially. 
+
+Next, the instruction says ""fly over the short building near the park with the billboard on top."" This indicates that after passing the road, we need to ascend and fly over a specific building. So, it seems logical to continue moving forward and then rise to reach the building.
+
+Then, the instruction mentions ""fly to the left down the road. fly down after you pass one road. go to the yellow billboard on the left over the building."" This implies that after descending, we need to fly to the left again and then focus on the yellow billboard. 
+
+Finally, the instruction ends with ""fly up and look left at the sky scraper. fly to the top and stop."" This suggests that after reaching the billboard, we need to ascend further and look at the skyscraper.
+
+Considering all these steps, the best next step would be to fly forward and then rise, as this aligns with the initial part of the instructions and sets the foundation for the subsequent movements.
+
+Hmm, after all this reflection, it seems clear that the best action is to fly forward and then rise. This ensures that we follow the correct path and reach the desired locations.
+
+Oh, I see. The correct answer should be the option that involves flying forward and then rising. Let's verify this one last time to ensure there are no mistakes.
+
+After this thorough analysis, I am confident that the best next step is to fly forward and then rise.</think>
+<answer>A</answer>"
+10,RealWorld_16.mp4,"Question: If you do not fly directly to the building with the green mesh balcony, but choose to fly over the intersection first, can you still reach your destination, and how does the route compare?
+
+Choice: A. If I fly above the intersection first, I can still reach the destination, but the route will be significantly longer.  
+           B. If I fly over the intersection first, I can still reach the destination, and the route length is about the same.  
+           C. If I fly over the intersection first, I will be blocked by other buildings and cannot reach my destination.  ",C,Counterfactual,4214,
+11,AerialVLN_66_3EFVCAY5LC79IWP9UO7I6C91ZZGJ8L_1.mp4,"Question: Navigation Instruction given at initial position: [take off then move forward towards the tall building then turn left and move forward. move forward until it get closer to the building then turn left and look up then fly higher and forward then turn left. move forward and fly lower between the buildings then move forward until it get closer to the building fly lower then turn left. turn right and move forward towards the building until it get closer to the advertisement board then turn left. turn right and move forward to get closer to the building then turn right and fly higher and move forward towards the corner building along the road then turn right. move forward until it get closer to the building then turn left and fly lower towards the ground then turn left and move forward towards the tree then fly lower to the ground then turn right. turn right and turn left then look around the place then look up to focus the car advertisement board in the building.]. At the initial position, you are asked to move according to a series of movement instructions. When you arrive at your current location, what is your landmark position relative to the billboard on the building?  
+choose:  
+A. I am to the right of the building's billboard.  
+B. I am far from the building's billboard.  
+C. I am above the building's billboard.  
+D. I am to the left of the building's billboard.  
+E. I am beneath the building's billboard.  ",B,Landmark Position,3403,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, but let's break it down step by step.
+
+First, the instruction starts with ""take off then move forward towards the tall building."" This means that initially, we are moving towards a specific building. After reaching the building, the next part says ""turn left and move forward."" This indicates that after getting close to the building, we need to turn left and continue moving forward.
+
+Next, the instruction mentions ""move forward until it get closer to the building then turn left and fly higher and forward."" This suggests that after getting closer to the building, we need to turn left again and fly higher before continuing forward.
+
+Then, the instruction says ""turn left and move forward towards the advertisement board."" This implies that after flying higher and forward, we need to turn left again and move towards the advertisement board on the building.
+
+Finally, the instruction ends with ""turn right and move forward towards the corner building along the road then turn right and fly higher and move forward towards the corner building along the road."" This indicates that after reaching the advertisement board, we need to turn right and move towards another building.
+
+Now, the question asks about the landmark position relative to the billboard on the building. Based on the detailed navigation instructions, it seems that we are moving towards the building and its billboard, but not necessarily directly above or below it. The instructions suggest that we are moving around the building, which means we are likely to be to the side of the building.
+
+Hmm, after all this analysis, it seems that the most accurate description is that we are to the right of the building's billboard. Oh, I see, the instructions do not specify a direct vertical or horizontal alignment, but rather a relative position around the building.
+
+Therefore, the correct answer is A.
+
+Let's verify this one last time. The instructions do not specify a direct vertical or horizontal alignment, but rather a relative position around the building, which aligns with being to the right of the billboard.</think>
+<answer>D</answer>"
+12,RealWorld_GN_21_0.mp4,"Question: You are navigating to the vicinity of the tower crane at the construction site ahead. Thinking back on past actions and objects seen, what does the surroundings of your current location look like?  
+Choice:  
+A. There are many high-rise residential buildings in front. To the right is a large construction site with a tower crane. Behind me is a street full of parked cars.  
+B. There is a large park behind me with a small vegetable patch. In front is a street filled with motorcycles and cars. There are several high-rise buildings in front and to my right.  
+C. I am located over a busy road with many vehicles. On the left, there is a large open space, and in front, there is a small house. There are no construction sites nearby.  
+D. There is a wide river in front. There are a few low-rise buildings on the right and a small park with trees on the left.  
+E. There are several small houses surrounding me. In front is an open space covered with some small shrubs. There aren't any high-rise buildings in sight.  ",A,Cognitive Map,5005,"<think>Let me think about this carefully. The question asks for the surroundings of the current location relative to the tower crane at the construction site. 
+
+Firstly, let's break it down:
+- The tower crane is clearly visible in the image.
+- The construction site is in front of the crane.
+- There are high-rise residential buildings in the background.
+
+Now, let's consider each option:
+
+A. This option mentions many high-rise residential buildings in front and a large construction site with a tower crane. It also mentions a street full of parked cars. This seems to match the image quite well.
+B. This option talks about a large park and a street with motorcycles and cars. While there is a street with motorcycles and cars, the presence of a large park is not evident in the image.
+C. This option describes a busy road with many vehicles and a small house. There is no mention of a busy road or a small house in the image.
+D. This option talks about a wide river and a few low-rise buildings. There is no river in the image, and the focus is on the construction site and high-rise buildings.
+E. This option mentions several small houses and an open space with shrubs. While there are some shrubs, the focus is not on small houses, and the presence of high-rise buildings is not mentioned.
+
+Hmm, after considering all the options, it seems that option A is the most accurate description of the surroundings of the current location relative to the tower crane.
+
+Oh, I see. The correct answer should be A, as it matches the details in the image and the question.
+
+Let's verify one last time. Yes, the image shows many high-rise residential buildings in front, a large construction site with a tower crane, and a street full of parked cars. This confirms that option A is the correct choice.
+
+Final answer: A
+
+Let's break it down one last time to ensure. Yes, A is the best fit.</think>
+<answer>A</answer>"
+13,AerialVLN_81_34S6N1K2Z4H86XE20DD1Z4FS2MUHL9_2.mp4,"Question: Navigation Instruction given at initial position: [Take off, rise, and go left over the flat roof. Fly straight to the building with a lady on a billboard, then veer right and continue straight. Head to the yellow billboard, make a half right turn, and fly over the fountain towards the trees. Fly over the treetops, veer right towards the road between buildings, then take a near full left turn over trees until you see water. Rise near a tree, turn right until you see four buildings, then go straight to the car banner. Fly between the banner and building, continue straight, veer left of the high-rise, then a bit right. Descend to see a 5-story building, turn left, rise above it, and make a half left turn. Fly right of the car banner building to see the skyline, then turn left slightly and fly high over the trees.]. You move according to a series of movement instructions. What are you doing now?  
+choose:  
+A. I fly over the treetops, then turn right onto a road with buildings on either side.  
+B. I go directly between the banner and the building it will be on top of.  
+C. I am flying over the treetops.  
+D. I point down until I see the front of a 5-story building.  
+E. I turn slightly left and go straight.  ",E,Progress Evaluation,3700,"<think>Let me think about this carefully. The navigation instruction is quite detailed, guiding through various landmarks and turns. Now, what exactly am I doing right now?
+
+Firstly, let's break it down step by step:
+1. I've flown over the treetops.
+2. Then, I turned right onto a road with buildings on either side.
+
+Wait, that sounds like part of the instruction. Let's verify:
+
+- ""Fly over the treetops"" - This matches my current state.
+- ""Then turn right onto a road with buildings on either side"" - This also aligns with where I'm heading next.
+
+Hmm, so I'm definitely not just flying over the treetops anymore. I've already done that. And I haven't yet reached the point where I need to focus on the 5-story building or the car banner building. 
+
+Oh, I see. The instruction clearly outlines a sequence of actions, and I'm currently in the middle of the first leg of that sequence. So, logically, I should be focusing on the road with buildings on either side.
+
+Let's break it down further. The instruction doesn't mention anything about going directly between the banner and the building it will be on top of, nor does it suggest turning left immediately after seeing the water. It's all about the road and the buildings.
+
+So, the most accurate description of what I'm doing now is indeed related to the road and the buildings. 
+
+Therefore, the correct choice should be the one that aligns with the road and the buildings.
+
+Final check: A seems to fit best because it mentions the road and the buildings, which is the current focus of the instruction.
+
+Let's confirm one last time. Yes, A fits perfectly.</think>
+<answer>A</answer>"
+14,EmbodiedCity_21.mp4,"Question: You are navigating to the 12th-floor balcony. Thinking back on past Action Generations and objects you have seen, what is the surrounding environment like at your current location?  
+Choice:  
+A. There are three buildings across the street in front of me, the middle one being shorter than the others. Behind me is a large parking lot. Directly below me is a road.  
+B. There is a low-rise building directly in front of me. There is a tall building on my left. A small park is visible behind me. Below me is the roof.  
+C. There are roads and trees next to me. There are many high-rise buildings around me.  
+D. There is a large park in front of me with trees and fountains. There is a high-rise building to my left. Below me is a highway.  
+E. There are many buildings of varying heights surrounding me, and a busy highway directly below.  ",C,Cognitive Map,1075,
+15,EmbodiedCity_14_1.mp4,"Question: At the initial position, you are asked to navigate to the balcony on the 19th floor. When you reach the current location, what is the direction to the destination?  
+choose:  
+A. I am currently locating on the left side of the target building, far below the 19th floor.  
+B. I am currently locating directly above the target building, much higher than the 19th floor.  
+C. I am currently locating on the left side of the target building, close to the 19th floor.  
+D. I am currently locating on the ground to the right of the target building.  
+E. I am currently locating on the right side of the target building, much higher than the 19th floor.  ",E,Landmark Position,925,
+16,AerialVLN_98_3QAVNHZ3EV2TWA6OU739IISOPDPALK_6.mp4,"Question: Navigation Instruction given at initial position: [fly up over the power lines and turn left. go to the short building across the channel. fly up and go to the top of the tallest building ahead. turn right and look down. turn back forward and go to the similar sized building across the channel. fly down to the ground and turn left. go to the end of the channel and go behind the trees. go to the left towards the open area. go to the tan coloured apartments and land on the ground.]. You move according to a series of movement instructions. In terms of next steps, what is your best next step?  
+choose:  
+A. I rise and then fly forward.  
+B. I go forward and turn left.  
+C. I fly forward while descending.  
+D. I turn right and go up.  
+E. I rotate the camera downward and then lower it.  ",B,Action Generation,4076,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, involving multiple turns, ascents, and descents. The goal appears to be moving through a series of buildings and channels, eventually landing on the ground near some tan-colored apartments.
+
+Firstly, let's break down the current position and the immediate next steps:
+- The current position is likely somewhere in the middle of the cityscape, with various buildings and structures around.
+- The instruction suggests moving forward and turning left, which implies a specific direction change.
+
+Now, let's consider the options:
+A. ""I rise and then fly forward."" - This could be a possibility if the current altitude needs adjustment before moving forward.
+B. ""I go forward and turn left."" - This aligns directly with the instruction to move forward and turn left.
+C. ""I fly forward while descending."" - This might be necessary if the current altitude is too high, but it doesn't explicitly match the immediate next step.
+D. ""I turn right and go up."" - This contradicts the current instruction and seems unlikely.
+E. ""I rotate the camera downward and then lower it."" - This is not relevant to the current navigation instructions.
+
+Hmm, the most logical and direct next step based on the instruction is to move forward and turn left. This aligns perfectly with option B.
+
+Oh, I see. The correct next step is to follow the instruction exactly as given, which is to go forward and turn left. This will help in navigating through the cityscape and reaching the desired location.
+
+Let's verify one last time. The instruction clearly states ""go forward and turn left,"" and option B matches this exactly. Therefore, the best next step is indeed B.
+
+Final answer: B
+
+Let's break it down one last time to ensure there are no mistakes. The instruction is clear, and the most direct action is to go forward and turn left, which is exactly what option B suggests.</think>
+<answer>B</answer>"
+17,AerialVLN_98_3QAVNHZ3EV2TWA6OU739IISOPDPALK_2.mp4,"Question: Navigation Instruction given at initial position: [fly up over the power lines and turn left. go to the short building across the channel. fly up and go to the top of the tallest building ahead. turn right and look down. turn back forward and go to the similar sized building across the channel. fly down to the ground and turn left. go to the end of the channel and go behind the trees. go to the left towards the open area. go to the tan coloured apartments and land on the ground.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is your best next step?  
+choose:  
+A. I go up and turn left.  
+B. I turn right and fly forward.  
+C. I fly forward and rotate the camera downward.  
+D. I turn right and go up.  
+E. I turn left and descend.  ",B,Action Generation,4066,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, and it requires a deep understanding of the spatial relationships and directions involved. 
+
+Firstly, let's break it down into smaller parts:
+1. ""Go up and turn left.""
+2. ""Turn right and fly forward.""
+3. ""Fly forward and rotate the camera downward.""
+4. ""Turn right and go up.""
+
+Now, let's consider each option:
+
+A. ""I go up and turn left."" - This could be part of the first instruction, but it doesn't cover all the details.
+B. ""I turn right and fly forward."" - This seems to align with the second instruction, which involves turning right and flying forward.
+C. ""I fly forward and rotate the camera downward."" - This could be part of the third instruction, but it doesn't cover the full sequence.
+D. ""I turn right and go up."" - This could be part of the fourth instruction, but it doesn't cover all the details.
+E. ""I turn left and descend."" - This doesn't seem to match any of the instructions.
+
+Hmm, after analyzing the options, it seems that the most comprehensive and accurate next step would be to follow the second instruction, which involves turning right and flying forward. This aligns with the direction and action described in the instruction.
+
+Oh, I see. The best next step is to turn right and fly forward, as it covers the essential part of the instruction without missing any details.
+
+Let's verify this one more time. Yes, the second instruction clearly involves turning right and flying forward, which matches option B.
+
+Therefore, the best next step is to turn right and fly forward.
+
+Final answer: B
+
+Let's break it down one last time to ensure. Yes, B is the correct choice.</think>
+<answer>C</answer>"
+18,AerialVLN_25_3DY46V3X3YGIOFRM7OWLTIG5F2055N_0.mp4,"Question: Navigation Instruction given at initial position: [turning left and going straight to the buildings and slight right turn. coming near the lake and turning right and going up to the building. coming down to the building and again going up and going straight. going top of the building and turning left and coming down to the building. roaming around a tower and searching each floor of apartment.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is the best next step for you?
+
+choose:  
+A. I go up and turn left.  
+B. I descend, turn right, and fly forward.  
+C. I fly forward and rotate the camera upward.  
+D. I turn right and go up.  
+E. I turn left and descend.  ",B,Action Generation,2642,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, but let's break it down into smaller parts.
+
+First, the instruction starts with ""turning left and going straight to the buildings and slight right turn."" This suggests that we need to navigate through a series of buildings, making sure to turn slightly right after reaching certain points.
+
+Next, it mentions ""coming near the lake and turning right and going up to the building."" This indicates that we should approach a body of water, turn right, and ascend to reach a specific building.
+
+Then, there's a part about ""coming down to the building and again going up and going straight."" This implies that we need to descend, ascend, and continue moving straight.
+
+Finally, the instruction ends with ""going top of the building and turning left and coming down to the building."" This suggests that we should climb to the top of a building, turn left, and return to the same building.
+
+Now, let's consider the options:
+A. I go up and turn left. - This aligns with the last part of the instruction.
+B. I descend, turn right, and fly forward. - This doesn't match the sequence of actions described.
+C. I fly forward and rotate the camera upward. - This is not mentioned in the instruction.
+D. I turn right and go up. - This aligns with the middle part of the instruction.
+E. I turn left and descend. - This doesn't match the sequence of actions described.
+
+Hmm, the most logical next step based on the instruction is to turn right and go up. This aligns with the middle part of the instruction and fits the overall sequence of actions.
+
+Oh, I see. The best next step is to turn right and go up.
+
+Let's verify this one more time. The instruction clearly states ""turn right and go up,"" and this matches option D.
+
+Therefore, the best next step is D.</think>
+<answer>D</answer>"
+19,AerialVLN_40_3ITXP059P5HR1G4I8MDNN3928CGJSD_0.mp4,"Question: Navigation Instruction given at initial position: [zoom in on the left tower. resume flying over green bush. turn left at grey building. reverse backwards to the green bush. turn left and zoom in on satellite dish. resume flying over the city buildings. stop and turn left. zoom in on red bulletin board. go to ground level of grey building. turn left at the brown sandstone house. zoom in on ord window of the blue building.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  
+choose:  
+A. I go to the ground floor of the gray building.  
+B. I fly forward along the road.  
+C. I zoom in on the red bulletin board.  
+D. I zoom in on the left tower.  
+E. I turn left at the gray building.  ",B,Progress Evaluation,2972,"<think>Let me think about this carefully. The navigation instruction is quite complex, and I need to follow each step meticulously. 
+
+First, let's break it down:
+
+1. ""Initial position"" - This likely refers to the starting point of the journey.
+2. ""zoom in on the left tower."" - This seems like the first action, but we need to verify the sequence.
+
+Now, let's consider the options:
+A. ""I go to the ground floor of the gray building."" - This could be a part of the journey, but it's not the immediate next step after the initial position.
+B. ""I fly forward along the road."" - This doesn't seem to fit the immediate actions after the initial position.
+C. ""I zoom in on the red bulletin board."" - This is a specific action that might come later, but it's not the immediate next step.
+D. ""I zoom in on the left tower."" - This aligns with the first action mentioned in the instruction.
+E. ""I turn left at the gray building."" - This is a specific action that might come later, but it's not the immediate next step.
+
+Hmm, the most logical next step after the initial position is to zoom in on the left tower. This is the first action mentioned in the instruction, and it sets the stage for the rest of the journey.
+
+Oh, I see. The correct answer should be the one that aligns with the first action mentioned in the instruction.
+
+Let's verify: The instruction clearly states ""zoom in on the left tower,"" which is the first action. Therefore, the correct answer is D.
+
+Final answer: D
+
+Let's break it down one more time to ensure. The instruction starts with ""zoom in on the left tower,"" and this is the first action. Therefore, the correct answer is indeed D.</think>
+<answer>D</answer>"
+20,AerialVLN_122_3X4MXAO0BPM16L440WWXMJYDJQUWRI.mp4,"Question: After you descend to the entrance level, how does your distance from the Greek-style columns change?  
+Choice: A. The distance increases after I descend.  
+         B. The distance decreases after I descend.  
+         C. The distance remains unchanged after descending.  ",B,Proximity,810,
+21,AerialVLN_55_3JBT3HLQFH0KO3TUYRCFGSSH6W7PZN_3.mp4,"Question: Navigation Instruction given at initial position: [take off and rise up to the top of the buildings. go right through the column of buildings. go straight and toward the red and green trees. go across the water and stop at the edge where the trees are. take a left turn toward the buildings. go straight toward the tall building and rise to the top of that building.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  
+choose:  
+A. I go up and turn left.  
+B. I descend and fly forward.  
+C. I fly forward while rising.  
+D. I turn right and go up.  
+E. I rotate the camera downward.  ",C,Action Generation,3204,"<think>Let me think about this carefully. The task involves navigating through a series of movements based on specific instructions. The goal is to follow these instructions accurately.
+
+Firstly, let's break down the initial instruction:
+1. Take off and rise up to the top of the buildings.
+2. Go right through the column of buildings.
+3. Go straight and toward the red and green trees.
+4. Go across the water and stop at the edge where the trees are.
+5. Take a left turn toward the buildings.
+6. Go straight toward the tall building and rise to the top of that building.
+
+Now, let's consider the options:
+
+A. I go up and turn left. - This seems plausible because it aligns with the first part of the instruction, which is to rise up and then turn left.
+B. I descend and fly forward. - This doesn't seem to fit the current context because we are already rising up and need to continue following the instructions.
+C. I fly forward while rising. - This could be a possibility, but it's not explicitly mentioned in the instructions, and it might not be the most direct path.
+D. I turn right and go up. - This seems less likely because the instructions specify going right through the column of buildings, not turning right.
+E. I rotate the camera downward. - This doesn't align with the current instructions at all.
+
+Hmm, after considering all the options, it seems that the most logical next step is to go up and turn left, as it directly follows the first part of the instruction.
+
+Oh, I see. The best next step is to go up and turn left, as it aligns with the current context and the instructions provided.
+
+Let's verify this one last time. Yes, it seems correct. The best next step is indeed to go up and turn left.</think>
+<answer>A</answer>"
+22,AerialVLN_89_35DR22AR5MIOCJOSZBRN6495RXNX3K_2.mp4,"Question: Navigation Instruction given at initial position: [take off and move forward slow down near pond. now turn left move towards behind the ridge. now turn on your back view and move forward turn left fly towards the mid of pond. now turn left move towards behind the dates car wash building and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  
+choose:  
+A. I turn left and move toward the back of the Date Car Wash building.  
+B. I take off and slow down near the pond.  
+C. I turn back.  
+D. I turn left and fly towards the center of the pond.  
+E. I open the rear view and move forward, turning left towards the back of the ridge.  ",A,Progress Evaluation,3873,"<think>Let me think about this carefully. The navigation instruction is quite complex, and I need to follow each step meticulously. 
+
+First, let's break it down:
+
+1. ""Take off and move forward slowly near the pond."" - This means I start by taking off and moving forward, slowing down when I get close to the pond.
+2. ""Now turn left and move towards behind the ridge."" - After reaching the pond, I need to turn left and move towards the back of the ridge.
+3. ""Now turn on your back view and move forward, turn left fly towards the mid of pond."" - This part involves turning around, moving forward, and then turning left again to fly towards the center of the pond.
+4. ""Now turn left and move towards behind the dates car wash building and stay there."" - Finally, I need to turn left and move towards the back of the Date Car Wash building.
+
+Now, let's consider the current state. I have already taken off and moved forward, slowed down near the pond, and turned left to move towards the back of the ridge. So, the next logical step should be related to the pond and the Date Car Wash building.
+
+Hmm, it seems like the most immediate action after reaching the pond is to turn left and fly towards the center of the pond. This aligns with the instruction ""Now turn left and fly towards the center of the pond.""
+
+Oh, I see. The correct action now is to turn left and fly towards the center of the pond. This matches option D.
+
+Let's verify: D involves turning left and flying towards the center of the pond, which fits the current state and the next logical step in the instructions.
+
+Therefore, the correct answer is D.
+
+Let's break it down one last time to ensure. Yes, D is the correct choice based on the current state and the next logical step.</think>
+<answer>B</answer>"
+23,AerialVLN_27_31T4R4OBO1EIA4EKARYQ580BYSNC7T_7.mp4,"Question: Navigation Instruction given at initial position: [take off and turn back and move forward towards the buildings till the brown building which have a glass on its top. now turn back and get closer to the blue building and get high and move forward till the pond arrives. now fly over the pond and move forward towards the road is visible. now turn left and move forward towards the buildings till the building have a banner named bolt cola. now move forward towards the buildings and get closer to the brown building and turn right and move forward till the road splits. now turn left and move forward towards the buildings till the blue building arrives and get closer to its bottom and stay there.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is your Landmark Position from the pond when you reach your current location?  
+choose:  
+A. I am located on the left side of the pond.  
+B. I am located on the right side of the pond.  
+C. I am located above the pond.  
+D. I am located below the pond.  
+E. I am far away from the pond.  ",E,Landmark Position,2707,"<think>Let me think about this carefully. The navigation instruction provided is quite complex, but let's break it down step by step.
+
+First, the instruction starts with taking off and moving towards the buildings. Then, it mentions turning back and getting closer to the blue building. After that, it instructs to move forward until the pond appears. This means the pond is somewhere along the path we're following.
+
+Next, the instruction says to fly over the pond and move forward towards the road. This implies that after flying over the pond, we continue moving forward, and the road becomes visible. So, the pond is likely ahead of us in our current direction.
+
+Now, the instruction asks for the landmark position relative to the pond when we reach our current location. Since we've just flown over the pond and moved forward, we are not yet at the pond. We are still moving towards it.
+
+Wait, let's consider the options:
+A. I am located on the left side of the pond.
+B. I am located on the right side of the pond.
+C. I am located above the pond.
+D. I am located below the pond.
+E. I am far away from the pond.
+
+Hmm, since we are moving forward and the pond is ahead of us, we are not yet at the pond. Therefore, we are not on either side of the pond, nor are we above or below it. We are simply moving towards it.
+
+Oh, I see. The correct answer should be that we are not yet at the pond, so we are not on any specific side of it. However, the closest logical answer based on the direction we are moving is that we are moving towards the pond.
+
+Let's verify: We are not on the sides, above, or below the pond, and we are not far away. The most accurate description is that we are moving towards the pond.
+
+Therefore, the correct answer is B.
+
+Let's break it down one last time to ensure. We are not on the sides, above, or below the pond, and we are not far away. We are moving towards the pond.</think>
+<answer>B</answer>"
+24,AerialVLN_25_3DY46V3X3YGIOFRM7OWLTIG5F2055N_3.mp4,"Question: Navigation Instruction given at initial position: [turning left and going straight to the buildings and slight right turn. coming near the lake and turning right and going up to the building. coming down to the building and again going up and going straight. going top of the building and turning left and coming down to the building. roaming around a tower and searching each floor of apartment.]. You move according to a series of movement instructions. In terms of next steps, what is your best next step?  
+choose:  
+A. I go up and turn left.  
+B. I descend and fly forward.  
+C. I fly forward while rotating the camera upward.  
+D. I turn right and go up.  
+E. I turn left and descend.  ",A,Action Generation,2651,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, but let's break it down into smaller parts to understand where we are and where we need to go.
+
+First, the instruction mentions ""turning left and going straight to the buildings and slight right turn."" This suggests that we are currently on a path that involves navigating through buildings. The next part says ""coming near the lake and turning right and going up to the building."" This indicates that we need to move towards a body of water and then ascend to a specific building.
+
+Now, the instruction continues with ""coming down to the building and again going up and going straight."" This implies that after descending, we need to ascend again and continue moving forward. The next part says ""going top of the building and turning left and coming down to the building."" This suggests that we need to reach the top of a building, turn left, and then come back down.
+
+Finally, the instruction ends with ""roaming around a tower and searching each floor of apartment."" This indicates that we need to explore a tower thoroughly.
+
+Given all these instructions, the most logical next step would be to follow the current direction and continue moving forward. The instruction does not explicitly mention any immediate action like turning left or right, so it seems we should focus on the general direction of movement.
+
+Hmm, it seems that the most straightforward action based on the current context is to continue moving forward. Therefore, the best next step is to turn right and go up.
+
+Oh, I see. The correct answer should be the one that aligns with continuing the current path and moving forward.
+
+Let's verify this. The instruction does not specify any immediate turn, so the most logical action is to continue moving forward. Therefore, the correct answer is D.
+
+Final answer: D
+
+Let's break it down one last time to ensure. The instruction does not specify any immediate turn, so the most logical action is to continue moving forward.</think>
+<answer>D</answer>"
+25,AerialVLN_91_3KB8R4ZV1N5ITSXFPU6P017MCZSGBQ_7.mp4,"Question: Navigation Instruction given at initial position: [take off and turn right move towards the base bridge. now turn left on your back move towards the red rocket building. now turn right move towards the pond and turn left move forward and slow down to the road and stay there.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is the Landmark Position from the pond when you reach the current location?  
+choose:  
+A. I am on the right side of the pond.  
+B. I am located above the pond.  
+C. I am located on the left side of the pond.  
+D. I am on the pond floor.  
+E. I am far away from the pond.  ",E,Landmark Position,3932,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, but let's break it down step by step.
+
+1. **Initial Position**: You start at a specific point, which we'll call the ""initial position.""
+2. **First Move**: Take off and turn right. This means you're moving towards the base of the bridge.
+3. **Second Move**: Now turn left on your back. This implies you're turning around and moving towards something else.
+4. **Third Move**: Move towards the red rocket building. This is a clear reference point.
+5. **Fourth Move**: Turn right and move towards the pond. This indicates you're heading towards the pond.
+6. **Fifth Move**: Turn left and move forward. This suggests you're moving along the pond's edge.
+7. **Sixth Move**: Slow down to the road and stay there. This means you've reached the road near the pond.
+
+Now, the question asks for the landmark position from the pond when you reach the current location. The current location is where you've slowed down to the road near the pond. 
+
+Hmm, let's consider the options:
+- A. I am on the right side of the pond. This could be possible if you've moved slightly to the right after turning left.
+- B. I am located above the pond. This doesn't seem likely since you've been moving horizontally.
+- C. I am located on the left side of the pond. This also seems plausible if you've moved slightly to the left.
+- D. I am on the pond floor. This is unlikely since you've been moving along the edge.
+- E. I am far away from the pond. This is not the case since you've been moving towards the pond.
+
+Oh, I see. The most logical position based on the movements is that you are on the left side of the pond.
+
+Let's verify this one last time. Yes, it fits all the movements described.</think>
+<answer>C</answer>"
+26,RealWorld_GN_9_0.mp4,"Question: At the initial position, you are asked to navigate to the playground next to the building in front of you. When you reach the current location, what is the direction to the destination?  
+choose:  
+A. I am currently located on the edge of the rooftop, overlooking the playground.  
+B. I am currently located directly above the playground.  
+C. I am currently located far behind the playground, above another building.  
+D. I am currently located on the right side of the playground, far away.  
+E. I am currently located on the left side of the playground, flying across the street.  ",A,Landmark Position,4699,"<think>Let me think about this carefully. The question asks for the direction from my current location to the playground that's mentioned. 
+
+Firstly, let's break it down. The playground is described as being ""next to the building in front of you."" This implies that the playground is likely situated close by, possibly adjacent to the building.
+
+Now, looking at the options:
+
+A. I am currently located on the edge of the rooftop, overlooking the playground.
+- This seems plausible because the playground could be visible from the edge of the rooftop, suggesting proximity.
+
+B. I am currently located directly above the playground.
+- This doesn't seem likely because being directly above would mean I'm hovering right over the playground without any visible surroundings.
+
+C. I am currently located far behind the playground, above another building.
+- This also doesn't fit because the playground is described as being ""next to"" the building, indicating it's not far behind.
+
+D. I am currently located on the right side of the playground, far away.
+- This contradicts the description of being ""next to"" the building, which suggests a closer proximity.
+
+E. I am currently located on the left side of the playground, flying across the street.
+- This is similar to D, suggesting a distant location, which doesn't match the description.
+
+Hmm, after considering all the options, A seems the most logical. It aligns with the description of being ""next to the building in front of you"" and being on the edge of the rooftop.
+
+Oh, I see. The correct direction is indeed A, as it fits the spatial relationship described in the question.
+
+Let's verify one last time. Yes, A is the most consistent with the given information.</think>
+<answer>A</answer>"
+27,AerialVLN_11_3T3IWE1XGFL923LASC2MU9HAR8YQTF_6.mp4,"Question: Navigation Instruction given at initial position: [turn around. fly forward over the buildings to the next road. turn around and fly forward. go to above the four lane highway on the left. fly down to the intersection and stop. turn left at the billboard. fly over the buildings to the left. go towards the water. stop one block away from the water and lower down into the alley. turn around and fly forward one block. go to the taller dark building. lower down to the road. turn left. fly to the white building. fly over the building and go to the next road. stop in front of the red brick building.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach your current location, what is your landmark position relative to the road?  
+choose:  
+A. I am on the left side of the road.  
+B. I am located underneath the road.  
+C. I am on the right side of the road.  
+D. I am located above the road.  
+E. There is no positional relationship between me and the road.  ",D,Landmark Position,2347,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, but let's break it down step by step.
+
+First, the instruction starts with ""turn around. fly forward over the buildings to the next road."" This means that initially, we are flying over some buildings and approaching a road. So, at the start, we are likely above the road.
+
+Next, the instruction says ""go to above the four lane highway on the left."" This suggests that after reaching the road, we need to fly further ahead and find a specific highway. This implies that we are still above the road, not directly on it or below it.
+
+Then, the instruction says ""fly down to the intersection and stop."" This indicates that we need to descend to a specific point, which is likely the intersection of two roads. This confirms that we are still above the road, not on it or below it.
+
+Finally, the instruction ends with ""lower down to the road. turn left. fly to the white building. fly over the building and go to the next road. stop in front of the red brick building."" This suggests that we are now on the road, possibly on the left side of it, and then we need to fly over a building and continue to another road.
+
+Given all these steps, it seems that we are primarily flying above the road and then landing on it. Therefore, the most accurate description of our position relative to the road is that we are above the road.
+
+Hmm, oh, I see. The correct answer should be that we are located above the road.
+
+Let's verify this one last time. The instruction does not mention any specific action that would place us directly on the road or below it. It consistently describes actions that keep us above the road until we land on it.
+
+So, the correct answer is D.
+
+Let's break it down one last time to ensure. The instruction clearly describes actions that keep us above the road until we land on it, confirming that we are above the road.</think>
+<answer>A</answer>"
+28,RealWorld_RN_12_7.mp4,"Question: Navigation Instruction given at initial position: [Raise the altitude, fly over the opposite road, and fly in the direction of the mountains]. At the initial position, you are asked to follow a series of movement instructions. In terms of next steps, what is the best next step for you?  
+choose:  
+A. I ascend, fly forward, and turn left.  
+B. I lower and rotate the camera downward.  
+C. I hover in mid-air.  
+D. I turn right and rotate the camera upward.  
+E. I go up and turn left.  ",C,Action Generation,4346,
+29,EmbodiedCity_3_1.mp4,"Question: At the initial position, you are asked to navigate to the 30th-floor balcony. Is the destination within sight at your current location? If yes, where is the destination in view?  
+choose:  
+A. The balcony is currently in the lower left corner of my field of view.  
+B. The balcony is currently in the center of my field of view.  
+C. The balcony is currently in the upper right corner of my field of view.  
+D. The balcony is not within my field of view.  
+E. The balcony is currently on the right side of my field of view.",D,Goal Detection,1197,
+30,AerialVLN_107_3RSDURM96JKGMMUZTRUL89KBMYHEYM.mp4,"Question: What is near the hat-shaped advertisement on the rooftop?  
+Choice: A. A satellite dish.  
+          B. A billboard.  
+          C. A water tank.  
+          D. A tree.  
+          E. A bench.  ",A,Object Recall,734,"<think>Let me think about this for a moment. The question asks what is near the hat-shaped advertisement on the rooftop. Now, let's break it down step by step.
+
+First, I need to identify the hat-shaped advertisement. In the image, there is indeed a large hat-shaped structure on top of one of the buildings. It's quite prominent and stands out.
+
+Now, I need to determine what is near this hat-shaped structure. Let's consider each option:
+
+A. A satellite dish - This is a common feature on rooftops, but I don't see any satellite dishes near the hat-shaped structure.
+B. A billboard - Billboards are often found on rooftops, and they can be quite large. I notice a large rectangular object near the hat-shaped structure that could be a billboard.
+C. A water tank - Water tanks are typically cylindrical and not hat-shaped. I don't see any water tanks near the hat-shaped structure.
+D. A tree - Trees are usually green and not present on rooftops. There are no trees near the hat-shaped structure.
+E. A bench - Benches are not typically found on rooftops, especially not near advertisements. There are no benches near the hat-shaped structure.
+
+Hmm, after considering all the options, it seems that the most likely item near the hat-shaped advertisement is a billboard. It's a common feature on rooftops and is visible in the image.
+
+Oh, I see. The correct answer should be the option that matches the most common feature near the hat-shaped advertisement, which is a billboard.
+
+Let's verify this one last time. Yes, the billboard is the most logical and visible item near the hat-shaped structure.
+
+Therefore, the correct answer is B.
+
+Final answer: B
+
+Let's double-check the image one more time to ensure there are no other items near the hat-shaped structure. No, there are no other items that match the description of a billboard.</think>
+<answer>B</answer>"
+31,EmbodiedCity_42_0.mp4,"````
+Question: You are navigating to ALL-STAR Cafe in Central. Thinking back on past Action Generations and objects you’ve seen, what is the surrounding environment like at your current location?  
+Choose:  
+A. There is a large roundabout in the middle of the road in front of you with many cars. To your left is a small park with benches. Behind you, there is a wide crosswalk.  
+B. There are countless skyscrapers in all directions around you. There are no visible trees or parks. A bike path is directly below you.  
+````  
+C. There is a low building opposite you. To your left is a parking lot, and behind you is a busy highway. There is no sidewalk visible near you.  
+D. There is a large shopping mall opposite you. Behind you is a construction site, and below you is a bus stop.  
+E. There are several low-rise buildings around you, wide roads, an intersection, many vehicles, streetlights, and trees visible all around.",E,Cognitive Map,1397,
+32,RealWorld_GN_28_1.mp4,"Question: At the initial position, you are asked to navigate to the pond and rockery in the community ahead. At your current location, if the pond and rockery are not within your field of view, what is the most relevant object in your field of view and where is this object?  
+choose:  
+A. I can already see the pond and rockery.  
+B. I cannot see the pond and rockery, but there is a small square with a fountain in the center of my field of view.  
+C. I cannot see the pond and rockery, but I can see a row of tall buildings in the background.  
+D. I cannot see the pond and rockery within my field of view, but there is a parking lot on the left side of my field of view.  
+E. I cannot see the pond and rockery in my field of view, but I can see a group of shops in the lower left part of my field of view.  ",A,Association Reasoning,5179,"<think>Let me think about this carefully. The question asks about the most relevant object in the field of view at the initial position when navigating towards the pond and rockery. 
+
+Firstly, let's consider the options:
+A. This suggests that the pond and rockery are already visible, which contradicts the need for navigation.
+B. This mentions a small square with a fountain, which could be a plausible intermediate point.
+C. This focuses on the row of tall buildings, which might be useful for orientation but doesn't directly relate to the pond and rockery.
+D. This points to a parking lot, which seems less relevant to the specific goal of finding the pond and rockery.
+E. This references a group of shops, which also doesn't seem directly related to the pond and rockery.
+
+Now, let's break it down further. The most logical object that would help in navigating towards the pond and rockery would be something that provides a clear reference point. The small square with a fountain in the center of the field of view (option B) seems the most relevant because it could serve as a landmark to guide the navigation.
+
+Wait, I should verify if there's any other object that could be more relevant. Hmm, after considering all the options, the small square with a fountain stands out as the most direct and useful reference point.
+
+Oh, I see. The most relevant object in the field of view is indeed the small square with a fountain, as it provides a clear and immediate reference for navigation.
+
+Therefore, the correct answer should be B.
+
+Let's double-check one last time. Yes, B is the most logical and relevant choice based on the given options.</think>
+<answer>B</answer>"
+33,RealWorld_25.mp4,"Question: What is the area immediately adjacent to the main pool?
+
+Choice: A. A small children's playground with ""Happy Childhood"" written on the ground.  
+           B. Older low-rise residential buildings.  
+           C. Smaller children's pool with a fish theme.  
+           D. Residential vehicle parking lot.  
+           E. Large meadows with mature trees.  ",A,Object Recall,4271,
+34,RealWorld_GN_17_2.mp4,"Question: At the initial position, you are asked to navigate to a nearby bus stop. Is the destination within sight at the current location? If yes, where is the destination in your view?  
+choose:  
+A. I see the bus stop in the lower left corner of my field of view.  
+B. I see the bus stop in the center of my field of view.  
+C. I see the bus stop in the upper right corner of my field of view.  
+D. I do not see the bus stop in my field of view.  
+E. I see the bus stop on the right side of my field of view.  ",B,Goal Detection,4905,
+35,EmbodiedCity_5_1.mp4,"Question: You are navigating to the balcony on the 28th floor. What is the correct summary of your trajectory from the beginning to the current location?  
+Choice:  
+A. Start from a high-rise building, move toward the street, descend to the ground, and move toward the target building.  
+B. Start from the left side of the building with a huge conical dome, turn right, and descend to a certain height.  
+C. Start from the pedestrian lane, move towards the street, rise, pass through multiple buildings, and reach the current position next to the target building.  
+D. Start from a point above the park, move along the street, rise and approach the target building, and reach a position slightly above the 28th floor.  
+E. Start from the park, move toward the street, rise, and move toward a high-rise building, approaching the 28th floor, maintaining a position outside the edge of the building.  ",B,Trajectory Captioning,1485,
+36,EmbodiedCity_48_2.mp4,"Question: At the initial position, you are asked to navigate to a red motorcycle with a yellow sign in front of a store. Thinking back on past Action Generations and objects you have seen, what should you approach next in order to get from your current location to your destination?  
+choose:  
+A. I go to the center of the intersection.  
+B. I go to the ""Cheegspod"" sign on top of the building.  
+C. I go to bicycles parked in front of the store.  
+D. I go to the streetlight on the corner.  
+E. I go to the highest point of the tall building across the street.  ",C,High-level Planning,1477,
+37,AerialVLN_9_31T4R4OBO1EIA4EKARYQ580BYSNC7T.mp4,"Question: Why did you veer slightly to the left, facing the row of buildings along the street?  
+Choices:  
+A. To adjust your path away from the road.  
+B. To avoid air traffic above the intersection.  
+C. Due to wind interference.  
+D. To focus on your destination.  
+E. To maintain altitude stability.  ",D,Causal,230,
+38,AerialVLN_51_3RSDURM96JKGMMUZTRUL89KBMYHEYM_3.mp4,"Question: Navigation Instruction given at initial position: [take of from the river and turn left towards the city and go straight towards the buildings. then take left and then take immediate right towards the board and then suddenly take left and go straight towards the statue then turn right and take of. then go towards the drink ice cold, sun noon board and then take left there was an highest building and then take right from the building then take immediate left from that building in opposite there was an bolt cola board is that our destination.]. You move according to a series of movement instructions. What are you doing now?  
+choose:  
+A. I fly over buildings.  
+B. I cross the water.  
+C. I take off from the river.  
+D. I turn right at the building.  
+E. I turn left at the tallest building.  ",E,Progress Evaluation,3135,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex and detailed, which might be leading me astray. Let's break it down step by step.
+
+First, the instruction starts with ""take off from the river and turn left towards the city."" This suggests that we're starting from a point on the river and moving towards the city. So, I need to consider where I am currently relative to the river and the city.
+
+Next, it says ""go straight towards the buildings."" This indicates that after turning left, I should continue moving forward in a straight line until I reach the buildings. 
+
+Then, it mentions ""take left and then take immediate right towards the board."" This part is a bit confusing, but it seems like I need to make a specific turn to reach a certain point.
+
+After that, it says ""suddenly take left and go straight towards the statue."" This implies that I need to make another specific turn and move towards a statue.
+
+Finally, it ends with ""turn right and take off,"" which suggests that I need to make a final turn and start flying.
+
+Now, let's consider the options:
+A. I fly over buildings - This aligns with the final instruction.
+B. I cross the water - This is not mentioned in the instruction.
+C. I take off from the river - This is the first instruction, but it's already done.
+D. I turn right at the building - This is mentioned, but it's not the final action.
+E. I turn left at the tallest building - This is not mentioned in the instruction.
+
+Hmm, the most logical action based on the instruction is to fly over buildings. Oh, I see, the instruction clearly leads to flying over buildings.
+
+Let's verify one last time. The instruction does not mention crossing the water, taking off from the river, or turning left at the tallest building. It does mention flying over buildings, which matches option A.
+
+Therefore, the correct answer is A.</think>
+<answer>A</answer>"
+39,EmbodiedCity_22.mp4,"Question: At the initial position, you are asked to navigate to the 11th-floor balcony. What is your next move, given the target location for your next move?  
+choose:  
+A. I rise.  
+B. I descend.  
+C. I fly forward.  
+D. I turn left.  
+E. I turn right.  
+F. I rotate the camera upward.  
+G. I rotate the camera downward.  ",A,Action Generation,1090,
+40,RealWorld_GN_32_2.mp4,"Question: At the initial position, you are asked to navigate to a red car at the edge of a residential area ahead. Thinking back on past actions and objects you saw, what should you approach next in order to get from your current location to your destination?  
+choose:  
+A. I approach the top of the traffic light at the intersection.  
+B. I approach the parking lot on the street below.  
+C. I approach a small green space between two buildings.  
+D. I approach the building roof with a blue awning.  
+E. I approach the furthest visible building.  ",B,High-level Planning,5241,
+41,EmbodiedCity_48.mp4,"Question: At the initial position, you are asked to navigate to a red motorcycle with a yellow sign in front of a store. Thinking back on past Action Generations and objects you have seen, what should you approach next in order to get from your current location to your destination?  
+choose:  
+A. I approach the crosswalk in front of the building.  
+B. I approach the roof of the building next to the destination.  
+C. I approach the parking lot across the street.  
+D. I approach the sidewalk in front of the building.  
+E. I approach the top of the nearest tree.  ",E,High-level Planning,1483,
+42,AerialVLN_91_3KB8R4ZV1N5ITSXFPU6P017MCZSGBQ_4.mp4,"Question: Navigation Instruction given at initial position: [take off and turn right move towards the base bridge. now turn left on your back move towards the red rocket building. now turn right move towards the pond and turn left move forward and slow down to the road and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  
+choose:  
+A. I turn my back to the left and walk toward the red rocket building.  
+B. I turn right toward the pond.  
+C. I turn right toward the base bridge.  
+D. I rise and fly forward, crossing the roof.  
+E. I take off and turn right toward the base bridge.  ",D,Progress Evaluation,3922,"<think>Let me think about this carefully. The navigation instruction starts with ""take off and turn right move towards the base bridge."" This is the first step that needs to be followed. 
+
+Now, let's break it down:
+1. Take off and turn right - This means I need to start moving in a direction that aligns with the base bridge.
+2. Move towards the base bridge - This indicates that after taking off and turning right, I should continue moving in that direction until I reach the base bridge.
+
+Wait, what happens next? The instruction says ""now turn left on your back move towards the red rocket building."" This part comes after reaching the base bridge. So, once I've reached the base bridge, I'll need to turn left and move towards the red rocket building.
+
+Hmm, but the question asks what I am doing now. Now, I'm still in the process of following the first part of the instruction. I haven't reached the base bridge yet, so I can't be turning left towards the red rocket building. 
+
+Oh, I see. The correct action based on the current position and the instruction is to continue moving in the direction of the base bridge. Therefore, the correct choice should be the one that aligns with moving towards the base bridge.
+
+Let's verify: The options A, B, C, D, and E all have different actions. Option D, ""I rise and fly forward, crossing the roof,"" seems to align with the initial action of taking off and moving towards the base bridge.
+
+So, the correct answer should be D.
+
+Let's double-check. Yes, D fits the current position and the first part of the instruction perfectly.</think>
+<answer>E</answer>"
+43,RealWorld_18.mp4,"Question: What objects did you observe as you descended to street level?
+
+Choice:  
+A. Only cars and buildings.  
+B. High-rise buildings, roads, bus stops, and parking lots.  
+C. Parks, fountains, and trees.  
+D. Only the seller's store and bus stop.  
+E. Did not observe anything specific.",B,Scene Recall,4228,
+44,EmbodiedCity_75_1.mp4,"Question: You are navigating to the entrance of the community next to the store, which has a yellow sign that says ""乐购便利店"". Thinking back on past actions and objects you’ve seen, what is the surrounding environment like at your current location?  
+Choice:  
+A. There is a high-rise building on your left, a road on your right, and sidewalks and green belts below. There is a fork in the road in front of you that turns left.  
+B. There are two high-rise buildings on your left and right, with a street and a small green space in the middle. There is a parking lot behind you.  
+C. There is a large park directly in front of you. The buildings are far away. There is a big river behind you.  
+D. There is a high-rise building in front of you. There is a road behind you. There is parking underneath you.  
+E. There are several low-rise buildings surrounding you, and there is a busy intersection nearby. There is a construction site behind you.  ",A,Cognitive Map,1788,
+45,EmbodiedCity_6.mp4,"Question: What is your next action after centering the conical structure in the frame?
+
+Choices:  
+A. I ascend toward the top of the conical building.  
+B. I turn sharply to the left.  
+C. I move backward to get a wider view of the structure.  
+D. I hover in place above the building.  
+E. I descend, moving closer to the top of the conical building.  ",E,Sequence Recall,8,
+46,RealWorld_26.mp4,"Question: You were flying toward the outer edge of a residential area and made a half-circle. Thinking back on past actions and objects, what is the surrounding environment like at your current location?  
+Choice:  
+A. In front of me is a residential building, and on the right is a park and swimming pool. On the left is the outer edge of the community.  
+
+B. There is a large park in front of me with a playground and swimming pool. Behind me is a busy road with many cars and buildings.  
+
+C. I am surrounded by high-rise residential buildings, with a small park and swimming pool in the middle. In front of me is the road, and behind me is the construction site.  
+
+D. There is a river in front of me, a bicycle path next to it, and some residential buildings on the right. There is a park with a playground in the back.  
+
+E. There is a busy road with many cars in front of me. There is a construction site behind me. To my left is a large building, and to my right is a residential building with a park.  ",A,Cognitive Map,5138,
+47,RealWorld_8.mp4,"Question: At the initial position, you are asked to navigate towards the roof of the red teaching building of a nearby school. Is the destination within sight at your current location? If yes, where is the destination in your view?  
+choose:  
+A. I see the roof of the red teaching building in the lower left corner of my field of view.  
+B. I see the roof of the red teaching building in the center of my field of view.  
+C. I see the roof of the red teaching building in the upper right corner of my field of view.  
+D. I do not see the roof of the red teaching building within my field of view.  
+E. I see the roof of the red teaching building on the right side of my field of view.  ",B,Goal Detection,4694,
+48,EmbodiedCity_89_2.mp4,"Question: At the initial position, you are asked to navigate to the middle elevated level of the building on the right front. When you reach your current location, what is your direction to the middle area of the target building?  
+choose:  
+A. The middle area of the target building is on my right front side.  
+B. The middle area of the target building is on my left rear side.  
+C. I am currently close to the side facade of the middle area of the target building, located at ground floor level.  
+D. I am currently at the edge of the middle area of the target building.  
+E. I am currently close to the side facade of the middle floor area of the target building and am at the height of the middle floor.  ",A,Landmark Position,1934,
+49,AerialVLN_45_3A4NIXBJ7FXUYBFDRATER9NNFVUMLS.mp4,"Question: Which of the following options better summarizes your movement?  
+Choice: A. I descend from the city skyline through trees and mid-rise buildings to Greek-style columned buildings.  
+           B. I aim at the road from above the city street, turn left, move forward to the vicinity of a single-story building, and then descend to the height of a column.  
+           C. I rise above the city from the tree-lined road to reach the Greek-style columns.  
+           D. I fly straight from the city skyline to the main road without descending.  
+           E. I fly left from above the skyscraper to the entrance of the multi-story building.  ",B,Trajectory Captioning,418,"<think>Let me think about this carefully. The question is asking which option best summarizes my movement in the video. Let's break it down step by step.
+
+First, let's consider the sequence of events in the video:
+1. The camera starts at a high altitude, showing the city skyline.
+2. The camera moves downward, passing over trees and mid-rise buildings.
+3. The camera continues moving downward until it reaches the level of the Greek-style columned buildings.
+
+Now, let's analyze each option:
+
+A. This option suggests that I descend from the city skyline through trees and mid-rise buildings to Greek-style columned buildings. This matches the sequence of events in the video quite well.
+
+B. This option describes a different path, where I aim at the road from above the city street, turn left, move forward to the vicinity of a single-story building, and then descend to the height of a column. This does not match the sequence of events in the video.
+
+C. This option suggests that I rise above the city from the tree-lined road to reach the Greek-style columns. This is the opposite of what happens in the video, where I descend, not rise.
+
+D. This option suggests that I fly straight from the city skyline to the main road without descending. This also does not match the sequence of events in the video.
+
+E. This option suggests that I fly left from above the skyscraper to the entrance of the multi-story building. This does not match the sequence of events in the video either.
+
+After considering all the options, it is clear that option A best summarizes my movement in the video.
+
+Oh, I see. The correct answer is A.
+
+Let's verify one last time. Yes, A matches the sequence of events in the video perfectly.</think>
+<answer>A</answer>"
+50,RealWorld_16.mp4,"Question: Why did you move closer to the target high-rise building after passing between several high-rise buildings with Chinese characters on them?
+
+Choice: A. To get a clearer view of the building's facade and locate the balcony with the green mesh.  
+           B. To avoid potential danger near a high-rise building with Chinese characters on it.  
+           C. To approach and avoid parked cars and roads in front of buildings.  
+           D. To change your perspective.  
+           E. To capture a wider-angle shot of the building complex.  ",A,Causal,4213,
+51,RealWorld_17.mp4,"Question: What objects did you observe when you descended over the road for a bird’s eye view?  
+Choice:  
+A. Roads, stores, and parking lots.  
+B. A hazy cityscape, high-rise buildings, and parts of a high-rise residential tower.  
+C. Only one road and one bus stop.  
+D. A group of high-rise residential buildings and a road.  
+E. A bus stop, pedestrians, and a section of road.  ",A,Scene Recall,4219,
+52,RealWorld_GN_16_2.mp4,"Question: At the initial position, you are asked to navigate to a balcony with a green screen across the street on the left. At your current location, if the balcony with the green screen is not in view, what is the most relevant object in view? Where is this object?  
+choose:  
+A. The balcony with the green screen is already within my field of view.  
+B. There is no green screen balcony, but I see a playground in the lower right corner of my field of view.  
+C. There is no balcony with a green screen, but I see a group of tall buildings across the street on the left.  
+D. The balcony with the green screen cannot be seen, but I see a parking lot on the right side of my view.  
+E. The balcony with the green screen is not visible in my field of view, but I see a traffic light in the upper left corner of my field of view.  ",C,Association Reasoning,4878,
+53,AerialVLN_88_35DR22AR5MIOCJOSZBRN64942Z0X3A_5.mp4,"Question: Navigation Instruction given at initial position: [take off and turn slightly right and then turn slightly left towards a brown building. fly forward and turn right towards a white building when above an intersection. fly forward and land in front of a light pole.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  
+choose:  
+A. I go up and turn right.  
+B. I fly forward.  
+C. I fly forward while descending.  
+D. I turn left and go up.  
+E. I rotate my camera upward and fly forward.",B,Action Generation,3861,
+54,RealWorld_20.mp4,"Question: At the initial position, you are asked to navigate to the ""Huaji Stone Rice Roll"" store in the remaining area in front of you. When you reach the current location, what is the direction to the destination?  
+choose:  
+A. I am currently located above the Huaji Shimo Rice Roll Shop, slightly to the right.  
+B. I am currently located above the Huaji Shimo Rice Roll Shop.  
+C. I am currently located on the left side of the Huaji Shimo Rice Roll Shop and above the parking lot.  
+D. I am currently located behind the Huaji Shimo Rice Roll Shop, in the middle of the road.  
+E. I am currently located in front of the Huaji Shimo Rice Roll Shop across the street.  ",E,Landmark Position,4995,
+55,AerialVLN_83_3JWH6J9I91BO3KE1CYJKQLGJFT2BNJ_6.mp4,"Question: Navigation Instruction given at initial position: [take off and turn back and move forward and go over the buildings and pond and get down at beside the tree and again turn back and fly up. now move forward and go over the trees and road and turn back at top of the brown building and get down at front of the this building. now get down and fly up and turn right and little move forward and turn left and move forward and turn left and move forward and turn back and fly up and beside the blue building and move forward and go over the top of the buildings and turn right and and fly up at front of the brown building. now turn right and again turn right and beside pond and move forward and go over the road and tip of the buildings and turn right and get up and move forward and stay at front of the building.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is the Landmark Position from the pond when you reach your current location?  
+choose:  
+A. I am on the right side of the pond.  
+B. I am located above the pond.  
+C. I am located on the left side of the pond.  
+D. I am far away from the pond.  
+E. I am located below the pond.  ",D,Landmark Position,3761,
+56,EmbodiedCity_39_0.mp4,"Question: At the initial position, you are asked to navigate to the green trees behind the bus stop. What is your next move, given the target location for your next move?  
+choose:  
+A. I rise.  
+B. I rotate the camera downward.  
+C. I fly forward.  
+D. I turn left.  
+E. I turn right.  
+F. I rotate the camera upward.  
+G. I descend.  ",G,Action Generation,1323,
+57,AerialVLN_101_3Q5C1WP23VZJ0XQ361U9QS3O2S551Q.mp4,"Question: Which one takes longer, flying under the trees or flying along the river bank?  
+Choice: A. I take longer to fly under the tree.  
+          B. I fly along the river bank for a long time.  
+          C. Both take the same amount of time.  ",B,Duration,711,"<think>Let me think about this carefully. The question is asking which activity takes longer: flying under the trees or flying along the river bank. 
+
+Firstly, let's consider the distance involved. In the image, there appears to be a significant stretch of river bank visible. The river seems to extend quite far into the distance, suggesting that the river bank might be a considerable length.
+
+Now, let's look at the trees. The trees are scattered along the river bank, but they don't seem to form a continuous path like the river bank does. The river bank appears to be a more linear and extensive feature compared to the trees.
+
+Wait, I need to consider the speed of flight. If the plane flies at a constant speed, the longer the path, the longer it will take to cover that distance. The river bank looks like it could be a much longer path than the trees.
+
+Hmm, it seems logical that the river bank would take longer to fly along because it is a more extensive and linear feature compared to the trees. The trees are more scattered and don't form a continuous path.
+
+Oh, I see. The river bank is likely to be a longer path, and since the plane flies at a constant speed, it would take longer to fly along the river bank.
+
+Let's break it down one last time to verify. The river bank is a continuous and extensive path, while the trees are scattered and don't form a continuous path. Therefore, the river bank is likely to take longer to fly along.
+
+After all this reflection, I am confident that flying along the river bank takes longer than flying under the trees.
+
+Final answer: B
+
+Let me double-check. Yes, the river bank is indeed a longer path, and the plane would take longer to fly along it.</think>
+<answer>B</answer>"
+58,AerialVLN_64_3GDTJDAPV39ZJ4VUXLKAM41I3Q58M2.mp4,"Question: Which of the following options better summarizes your movement?  
+Choice:  
+A. Start from the high-rise building in the city, fly along the path parallel to the skyscraper, head to the woods in the middle of the intersection, and climb.  
+B. Fly from the intersection over the trees to the top of the skyscraper.  
+C. Descend from the rooftop to the trees in the middle of the intersection.  
+D. Go from the trees in the middle of the zebra crossing, directly through the skyscrapers, to the nearby parking lot.  
+E. Fly from a cluster of skyscrapers to the roof of a lower building while maintaining altitude.  ",B,Trajectory Captioning,505,"<think>Let me think about this carefully. The question is asking which option best summarizes my movement in the image provided. 
+
+Firstly, let's break down the sequence of actions that seem to be happening in the image:
+1. Starting from a high-rise building.
+2. Flying along a path parallel to a skyscraper.
+3. Head towards the woods in the middle of the intersection.
+4. Climbing something.
+
+Now, let's consider each option:
+
+A. This option mentions flying along a path parallel to a skyscraper, heading to the woods, and climbing. This seems quite comprehensive and matches the sequence of actions observed in the image.
+B. This option focuses on flying from the intersection over the trees to the top of the skyscraper. While it does mention the skyscraper, it doesn't cover the entire sequence of actions.
+C. This option talks about descending from the rooftop to the trees, which is not mentioned in the image at all.
+D. This option suggests going through the skyscrapers and directly to the parking lot, which is not the case in the image.
+E. This option mentions flying from a cluster of skyscrapers to the roof of a lower building, but it doesn't cover the entire sequence of actions.
+
+Hmm, after analyzing all the options, it seems that option A is the most comprehensive and matches the sequence of actions observed in the image. Oh, I see, the correct answer should be A.
+
+Let's verify one last time. Yes, A covers all the key points of the movement in the image, including starting from a high-rise, flying parallel to a skyscraper, heading to the woods, and climbing.
+
+So, the best summary of my movement is indeed option A.
+
+Final answer: A
+
+Let's break it down one last time to ensure. Yes, A is the correct choice.</think>
+<answer>E</answer>"
+59,EmbodiedCity_98_2.mp4,"Question: You are navigating to the parking space on the right after entering the entrance of the community. Thinking back on past Action Generations and objects you have seen, what does your current surroundings look like?  
+Choice:  
+A. There are two tall buildings on each side of me, with a small park and a winding road in the middle. A bus stop is visible on the left.  
+B. There is a large open space on my left, with several low-rise buildings and sparse trees. The street ahead is wide and straight.  
+C. I am surrounded by high-rise buildings, and there is a small courtyard and playground directly below. The streets are narrow and crowded.  
+D. There are three high-rise buildings in front of me, forming an ""L"" shape around a small open space. There is a small park behind me with a few trees and a circular trail.  
+E. I am positioned above a busy street, flanked by various buildings of varying heights with a park to my left. There are no visible parking spaces.  ",D,Cognitive Map,2078,
+60,RealWorld_23.mp4,"Question: What objects did you observe when descending toward the entrance of the community?  
+
+Choice:  
+A. A large parking lot, several small shops, and a group of people gathering.  
+B. A pond and the roof of a building with lettering.  
+C. A busy highway, a series of traffic lights, and several pedestrians crossing the street.  
+D. A large open land, sparse trees, and mountains in the distance.  
+E. Only the entrance to the residential area and no other objects at all.  ",B,Scene Recall,4264,
+61,AerialVLN_78_3K772S5NPH9U0R4AJRQXM9P7C8XHE9.mp4,"Question: When the bridge comes into view, what is next to the river?  
+Choice: A. A ""Keep Out"" sign by the river.  
+           B. A ""WELCOME"" sign by the river.  
+           C. Traffic lights by the river.  
+           D. A bus stop by the river.  
+           E. A fountain by the river.  ",A,Object Recall,584,"<think>Let me think about this for a moment. The question asks what is next to the river when the bridge comes into view. Now, let's break it down step by step.
+
+First, I need to recall the details of the scene. The video shows a bridge spanning over a river, and there are various signs and structures around the area. The question specifies that we should focus on what is next to the river when the bridge is visible.
+
+Now, let's consider each option:
+
+A. A ""Keep Out"" sign by the river. - This seems plausible because I remember seeing a sign near the river that warned people not to enter the area. It was likely a ""Keep Out"" sign.
+
+B. A ""WELCOME"" sign by the river. - This doesn't seem likely because I don't recall seeing a welcoming sign near the river. It would be unusual for a city to have a ""WELCOME"" sign by the river.
+
+C. Traffic lights by the river. - This is possible, but I don't remember seeing traffic lights specifically by the river. They might be present elsewhere in the scene.
+
+D. A bus stop by the river. - This is also possible, but I don't recall seeing a bus stop by the river. It's less likely than the ""Keep Out"" sign.
+
+E. A fountain by the river. - This is unlikely because I don't remember seeing a fountain by the river. It would be a decorative feature, and I didn't notice one.
+
+Hmm, after considering all the options, the most likely scenario is that there is a ""Keep Out"" sign by the river when the bridge comes into view. It fits the context of the scene and the warning signs typically found in urban areas.
+
+Oh, I see. The correct answer is indeed A, as it aligns with the typical presence of warning signs in such locations.
+
+Let's verify one last time. Yes, the ""Keep Out"" sign is the most logical and observed detail in the scene.</think>
+<answer>A</answer>"
+62,AerialVLN_15_32XVDSJFP8VOXPT5H4B9CDOFHRK2M2.mp4,"Question: What objects did you observe while flying over the waterfront?  
+Choices:  
+A. A garden, a tree, and a bench.  
+B. A statue, a fountain, and a flowerbed.  
+C. A parking lot, a car, and a lamppost.  
+D. Streets, lower buildings, and the sea.  
+E. A playground, a swing, and a slide.  ",D,Scene Recall,279,"<think>Let me think about this for a moment. The question is asking what objects I observed while flying over the waterfront. Now, let's break it down step by step.
+
+First, I need to recall the details of the scene. When I was flying over the waterfront, I noticed several things. There were definitely streets visible, which suggests that there were buildings and possibly vehicles on them. This rules out options that don't mention streets.
+
+Next, I remember seeing some lower buildings. These were likely residential or commercial structures that were not as tall as the ones further away. This aligns with option D, which mentions ""lower buildings.""
+
+Then, I also saw the sea. The waterfront is clearly defined by the presence of water, and the sea was quite prominent in the view. This further supports option D, as it includes the sea.
+
+Now, let's consider the other options. Option A mentions a garden, a tree, and a bench, but I didn't notice any of these specific objects during my flight. Option B talks about a statue, a fountain, and a flowerbed, which I also didn't observe. Option C mentions a parking lot, a car, and a lamppost, but I didn't see any of these either. Option E refers to a playground, a swing, and a slide, which are not typically found on a waterfront.
+
+Hmm, after going through all the options and reflecting on the scene, it's clear that the most accurate description of what I observed is in option D. It includes the streets, lower buildings, and the sea, which are all present in the image.
+
+Oh, I see. The correct answer must be D, as it accurately describes the objects I observed while flying over the waterfront.
+
+Let's verify one last time. Yes, D is the only option that matches the details of the scene. Therefore, the answer is D.
+
+Final answer: D
+
+Let's break it down one last time to ensure. D is the only option that includes all the elements I observed: streets, lower buildings, and the sea.</think>
+<answer>D</answer>"
+63,AerialVLN_55_3JBT3HLQFH0KO3TUYRCFGSSH6W7PZN_4.mp4,"Question: Navigation Instruction given at initial position: [take off and rise up to the top of the buildings. go right through the column of buildings. go straight and toward the red and green trees. go across the water and stop at the edge where the trees are. take a left turn toward the buildings. go straight toward the tall building and rise to the top of that building.]. You move according to a series of movement instructions. In terms of next steps, what is your best next step?  
+choose:  
+A. I fly forward and rise.  
+B. I turn right and go up.  
+C. I turn left and go up.  
+D. I descend and fly forward.  
+E. I fly forward.  ",C,Action Generation,3207,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, but let's break it down into smaller parts.
+
+First, the instruction says ""go right through the column of buildings."" This means I need to navigate through a specific area with a particular layout. After going through these buildings, the next part is ""go straight and toward the red and green trees."" This indicates that after clearing the buildings, I should head directly towards a specific set of trees that are colored red and green.
+
+Next, the instruction says ""go across the water and stop at the edge where the trees are."" This suggests that after reaching the trees, I need to cross a body of water and stop at the edge where the trees are located. 
+
+Finally, the instruction ends with ""take a left turn toward the buildings. go straight toward the tall building and rise to the top of that building."" This means after stopping at the edge of the water, I should turn left and head back towards the buildings, specifically aiming for the tallest one and rising to its top.
+
+Now, considering the options:
+A. I fly forward and rise. - This aligns with the last part of the instruction, where I need to rise to the top of the tallest building.
+B. I turn right and go up. - This doesn't seem to fit the sequence of instructions as it contradicts the need to turn left and head back towards the buildings.
+C. I turn left and go up. - This fits the sequence of instructions as it aligns with turning left and heading towards the tallest building.
+D. I descend and fly forward. - This contradicts the need to rise to the top of the building.
+E. I fly forward. - This is too vague and doesn't specify the direction or action needed.
+
+Hmm, after all this reflection, the most logical and fitting action based on the instructions is to turn left and go up.
+
+Oh, I see. The best next step is to turn left and go up.</think>
+<answer>C</answer>"
+64,AerialVLN_56_3E47SOBEYZUFZOVGTI2NWXQKCCTICX.mp4,"Question: How does the distance between you and the tall building change after you turn slightly left and aim towards the building?  
+Choice: A. I increase the distance between myself and the tall building.  
+          B. I decrease the distance between myself and the tall building.  
+          C. The distance between me and the tall building remains constant.  ",B,Proximity,465,"<think>Let me think about this for a moment. When I initially observe the scene, the tall building is quite far away from my perspective. Now, when I turn slightly left and aim towards the building, something changes. 
+
+Wait, let's break it down. If I'm aiming directly at the building, logically, that means I'm focusing on its position relative to where I am standing. The act of turning left and aiming towards the building implies that I'm narrowing the field of view, concentrating more on the building itself.
+
+Hmm, if I'm narrowing my focus on the building, it means that the distance between me and the building isn't increasing. In fact, it's likely decreasing because I'm zeroing in on the target. 
+
+Oh, I see. The distance between me and the tall building decreases when I turn left and aim toward it. The act of aiming towards the building suggests that I'm getting closer to it, not farther away. 
+
+Let's verify this. If I were to increase the distance, I'd probably be looking around more broadly, not focusing specifically on one point. But since I've narrowed my attention to the building, it's reasonable to conclude that the distance has decreased.
+
+So, based on all these considerations, the correct answer should be that I decrease the distance between myself and the tall building.
+
+Let's confirm once again. The act of aiming towards the building indicates a reduction in distance, not an increase. Everything points to the same conclusion.</think>
+<answer>B</answer>"
+65,EmbodiedCity_57_0.mp4,"Question: At the initial position, you are asked to navigate to a store with the signboard ""贝壳生鲜 Food."" Thinking back on past Action Generations and objects you have seen, what should you approach next in order to get from your current location to the destination?  
+choose:  
+A. I approach sidewalks adjacent to high-rise buildings.  
+B. I approach the entrance of a high-rise building.  
+C. I approach green spaces near high-rise buildings.  
+D. I approach the parking lot next to the high-rise building.  
+E. I approach rooftops of adjacent buildings.  ",B,High-level Planning,1616,
+66,AerialVLN_56_3YMTUJH0D1E2DYYCUFV9R6G5SZVT4E_0.mp4,"Question: Navigation Instruction given at initial position: [fly to the left side of the bridge. go forward to the end of the bridge. pass one road and take a right. fly over the short building near the park with the billboard on top. fly to the left down the road. fly down after you pass one road. go to the yellow billboard on the left over the building. go straight to the end of the park. go to the next road and fly over the buildings on the right. fly back to the left to the road and look at the billboard on the right. fly over the billboard and go straight. go around the right side of the building behind the yellow billboard. go to the road behind the sky scraper. turn left and look down the road. the red phone booths will be on your right. fly up and look left at the sky scraper. fly to the top and stop.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your Landmark Position from the skyscrapers?  
+choose:  
+A. I am to the right of the skyscraper.  
+B. I am far away from the skyscraper.  
+C. I am above a skyscraper.  
+D. I am underneath a skyscraper.  
+E. I am to the left of the skyscraper.  ",B,Landmark Position,3217,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, but let's break it down step by step.
+
+First, the instruction starts with ""fly to the left side of the bridge. go forward to the end of the bridge."" This means that initially, we are moving towards the left side of the bridge and then continuing forward until we reach the end. 
+
+Next, it says ""pass one road and take a right."" This indicates that after reaching the end of the bridge, we need to pass a road and then turn right. 
+
+Then, it mentions ""fly over the short building near the park with the billboard on top."" This suggests that after turning right, we need to fly over a specific building that has a billboard on top.
+
+Following this, the instruction says ""fly to the left down the road. fly down after you pass one road. go to the yellow billboard on the left over the building."" This implies that after flying over the building, we need to continue flying to the left and then down the road, eventually reaching a yellow billboard on the left side of a building.
+
+Finally, the instruction ends with ""fly up and look left at the sky scraper. fly to the top and stop."" This indicates that after reaching the yellow billboard, we need to fly up and look at the skyscraper, which is likely the target landmark.
+
+Now, considering the options:
+A. I am to the right of the skyscraper.
+B. I am far away from the skyscraper.
+C. I am above a skyscraper.
+D. I am underneath a skyscraper.
+E. I am to the left of the skyscraper.
+
+Given the sequence of instructions, it seems that we are moving towards the skyscraper and eventually flying above it. Therefore, the most accurate description is that we are above a skyscraper.
+
+Oh, I see. The correct answer is C.
+
+Let's verify this one last time. The instructions clearly lead us to a point where we are above a skyscraper, so C is the most logical choice.</think>
+<answer>E</answer>"
+67,AerialVLN_7_3HVVDCPGTNQIB5CWJMJG7VKB4LPYTK_3.mp4,"Question: Navigation Instruction given at initial position: [ascend straight up, turn to the left, and fly past the soccer fields. go to the tennis courts, turn to the right, and fly straight towards the river. turn around and fly past the bridge. once the second bridge is reached, turn to the right. fly straight past the baseball diamond, and once the intersection is approached, make a descent until the drone lands. turn around and face the construction cones.]. You move according to a series of movement instructions. What are you doing now?  
+choose:  
+A. I go straight up.  
+B. I fly straight to the river.  
+C. I go to the tennis court.  
+D. I turn around and fly across the bridge.  
+E. I turn right.  
+",D,Progress Evaluation,2244,"<think>Let me think about this carefully. The navigation instruction provided outlines a specific path that the drone should follow. Let's break it down step by step:
+
+1. Ascend straight up - This is the first action mentioned. The drone starts by going straight up.
+2. Turn to the left - After ascending, the next action is to turn left.
+3. Fly past the soccer fields - The drone then flies past the soccer fields.
+4. Go to the tennis courts - After passing the soccer fields, the drone goes to the tennis courts.
+5. Turn to the right - From the tennis courts, the drone turns right.
+6. Fly straight towards the river - The drone then flies straight towards the river.
+7. Turn around and fly past the bridge - After reaching the river, the drone turns around and flies past the bridge.
+8. Once the second bridge is reached, turn to the right - The drone turns right after reaching the second bridge.
+9. Fly straight past the baseball diamond - The drone flies straight past the baseball diamond.
+10. Once the intersection is approached, make a descent - The drone makes a descent when approaching the intersection.
+11. Turn around and face the construction cones - Finally, the drone turns around and faces the construction cones.
+
+Now, let's consider the current state of the drone. The drone has already ascended straight up, turned left, flown past the soccer fields, gone to the tennis courts, turned right, flown straight towards the river, turned around and flown past the bridge, and reached the second bridge. The next action is to turn right after reaching the second bridge.
+
+Hmm, it seems like the current action is to turn right after reaching the second bridge. Oh, I see, the correct answer should be related to turning right.
+
+Let's verify: The drone is currently at the second bridge, and the next action is to turn right. Therefore, the correct answer is E.
+
+Final answer: E
+
+Let's break it down one more time to ensure. Yes, the drone is at the second bridge, and the next action is to turn right.</think>
+<answer>D</answer>"
+68,RealWorld_31.mp4,"Question: At the initial position, you are asked to navigate to the underground garage near the residential area consisting of gray buildings in front of you for access. Thinking back on past actions and objects you saw, what should you approach next in order to get from your current location to your destination?  
+choose:  
+A. I approach the top of the tallest crane on the construction site.  
+B. I approach the underground garage.  
+C. I approach the street light closest to the building entrance.  
+D. I approach the crosswalk in front of the store.  
+E. I approach the residential area entrance.  ",B,High-level Planning,5222,
+69,AerialVLN_10_32EYX73OY97OEHFZ5WHW4VDH3OSRUM.mp4,"Question: Why did you slightly adjust your path to align with the road's curve towards the left?  
+Choices:  
+A. To ascend to a higher altitude.  
+B. To avoid an obstacle on the road.  
+C. To capture a better view of the lake.  
+D. Because my destination is more likely to exist on the left side of the road by the lake.  
+E. To descend towards the ground.  ",D,Causal,239,"<think>Let me think about this for a moment. The question asks why I adjusted my path slightly to align with the road's curve towards the left. Let's break it down step by step.
+
+First, let's consider the options:
+A. To ascend to a higher altitude. - This doesn't seem likely because there's no indication that I needed to climb higher.
+B. To avoid an obstacle on the road. - There's no visible obstacle on the road that would require me to change direction.
+C. To capture a better view of the lake. - While the lake is visible, there's no specific mention of capturing a better view being the reason.
+D. Because my destination is more likely to exist on the left side of the road by the lake. - This seems plausible because the road curves towards the left, and it's logical that my destination might be on that side.
+E. To descend towards the ground. - This doesn't make sense because I'm already at a certain altitude, and there's no indication of descending.
+
+Now, let's focus on option D. If my destination is more likely to be on the left side of the road by the lake, it would make sense to align my path with the road's curve to reach it efficiently. This aligns with the visual evidence in the image, where the road curves towards the left and the lake is on the left side.
+
+Hmm, after considering all the options and the visual evidence, it seems the most logical reason is indeed D. The road curves towards the left, and my destination is likely on that side.
+
+Oh, I see. The correct answer is D. Let's verify one last time to ensure there's no other plausible reason. After careful consideration, D remains the most reasonable choice.
+
+Therefore, the answer is D.
+
+Let's break it down one last time to confirm. The road curves towards the left, and my destination is likely on that side. This aligns perfectly with option D.</think>
+<answer>D</answer>"
+70,AerialVLN_83_3JWH6J9I91BO3KE1CYJKQLGJFT2BNJ_5.mp4,"Question: Navigation Instruction given at initial position: [take off and turn back and move forward and go over the buildings and pond and get down at beside the tree and again turn back and fly up. now move forward and go over the trees and road and turn back at top of the brown building and get down at front of the this building. now get down and fly up and turn right and little move forward and turn left and move forward and turn left and move forward and turn back and fly up and beside the blue building and move forward and go over the top of the buildings and turn right and and fly up at front of the brown building. now turn right and again turn right and beside pond and move forward and go over the road and tip of the buildings and turn right and get up and move forward and stay at front of the building.]. You are moving according to a series of movement instructions. What are you doing now?  
+choose:  
+A. I get off the bus in front of the brown building.  
+B. I fly over the top of a building.  
+C. I turn right, then right again, to reach next to the high-rise building.  
+D. I turn right at the building.  
+E. I move forward and stay in front of the building.  ",C,Progress Evaluation,3757,"<think>Let me think about this carefully. The navigation instruction is quite complex and involves multiple turns and movements around various structures. The current instruction seems to be guiding us through a specific sequence of actions that involve flying over buildings, turning, and staying in certain positions.
+
+Firstly, let's break down the last part of the instruction:
+- ""turn right and again turn right and beside pond and move forward and go over the road and tip of the buildings and turn right and get up and move forward and stay at front of the building.""
+
+This suggests that we need to navigate around the pond, cross the road, and stay in front of a building. The mention of ""turn right"" and ""stay at front of the building"" indicates that we are likely following a path that requires precise positioning relative to the building.
+
+Now, let's consider the options:
+A. I get off the bus in front of the brown building. - This doesn't seem relevant to the current instruction.
+B. I fly over the top of a building. - This could be possible, but the instruction doesn't explicitly mention flying over a building.
+C. I turn right, then right again, to reach next to the high-rise building. - This aligns with the instruction of turning right and staying in front of the building.
+D. I turn right at the building. - This is a part of the instruction, but it's not the complete action.
+E. I move forward and stay in front of the building. - This is a part of the instruction, but it's not the complete action.
+
+Hmm, after analyzing the instruction and the options, it seems that the most accurate description of the current action is to turn right, then right again, to reach next to the high-rise building.
+
+Oh, I see. The correct answer is C, as it aligns with the detailed navigation instructions provided.
+
+Let's verify one last time. The instruction clearly mentions turning right and staying in front of the building, which matches option C.
+
+Final answer: C
+
+Let's break it down one more time to ensure. Yes, C is the most accurate description of the current action.</think>
+<answer>C</answer>"
+71,RealWorld_43_0.mp4,"```
+Question: Where are your starting point and ending point in the video?
+Choices:    A. I start at the area surrounding the CEM building and end at a tennis court surrounded by trees.
+             B. I start at a tennis court surrounded by trees and end above the tennis court..
+             C. I start at a large industrial complex with multiple buildings and end at a construction site with several houses.
+             D. I start at the CEM building and surrounding buildings and end at a highway with mountains in the background.
+             E. I start at a road with greenery on both sides and end at a city skyline with the CEM building in the distance.
+
+```
+",B,Start/End Position,5274,
+72,AerialVLN_100_3OVR4I9USYHPLI6KDB1EM15IB5R4QZ.mp4,"Question: What objects do you observe while flying over the park?  
+Choice: A. I observe lakes, treetops, and bridges.  
+           B. I observe a tall building, street lights, and a fountain.  
+           C. I observe parking lots, benches, and the river.  
+           D. I observe the playground, bikes, and roads.  
+           E. I observe streets, cars, and sculptures.  ",A,Scene Recall,705,"<think>Let me think about this for a moment. The question is asking what objects I observe while flying over the park. Now, let's break it down step by step.
+
+First, I need to consider the context of the image. The image shows a park with trees, a river, and some buildings in the background. There are also some structures that look like bridges crossing the river.
+
+Now, let's look at the options:
+
+A. I observe lakes, treetops, and bridges.
+- This option mentions lakes, which are not present in the image. The water body in the image is a river, not a lake. So, this option can be ruled out.
+
+B. I observe a tall building, street lights, and a fountain.
+- This option mentions a tall building, which is present in the image. However, there are no street lights or a fountain visible. So, this option is also unlikely.
+
+C. I observe parking lots, benches, and the river.
+- This option mentions parking lots, which are not present in the image. The image shows a park with trees and a river, but no parking lots. So, this option can be ruled out.
+
+D. I observe the playground, bikes, and roads.
+- This option mentions a playground, which is not present in the image. The image shows a park with trees and a river, but no playground. So, this option is also unlikely.
+
+E. I observe streets, cars, and sculptures.
+- This option mentions streets, which are not present in the image. The image shows a park with trees and a river, but no streets. So, this option is also unlikely.
+
+Hmm, after considering all the options, it seems that the most accurate description of the objects observed while flying over the park is related to the presence of bridges and the river.
+
+Oh, I see. The correct answer should be the one that includes the river and bridges, which is option A.
+
+Let's verify one last time. Yes, the image does show a river and bridges, so option A is the correct choice.</think>
+<answer>A</answer>"
+73,EmbodiedCity_54_0.mp4,"Question: At the initial position, you are asked to navigate to an open space at the front entrance of the building. At your current location, if the open space at the front door of the building is not within sight, what is the most relevant object in sight, and where is this object?  
+choose:  
+A. I cannot see the open space at the front entrance of the building, but there is a bus stop in the lower part of my field of view.  
+B. I cannot see the open space at the main entrance of the building, but there is a low-rise building in the lower right corner of my field of view.  
+C. I cannot see the open space at the front entrance of the building, but the front entrance of a high-rise building across the street is on the left side of my field of view.  
+D. I cannot see the open space at the front entrance of the building, but there is a parking lot in the middle of my field of view.  
+E. The open space at the front entrance of the building is in view.  ",E,Association Reasoning,1569,
+74,EmbodiedCity_74.mp4,"Question: What is your next action after hovering above a narrow street directly over trees?  
+Choices: A. I descend to street level.  
+           B. I fly around the building.  
+           C. I reverse direction.  
+           D. I ascend to a higher altitude.  
+           E. I turn right towards the main entrance.  ",A,Sequence Recall,84,
+75,AerialVLN_94_3MX2NQ3YCISRQYBWDUFGL17P7ZU5XC_4.mp4,"Question: Navigation Instruction given at initial position: [take off and turn back towards the buildings at back. now move forward over the buildings till the small white building arrives at your front and get down towards it top. now get up and turn left towards the gray tower at left and move closer it. now turn back and move forward over the buildings and get down to the top of the yellow banner at below. now get up and turn back and fly over the buildings till the white building arrives before the road. now move closer to the white building at right and get up and turn left towards the buildings at left. now move forward over the buildings and move towards the gray building at front of you and move closer to it and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  
+choose:  
+A. I fly forward and then rise.  
+B. I drop down and turn left.  
+C. I fly forward while rising.  
+D. I turn left and descend.  
+E. I rotate the camera downward.  ",B,Action Generation,3986,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, but let's break it down into smaller parts to understand the sequence of actions.
+
+First, the instruction starts with ""I fly forward and then rise."" This suggests that the first action should be moving forward and then lifting up. This aligns with option A.
+
+Next, the instruction mentions ""turn left and descend."" This part indicates a change in direction and a descent, which could be relevant later in the sequence. However, the immediate next step after flying forward and rising would likely involve continuing the forward motion rather than turning and descending immediately.
+
+Hmm, let's consider the options again. Option A directly matches the first part of the instruction, which is to fly forward and then rise. This seems the most logical and straightforward approach.
+
+Wait, what about the other options? Option B involves dropping down and turning left, which doesn't seem to fit the immediate next step. Option C involves flying forward while rising, which is similar to A but might not capture the exact sequence of actions. Option D involves turning left and descending, which is more aligned with the second part of the instruction but not the immediate next step.
+
+Oh, I see. The best next step, based on the immediate sequence of actions, is to fly forward and then rise. This aligns perfectly with option A.
+
+Let's verify one last time. The instruction clearly states ""fly forward and then rise,"" and this is the most direct and logical next step. Therefore, the best next step is indeed to fly forward and then rise.
+
+Final answer: A
+
+Let's break it down one last time to ensure. The instruction clearly specifies ""fly forward and then rise,"" and this is the most direct and logical next step. Therefore, the best next step is indeed A.</think>
+<answer>A</answer>"
+76,EmbodiedCity_88.mp4,"Question: In the starting position, you are asked to navigate over a residential lawn with a small blue house. Thinking back on past action generations and objects you have seen, what is the surrounding environment like at your current location?  
+Choice:  
+A. There is a large open space below me. High-rise buildings are to my right and behind me.  
+B. Two adjacent high-rise buildings are on my right side, and there is a large parking lot in front. A wide road is to my left.  
+C. Three buildings are in a row across the street in front of me. The middle one is much taller than the other two. There is a park behind me with pedal paths and trees. A walkway is underneath me.  
+D. A high-rise building is directly in front of me. There is a large highway to my left and a smaller road to my right.  
+E. Many small buildings are clustered around me, with narrow streets between them.  ",A,Cognitive Map,1919,
+77,RealWorld_GN_4_0.mp4,"Question: At the initial position, you are asked to navigate to the roof of a building three floors ahead. Is the destination within sight at the current location? If yes, where is the destination in your view?  
+choose:  
+A. I see the roof of the three-story building ahead in the lower right part of my field of view.  
+B. I see the roof of the three-story building ahead in the lower left part of my field of view.  
+C. I see the roof of the three-story building ahead in the upper center of my field of view.  
+D. I cannot see the roof of the three-story building ahead in my field of view.  
+E. I see the roof of the three-story building ahead on the right side of my field of view.  ",C,Goal Detection,4562,"<think>Let me think about this carefully. The question asks about navigating to the roof of a building that is three floors ahead from the current location. To determine the correct answer, I need to visualize the layout of the buildings and the positioning of the roof.
+
+First, let's consider the general layout. The image shows a central building with a fountain in front, surrounded by taller buildings on either side. The central building appears to be multi-storied, and there is a smaller building next to it with a flat roof.
+
+Now, let's focus on the roof of the three-story building. The question specifies ""three floors ahead,"" which implies we need to look for a building that is three floors higher than the current location. 
+
+Looking at the image, the central building is not three floors ahead; it is likely the same height as the surrounding buildings. The smaller building next to the central building has a flat roof, but it does not appear to be three floors ahead either.
+
+Wait, let's break it down further. The question is asking about the roof of a building that is three floors ahead, and the most logical candidate would be the building on the right side of the image, which appears to be taller than the central building and has a flat roof.
+
+Hmm, the building on the right side of the image seems to be the most plausible candidate. It is positioned in the upper center of the field of view, and it appears to be three floors ahead of the current location.
+
+Oh, I see. The correct answer should be the building on the right side of the image, which is in the upper center of the field of view.
+
+Let's verify one last time. The building on the right side of the image is indeed the most logical candidate, and it is positioned in the upper center of the field of view.
+
+Therefore, the correct answer is C.
+
+Final answer: C
+
+Let's double-check the options to ensure there are no mistakes. The answer C matches the description of the building on the right side of the image in the upper center of the field of view.</think>
+<answer>C</answer>"
+78,AerialVLN_53_3II4UPYCOS52LEPD6M27P5ZONEUQDZ_7.mp4,"Question: Navigation Instruction given at initial position: [take off go straight and reach the pool land slightly and see the city. from the pool take left and go straight and next to the top building comes a little right. from there taking right and reaching the four side road. take a left fro the road and travel to the large building opposite to the charlie chocolate. take a right from the chocolate factory and go to the roof top. after the roof top and reach the road then landed before the lamp post.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is your best next step?  
+choose:  
+A. I turn right and descend.  
+B. I rise and fly forward.  
+C. I descend and fly forward.  
+D. I turn left and go up.  
+E. I rotate the camera downward and fly forward.  ",C,Action Generation,3169,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, but let's break it down into smaller parts.
+
+First, the instruction starts with ""from the pool take left and go straight and next to the top building comes a little right."" This suggests that we need to navigate around a specific area near a pool and a tall building. 
+
+Next, it says ""from there taking right and reaching the four side road."" This indicates that after navigating around the pool and the building, we need to turn right and follow a road that has four sides.
+
+Then, it mentions ""take a left fro the road and travel to the large building opposite to the charlie chocolate."" This means we need to take a left turn on the road and head towards a large building that is opposite to a place called Charlie Chocolate.
+
+Finally, it says ""take a right from the chocolate factory and go to the rooftop."" This implies that after reaching the large building, we need to take a right turn and go to the rooftop.
+
+Now, considering the options:
+A. I turn right and descend. - This doesn't seem to match the sequence of instructions.
+B. I rise and fly forward. - This also doesn't fit the sequence.
+C. I descend and fly forward. - This doesn't align with the need to reach the rooftop.
+D. I turn left and go up. - This could be a part of the sequence, but it's not clear if it's the best next step.
+E. I rotate the camera downward and fly forward. - This seems the most logical as it allows us to follow the instructions and reach the rooftop.
+
+Hmm, after all this reflection, it seems that the best next step is to rotate the camera downward and fly forward to follow the instructions accurately.
+
+Oh, I see. The correct answer should be E, as it allows us to follow the sequence of instructions and reach the rooftop.</think>
+<answer>C</answer>"
+79,AerialVLN_42_30OG32W0S39MANQLMPLARTM4IDDNE3_0.mp4,"Question: Navigation Instruction given at initial position: [take off and turn right move forward and fly towards the top of brown tower. now turn right move little forward near by pond slow down to the floor. now turn left move towards the mid centre of pond behind the tree slow down and stay there.]. At the initial position, you are asked to follow a series of movement instructions. In terms of next steps, what is your best next step?  
+choose:  
+A. I go up and turn right.  
+B. I descend and then fly forward.  
+C. I fly forward while descending.  
+D. I turn left and descend.  
+E. I rotate the camera up, then down.  ",B,Action Generation,2990,
+80,RealWorld_12.mp4,"Question: You move according to a series of movement instructions. In terms of next steps, what is your best next step?  
+choose:  
+A. I fly forward.  
+B. I descend and turn right.  
+C. I fly forward and rotate the camera upward.  
+D. I turn left and go up.  
+E. I turn right and descend.  ",A,Action Generation,4367,
+81,AerialVLN_51_3RSDURM96JKGMMUZTRUL89KBMYHEYM_2.mp4,"Question: Navigation Instruction given at initial position: [take of from the river and turn left towards the city and go straight towards the buildings. then take left and then take immediate right towards the board and then suddenly take left and go straight towards the statue then turn right and take of. then go towards the drink ice cold, sun noon board and then take left there was an highest building and then take right from the building then take immediate left from that building in opposite there was an bolt cola board is that our destination.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?
+choose:  
+A. I am crossing the water.  
+B. I am turning right at the building.  
+C. I am turning right and taking a path.  
+D. I am flying over buildings.  
+E. I am turning left at the tallest building.  ",B,Progress Evaluation,3132,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, but let's break it down step by step.
+
+First, the instruction starts with ""take off from the river and turn left towards the city."" This means we're starting from a point on the river and moving towards the city. So, we're not just standing still; we're actively moving.
+
+Next, it says ""go straight towards the buildings."" This indicates that after turning left, we continue moving forward in a straight line until we reach the buildings. 
+
+Then, the instruction says ""then take left and then take immediate right towards the board."" This suggests a specific sequence of turns, where we make a left turn, followed by an immediate right turn, and then proceed towards a board. 
+
+After that, it says ""then suddenly take left and go straight towards the statue."" This implies another set of turns, where we make a sudden left turn and then move straight towards a statue.
+
+Finally, the instruction ends with ""turn right and take off,"" which means we need to make a right turn and then start moving again.
+
+Now, looking at the options:
+A. I am crossing the water. - This doesn't seem to fit because we're not crossing water.
+B. I am turning right at the building. - This could be possible, but it's not clear if we're specifically turning right at a building.
+C. I am turning right and taking a path. - This could be a possibility, but it's not specific enough.
+D. I am flying over buildings. - This seems the most fitting because the instruction involves moving through various turns and paths above the buildings.
+E. I am turning left at the tallest building. - This doesn't seem to fit the sequence of turns described.
+
+Oh, I see. The most logical and fitting option based on the sequence of turns and paths described is D.
+
+Let's verify one last time. Yes, D seems the most accurate.</think>
+<answer>D</answer>"
+82,EmbodiedCity_86_0.mp4,"Question: At the initial position, you are asked to navigate to the open space to the right of the ""Mr. Fan"" shop in the residential area below. What are your next steps?  
+choose:  
+A. I rise and rotate the camera upward.  
+B. I descend and rotate the camera upward.  
+C. I fly forward.  
+D. I turn left.  
+E. I rotate around.  ",E,Action Generation,1876,
+83,AerialVLN_36_3UJ1CZ6IZQNJUHPXJK9TMTQXTML5S2_7.mp4,"Question: Navigation Instruction given at initial position: [rise up and turn to the right and move forward and keep moving till you are about at the middle of the lake. stop and turn to the right so that you are having the two large towers and move forward. stop right over the trees, turn to the right then lower you height then turn back again to the left. rise up and move the trees and stop when you are in front of the building. move slightly to the right so that you are able to go between the buildings keep moving so that you are in front or the blue building. rise up and look at the billboard then drop your height and stop.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  
+choose:  
+A. I go up to see the billboard, then I go down.  
+B. I stand up, move toward the tree, and stop in front of the building.  
+C. I turn back.  
+D. I turn right at the building.  
+E. I move slightly to the right so that I can navigate between buildings.  ",A,Progress Evaluation,2907,"<think>Let me think about this carefully. The navigation instruction is quite detailed, and I need to follow each step accurately. 
+
+First, I'm instructed to ""rise up and look at the billboard."" This means I should elevate my view to get a better perspective of the billboard. After that, I need to ""drop my height,"" which implies lowering myself back to a normal viewing level.
+
+Now, let's break it down further. The instruction says, ""rise up and look at the billboard then drop your height and stop."" This clearly indicates that after looking at the billboard, I should lower myself and stop there. 
+
+Wait, what happens next? The instruction doesn't specify any immediate action after stopping. Hmm, it seems like the focus is on the billboard and the act of dropping the height. Oh, I see, the instruction is guiding me through a specific sequence of actions related to the billboard.
+
+So, the correct action based on the given instruction is to rise up, look at the billboard, drop my height, and stop. This aligns perfectly with option A.
+
+Let's verify if any other options fit. Option B involves standing up, moving toward the tree, and stopping in front of the building, which is not mentioned in the instruction. Option C involves turning back, which is not part of the current sequence. Option D involves turning right at the building, which is also not specified. Option E involves moving slightly to the right, which is not relevant to the billboard action.
+
+After all this reflection, it's clear that the correct action is indeed rising up, looking at the billboard, dropping the height, and stopping. Therefore, the answer is A.
+
+Final answer: A
+
+Let's double-check one last time to ensure there's no mistake. Yes, the instruction clearly guides me to rise up, look at the billboard, drop the height, and stop. This confirms that A is the correct choice.</think>
+<answer>A</answer>"
+84,AerialVLN_65_3IUZPWIU1X5FJHR9ACN0L7C0VNSKWS_7.mp4,"Question: Navigation Instruction given at initial position: [take of and go straight towards the daves car wash building and go up of the building and again down to the building. take right from the shop and suddenly take left and go straight toward the street and cross the farmers market on the left. and take up to the building and go straight the turn the first right and go straight towards the loans building then take immediate left from the building. go straight toward the charlie a chocolate shop and again return to the front building of national optician health insurance is our destination.]. You move according to a series of movement instructions. At this point, what is the best next step for you?  
+choose:  
+A. I fly forward and then rise.  
+B. I descend and turn right.  
+C. I turn left and fly forward.  
+D. I go up and turn left.  
+E. I fly forward while rotating the camera downward.  ",C,Action Generation,3398,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, but let's break it down into smaller parts to understand where we are and where we need to go.
+
+First, we start by taking off and going straight towards the Dave's Car Wash building. This means we need to head directly towards that building. Once there, we need to go up and then down to the building. This part involves ascending and descending, which might be tricky without specific coordinates.
+
+Next, we need to take a right from the shop and suddenly take a left and go straight toward the street. This involves turning and navigating through the streets, which requires careful attention to the layout of the area.
+
+Then, we need to cross the Farmers Market on the left. This means we need to find the market and navigate around it.
+
+After crossing the market, we need to go up to the building and go straight. This involves finding the correct building and heading in the right direction.
+
+Finally, we need to turn the first right and go straight towards the Loans Building. This involves making a specific turn and continuing straight until we reach the Loans Building.
+
+Oh, I see. The key here is to follow the instructions step by step, ensuring we take the correct turns and directions. The most logical next step would be to descend and turn right, as this aligns with the current position and the need to navigate through the area.
+
+Let's verify this. If we descend and turn right, we can continue following the instructions and reach our destination. This seems the most logical and aligned with the current position and the need to navigate through the area.
+
+Therefore, the best next step is to descend and turn right.
+
+Final answer: B
+
+Let's break it down one more time to ensure. Yes, descending and turning right aligns with the current position and the need to navigate through the area.</think>
+<answer>C</answer>"
+85,AerialVLN_0_35H6S234SJYE7JR0C76QLOU436G65H_6.mp4,"Question: Navigation Instruction given at initial position: [rise from the concrete and turn right. fly over the middle of the street until you reach the buildings on the left with the short concrete wall like structure around them. turn left right beside the buildings and fly along beside them. when you get to the middle darker brown building then angle straight up and fly toward the top of the building. before you get to the top turn right and begin to level off. fly toward the building with the half pipe or half circle design on the edge of the roof. when you get to the half circle then turn left and downward and fly toward the red roof of the smaller building beside the one you climbed. stop well before you get to the roof.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  
+choose:  
+A. I go up and turn right.  
+B. I descend and fly forward.  
+C. I fly forward while rising.  
+D. I turn left and descend.  
+E. I rotate the camera downward and fly forward.  ",B,Action Generation,2117,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, but let's break it down into manageable parts.
+
+First, the instruction starts with ""rise from the concrete and turn right."" This means that initially, we need to ascend and then make a right turn. So, the first action should be to rise and then turn right.
+
+Next, the instruction says ""fly over the middle of the street until you reach the buildings on the left with the short concrete wall like structure around them."" This part involves flying over a street and reaching specific buildings. Since we've already risen and turned right, we need to continue flying forward and look for these buildings.
+
+Then, the instruction says ""turn left right beside the buildings and fly along beside them."" This means after reaching the buildings, we need to turn left and fly alongside them. This confirms that we need to continue flying forward and turning left.
+
+Finally, the instruction says ""when you get to the middle darker brown building then angle straight up and fly toward the top of the building."" This means we need to reach a specific building and then ascend towards its top.
+
+The last part says ""before you get to the top turn right and begin to level off. fly toward the building with the half pipe or half circle design on the edge of the roof. when you get to the half circle then turn left and downward and fly toward the red roof of the smaller building beside the one you climbed. stop well before you get to the roof."" This involves a series of turns and descents, which will be handled once we reach the specified building.
+
+So, the best next step is to rise and turn right, as this aligns with the initial part of the instruction.
+
+Hmm, after all this reflection, it seems clear that the best next step is to rise and turn right. Let's verify this one more time to ensure there are no mistakes.
+
+Oh, I see. The correct answer is indeed to rise and turn right.</think>
+<answer>A</answer>"
+86,AerialVLN_85_3M81GAB8A9H96HRTSQB1UFBOLXQBQU.mp4,"Question: What objects do you observe when approaching a multi-story building?  
+Choice:  
+A. I observe a large park with a lake and the facade of a multi-story building.  
+B. I observe wide streets and rooftop gardens while flying close to buildings.  
+C. I observe billboards and prominent buildings below the vantage point.  
+D. I observe a monument and a playground near a multi-story building.  
+E. I observe trees and benches on the roadside near the building.",A,Scene Recall,624,"<think>Let me think about this for a moment. The question is asking what objects I observe when approaching a multi-story building. Now, let's break it down step by step.
+
+First, I need to consider the context provided in the image. The image shows a cityscape with various buildings, including a multi-story structure. There is also a body of water visible, which appears to be a lake surrounded by trees and some greenery.
+
+Now, let's look at the options:
+
+A. I observe a large park with a lake and the facade of a multi-story building. This seems plausible because there is indeed a lake and some greenery around the building, which could be part of a park.
+
+B. I observe wide streets and rooftop gardens while flying close to buildings. While there are streets visible, the focus is more on the buildings themselves rather than the streets.
+
+C. I observe billboards and prominent buildings below the vantage point. This is less likely because there are no billboards visible in the image.
+
+D. I observe a monument and a playground near a multi-story building. There is no monument or playground visible in the image.
+
+E. I observe trees and benches on the roadside near the building. While there are trees, there are no benches visible in the image.
+
+Hmm, after considering all the options, it seems that the most accurate description of what I observe when approaching a multi-story building is option A. It includes the presence of a lake, greenery, and the building itself.
+
+Oh, I see. The correct answer should be A, as it accurately describes the objects observed in the image.
+
+Let's verify one last time. Yes, the image does show a large park with a lake and the facade of a multi-story building, which aligns perfectly with option A.
+
+Final answer: A
+
+Let's break it down one last time to ensure. Yes, the image clearly shows a large park with a lake and the building, confirming that A is the correct choice.</think>
+<answer>A</answer>"
+87,RealWorld_3.mp4,"Question: Starting from your position, you are required to navigate to the entrance of the community. There is a moon-shaped blue pool in front. What is the correct summary of your trajectory from the beginning to the current position?  
+Choice:  
+A. I start from above the playground, rise to a certain height, turn left and adjust the field of view, fly forward, and then adjust the field of view to reach the current position.  
+B. I start from a high-rise building, descend to the ground, move along the road, and reach the current location.  
+C. I start from the park, fly over the basketball court, rise to a higher altitude, and move towards the residential area.  
+D. I start from the scooter lane in the park, turn left to face the street outside the park, gradually rise to the height above the high-rise building, and move forward to my current location, which is the residential area above the park entrance, with a blue moon-shaped pool in front.  
+E. I start from the high-rise building and move directly to the entrance of the community.  ",A,Trajectory Captioning,4553,
+88,AerialVLN_77_3DHE4R9OC59O5FXJ61DEZ84IL4AG28_5.mp4,"Question: Navigation Instruction given at initial position: [take off and fly upwards same to the building height and take a turn and fly straight to the opposite building after reaching the building turn left. after turning left fly between the gap of the building and fly downwards to the lake and fly upwards from the lake and turn left and fly straight towards the building at the opposite and fly near to the entrance of the park. fly upwards and take a turn and start flying straight to the building at the opposite crossover the lake after reaching the building fly near the eds butcher shop and fly upwards and again take a turn. after taking a turn fly straight towards the tall building in the opposite fly at the same height of the building. after reaching the tall building turn right to the opposite of the building and start flying downwards continuously towards the lake fly downwards at the center of the lake.]. You move according to a series of movement instructions. What are you doing now?  
+choose:  
+A. I fly over buildings.  
+B. I fly near Ed's Butcher Shop.  
+C. I go to the chair between the buildings.  
+D. I turn right at the building.  
+E. I go across the water.  ",E,Progress Evaluation,3618,"<think>Let me think about this carefully. The navigation instruction is quite complex, and it seems like there's a lot happening. Let's break it down step by step.
+
+First, the instruction starts with ""I fly over buildings."" This suggests that initially, I am flying above the buildings. Then, it says ""after reaching the tall building turn right to the opposite of the building,"" which indicates a specific action involving a building. 
+
+Next, it mentions ""fly near the entrance of the park,"" which implies that I need to navigate around some structures and possibly enter a park area. After that, it says ""fly upwards and again take a turn,"" indicating another change in direction.
+
+Finally, it ends with ""fly downwards continuously towards the lake,"" which means I need to descend and reach the lake. 
+
+Now, let's consider the options:
+A. I fly over buildings. - This aligns with the initial part of the instruction.
+B. I fly near Ed's Butcher Shop. - This is mentioned later in the instruction, but not immediately after the initial flight over buildings.
+C. I go to the chair between the buildings. - There's no mention of a chair in the instruction.
+D. I turn right at the building. - This is part of the instruction, but it's not the immediate next action.
+E. I go across the water. - This is not mentioned in the instruction.
+
+Hmm, the most immediate action based on the instruction is to fly over buildings. Oh, I see, the correct answer should be the one that aligns with the initial part of the instruction.
+
+Let's verify: The instruction clearly starts with flying over buildings, and this is the most logical first action.</think>
+<answer>A</answer>"
+89,EmbodiedCity_11.mp4,"Question: Where do you start and end your journey?
+
+Choices:  
+A. Start between the skyscrapers and end at the rooftop of the city center building.  
+B. Start at the city square and end at the conical rooftop of a tower.  
+C. Start between tall buildings and end at the balcony on the 22nd floor.  
+D. Start at the base of a tower and end at the numbered floors of another building.  
+E. Start at the parking lot and end at the cityscape view.  ",C,Start/End Position,15,
+90,EmbodiedCity_68.mp4,"Question: Which takes longer, your descent to the shop with the red sign displaying ""安个家"" or your navigation over the narrow pathway between tall structures?  
+Choices: A. My descent takes the same time as my navigation over the narrow pathway.  
+         B. My descent takes shorter than my navigation over the narrow pathway.  
+         C. My descent takes longer than my navigation over the narrow pathway.  ",C,Duration,79,
+91,AerialVLN_44_392CY0QWGAPC4KI103W5DZEWKVCI4C_4.mp4,"Question: Navigation Instruction given at initial position: [take off and turn left and move forward and get down towards the white building terrace. now turn right and go over the buildings and trees towards the pond. now turn left and go over the buildings and get down reach the road and landed.]. At the initial position, you are asked to navigate based on a series of movement instructions. In terms of next steps, what is the best next step for you?  
+choose:  
+A. I go up and turn left.  
+B. I descend and then fly forward.  
+C. I fly forward while descending and turning right.  
+D. I turn left and go up.  
+E. I rotate the camera downward.  ",A,Action Generation,3048,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex, but let's break it down into smaller parts.
+
+First, the instruction says ""take off and turn left and move forward and get down towards the white building terrace."" This part involves taking off, turning left, moving forward, and getting down. So, initially, we need to take off and turn left.
+
+Next, it says ""now turn right and go over the buildings and trees towards the pond."" This part involves turning right after reaching the white building terrace and going over the buildings and trees towards the pond. 
+
+Finally, it says ""now turn left and go over the buildings and get down reach the road and landed."" This part involves turning left after reaching the pond, going over the buildings, getting down, and landing on the road.
+
+Now, let's consider the options:
+A. I go up and turn left. - This doesn't match the initial part of the instruction.
+B. I descend and then fly forward. - This doesn't match the initial part of the instruction either.
+C. I fly forward while descending and turning right. - This matches the second part of the instruction.
+D. I turn left and go up. - This doesn't match the second part of the instruction.
+E. I rotate the camera downward. - This doesn't match any part of the instruction.
+
+Hmm, the best match seems to be C, as it aligns with the second part of the instruction where we need to turn right and go over the buildings and trees towards the pond.
+
+Oh, I see. The correct action is to fly forward while descending and turning right.
+
+Let's verify one last time. Yes, C is the most accurate match for the given instructions.</think>
+<answer>C</answer>"
+92,EmbodiedCity_87.mp4,"Question: Instead of descending further, if you choose to maintain your altitude, can you still reach the two-story small house with a blue roof in the community?  
+Choices:  
+A. I cannot complete the task because I may overshoot the target, and the hypothetical movement takes longer.  
+B. I can complete the task because I have a clear line of sight, but the hypothetical movement takes longer.  
+C. I cannot complete the task because the house is obscured by taller buildings.  ",B,Counterfactual,167,
+93,RealWorld_GN_21_1.mp4,"Question: You are navigating to the vicinity of the tower crane at the construction site ahead. Thinking back on past actions and objects seen, what do the surroundings of your current location look like?  
+Choice:  
+A. There is a big park in front of you with a pond. There are several low-rise buildings on the right. Behind you is a busy street with many vehicles.  
+
+B. There is a construction site in front of you with a crane and several concrete mixers. There is a street on the left with motorcycles and cars. Behind you is a large undeveloped area with small sheds and gardens.  
+
+C. There are several high-rise residential buildings on the left and right sides of you. Directly ahead is a large open space with some vegetation. Behind you is a bustling market.  
+
+D. There is a high-rise residential building directly behind you. Ahead is a highway and a large industrial area. There is a small park on the left.  
+
+E. There is a large open space in front of you. Directly behind is a row of high-rise apartments. There is a small shop on the right.  ",B,Cognitive Map,5012,"<think>Let me think about this carefully. The question asks for the surroundings of my current location relative to the tower crane at the construction site. 
+
+First, let's break it down:
+
+1. **Position of the Tower Crane**: The tower crane is clearly visible in the image, indicating that it's a focal point.
+2. **Surroundings of the Construction Site**: The construction site has various elements like cranes, concrete mixers, and workers, which aligns with option B.
+
+Now, let's consider each option:
+
+A. There is a big park in front of you with a pond. This doesn't match the construction site scene.
+B. There is a construction site in front of you with a crane and several concrete mixers. This fits well with the image.
+C. There are several high-rise residential buildings on the left and right sides of you. This doesn't match the construction site.
+D. There is a high-rise residential building directly behind you. This doesn't fit the construction site context.
+E. There is a large open space in front of you. This doesn't match the detailed construction site.
+
+Hmm, option B seems the most accurate. It describes the construction site with a crane and concrete mixers, which is exactly what we see in the image. The street with motorcycles and cars on the left also matches the description.
+
+Oh, I see. The correct answer should be B, as it accurately describes the surroundings of the construction site and the tower crane.
+
+Let's verify one last time. Yes, B is the best fit. The construction site, the crane, the concrete mixers, and the street with vehicles all align with the image.
+
+Final answer: B
+
+Let's break it down one more time to ensure. Yes, B is the correct choice.</think>
+<answer>B</answer>"
+94,AerialVLN_40_3ITXP059P5HR1G4I8MDNN3928CGJSD_6.mp4,"Question: Navigation Instruction given at initial position: [zoom in on the left tower. resume flying over green bush. turn left at grey building. reverse backwards to the green bush. turn left and zoom in on satellite dish. resume flying over the city buildings. stop and turn left. zoom in on red bulletin board. go to ground level of grey building. turn left at the brown sandstone house. zoom in on ord window of the blue building.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  
+choose:  
+A. I fly over buildings.  
+B. I go to the ground floor of the gray building.  
+C. I continue flying over the green bushes.  
+D. I turn left at the brown sandstone house.  
+E. I zoom in on the satellite dish.  ",A,Progress Evaluation,2984,"<think>Let me think about this carefully. The navigation instruction is quite complex, and it seems like there are multiple steps involved. Let's break it down:
+
+1. The first part says ""zoom in on the left tower."" This suggests that we're starting with a specific focus on a particular structure.
+2. Then it says ""resume flying over green bush."" This indicates that after focusing on the tower, we need to return to the green bushes and continue flying over them.
+3. Next, it says ""turn left at grey building."" This means we need to navigate around a grey building and continue our flight path.
+4. The instruction then says ""reverse backwards to the green bush."" This implies that we need to go back to the green bushes after navigating around the grey building.
+5. After that, it says ""turn left and zoom in on satellite dish."" This suggests that we need to turn left again and focus on a satellite dish.
+6. Finally, it says ""resume flying over the city buildings. stop and turn left. zoom in on red bulletin board. go to ground level of grey building. turn left at the brown sandstone house. zoom in on ord window of the blue building.""
+
+Now, the question asks what I am doing now. Given the sequence of instructions, it seems like we are currently in the middle of the flight path, possibly after focusing on the satellite dish.
+
+Hmm, it looks like we are continuing to fly over the city buildings and have not yet reached the ground level of the grey building or the brown sandstone house. So, the most accurate description of what we are doing now is that we are continuing to fly over the buildings.
+
+Oh, I see. The correct answer should be the one that aligns with the current state of the flight path, which is flying over the buildings.
+
+Let's verify: We are not at the ground level, not at the brown sandstone house, and not focusing on the bulletin board yet. Therefore, the most logical answer is that we are continuing to fly over the buildings.
+
+So, the correct answer is A.
+
+Let's break it down one last time to ensure. Yes, A is the most accurate description of what we are doing now.</think>
+<answer>A</answer>"
+95,AerialVLN_29_3OHYZ19UGL312V9L7ZJ1AZWIN8TOAX_6.mp4,"Question: Navigation Instruction given at initial position: [take off and turn left and move forward and go over the buildings and road and turn right and move forward and go over the buildings and turn left at front of the dates car wash board and move forward. now move forward and get down and besidecharlies chocolate building and turn back and move forward and go over the buildings and get down at intersection road and get up and turn back and move forward. now move forward and get down at front of the white building and turn right and beside sea and move forward and go over the building alley and get down at tastes board with building and land there.]. At the initial position, you are asked to navigate according to a series of movement instructions. What are you doing now?  
+choose:  
+A. I get off the bus in front of the white building.  
+B. I fly over buildings.  
+C. I turn right at the building.  
+D. I turn left before the date car wash board.  
+E. I go through the alley between the buildings.  ",B,Progress Evaluation,2751,"<think>Let me think about this carefully. The navigation instruction is quite complex, and I need to break it down step by step to understand where we are currently positioned.
+
+First, let's identify the current location based on the given instructions:
+- We start by taking off and turning left.
+- Then, we move forward and go over the buildings and road.
+- After that, we turn right and move forward, going over more buildings.
+- We then turn left at the front of the dates car wash board and move forward.
+- Now, we move forward and get down beside Charlie's Chocolate building.
+- Next, we turn back and move forward, getting down at the intersection road.
+- Finally, we move forward and get down at the front of the white building.
+
+Now, let's consider the options:
+A. I get off the bus in front of the white building. - This seems plausible since we have just moved forward and got down at the front of the white building.
+B. I fly over buildings. - This is not mentioned in the instructions, so it's unlikely.
+C. I turn right at the building. - This is not specified in the instructions, so it's not likely.
+D. I turn left before the date car wash board. - This is not mentioned in the instructions, so it's not likely.
+E. I go through the alley between the buildings. - This is not mentioned in the instructions, so it's not likely.
+
+Hmm, after analyzing the options and the instructions, it seems that the most logical action is to get off the bus in front of the white building.
+
+Oh, I see. The correct action is to get off the bus in front of the white building, which aligns with option A.
+
+Let's break it down one last time to verify. The instructions clearly mention moving forward and getting down at the front of the white building, and then turning back. This confirms that the correct action is indeed to get off the bus in front of the white building.
+
+Therefore, the correct answer is A.
+
+Final answer: A
+
+Let's double-check to ensure there are no mistakes. The instructions clearly lead to getting off the bus in front of the white building, and there is no indication of any other actions.</think>
+<answer>B</answer>"
+96,EmbodiedCity_42_2.mp4,"Question: You are navigating to ALL-STAR Cafe in Central. Thinking back on past Action Generations and objects you’ve seen, what is the surrounding environment like at your current location?  
+Choice:  
+A. There is a large park with a playground in front of you, a building to your right, and a two-lane road below you.  
+B. There is a large open square in front of me, residential buildings behind me, and a busy intersection below.  
+C. There is a building directly in front of me, a busy highway behind me, and a bike path directly below.  
+D. There are countless skyscrapers in all directions around me, a small park to my left, and a multi-lane highway below me.  
+E. There are several low-rise buildings around me, wide roads, an intersection, many vehicles, street lights, and trees all around.  ",E,Cognitive Map,1406,
+97,AerialVLN_83_3JWH6J9I91BO3KE1CYJKQLGJFT2BNJ_3.mp4,"Question: Navigation Instruction given at initial position: [take off and turn back and move forward and go over the buildings and pond and get down at beside the tree and again turn back and fly up. now move forward and go over the trees and road and turn back at top of the brown building and get down at front of the this building. now get down and fly up and turn right and little move forward and turn left and move forward and turn left and move forward and turn back and fly up and beside the blue building and move forward and go over the top of the buildings and turn right and and fly up at front of the brown building. now turn right and again turn right and beside pond and move forward and go over the road and tip of the buildings and turn right and get up and move forward and stay at front of the building.]. At the initial position, you are asked to navigate according to a series of movement instructions. In terms of next steps, what is your best next step?  
+choose:  
+A. I go up and turn right.  
+B. I descend and then fly forward.  
+C. I fly forward when rising.  
+D. I turn left and descend.  
+E. I rotate the camera downward.  ",A,Action Generation,3753,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex and detailed, which means that each step needs to be followed meticulously. 
+
+Firstly, let's break it down into smaller segments:
+1. ""I go up and turn right.""
+2. ""I descend and then fly forward.""
+3. ""I fly forward when rising.""
+4. ""I turn left and descend.""
+5. ""I rotate the camera downward.""
+
+Now, the question asks for the best next step based on the current position. Given the complexity of the instructions, it seems like the most logical next step would be to follow the immediate action described.
+
+The instruction ""I go up and turn right"" is the first action mentioned, and it seems to be the most direct and immediate next step. This action involves moving upward and turning right, which aligns with the general direction of the instruction.
+
+Wait, let's verify if there's any other action that might be more appropriate. The other options involve descending, flying forward, or rotating the camera, but these actions are not explicitly mentioned as the next step in the instruction. Therefore, it's reasonable to conclude that the best next step is to follow the action of going up and turning right.
+
+Hmm, oh, I see. The instruction clearly indicates the next action, and it's the most direct and logical continuation of the navigation path.
+
+Let's break it down one more time to ensure. The instruction does not mention any other actions that could be considered as the next step. Therefore, the best next step is indeed to go up and turn right.
+
+After this reflection, I am confident that the best next step is to go up and turn right.
+
+Final answer: A
+
+Let's double-check the options to ensure there are no mistakes. The options A, B, C, D, and E are all listed, and A is the only one that matches the instruction.</think>
+<answer>A</answer>"
+98,EmbodiedCity_5_1.mp4,"Question: At the initial position, you are asked to navigate to the 28th-floor balcony. Thinking back on past Action Generations and objects you have seen, what should you approach next in order to get from your current location to your destination?  
+choose:  
+A. I approach the height of the building at 28 stories.  
+B. I approach the roof height of high-rise buildings.  
+C. I approach the lamppost on the street corner.  
+D. I approach the parking lot across the street.  
+E. I approach the windows on the 28th floor.  ",A,High-level Planning,1488,
+99,AerialVLN_49_3NJM2BJS4547GAIK6DS75URVDUYPCB_4.mp4,"Question: Navigation Instruction given at initial position: [take off and turn left and move forward and go over the building and and turn left and little move forward and turn right and move forward and get down at intersection road and turn right at tree and fly up and move forward. now get down at intersection road and turn left and move forward and our back and fly up and move forward and go over the building and road. now get down front of the pink building and turn back and your see daves car wash building and fly up and move forward and go over the building. now move towards the american board of the building and turn left and fly up and move forward. now get down beside white building and move forward and go over the road and turn left and forward and turn right and move forward and landed at front of american board of the building.]. You move according to a series of movement instructions. In terms of the next steps, what is the best next step for you?  
+choose:  
+A. I drop down and turn left.  
+B. I rise and fly forward.  
+C. I fly forward while rising.  
+D. I turn right and descend.  
+E. I rotate the camera downward.  ",A,Action Generation,3094,"<think>Let me think about this carefully. The navigation instruction provided seems quite complex and detailed, guiding through various movements and positions in a cityscape. The current position is described as being ""front of the american board of the building,"" which suggests that we're already in a specific location.
+
+Now, let's break down the options:
+
+A. I drop down and turn left. - This could be a valid action if the goal is to change direction and potentially explore a new area.
+B. I rise and fly forward. - This might be useful if the objective is to gain altitude and survey the surroundings from a higher vantage point.
+C. I fly forward while rising. - This combines both actions, which could be efficient if the goal is to quickly reach a higher position while moving forward.
+D. I turn right and descend. - This could be necessary if the current direction needs to be corrected or if there's a need to return to a previous position.
+E. I rotate the camera downward. - This might be useful if the focus is on looking at something below, but it doesn't seem to align with the immediate movement goals.
+
+Hmm, considering the context and the detailed instructions, it seems that the most logical next step would be to combine rising and flying forward to quickly reach a higher position while moving forward. This aligns with the goal of exploring the area efficiently.
+
+Oh, I see. The best next step is to fly forward while rising, as it allows for both movement and elevation gain simultaneously.
+
+Let's verify this one last time. Yes, it makes sense in the context of the detailed instructions and the current position.</think>
+<answer>B</answer>"
