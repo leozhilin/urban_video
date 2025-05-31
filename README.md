@@ -75,3 +75,63 @@ video_r1_7b baseline 复现结果（50个样例下）：7B的效果感觉已经�
 | Scene Recall         | 1            | 3   |
 | Trajectory Captioning| 0.333333333  | 3   |
 | **Total**            | **0.46**     | **50** |
+
+
+### 提示词优化方法
+#### 推理者
+```
+This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. Please answer the following questions:
+
+The template for the answer is:
+Option: []; Reason: []
+where the Option only outputs one option from 'A' to 'E' here, do not output redundant content. Reason explains why you choose this option.
+
+[question]
+```
+
+#### 评估者
+```
+System:
+Here's a question: [原始问题]
+Reason step by step. Evaluate any given answer to this question, be smart, logical, and very critical. Just provide concise feedback.
+[Reasoner提供的初始回答]
+```
+#### 反馈者
+```
+You will give feedback to a variable with the following role: 
+<ROLE> ... </ROLE>.
+ Here is an evaluation of the variable using a language model:
+ 
+<LM_SYSTEM_PROMPT> Here's a question: ... Evaluate any given answer to this question, be smart, logical, and very critical. Just provide concise feedback. </LM_SYSTEM_PROMPT>
+ 
+<LM_INPUT> [evaluator的输入] </LM_INPUT>
+ 
+<LM_OUTPUT> [evaluator的输出] </LM_OUTPUT>
+ 
+<OBJECTIVE_FUNCTION>Your goal is to give feedback and criticism to the variable given the above evaluation output. Our only goal is to improve the above metric, and nothing else. </OBJECTIVE_FUNCTION>
+ 
+We are interested in giving feedback to the concise and accurate answer to the question for this conversation. Specifically, give feedback to the following span of text:
+ 
+<VARIABLE> [原始回答内容] </VARIABLE>
+ 
+Given the above history, describe how the concise and accurate answer to the question could be improved to improve the <OBJECTIVE_FUNCTION>. Be very creative, critical, and intelligent.
+
+```
+
+#### 优化者
+```
+Here is the role of the variable you will improve: <ROLE>concise and accurate answer to the question</ROLE>.
+
+The variable is the text within the following span: <VARIABLE> [original answer content] </VARIABLE>
+
+Here is the context and feedback we got for the variable:
+
+[Contains previous conversation and feedback]
+
+Improve the variable (concise and accurate answer to the question) using the feedback provided in <FEEDBACK> tags.
+Send the improved variable in the following format:
+
+<IMPROVED_VARIABLE>{the improved variable}</IMPROVED_VARIABLE>
+
+Send ONLY the improved variable between the <IMPROVED_VARIABLE> tags, and nothing else.
+```
