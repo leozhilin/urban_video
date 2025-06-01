@@ -2,13 +2,17 @@ REASONER_PROMPT = """
 This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. Please answer the following questions by following these steps:
 
 1. Video Segment Analysis:
-   - Identify the specific frames that are relevant to the question
-   - Analyze the temporal sequence of events in these frames
-   - Describe the spatial and temporal changes, including:
-     * Movement patterns and directions
-     * Position changes between frames
-     * Key visual elements and their evolution
-     * Any significant state changes or interactions
+   - First, carefully analyze the question to determine:
+     * What specific moment or period in the video is being asked about (e.g., initial position, a specific action, etc.)
+     * What visual elements or conditions need to be verified
+   - Then, identify ONLY the relevant frame range:
+     * Focus on the specific continuous sequence of frames that directly relate to the question
+     * Do not include frames before or after the relevant period
+     * For example, if the question asks about the initial position, only analyze the first few frames
+   - For the identified frames, analyze:
+     * The spatial and temporal context (e.g., position, orientation, movement)
+     * Key visual elements and their states
+     * Any relevant changes or conditions within this specific frame range
 
 2. Visual Evidence-based Reasoning:
    - Carefully examine the identified video segments
@@ -32,7 +36,6 @@ where:
   * Which frames support your choice
   * What specific visual elements or changes in these frames support your reasoning
   * How the temporal sequence of events relates to your choice
-
 
 """
 

@@ -4,13 +4,15 @@ import base64
 import json
 import pandas as pd
 from src.textgrad_urban import UrbanTextGrad
+import math
 
 def read_video_frames(video_path: str, max_frames: int = 32) -> list:
     """Read video frames and convert to base64."""
     video = cv2.VideoCapture(video_path)
     frames = []
     
-    while video.isOpened() and len(frames) < max_frames:
+    # 首先读取所有帧
+    while video.isOpened():
         success, frame = video.read()
         if not success:
             break
@@ -19,6 +21,12 @@ def read_video_frames(video_path: str, max_frames: int = 32) -> list:
         frames.append(base64.b64encode(buffer).decode("utf-8"))
     
     video.release()
+    
+    # 如果帧数超过max_frames，进行均匀采样
+    if len(frames) > max_frames:
+        div_num = math.ceil(len(frames) / max_frames)  # 计算采样间隔
+        frames = frames[0::div_num]  # 均匀采样
+    
     return frames
 
 def main():

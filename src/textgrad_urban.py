@@ -29,6 +29,7 @@ class UrbanReasoner:
         
     def __call__(self, question: str, frames: List[str]) -> str:
         content = [{"type": "text", "text": REASONER_PROMPT.format(question=question)}]
+        print("len of frames: ", len(frames))
         for frame in frames:
             content.append({
                 "type": "image_url",
