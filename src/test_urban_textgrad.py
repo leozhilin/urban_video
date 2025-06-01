@@ -37,29 +37,32 @@ def main():
     
     # Process each sample
     for idx, row in QA_df.iterrows():
-        print(f"Processing sample {idx + 1}/{len(QA_df)}")
-        
-        # Read video frames
-        video_path = os.path.join('UrbanVideo-Bench/videos', str(row['video_id']))
-        frames = read_video_frames(video_path)
-        
-        # Process with TextGrad
-        result = textgrad.process(
-            question=row['question'],
-            frames=frames,
-        )
-        
-        # Save result
-        output_path = os.path.join(results_dir, f'sample_{idx}.json')
-        with open(output_path, 'w') as f:
-            json.dump({
-                'video_id': row['video_id'],
-                'question': row['question'],
-                'ground_truth': row['answer'],
-                'textgrad_result': result
-            }, f, indent=2)
-        
-        print(f"Saved result to {output_path}")
+        try:
+            print(f"Processing sample {idx + 1}/{len(QA_df)}")
+            
+            # Read video frames
+            video_path = os.path.join('UrbanVideo-Bench/videos', str(row['video_id']))
+            frames = read_video_frames(video_path)
+            
+            # Process with TextGrad
+            result = textgrad.process(
+                question=row['question'],
+                frames=frames,
+            )
+            
+            # Save result
+            output_path = os.path.join(results_dir, f'sample_{idx}.json')
+            with open(output_path, 'w') as f:
+                json.dump({
+                    'video_id': row['video_id'],
+                    'question': row['question'],
+                    'ground_truth': row['answer'],
+                    'textgrad_result': result
+                }, f, indent=2)
+            
+            print(f"Saved result to {output_path}")
+        except Exception as e:
+            print(f"Error processing sample {idx + 1}/{len(QA_df)}: {e}")
 
 if __name__ == "__main__":
     main() 
