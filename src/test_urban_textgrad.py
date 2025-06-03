@@ -44,10 +44,10 @@ def main():
     os.makedirs(results_dir, exist_ok=True)
     
     # Process each sample
-    for idx, row in QA_df.iterrows():
-        if idx > 20:
+    for idx, row in QA_df.iterrows(): 
+        if idx == 8 or idx == 54 or idx == 94 or idx == 66 or idx == 49:
             try:
-                print(f"Processing sample {idx + 1}/{len(QA_df)}")
+                print(f"Processing sample {idx}/{len(QA_df)}")
                 
                 # Read video frames
                 video_path = os.path.join('UrbanVideo-Bench/videos', str(row['video_id']))
@@ -72,7 +72,7 @@ def main():
                 
                 print(f"Saved result to {output_path}")
             except Exception as e:
-                print(f"Error processing sample {idx + 1}/{len(QA_df)}: {e}")
+                print(f"Error processing sample {idx}/{len(QA_df)}: {e}")
 
 if __name__ == "__main__":
     main() 

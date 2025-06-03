@@ -1,46 +1,40 @@
 REASONER_PROMPT = """
-This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. Please answer the following questions by following these steps:
+This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. Please note that due to technical limitations, only a subset of video frames is provided, which means some details might be missing from the visual evidence.
 
-1. Video Segment Analysis:
-   - First, carefully analyze the question to determine:
-     * What specific moment or period in the video is being asked about (e.g., initial position, a specific action, etc.)
+Please answer the following questions by following these steps:
+
+1. Visual Evidence Analysis:
+   - Carefully analyze the question to determine:
+     * What specific aspects of the video content are being asked about
      * What visual elements or conditions need to be verified
-   - Then, identify ONLY the relevant frame range:
-     * Focus on the specific continuous sequence of frames that directly relate to the question
-     * Do not include frames before or after the relevant period
-     * For example, if the question asks about the initial position, only analyze the first few frames
-   - For the identified frames, analyze:
-     * The spatial and temporal context (e.g., position, orientation, movement)
-     * Key visual elements and their states
-     * Any relevant changes or conditions within this specific frame range
+   - Thoroughly examine the available video content to:
+     * Identify key visual elements and their states
+     * Note any relevant changes or conditions
+     * Understand the spatial and temporal context
 
-2. Visual Evidence-based Reasoning:
-   - Carefully examine the identified video segments
+2. Evidence-based Reasoning:
    - Compare each option against the actual video content
    - Select the option that is most strongly supported by visual evidence
-   - Provide specific visual evidence from the frames to justify your choice
+   - Provide specific visual evidence to justify your choice
+
+3. Choose the most correct option base on your analysis and reasoning
 
 The question is:
 {question}
 
 The template for the answer is:
-Selected Frames: [List the frame numbers that are most relevant to the question];
-Thinking: [Describe your analysis process, including:
-  * How you identified these specific frames
-  * What key observations you made in these frames
-  * How these observations relate to the question];
-Option: []; Reason: []
+Thinking: []; Option: []; 
 where:
-- Option: Choose only one option from 'A' to 'E'
-- Reason: Explain your choice by referencing specific visual evidence from the video, including:
-  * Which frames support your choice
-  * What specific visual elements or changes in these frames support your reasoning
+- Thinking: Explain your choice by referencing specific visual evidence from the video, including:
+  * What specific visual elements or changes support your reasoning
   * How the temporal sequence of events relates to your choice
+  * Why this evidence strongly supports your selected option
+- Option: Choose only one option from 'A' to 'E' base on your Thinking
 
 """
 
 EVALUATOR_PROMPT = """
-This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective.
+This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. Please note that due to technical limitations, only a subset of video frames is provided, which means some details might be missing from the visual evidence.
 Here's a question about this video: {question}
 
 Please evaluate the following answer by:
@@ -56,24 +50,36 @@ Answer to evaluate:
 """
 
 FEEDBACKER_PROMPT = """
-You will give feedback to a variable with the following role: 
-<ROLE>concise and accurate answer to the question</ROLE>
+You are a feedback provider who needs to give clear feedback on the answer based on the language model's evaluation.
 
-Here is an evaluation of the variable using a language model:
+Question: {question}
 
-<LM_SYSTEM_PROMPT> Here's a question: {question} Evaluate any given answer to this question, be smart, logical, and very critical. Just provide concise feedback. </LM_SYSTEM_PROMPT>
+Original Answer: {answer}
 
-<LM_INPUT> {answer} </LM_INPUT>
+Language Model's Evaluation: {evaluation}
 
-<LM_OUTPUT> {evaluation} </LM_OUTPUT>
+Based on the above evaluation, provide structured feedback including:
 
-<OBJECTIVE_FUNCTION>Your goal is to give feedback and criticism to the variable given the above evaluation output. Our only goal is to improve the above metric, and nothing else. </OBJECTIVE_FUNCTION>
+1. Strengths of the Answer:
+   - List the aspects that were done well according to the evaluation
+   - Specifically explain how these strengths contribute to answering the question
+   - Skip this section if no strengths are explicitly mentioned in the evaluation
 
-We are interested in giving feedback to the concise and accurate answer to the question for this conversation. Specifically, give feedback to the following span of text:
+2. Areas for Improvement:
+   - List specific issues or shortcomings identified in the evaluation
+   - Provide concrete improvement suggestions for each issue
+   - Ensure suggestions align with the video content
 
-<VARIABLE> {answer} </VARIABLE>
+3. Overall Recommendations:
+   - Summarize how to improve the answer
+   - Emphasize strengths that should be maintained
+   - Provide specific directions for improvement
 
-Given the above history, describe how the concise and accurate answer to the question could be improved to improve the <OBJECTIVE_FUNCTION>. Be very creative, critical, and intelligent.
+Please ensure:
+- Feedback is clear, specific, and well-structured
+- Content is strictly based on the evaluation, without adding unmentioned points
+- Use concise and clear language
+- Maintain an objective and professional tone
 """
 
 
@@ -94,9 +100,11 @@ OPTIMIZER_SYSTEM_PROMPT = (
     "You are part of an optimization system that improves text (i.e., variable). "
     "You will be asked to creatively and critically improve solutions or answers to problems. "
     "You will receive a video (captured into multiple frames of images as follows), which presents the perception data of an agent moving in the environment from a first person perspective. "
+    "Please note that due to technical limitations, only a subset of video frames is provided, which means some details might be missing from the visual evidence. "
     "You will receive some feedback, and use the feedback to improve the variable. "
     "The feedback may be noisy or contain inaccuracies - carefully analyze and critically evaluate each point of feedback. "
-    "Always verify feedback against the video content and only incorporate valid suggestions that align with the visual evidence. "
+    "Always verify feedback against the available video content and only incorporate valid suggestions that align with the visual evidence. "
+    "When improving the answer, focus on making it more reasonable and well-supported by the available evidence, even if some details cannot be fully verified. "
     "Pay attention to the role description of the variable, and the context in which it is used. "
     "This is very important: You MUST give your response by sending the improved variable between <IMPROVED_VARIABLE> {{improved variable}} </IMPROVED_VARIABLE> tags. "
     "The text you send between the tags will directly replace the variable.\n\n"

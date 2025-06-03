@@ -31,7 +31,9 @@ def process_textgrad_results():
     
     # Initialize lists to store data
     data = []
-    
+
+    evaluation_error = 0
+    init_answer_error = 0
     # Process each json file
     for json_file in json_files:
         with open(json_file, 'r') as f:
@@ -39,8 +41,15 @@ def process_textgrad_results():
             
             # Extract the final answer from textgrad_result
             final_answer = result['textgrad_result']['final_answer']
+            init_answer = result['textgrad_result']['init_answer']
             extracted_option = extract_option_letter(final_answer)
-            
+            extracted_option_init = extract_option_letter(init_answer)
+            print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
+
+            if extracted_option_init == result['ground_truth'] and extracted_option != result['ground_truth']:
+                evaluation_error += 1
+            if extracted_option == result['ground_truth'] and extracted_option_init != result['ground_truth']:
+                init_answer_error += 1
             # Create a row of data
             row = {
                 'video_id': result['video_id'],
@@ -82,6 +91,8 @@ def process_textgrad_results():
     # Save accuracy results
     accuracy_df.to_excel(os.path.join(output_dir, 'accuracy_results.xlsx'), index=False)
     
+    print(f"改错数: {evaluation_error}")
+    print(f"改对数: {init_answer_error}")
     print(f"Processed {len(json_files)} samples")
     print(f"Overall accuracy: {total_accuracy:.2%}")
     print(f"Results saved to {output_dir}")
