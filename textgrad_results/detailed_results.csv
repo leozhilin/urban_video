@@ -11,7 +11,7 @@ E.	I am located in front of the intersection beside the tall building.
 
 ”””
 ```
-",B,"Option: B; Reason: The agent is located above the road near the intersection beside the tall building. This is evident from the final frames where the agent's aerial perspective shows it flying along a road that leads to an intersection, with a tall building visible on one side of the intersection. The precise wording ""above the road near the intersection"" better reflects the agent's position as observed in the video.",B,True
+",B,"Option: B; Reason: The visual evidence from frames 30 to 45 shows that the agent is flying along the road and reaches a position directly above the intersection beside the tall building. This is supported by the clear view of the intersection from an overhead perspective in these frames. Therefore, the most accurate positional relationship is that the agent is located above the intersection.",B,True
 EmbodiedCity_60_1.mp4,"Question: At the initial position, you are asked to navigate to a store. The yellow sign in the store reads ""Ubrao Craft Brewery."" When you reach the current location, what is the relative position relationship between you and the destination?  
 choose:  
 A. I am currently located in the right rear direction of the destination, giving a bird's eye view.  
@@ -69,7 +69,7 @@ A. I am currently located above the Huaji Shimo Rice Roll Shop, slightly to the 
 B. I am currently located above the Huaji Shimo Rice Roll Shop.  
 C. I am currently located on the left side of the Huaji Shimo Rice Roll Shop and above the parking lot.  
 D. I am currently located behind the Huaji Shimo Rice Roll Shop, in the middle of the road.  
-E. I am currently located in front of the Huaji Shimo Rice Roll Shop across the street.  ",E,"Option: B; Reason: The current location appears to be an elevated position, possibly a balcony or higher floor of a building, overlooking a street with various shops and parked cars. The frames show a series of shops with visible signage, but none of them match the name ""Huaji Stone Rice Roll."" However, based on the layout and the typical urban setup, it is reasonable to infer that the ""Huaji Stone Rice Roll"" shop is directly below the current position, which aligns with Option B. Options A, C, D, and E are less plausible because they suggest more specific and less likely relative positions given the visual evidence.",B,False
+E. I am currently located in front of the Huaji Shimo Rice Roll Shop across the street.  ",E,"Option: E; Reason: The video frames show a series of storefronts along a street. While the specific ""Huaji Stone Rice Roll"" store is not visibly identified in the provided frames, the general layout and direction across the street are consistent with the description. Frames 46 to 50 provide a clear view of the street and surrounding environment, indicating that the store is likely located across the street from the current viewpoint. Therefore, the most reasonable answer based on the available evidence is **E. I am currently located in front of the Huaji Stone Rice Roll Shop across the street**.",E,True
 EmbodiedCity_48.mp4,"Question: At the initial position, you are asked to navigate to a red motorcycle with a yellow sign in front of a store. Thinking back on past Action Generations and objects you have seen, what should you approach next in order to get from your current location to your destination?  
 choose:  
 A. I approach the crosswalk in front of the building.  
@@ -111,7 +111,7 @@ A. I fly over buildings.
 B. I go to the ground floor of the gray building.  
 C. I continue flying over the green bushes.  
 D. I turn left at the brown sandstone house.  
-E. I zoom in on the satellite dish.  ",A,"Option: E; Reason: The final frames (25-28) show a close-up view of building windows, indicating that the agent is currently zooming in on specific features of a building. This aligns with the instruction to ""zoom in on ord window of the blue building,"" making Option E the most accurate choice based on the visual evidence.",E,False
+E. I zoom in on the satellite dish.  ",A,"Option: B; Reason: The agent is at the ground level of the grey building, as shown in Frame 17. This position is clearly depicted, with the agent's perspective aligned with the base of the building, confirming the completion of the instruction to ""go to ground level of grey building.""",B,False
 EmbodiedCity_86_0.mp4,"Question: At the initial position, you are asked to navigate to the open space to the right of the ""Mr. Fan"" shop in the residential area below. What are your next steps?  
 choose:  
 A. I rise and rotate the camera upward.  
@@ -197,7 +197,7 @@ A. I am to the right of the skyscraper.
 B. I am far away from the skyscraper.  
 C. I am above a skyscraper.  
 D. I am underneath a skyscraper.  
-E. I am to the left of the skyscraper.  ",B,"Option: B; Reason: The visual evidence from the frames shows the agent moving along the bridge towards the city skyline but does not depict the agent reaching the top of a skyscraper. The highest vantage point shown is at bridge level, indicating that the agent is still far away from the skyscrapers.",B,True
+E. I am to the left of the skyscraper.  ",B,"Option: A; Reason: The final frames show the agent still on the bridge, approaching the city skyline. The agent has not yet entered the city or reached the skyscrapers, as indicated by the visible bridge structure and the distant cityscape.",A,False
 AerialVLN_44_392CY0QWGAPC4KI103W5DZEWKVCI4C_4.mp4,"Question: Navigation Instruction given at initial position: [take off and turn left and move forward and get down towards the white building terrace. now turn right and go over the buildings and trees towards the pond. now turn left and go over the buildings and get down reach the road and landed.]. At the initial position, you are asked to navigate based on a series of movement instructions. In terms of next steps, what is the best next step for you?  
 choose:  
 A. I go up and turn left.  
@@ -443,7 +443,7 @@ Choice: A. I descend from the city skyline through trees and mid-rise buildings 
            B. I aim at the road from above the city street, turn left, move forward to the vicinity of a single-story building, and then descend to the height of a column.  
            C. I rise above the city from the tree-lined road to reach the Greek-style columns.  
            D. I fly straight from the city skyline to the main road without descending.  
-           E. I fly left from above the skyscraper to the entrance of the multi-story building.  ",B,"Option: A; Reason: The video shows the agent moving forward from an elevated position over the city skyline, passing through trees and mid-rise buildings, and approaching a Greek-style columned building. This aligns with Option A, which describes a forward movement rather than a descent, accurately reflecting the observed trajectory.",A,False
+           E. I fly left from above the skyscraper to the entrance of the multi-story building.  ",B,"Option: A; Reason: The video frames show the agent descending from a high vantage point over the city skyline, moving through mid-rise buildings, and approaching Greek-style columned buildings. Frame 1 shows the initial high altitude view of the city, while subsequent frames (Frames 5-10) depict the agent moving closer to the ground level among mid-rise structures. Frames 15-20 clearly illustrate the agent nearing and then reaching the detailed view of the columned building, confirming the descent and approach described in Option A.",A,False
 AerialVLN_55_3JBT3HLQFH0KO3TUYRCFGSSH6W7PZN_3.mp4,"Question: Navigation Instruction given at initial position: [take off and rise up to the top of the buildings. go right through the column of buildings. go straight and toward the red and green trees. go across the water and stop at the edge where the trees are. take a left turn toward the buildings. go straight toward the tall building and rise to the top of that building.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  
 choose:  
 A. I go up and turn left.  

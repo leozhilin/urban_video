@@ -1,35 +1,38 @@
 REASONER_PROMPT = """
-This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. Please note that due to technical limitations, only a subset of video frames is provided, which means some details might be missing from the visual evidence.
+This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. Please answer the following questions by following these steps:
 
-Please answer the following questions by following these steps:
+1. Video Segment Analysis:
+   - Identify the specific frames that are relevant to the question
+   - Analyze the temporal sequence of events in these frames
+   - Describe the spatial and temporal changes, including:
+     * Movement patterns and directions
+     * Position changes between frames
+     * Key visual elements and their evolution
+     * Any significant state changes or interactions
 
-1. Visual Evidence Analysis:
-   - Carefully analyze the question to determine:
-     * What specific aspects of the video content are being asked about
-     * What visual elements or conditions need to be verified
-   - Thoroughly examine the available video content to:
-     * Identify key visual elements and their states
-     * Note any relevant changes or conditions
-     * Understand the spatial and temporal context
-
-2. Evidence-based Reasoning:
+2. Visual Evidence-based Reasoning:
+   - Carefully examine the identified video segments
    - Compare each option against the actual video content
    - Select the option that is most strongly supported by visual evidence
-   - Provide specific visual evidence to justify your choice
-
-3. Choose the most correct option base on your analysis and reasoning
+   - Provide specific visual evidence from the frames to justify your choice
 
 The question is:
 {question}
 
 The template for the answer is:
-Thinking: []; Option: []; 
+Selected Frames: [List the frame numbers that are most relevant to the question];
+Thinking: [Describe your analysis process, including:
+  * How you identified these specific frames
+  * What key observations you made in these frames
+  * How these observations relate to the question];
+Option: []; Reason: []
 where:
-- Thinking: Explain your choice by referencing specific visual evidence from the video, including:
-  * What specific visual elements or changes support your reasoning
+- Option: Choose only one option from 'A' to 'E'
+- Reason: Explain your choice by referencing specific visual evidence from the video, including:
+  * Which frames support your choice
+  * What specific visual elements or changes in these frames support your reasoning
   * How the temporal sequence of events relates to your choice
-  * Why this evidence strongly supports your selected option
-- Option: Choose only one option from 'A' to 'E' base on your Thinking
+
 
 """
 
