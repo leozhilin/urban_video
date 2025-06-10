@@ -1,38 +1,29 @@
 REASONER_PROMPT = """
 This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. Please answer the following questions by following these steps:
 
-1. Video Segment Analysis:
-   - Identify the specific frames that are relevant to the question
-   - Analyze the temporal sequence of events in these frames
-   - Describe the spatial and temporal changes, including:
-     * Movement patterns and directions
-     * Position changes between frames
-     * Key visual elements and their evolution
-     * Any significant state changes or interactions
-
-2. Visual Evidence-based Reasoning:
-   - Carefully examine the identified video segments
-   - Compare each option against the actual video content
-   - Select the option that is most strongly supported by visual evidence
-   - Provide specific visual evidence from the frames to justify your choice
-
 The question is:
 {question}
 
+Problem Description:
+The position at the beginning of the video is your initial position. You will receive a series of navigation instructions to move, and the entire video shows the scene of you following the instructions to move.
+If the question explicitly provides specific navigation instructions, then your current position is the position after completing this series of instructions. In this case, you need to combine the video content to determine your current position and answer the question based on your current position;
+If the question does not have explicit navigation instructions, your current position defaults to the last position in the video, which is the position after executing all navigation instructions.
+
+You need to combine the question and video content to answer the question.
+Questions can generally be divided into temporal questions and image questions:
+
+1. Image questions: Questions usually only involve understanding the scene at a single position (for example: at the current position, Is xx on your left, center, or right?).
+- Analyze the current position and locate the correct scene/frame corresponding to the question
+- Combine the question content and scene content to answer the question
+2. Temporal questions: You need to combine the execution of a series of temporal actions to answer the question
+
+You need to think and reason step by step, answer the question according to the following template, and give your reasons:
+
 The template for the answer is:
-Selected Frames: [List the frame numbers that are most relevant to the question];
-Thinking: [Describe your analysis process, including:
-  * How you identified these specific frames
-  * What key observations you made in these frames
-  * How these observations relate to the question];
 Option: []; Reason: []
 where:
 - Option: Choose only one option from 'A' to 'E'
-- Reason: Explain your choice by referencing specific visual evidence from the video, including:
-  * Which frames support your choice
-  * What specific visual elements or changes in these frames support your reasoning
-  * How the temporal sequence of events relates to your choice
-
+- Reason: Explain your choice by referencing specific visual evidence from the video
 
 """
 

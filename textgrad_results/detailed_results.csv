@@ -11,121 +11,121 @@ E.	I am located in front of the intersection beside the tall building.
 
 ”””
 ```
-",B,"Option: B; Reason: The visual evidence from frames 30 to 45 shows that the agent is flying along the road and reaches a position directly above the intersection beside the tall building. This is supported by the clear view of the intersection from an overhead perspective in these frames. Therefore, the most accurate positional relationship is that the agent is located above the intersection.",B,True
+",B,"Option: B; Reason: In the final frames (91-100), the agent is positioned above the intersection beside the tall building. This is evident from the bird's-eye view showing the agent directly overhead the intersection, which aligns with option B. The visual evidence from these frames supports this choice as the agent is not to the side (left or right) or behind the intersection, but rather above it.",B,True
 EmbodiedCity_60_1.mp4,"Question: At the initial position, you are asked to navigate to a store. The yellow sign in the store reads ""Ubrao Craft Brewery."" When you reach the current location, what is the relative position relationship between you and the destination?  
 choose:  
 A. I am currently located in the right rear direction of the destination, giving a bird's eye view.  
 B. I am currently located directly above the destination.  
 C. I am currently located at the front left of the destination, at street level.  
 D. I am currently located in the air outside the building's exterior wall, over the sidewalk, and my relative position to the store is unknown.  
-E. I am currently located in front and right of the destination, flying at high altitude.  ",D,"Option: E; Reason: The video frames consistently show a bird's eye view of the cityscape, indicating that the agent is flying at a high altitude. There is no indication of being at street level or directly above a specific building, which rules out options A, B, C, and D. The persistent aerial perspective throughout the frames supports the choice of option E, depicting a high-altitude location in front and to the right of the destination.",E,False
+E. I am currently located in front and right of the destination, flying at high altitude.  ",D,"Option: B; Reason: The frames show a continuous descent towards and then a stable position directly above the building, indicating that the agent is currently located directly above the destination. Specifically, Frames 5, 20, and 21 highlight the transition from a broader city view to a focused building view. In Frames 21-50, detailed features such as the building's layout, green spaces, and surrounding roads are clearly visible, confirming the agent's position directly above the Ubrao Craft Brewery.",B,False
 AerialVLN_36_3UJ1CZ6IZQNJUHPXJK9TMTQXTML5S2_7.mp4,"Question: Navigation Instruction given at initial position: [rise up and turn to the right and move forward and keep moving till you are about at the middle of the lake. stop and turn to the right so that you are having the two large towers and move forward. stop right over the trees, turn to the right then lower you height then turn back again to the left. rise up and move the trees and stop when you are in front of the building. move slightly to the right so that you are able to go between the buildings keep moving so that you are in front or the blue building. rise up and look at the billboard then drop your height and stop.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I go up to see the billboard, then I go down.  
 B. I stand up, move toward the tree, and stop in front of the building.  
 C. I turn back.  
 D. I turn right at the building.  
-E. I move slightly to the right so that I can navigate between buildings.  ",A,"Option: None of the Above; Reason: The agent is moving forward along the pathway as shown in frames 1, 2, and 3, which aligns with the initial instruction to ""move forward."" There is no evidence of the agent rising, turning right, stopping at a building, or navigating between buildings in these frames.",N,False
+E. I move slightly to the right so that I can navigate between buildings.  ",A,"Option: A; Reason: The agent is currently rising up to see the ""Sun Noon"" billboard, as evident in Frames 21-23 where the billboard becomes increasingly visible. In Frame 24, the agent is at the same level as the billboard, and in Frame 25, it begins to lower its height, indicating that it has completed the action of viewing the billboard and is now dropping its height as instructed.",A,True
 RealWorld_16.mp4,"Question: If you do not fly directly to the building with the green mesh balcony, but choose to fly over the intersection first, can you still reach your destination, and how does the route compare?
 
 Choice: A. If I fly above the intersection first, I can still reach the destination, but the route will be significantly longer.  
            B. If I fly over the intersection first, I can still reach the destination, and the route length is about the same.  
-           C. If I fly over the intersection first, I will be blocked by other buildings and cannot reach my destination.  ",C,"Option: B; Reason: The video frames show the agent successfully reaching the destination by flying over the intersection, indicating that this route is feasible. The route appears to be slightly longer than a direct route but provides a clear path without significant obstacles. Specific visual evidence from frames 1-10, 11-30, 31-50, and 51-60 supports this conclusion.",B,False
+           C. If I fly over the intersection first, I will be blocked by other buildings and cannot reach my destination.  ",C,"Option: B; Reason: The video frames show that the agent can fly over the intersection first and still reach the destination building with the green mesh balcony. The route over the intersection does not appear significantly longer than a direct route, as the agent maintains a steady pace and reaches the destination efficiently. Frames 1-15 depict the agent moving towards the high-rise buildings, and frames 16-50 show the agent navigating through these buildings to the target location. The presence of roads, trees, and high-rise buildings in the frames supports the feasibility of this route.",B,False
 AerialVLN_122_3X4MXAO0BPM16L440WWXMJYDJQUWRI.mp4,"Question: After you descend to the entrance level, how does your distance from the Greek-style columns change?  
 Choice: A. The distance increases after I descend.  
          B. The distance decreases after I descend.  
-         C. The distance remains unchanged after descending.  ",B,"Option: B; Reason: Distance decreases after descending. Evidence: Columns enlarge and details sharpen (Frames 9-17), and perspective lowers, validating approach and descent.",B,True
+         C. The distance remains unchanged after descending.  ",B,"Option: B; Reason: The distance from the Greek-style columns decreases after descending to the entrance level, as evidenced by the progressively closer view of the columns in Frames 9 to 17. Initially, in Frame 9, the columns are visible but distant. By Frame 13, the agent has descended to the entrance level, and the columns are significantly closer, occupying a larger portion of the frame. In Frames 14 to 17, the columns are even closer, with their details becoming more visible, filling more of the frame. This continuous approach towards the columns is clearly depicted in the sequence of frames.",B,True
 AerialVLN_40_3ITXP059P5HR1G4I8MDNN3928CGJSD_0.mp4,"Question: Navigation Instruction given at initial position: [zoom in on the left tower. resume flying over green bush. turn left at grey building. reverse backwards to the green bush. turn left and zoom in on satellite dish. resume flying over the city buildings. stop and turn left. zoom in on red bulletin board. go to ground level of grey building. turn left at the brown sandstone house. zoom in on ord window of the blue building.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I go to the ground floor of the gray building.  
 B. I fly forward along the road.  
 C. I zoom in on the red bulletin board.  
 D. I zoom in on the left tower.  
-E. I turn left at the gray building.  ",B,"Option: D; Reason: Frames 1-5 show the agent on a bridge with two towers in view, and no movement or zooming has occurred yet. The left tower is clearly visible, and the absence of any movement confirms the next step is to zoom in on it, as per the instruction. Options A, B, C, and E describe actions that are not relevant at this initial position.",D,False
+E. I turn left at the gray building.  ",B,"Option: D; Reason: The video frames show a clear progression from a wide view of two towers in the distance (frames 1-5) to a close-up of the left tower (frames 6-20). Specifically, frame 1 shows both towers equally distant, while by frame 20, the left tower is significantly larger and more detailed, indicating a zoom-in action. This aligns with the navigation instruction to ""zoom in on the left tower.""",D,False
 AerialVLN_40_37QW5D2ZRPK2HZ8ZHIGWYD0OVCQS8V.mp4,"Question: Why does your height increase after you are aimed at the edge of a building?  
 Choice:  
 A. To avoid low-altitude air traffic.  
 B. Due to unexpected weather conditions.  
 C. To capture a wider area of ​​your surroundings.  
 D. Due to malfunction.  
-E. To reach the terrace more directly.  ",E,"Option: C; Reason: The height increase, as observed in frames 13-22, allows the agent to capture a wider area of the surroundings. Initially, in frames 9-12, the agent's view is limited to the street level and nearby buildings. As the agent ascends, the broader urban landscape, including distant buildings and the horizon, becomes visible. This transition supports the intention to gain a more comprehensive overview of the environment.",C,False
+E. To reach the terrace more directly.  ",E,"Option: C; Reason: The agent's height increases after aiming at the edge of a building to capture a wider area of the surroundings. This is evident from Frame 15, where the agent approaches the edge, and by Frame 20, the elevated position provides a broader view of the environment, including distant buildings and the horizon.",C,False
 EmbodiedCity_98_2.mp4,"Question: You are navigating to the parking space on the right after entering the entrance of the community. Thinking back on past Action Generations and objects you have seen, what does your current surroundings look like?  
 Choice:  
 A. There are two tall buildings on each side of me, with a small park and a winding road in the middle. A bus stop is visible on the left.  
 B. There is a large open space on my left, with several low-rise buildings and sparse trees. The street ahead is wide and straight.  
 C. I am surrounded by high-rise buildings, and there is a small courtyard and playground directly below. The streets are narrow and crowded.  
 D. There are three high-rise buildings in front of me, forming an ""L"" shape around a small open space. There is a small park behind me with a few trees and a circular trail.  
-E. I am positioned above a busy street, flanked by various buildings of varying heights with a park to my left. There are no visible parking spaces.  ",D,"Option: D; Reason: Analyzing frames 13-30, the video shows a transition from the community entrance to the parking area on the right. Key observations include: - **High-rise buildings**: Three high-rises form an ""L"" shape around an open space. - **Park**: A small park with trees and a circular trail is behind the agent. - **Parking area**: The right-side parking space is clearly visible. Option D is correct because: - **Frames 13-20**: Three high-rises form an ""L"" shape. - **Frames 21-25**: A park with trees and a trail is behind the agent. - **Frames 26-30**: The right-side parking space is visible. Option D accurately describes the ""L""-shaped buildings, the park, and the right-side parking space, matching the video evidence.",D,True
+E. I am positioned above a busy street, flanked by various buildings of varying heights with a park to my left. There are no visible parking spaces.  ",D,"Option: D; Reason: The video frames show three high-rise buildings forming an ""L"" shape around a small open space, with a small park featuring a few trees and a circular trail behind the agent. The parking area is visible with clear markings and no vehicles present. The road leading to the parking area is wide and straight, with visible lane markings. These details align with Option D, making it the most accurate choice based on the visual evidence.",D,True
 RealWorld_GN_32_2.mp4,"Question: At the initial position, you are asked to navigate to a red car at the edge of a residential area ahead. Thinking back on past actions and objects you saw, what should you approach next in order to get from your current location to your destination?  
 choose:  
 A. I approach the top of the traffic light at the intersection.  
 B. I approach the parking lot on the street below.  
 C. I approach a small green space between two buildings.  
 D. I approach the building roof with a blue awning.  
-E. I approach the furthest visible building.  ",B,"Option: B; Reason: ""Approach the parking lot on the street below"" is optimal. The frames confirm the agent's elevated position above a parking area and street. Descending to the parking lot provides direct access to the street level where the red car is likely located. Other options (A, C, D, E) are irrelevant or indirect.",B,True
+E. I approach the furthest visible building.  ",B,"Option: B; Reason: The video frames show the agent moving from a high vantage point towards the parking lot where the red car is located. In Frame 8, the agent has a broad view of the area, and by Frame 16, the agent is closer to street level with a clearer view of the parking lot. Frames 24 and 28 further confirm the agent's approach towards the parking lot as the red car becomes visible. Therefore, Option B (""I approach the parking lot on the street below"") is the most strongly supported by the visual evidence.",B,True
 RealWorld_20.mp4,"Question: At the initial position, you are asked to navigate to the ""Huaji Stone Rice Roll"" store in the remaining area in front of you. When you reach the current location, what is the direction to the destination?  
 choose:  
 A. I am currently located above the Huaji Shimo Rice Roll Shop, slightly to the right.  
 B. I am currently located above the Huaji Shimo Rice Roll Shop.  
 C. I am currently located on the left side of the Huaji Shimo Rice Roll Shop and above the parking lot.  
 D. I am currently located behind the Huaji Shimo Rice Roll Shop, in the middle of the road.  
-E. I am currently located in front of the Huaji Shimo Rice Roll Shop across the street.  ",E,"Option: E; Reason: The video frames show a series of storefronts along a street. While the specific ""Huaji Stone Rice Roll"" store is not visibly identified in the provided frames, the general layout and direction across the street are consistent with the description. Frames 46 to 50 provide a clear view of the street and surrounding environment, indicating that the store is likely located across the street from the current viewpoint. Therefore, the most reasonable answer based on the available evidence is **E. I am currently located in front of the Huaji Stone Rice Roll Shop across the street**.",E,True
+E. I am currently located in front of the Huaji Shimo Rice Roll Shop across the street.  ",E,"Option: E; Reason: The video frames clearly show the ""Huaji Stone Rice Roll"" store (华记石磨肠粉) across the street from the viewer's position. The store is located on the ground floor of a building with a brown and yellow signboard, and its name is prominently displayed in red and white characters. There are parked cars in front of the store, indicating it is situated along a street or parking area. The surrounding area includes other shops and a few pedestrians, suggesting it is a commercial zone. The perspective suggests that the viewer is positioned at a higher vantage point, looking down at the street level where the store is located. Therefore, the most accurate description of the current location relative to the destination is Option E: ""I am currently located in front of the Huaji Shimo Rice Roll Shop across the street.""",E,True
 EmbodiedCity_48.mp4,"Question: At the initial position, you are asked to navigate to a red motorcycle with a yellow sign in front of a store. Thinking back on past Action Generations and objects you have seen, what should you approach next in order to get from your current location to your destination?  
 choose:  
 A. I approach the crosswalk in front of the building.  
 B. I approach the roof of the building next to the destination.  
 C. I approach the parking lot across the street.  
 D. I approach the sidewalk in front of the building.  
-E. I approach the top of the nearest tree.  ",E,"Option: A; Reason: The crosswalk is the direct path to the building with the yellow sign, aligning with the goal. Other options (roof, parking lot, sidewalk, tree) are less relevant or inaccessible.",A,False
+E. I approach the top of the nearest tree.  ",E,"Option: D; Reason: The agent is already on the sidewalk in front of the store, as indicated by the clear view of the ""酒便利"" sign and the red motorcycle. Approaching the sidewalk ensures direct access to the destination.",D,False
 AerialVLN_81_34S6N1K2Z4H86XE20DD1Z4FS2MUHL9_2.mp4,"Question: Navigation Instruction given at initial position: [Take off, rise, and go left over the flat roof. Fly straight to the building with a lady on a billboard, then veer right and continue straight. Head to the yellow billboard, make a half right turn, and fly over the fountain towards the trees. Fly over the treetops, veer right towards the road between buildings, then take a near full left turn over trees until you see water. Rise near a tree, turn right until you see four buildings, then go straight to the car banner. Fly between the banner and building, continue straight, veer left of the high-rise, then a bit right. Descend to see a 5-story building, turn left, rise above it, and make a half left turn. Fly right of the car banner building to see the skyline, then turn left slightly and fly high over the trees.]. You move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I fly over the treetops, then turn right onto a road with buildings on either side.  
 B. I go directly between the banner and the building it will be on top of.  
 C. I am flying over the treetops.  
 D. I point down until I see the front of a 5-story building.  
-E. I turn slightly left and go straight.  ",E,"Option: B; Reason: By **Frame 6**, the agent targets the ""AMERICAN"" banner. In **Frames 7-10**, it executes the ""Fly between the banner and building"" instruction, validating Option B as the current action.",B,False
+E. I turn slightly left and go straight.  ",E,"Option: B; Reason: Frame 7 explicitly shows the agent going directly between the car banner and the building it is mounted on, which aligns perfectly with the navigation instruction at that point. There are no discrepancies between the chosen option and the video content, confirming the accuracy of this selection.",B,False
 EmbodiedCity_21.mp4,"Question: You are navigating to the 12th-floor balcony. Thinking back on past Action Generations and objects you have seen, what is the surrounding environment like at your current location?  
 Choice:  
 A. There are three buildings across the street in front of me, the middle one being shorter than the others. Behind me is a large parking lot. Directly below me is a road.  
 B. There is a low-rise building directly in front of me. There is a tall building on my left. A small park is visible behind me. Below me is the roof.  
 C. There are roads and trees next to me. There are many high-rise buildings around me.  
 D. There is a large park in front of me with trees and fountains. There is a high-rise building to my left. Below me is a highway.  
-E. There are many buildings of varying heights surrounding me, and a busy highway directly below.  ",C,"Option: E; Reason: The selected frames consistently show a dense urban setting with numerous high-rise buildings of varying heights and a busy highway directly below the 12th-floor balcony, aligning with the description in Option E.",E,False
+E. There are many buildings of varying heights surrounding me, and a busy highway directly below.  ",C,"Option: E; Reason: The video frames clearly show the agent on the 12th-floor balcony with a view of many buildings of varying heights surrounding the area. Frames 31-60 depict this scene, while earlier frames (1-10) establish the urban context with visible roads and other buildings. Specifically, Frame 1 shows a distant view of the building, Frame 10 provides a closer approach, and Frame 31 onwards offer detailed views from the balcony, confirming the presence of a busy highway directly below and numerous high-rise buildings around.",E,False
 EmbodiedCity_42_2.mp4,"Question: You are navigating to ALL-STAR Cafe in Central. Thinking back on past Action Generations and objects you’ve seen, what is the surrounding environment like at your current location?  
 Choice:  
 A. There is a large park with a playground in front of you, a building to your right, and a two-lane road below you.  
 B. There is a large open square in front of me, residential buildings behind me, and a busy intersection below.  
 C. There is a building directly in front of me, a busy highway behind me, and a bike path directly below.  
 D. There are countless skyscrapers in all directions around me, a small park to my left, and a multi-lane highway below me.  
-E. There are several low-rise buildings around me, wide roads, an intersection, many vehicles, street lights, and trees all around.  ",E,"Option: E; Reason: The video shows low-rise buildings around the area, wide multi-lane roads with an intersection, numerous vehicles indicating busy traffic, and street lights and trees lining the sidewalks and roads, which aligns with option E.",E,True
+E. There are several low-rise buildings around me, wide roads, an intersection, many vehicles, street lights, and trees all around.  ",E,"Option: E; Reason: The surrounding environment at the current location is best described by Option E, which mentions low-rise buildings, wide roads with intersections, many vehicles, street lights, and trees. Frames 7 to 70 show a consistent urban setting with these features. As the agent moves forward, the ""CENTRAL ALL-STAR"" Cafe becomes more prominent, and the road has four lanes in each direction with evenly spaced trees along the sidewalks. The detailed visual evidence supports the choice of Option E.",E,True
 AerialVLN_56_3YMTUJH0D1E2DYYCUFV9R6G5SZVT4E_6.mp4,"Question: Navigation Instruction given at initial position: [fly to the left side of the bridge. go forward to the end of the bridge. pass one road and take a right. fly over the short building near the park with the billboard on top. fly to the left down the road. fly down after you pass one road. go to the yellow billboard on the left over the building. go straight to the end of the park. go to the next road and fly over the buildings on the right. fly back to the left to the road and look at the billboard on the right. fly over the billboard and go straight. go around the right side of the building behind the yellow billboard. go to the road behind the sky scraper. turn left and look down the road. the red phone booths will be on your right. fly up and look left at the sky scraper. fly to the top and stop.]. At the initial position, you are asked to follow a series of movement instructions. What is the best next step for you?  
 choose:  
 A. I fly forward and then rise.  
 B. I descend and turn right.  
 C. I fly forward while rising.  
 D. I turn left and descend.  
-E. I rotate the camera downward.  ",A,"Option: D; Reason: The initial frames show the agent centered on the bridge. To follow the instruction ""fly to the left side of the bridge,"" the agent needs to turn left. Frames 2 and 3 confirm the agent has not yet moved left, making turning left the best next step. The ""descend"" part of Option D can be reconsidered after successfully moving to the left side.",D,False
+E. I rotate the camera downward.  ",A,"Option: C; Reason: The agent should fly forward while rising to align with the initial navigation instruction and gain a better vantage point for subsequent steps. In Frame 4, the cityscape appears smaller, indicating a rise in altitude. This rising motion is further supported by the changing angle of the bridge structures in Frame 5, which suggests an upward movement. The continuous forward motion in Frames 2-5 also supports this choice, as it shows the agent maintaining a central position on the bridge while gradually ascending. This action prepares the agent for the next part of the instruction, ""go forward to the end of the bridge,"" by providing a clearer view of the path ahead.",C,False
 AerialVLN_40_3ITXP059P5HR1G4I8MDNN3928CGJSD_6.mp4,"Question: Navigation Instruction given at initial position: [zoom in on the left tower. resume flying over green bush. turn left at grey building. reverse backwards to the green bush. turn left and zoom in on satellite dish. resume flying over the city buildings. stop and turn left. zoom in on red bulletin board. go to ground level of grey building. turn left at the brown sandstone house. zoom in on ord window of the blue building.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I fly over buildings.  
 B. I go to the ground floor of the gray building.  
 C. I continue flying over the green bushes.  
 D. I turn left at the brown sandstone house.  
-E. I zoom in on the satellite dish.  ",A,"Option: B; Reason: The agent is at the ground level of the grey building, as shown in Frame 17. This position is clearly depicted, with the agent's perspective aligned with the base of the building, confirming the completion of the instruction to ""go to ground level of grey building.""",B,False
+E. I zoom in on the satellite dish.  ",A,"Option: A; Reason: Frames 21-24 clearly depict the agent flying over a dense cluster of city buildings. The elevated perspective and the presence of multiple high-rise structures confirm this action. The agent's viewpoint is consistently above the rooftops, providing a clear view of the urban landscape, which aligns with the instruction to ""resume flying over the city buildings.""",A,True
 EmbodiedCity_86_0.mp4,"Question: At the initial position, you are asked to navigate to the open space to the right of the ""Mr. Fan"" shop in the residential area below. What are your next steps?  
 choose:  
 A. I rise and rotate the camera upward.  
 B. I descend and rotate the camera upward.  
 C. I fly forward.  
 D. I turn left.  
-E. I rotate around.  ",E,"Option: C; Reason: Flying forward allows for efficient navigation from the initial high vantage point towards the specific area containing the 'Mr. Fan' shop, as evidenced by the progressive zoom into the residential zone in frames 2-5.",C,False
+E. I rotate around.  ",E,"Option: C; Reason: Flying forward is the most direct and efficient way to navigate to the open space to the right of the ""Mr. Fan"" shop, as evidenced by the gradual descent and forward movement in Frames 15, 20, 30, and 45. These frames show a clear path from the initial broad view to the specific target area, supporting the action of continuing forward.",C,False
 AerialVLN_15_32XVDSJFP8VOXPT5H4B9CDOFHRK2M2.mp4,"Question: What objects did you observe while flying over the waterfront?  
 Choices:  
 A. A garden, a tree, and a bench.  
 B. A statue, a fountain, and a flowerbed.  
 C. A parking lot, a car, and a lamppost.  
 D. Streets, lower buildings, and the sea.  
-E. A playground, a swing, and a slide.  ",D,"Option: D; Reason: Frames 7-19 clearly depict streets, lower buildings, and the sea, confirming the waterfront setting. Other options (A, B, C, E) lack supporting visual evidence.",D,True
+E. A playground, a swing, and a slide.  ",D,"Option: D; Reason: The video frames clearly show streets, lower buildings, and the sea. In Frames 7, 8, and 9, we observe a broad view of the urban landscape with visible streets and lower buildings leading towards the sea. The sea is evident in the background, confirming the waterfront setting. As the agent moves forward and slightly downward, Frames 17, 18, and 19 provide a closer look at the lower buildings near the waterfront, with the sea still visible in the background. This continuous movement from a higher altitude with a broader cityscape view to a lower altitude focusing on specific waterfront buildings supports the observation of streets, lower buildings, and the sea. Therefore, the correct answer is **Option D**.",D,True
 RealWorld_23.mp4,"Question: What objects did you observe when descending toward the entrance of the community?  
 
 Choice:  
@@ -133,7 +133,7 @@ A. A large parking lot, several small shops, and a group of people gathering.
 B. A pond and the roof of a building with lettering.  
 C. A busy highway, a series of traffic lights, and several pedestrians crossing the street.  
 D. A large open land, sparse trees, and mountains in the distance.  
-E. Only the entrance to the residential area and no other objects at all.  ",B,"Option: B; Reason: The visual evidence from frames 25-30 clearly shows a pond with spherical water features in the foreground and the roof of a building with lettering in the background. These elements directly match Option B (""A pond and the roof of a building with lettering""), making it the most accurate choice. Other options are incorrect as they do not align with the observed elements in these frames.",B,True
+E. Only the entrance to the residential area and no other objects at all.  ",B,"Option: B; Reason: The video frames show a clear view of a pond and the roof of a building with lettering as the camera descends towards the entrance of the community. Specifically, in Frames 11-30, the pond is visible, and the lettering on the roof becomes more legible. These observations align with Option B, making it the most accurate choice based on the visual evidence provided.",B,True
 AerialVLN_25_3DY46V3X3YGIOFRM7OWLTIG5F2055N_0.mp4,"Question: Navigation Instruction given at initial position: [turning left and going straight to the buildings and slight right turn. coming near the lake and turning right and going up to the building. coming down to the building and again going up and going straight. going top of the building and turning left and coming down to the building. roaming around a tower and searching each floor of apartment.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is the best next step for you?
 
 choose:  
@@ -141,157 +141,154 @@ A. I go up and turn left.
 B. I descend, turn right, and fly forward.  
 C. I fly forward and rotate the camera upward.  
 D. I turn right and go up.  
-E. I turn left and descend.  ",B,"Option: E; Reason: The instruction mandates ""turning left and going straight to the buildings."" Frames 1-4 confirm the agent's position on a rooftop and the initiation of a left turn. In Frames 3-4, the agent completes the left turn, visibly aligning its path towards the nearby buildings. Options A, B, C, and D (going up, flying forward, turning right) are inconsistent with the observed left turn and the instruction to move towards the buildings. Therefore, **E. I turn left and descend** is the optimal choice, seamlessly following the navigation instruction and the agent's observed movement in Frames 1-4.",E,False
+E. I turn left and descend.  ",B,"Option: C; Reason: The agent should turn left as indicated in the initial navigation instruction, and then fly forward to align with the observed movement in the frames. Frames 1-5 show the agent on a rooftop with a clear path ahead, and subsequent frames indicate forward movement. Option C (""I fly forward and rotate the camera upward"") better matches this observed action, providing a clearer view of the surroundings and maintaining alignment with the visual evidence.",C,False
 AerialVLN_83_3JWH6J9I91BO3KE1CYJKQLGJFT2BNJ_3.mp4,"Question: Navigation Instruction given at initial position: [take off and turn back and move forward and go over the buildings and pond and get down at beside the tree and again turn back and fly up. now move forward and go over the trees and road and turn back at top of the brown building and get down at front of the this building. now get down and fly up and turn right and little move forward and turn left and move forward and turn left and move forward and turn back and fly up and beside the blue building and move forward and go over the top of the buildings and turn right and and fly up at front of the brown building. now turn right and again turn right and beside pond and move forward and go over the road and tip of the buildings and turn right and get up and move forward and stay at front of the building.]. At the initial position, you are asked to navigate according to a series of movement instructions. In terms of next steps, what is your best next step?  
 choose:  
 A. I go up and turn right.  
 B. I descend and then fly forward.  
 C. I fly forward when rising.  
 D. I turn left and descend.  
-E. I rotate the camera downward.  ",A,"Option: C; Reason: The ""take off"" instruction mandates an initial ascent. Frame 1 shows an open area suitable for this, and flying forward while rising matches the first part of the navigation instructions.",C,False
+E. I rotate the camera downward.  ",A,"Option: C; Reason: The agent is observed to fly forward while rising in the initial frames, matching the described movement pattern. Specifically, in Frame 2, the agent begins to ascend over water, and in Frame 3, the ascent continues with forward motion. By Frame 4, the agent is near the buildings, maintaining a forward trajectory. This sequence supports the ""fly forward when rising"" action, as opposed to descending, turning, or rotating the camera downward.",C,False
 AerialVLN_9_31T4R4OBO1EIA4EKARYQ580BYSNC7T.mp4,"Question: Why did you veer slightly to the left, facing the row of buildings along the street?  
 Choices:  
 A. To adjust your path away from the road.  
 B. To avoid air traffic above the intersection.  
 C. Due to wind interference.  
 D. To focus on your destination.  
-E. To maintain altitude stability.  ",D,"Option: A; Reason: The agent's graceful leftward arc in frames 17-24, aligning with the buildings, clearly indicates an adjustment away from the road.",A,False
+E. To maintain altitude stability.  ",D,"Option: A; Reason: The agent's movement from frames 6 to 24 shows a clear alignment with the row of buildings on the left side of the street. Starting from frame 6, the agent begins to veer slightly to the left, and by frames 11-24, it continues this path, moving closer to the buildings. This indicates a deliberate adjustment in path to align more closely with the buildings rather than moving away from a road. There is no evidence of air traffic, wind interference, or focus on a distant destination, supporting Option A as the most accurate choice.",A,False
 RealWorld_GN_17_2.mp4,"Question: At the initial position, you are asked to navigate to a nearby bus stop. Is the destination within sight at the current location? If yes, where is the destination in your view?  
 choose:  
 A. I see the bus stop in the lower left corner of my field of view.  
 B. I see the bus stop in the center of my field of view.  
 C. I see the bus stop in the upper right corner of my field of view.  
 D. I do not see the bus stop in my field of view.  
-E. I see the bus stop on the right side of my field of view.  ",B,"Option: D; Reason: The video frames show a high-angle view of an urban area with tall buildings and no visible bus stops, shelters, or buses. The perspective from a high vantage point obscures ground-level details, providing no visual evidence of a bus stop within the field of view.",D,False
+E. I see the bus stop on the right side of my field of view.  ",B,"Option: D; Reason: The video frames show a continuous aerial view of a cityscape with high-rise buildings, roads, and vehicles. Throughout the sequence, there is no visible bus stop in the field of view. The agent's perspective moves from close-up building views to broader cityscapes and road views, but no bus stop is observed in any of the frames. Therefore, the most accurate answer is D. I do not see the bus stop in my field of view.",D,False
 EmbodiedCity_5_1.mp4,"Question: At the initial position, you are asked to navigate to the 28th-floor balcony. Thinking back on past Action Generations and objects you have seen, what should you approach next in order to get from your current location to your destination?  
 choose:  
 A. I approach the height of the building at 28 stories.  
 B. I approach the roof height of high-rise buildings.  
 C. I approach the lamppost on the street corner.  
 D. I approach the parking lot across the street.  
-E. I approach the windows on the 28th floor.  ",A,"Option: E; Reason: The video shows a clear view of a building with floors numbered, including the 28th floor. Given the agent's high vantage point, approaching the windows on the 28th floor is the most direct path to the balcony, supported by the visual evidence.",E,False
+E. I approach the windows on the 28th floor.  ",A,"Option: E; Reason: Frames 7 through 60 provide a clear view of the building's exterior, specifically highlighting the 28th floor with visible windows and structural details. The most direct approach to reaching the 28th-floor balcony would be to **approach the windows on the 28th floor** (Option E). This is because the windows are a part of the 28th floor and could potentially offer access to the balcony. Additionally, the frames show that the windows have a design that suggests they might lead to an outdoor area, such as a balcony. No other options (like lampposts, parking lots, or general building height) directly relate to accessing a specific floor's balcony. Therefore, Option E is the most supported by the visual evidence provided in the frames.",E,False
 AerialVLN_85_3M81GAB8A9H96HRTSQB1UFBOLXQBQU.mp4,"Question: What objects do you observe when approaching a multi-story building?  
 Choice:  
 A. I observe a large park with a lake and the facade of a multi-story building.  
 B. I observe wide streets and rooftop gardens while flying close to buildings.  
 C. I observe billboards and prominent buildings below the vantage point.  
 D. I observe a monument and a playground near a multi-story building.  
-E. I observe trees and benches on the roadside near the building.",A,"Option: A; Reason: Frames 1-10 display a park with a lake next to multi-story buildings, frames 11-20 keep these elements in view while approaching, and frames 21-24 focus on the building's facade, supporting option A.",A,True
+E. I observe trees and benches on the roadside near the building.",A,"Option: E; Reason: Frames 5 to 24 clearly depict trees on the roadside as the agent approaches the multi-story building. The trees are densely planted along the sidewalk adjacent to the building, providing strong visual evidence for this choice.",E,False
 AerialVLN_91_3KB8R4ZV1N5ITSXFPU6P017MCZSGBQ_4.mp4,"Question: Navigation Instruction given at initial position: [take off and turn right move towards the base bridge. now turn left on your back move towards the red rocket building. now turn right move towards the pond and turn left move forward and slow down to the road and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I turn my back to the left and walk toward the red rocket building.  
 B. I turn right toward the pond.  
 C. I turn right toward the base bridge.  
 D. I rise and fly forward, crossing the roof.  
-E. I take off and turn right toward the base bridge.  ",D,"Option: E; Reason: The agent starts on a rooftop (Frames 1-2), takes off (Frame 3), turns right (Frame 4), and moves toward the base bridge (Frames 5-6). This sequence visually confirms the action described in option E.",E,False
+E. I take off and turn right toward the base bridge.  ",D,"Option: E; Reason: The agent takes off from the rooftop as seen in Frame 1, where the cityscape is visible. In Frames 2-6, the agent turns right and heads towards the base bridge, which becomes increasingly prominent in the field of view. This movement is consistent with the instruction ""take off and turn right move towards the base bridge."" The visual evidence clearly supports this sequence of actions, confirming the accuracy of Option E.",E,False
 RealWorld_GN_21_1.mp4,"Question: At the initial position, you are asked to navigate to the vicinity of the tower crane at the construction site ahead. Is the destination within sight at the current location? If yes, where is the destination in the view?  
 choose:  
 A. The area near the tower crane at the construction site ahead is currently at the lower left of my field of view.  
 B. The area near the tower crane at the construction site ahead is currently in the center of my field of view.  
 C. The area near the tower crane at the construction site ahead is not within my field of view.  
 D. The tower crane at the construction site ahead is currently in the upper right corner of my field of view.  
-E. The tower crane at the construction site ahead is currently on the right side of my field of view.  ",B,"Option: B; Reason: The crane is prominently displayed in the center of the field of view in Frames 1-5, aligning with the observed scene. Other options inaccurately describe its position.",B,True
+E. The tower crane at the construction site ahead is currently on the right side of my field of view.  ",B,"Option: B; Reason: The area near the tower crane at the construction site ahead is currently in the center-right of my field of view. This is supported by the visual evidence from the initial frames, where the tower crane is prominently displayed in the center-right of the field of view. The consistent presence of the crane in these frames confirms that it is a central and visible feature from the current location.",B,True
 AerialVLN_56_3YMTUJH0D1E2DYYCUFV9R6G5SZVT4E_0.mp4,"Question: Navigation Instruction given at initial position: [fly to the left side of the bridge. go forward to the end of the bridge. pass one road and take a right. fly over the short building near the park with the billboard on top. fly to the left down the road. fly down after you pass one road. go to the yellow billboard on the left over the building. go straight to the end of the park. go to the next road and fly over the buildings on the right. fly back to the left to the road and look at the billboard on the right. fly over the billboard and go straight. go around the right side of the building behind the yellow billboard. go to the road behind the sky scraper. turn left and look down the road. the red phone booths will be on your right. fly up and look left at the sky scraper. fly to the top and stop.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your Landmark Position from the skyscrapers?  
 choose:  
 A. I am to the right of the skyscraper.  
 B. I am far away from the skyscraper.  
 C. I am above a skyscraper.  
 D. I am underneath a skyscraper.  
-E. I am to the left of the skyscraper.  ",B,"Option: A; Reason: The final frames show the agent still on the bridge, approaching the city skyline. The agent has not yet entered the city or reached the skyscrapers, as indicated by the visible bridge structure and the distant cityscape.",A,False
+E. I am to the left of the skyscraper.  ",B,Option: []; Reason: [],O,False
 AerialVLN_44_392CY0QWGAPC4KI103W5DZEWKVCI4C_4.mp4,"Question: Navigation Instruction given at initial position: [take off and turn left and move forward and get down towards the white building terrace. now turn right and go over the buildings and trees towards the pond. now turn left and go over the buildings and get down reach the road and landed.]. At the initial position, you are asked to navigate based on a series of movement instructions. In terms of next steps, what is the best next step for you?  
 choose:  
 A. I go up and turn left.  
 B. I descend and then fly forward.  
 C. I fly forward while descending and turning right.  
 D. I turn left and go up.  
-E. I rotate the camera downward.  ",A,"Option: A; Reason: Frames 1-3 show the agent at a low altitude, preparing to move. The instruction ""take off and turn left"" implies ascending first, then turning. Visual evidence confirms the agent is at a starting position requiring ascent. Option A (""I go up and turn left"") adheres to the instruction, supported by the visual context.",A,True
+E. I rotate the camera downward.  ",A,"Option: D; Reason: The agent starts at a low altitude (Frame 1) and begins to ascend, as seen in Frame 2 where the view broadens to include the park and buildings. By Frames 3-5, the agent continues to rise, offering an extensive view of the city, pond, and surrounding structures. The navigation instructions specify ""take off and turn left and move forward,"" which is best matched by Option D: ""I turn left and go up."" This option accurately reflects the visual evidence: the agent ascends (go up) and changes direction to the left, aligning with the instruction. Specifically, in Frame 2, the agent is noticeably higher, providing a clearer view of the park and buildings to the left, supporting the ""turn left"" action. The smooth transition from ground level to an elevated position across the frames further justifies this choice.",D,False
 EmbodiedCity_28.mp4,"Question: Which object is located near the round rooftop of a tower?  
 Choices:  
 A. A radio antenna.  
 B. Another UAV.  
 C. A curved facade leading to the terrace.  
 D. A large billboard.  
-E. A series of blue windows.  ",E,"Option: E; Reason: The blue windows are prominently displayed around the round rooftop, supporting option E. Other options lack visual evidence.",E,True
+E. A series of blue windows.  ",E,"Option: E; Reason: The series of blue windows are clearly visible near the round rooftop in Frame 3, making option E the most supported by visual evidence.",E,True
 EmbodiedCity_5_1.mp4,"Question: You are navigating to the balcony on the 28th floor. What is the correct summary of your trajectory from the beginning to the current location?  
 Choice:  
 A. Start from a high-rise building, move toward the street, descend to the ground, and move toward the target building.  
 B. Start from the left side of the building with a huge conical dome, turn right, and descend to a certain height.  
 C. Start from the pedestrian lane, move towards the street, rise, pass through multiple buildings, and reach the current position next to the target building.  
 D. Start from a point above the park, move along the street, rise and approach the target building, and reach a position slightly above the 28th floor.  
-E. Start from the park, move toward the street, rise, and move toward a high-rise building, approaching the 28th floor, maintaining a position outside the edge of the building.  ",B,"Option: D; Reason: The video shows the agent starting at an elevated position above a park, moving along the street toward a high-rise building, ascending to approach the building, and finally reaching a position slightly above the 28th floor, which aligns with the description in Option D.",D,False
+E. Start from the park, move toward the street, rise, and move toward a high-rise building, approaching the 28th floor, maintaining a position outside the edge of the building.  ",B,"Option: E; Reason: The trajectory starts from a high vantage point overlooking the urban landscape, moves horizontally at a high altitude towards a specific high-rise building, and approaches the 28th floor while maintaining a position outside the edge of the building. This is clearly supported by the visual evidence in the frames, which show the agent's consistent high altitude and final positioning near the 28th floor.",E,False
 AerialVLN_51_3RSDURM96JKGMMUZTRUL89KBMYHEYM_2.mp4,"Question: Navigation Instruction given at initial position: [take of from the river and turn left towards the city and go straight towards the buildings. then take left and then take immediate right towards the board and then suddenly take left and go straight towards the statue then turn right and take of. then go towards the drink ice cold, sun noon board and then take left there was an highest building and then take right from the building then take immediate left from that building in opposite there was an bolt cola board is that our destination.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?
 choose:  
 A. I am crossing the water.  
 B. I am turning right at the building.  
 C. I am turning right and taking a path.  
 D. I am flying over buildings.  
-E. I am turning left at the tallest building.  ",B,"Option: A; Reason: Frames 1-6 show the agent's perspective over a calm river with a cityscape in the background, aligning with the instruction to ""take off from the river."" The agent is positioned at the river's edge, facing the city, and has not yet moved into the city or performed any turns, confirming the initial action is taking off.",A,False
+E. I am turning left at the tallest building.  ",B,"Option: D; Reason: Frames 7-10 clearly depict the agent flying over buildings, aligning with the navigation instruction to go straight towards the buildings. Specifically, frame 7 shows the agent entering the urban area, while frames 8-10 provide a clear view of the agent's path directly over and between the buildings. This precise correlation with the visual evidence supports the selection of Option D.",D,False
 AerialVLN_100_3OVR4I9USYHPLI6KDB1EM15IB5R4QZ.mp4,"Question: What objects do you observe while flying over the park?  
 Choice: A. I observe lakes, treetops, and bridges.  
            B. I observe a tall building, street lights, and a fountain.  
            C. I observe parking lots, benches, and the river.  
            D. I observe the playground, bikes, and roads.  
-           E. I observe streets, cars, and sculptures.  ",A,"Option: A; Reason: Most accurate:
-- **Lakes**: Confirmed in Frames 35-42.
-- **Treetops**: Evident in Frames 23-42.
-- **Bridges**: Implied by path in Frame 40.",A,True
+           E. I observe streets, cars, and sculptures.  ",A,"Option: A; Reason: The video frames clearly show the presence of lakes, treetops, and bridges in the park area. For instance, Frame 15 provides a clear view of a lake with a bridge spanning across it, while Frames 20 and 25 offer detailed perspectives of the lake surrounded by dense treetops. Additionally, the absence of elements such as tall buildings, street lights, fountains, parking lots, benches, playgrounds, bikes, roads, streets, cars, and sculptures in the park area further supports the choice of Option A over the other options.",A,True
 AerialVLN_27_31T4R4OBO1EIA4EKARYQ580BYSNC7T_7.mp4,"Question: Navigation Instruction given at initial position: [take off and turn back and move forward towards the buildings till the brown building which have a glass on its top. now turn back and get closer to the blue building and get high and move forward till the pond arrives. now fly over the pond and move forward towards the road is visible. now turn left and move forward towards the buildings till the building have a banner named bolt cola. now move forward towards the buildings and get closer to the brown building and turn right and move forward till the road splits. now turn left and move forward towards the buildings till the blue building arrives and get closer to its bottom and stay there.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is your Landmark Position from the pond when you reach your current location?  
 choose:  
 A. I am located on the left side of the pond.  
 B. I am located on the right side of the pond.  
 C. I am located above the pond.  
 D. I am located below the pond.  
-E. I am far away from the pond.  ",E,"Option: B; Reason: The pond is consistently visible on the left side of the agent's view in frames 9-13, indicating that the agent is located on the right side of the pond.",B,False
+E. I am far away from the pond.  ",E,"Option: C; Reason: The agent is located above the pond, as shown in Frames 9-12. Specifically, in Frame 9, the agent begins to approach the pond from above, and by Frame 12, the agent is directly over the pond. Frame 13 shows the agent moving forward after passing the pond, heading towards the road. Frame 24, which shows the agent near the blue building, confirms the complete traversal past the pond, reinforcing that the agent was indeed above the pond during the specified part of the navigation.",C,False
 AerialVLN_91_3KB8R4ZV1N5ITSXFPU6P017MCZSGBQ_7.mp4,"Question: Navigation Instruction given at initial position: [take off and turn right move towards the base bridge. now turn left on your back move towards the red rocket building. now turn right move towards the pond and turn left move forward and slow down to the road and stay there.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is the Landmark Position from the pond when you reach the current location?  
 choose:  
 A. I am on the right side of the pond.  
 B. I am located above the pond.  
 C. I am located on the left side of the pond.  
 D. I am on the pond floor.  
-E. I am far away from the pond.  ",E,"Option: C; Reason: Frames 11-13 consistently show the pond with a focus on right-side buildings, confirming left-side alignment. Right-side dominance of buildings in all frames supports the agent being on the pond's left. Uninterrupted left-side perspective across frames solidifies this conclusion.",C,False
+E. I am far away from the pond.  ",E,"Option: A; Reason: The analysis of frames 11 to 14 shows that the agent moves from facing the pond directly (Frame 11) to having it on the right side (Frames 13 and 14), supporting the conclusion that the agent is on the right side of the pond.",A,False
 EmbodiedCity_68.mp4,"Question: Which takes longer, your descent to the shop with the red sign displaying ""安个家"" or your navigation over the narrow pathway between tall structures?  
 Choices: A. My descent takes the same time as my navigation over the narrow pathway.  
          B. My descent takes shorter than my navigation over the narrow pathway.  
-         C. My descent takes longer than my navigation over the narrow pathway.  ",C,"Option: C; Reason: The descent to the shop with the red sign ""安个家"" takes longer than the navigation over the narrow pathway between tall structures. This is evident from the video frames where the descent involves a controlled vertical drop and orientation adjustments (Frames 3-10, 20-30), which are inherently time-consuming. In contrast, the navigation over the narrow pathway (Frames 41-45, 55-60) is a more straightforward horizontal movement, lacking the complexity of vertical maneuvers. The quantitative frame count also supports this, with the descent spanning approximately 27 frames and the navigation covering about 19 frames.",C,True
+         C. My descent takes longer than my navigation over the narrow pathway.  ",C,"Option: B; Reason: The descent to the shop with the red sign ""安个家"" is depicted in Frames 3-35, showing a rapid movement from a high vantage point to ground level in 20 frames. In contrast, the navigation over the narrow pathway between tall structures, shown in Frames 36-70, involves a steady and linear movement taking 35 frames. Therefore, the descent takes fewer frames and thus less time compared to the navigation.",B,False
 EmbodiedCity_54_0.mp4,"Question: At the initial position, you are asked to navigate to an open space at the front entrance of the building. At your current location, if the open space at the front door of the building is not within sight, what is the most relevant object in sight, and where is this object?  
 choose:  
 A. I cannot see the open space at the front entrance of the building, but there is a bus stop in the lower part of my field of view.  
 B. I cannot see the open space at the main entrance of the building, but there is a low-rise building in the lower right corner of my field of view.  
 C. I cannot see the open space at the front entrance of the building, but the front entrance of a high-rise building across the street is on the left side of my field of view.  
 D. I cannot see the open space at the front entrance of the building, but there is a parking lot in the middle of my field of view.  
-E. The open space at the front entrance of the building is in view.  ",E,"Option: B; Reason: The low-rise building is consistently visible in the lower right corner of the initial frames, making it the most relevant object when the open space at the front entrance is not in sight.",B,False
+E. The open space at the front entrance of the building is in view.  ",E,Option: []; Reason: [],O,False
 AerialVLN_101_3Q5C1WP23VZJ0XQ361U9QS3O2S551Q.mp4,"Question: Which one takes longer, flying under the trees or flying along the river bank?  
 Choice: A. I take longer to fly under the tree.  
           B. I fly along the river bank for a long time.  
-          C. Both take the same amount of time.  ",B,"Option: B; Reason: The river bank flight (Frames 11-17) is longer in duration due to more frames and broader area coverage, making it the correct choice. The agent maintains a steady, fast pace along the river bank, covering significant distance with consistent speed, as evidenced by the extended frame sequence and broader visual scope.",B,True
+          C. Both take the same amount of time.  ",B,"Option: B; Reason: The agent's movement under the trees (Frames 1-9) is relatively brief, as indicated by the rapid change in perspective from approaching the trees to being directly under them. In contrast, the agent flies along the river bank (Frames 10-18) for a visibly longer duration. The river and its banks remain consistently in view, suggesting a steady speed and prolonged movement. Additionally, the spatial context of the canal with pipes provides a more confined path, which might contribute to the perception of a longer flight duration compared to the open area with trees.",B,True
 RealWorld_8.mp4,"Question: At the initial position, you are asked to navigate towards the roof of the red teaching building of a nearby school. Is the destination within sight at your current location? If yes, where is the destination in your view?  
 choose:  
 A. I see the roof of the red teaching building in the lower left corner of my field of view.  
 B. I see the roof of the red teaching building in the center of my field of view.  
 C. I see the roof of the red teaching building in the upper right corner of my field of view.  
 D. I do not see the roof of the red teaching building within my field of view.  
-E. I see the roof of the red teaching building on the right side of my field of view.  ",B,"Option: D; Reason: At the initial position, the roof of the red teaching building is not within sight. This is evident from the first few frames where only a blue building is visible. The red teaching building and its roof become visible much later in the video (frames 150-200), but the question specifically asks about the initial position. Therefore, the most accurate answer based on the visual evidence provided is D.",D,False
+E. I see the roof of the red teaching building on the right side of my field of view.  ",B,"Option: D; Reason: From the initial position (Frames 1-10), the roof of the red teaching building is not visible. The frames show the approach towards the building, but the roof only becomes visible in Frames 36-45 as the agent gets closer. Therefore, the correct answer for the initial position is D, indicating that the roof is not within sight.",D,False
 RealWorld_RN_12_7.mp4,"Question: Navigation Instruction given at initial position: [Raise the altitude, fly over the opposite road, and fly in the direction of the mountains]. At the initial position, you are asked to follow a series of movement instructions. In terms of next steps, what is the best next step for you?  
 choose:  
 A. I ascend, fly forward, and turn left.  
 B. I lower and rotate the camera downward.  
 C. I hover in mid-air.  
 D. I turn right and rotate the camera upward.  
-E. I go up and turn left.  ",C,"Option: E; Reason: The best choice is ""go up and turn left"" (Option E). Frames 1-3 show the agent at a low altitude over a parking lot, requiring an increase in altitude to navigate effectively. Turning left after ascending aligns with the direction towards the mountains, as seen in the background of the initial frames. This option most closely follows the given navigation instructions and ensures the agent can fly over the opposite road and head towards the mountains.",E,False
+E. I go up and turn left.  ",C,"Option: A; Reason: The agent's movement is clearly depicted in the frames, starting from an initial position near a parking area (Frame 1), ascending and moving forward to provide a broader view of the urban landscape (Frames 6 and 10), turning left to align with the direction of the mountains (Frame 20), flying over the road (Frame 30), and finally heading towards the mountains (Frame 40). This sequence directly supports the chosen option, which accurately describes the agent's actions as it ascends, flies forward, and turns left. Each step is visually confirmed by the corresponding frames, ensuring the answer is both accurate and well-supported by the visual evidence.",A,False
 RealWorld_GN_9_0.mp4,"Question: At the initial position, you are asked to navigate to the playground next to the building in front of you. When you reach the current location, what is the direction to the destination?  
 choose:  
 A. I am currently located on the edge of the rooftop, overlooking the playground.  
 B. I am currently located directly above the playground.  
 C. I am currently located far behind the playground, above another building.  
 D. I am currently located on the right side of the playground, far away.  
-E. I am currently located on the left side of the playground, flying across the street.  ",A,"Option: A; Reason: The playground's clear visibility directly below in frames 4-13 confirms the agent's position on the rooftop edge. The agent's elevated perspective, with the playground in close proximity and directly below, aligns with being on the rooftop edge. The consistent perspective across these frames indicates minimal movement, supporting the agent's stationary position on the rooftop.",A,True
+E. I am currently located on the left side of the playground, flying across the street.  ",A,"Option: B; Reason: The playground is directly below the agent's current position, as shown in Frames 4-13. Specifically, in Frame 7, the playground becomes clearly visible directly below the agent, confirming the overhead position. The layout of the playground, including its equipment and surrounding area, is distinctly observable from this vantage point.",B,False
 AerialVLN_77_3DHE4R9OC59O5FXJ61DEZ84IL4AG28_5.mp4,"Question: Navigation Instruction given at initial position: [take off and fly upwards same to the building height and take a turn and fly straight to the opposite building after reaching the building turn left. after turning left fly between the gap of the building and fly downwards to the lake and fly upwards from the lake and turn left and fly straight towards the building at the opposite and fly near to the entrance of the park. fly upwards and take a turn and start flying straight to the building at the opposite crossover the lake after reaching the building fly near the eds butcher shop and fly upwards and again take a turn. after taking a turn fly straight towards the tall building in the opposite fly at the same height of the building. after reaching the tall building turn right to the opposite of the building and start flying downwards continuously towards the lake fly downwards at the center of the lake.]. You move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I fly over buildings.  
 B. I fly near Ed's Butcher Shop.  
 C. I go to the chair between the buildings.  
 D. I turn right at the building.  
-E. I go across the water.  ",E,"Option: E; Reason: The agent is currently flying over a body of water with a bridge, as seen in the corrected frames 25, 26, and 27. This aligns with the navigation instruction to ""go across the water,"" following the sequence after flying near Ed's Butcher Shop.",E,True
+E. I go across the water.  ",E,"Option: A; Reason: The most recent frames (6-28) show the agent flying over a dense urban area with numerous buildings. Specifically, frames 7 to 28 depict a clear view of the cityscape from an aerial perspective, indicating that the current action is ""flying over buildings."" This aligns with Option A and is supported by the visual evidence of the tall structures and the layout of the city.",A,False
 RealWorld_18.mp4,"Question: What objects did you observe as you descended to street level?
 
 Choice:  
@@ -299,59 +296,59 @@ A. Only cars and buildings.
 B. High-rise buildings, roads, bus stops, and parking lots.  
 C. Parks, fountains, and trees.  
 D. Only the seller's store and bus stop.  
-E. Did not observe anything specific.",B,"Option: B; Reason: Frames 6-100 clearly depict high-rise buildings, roads, bus stops, and parking lots, aligning perfectly with option B. Specific evidence includes high-rise buildings (Frames 6-20), roads with vehicles (Frames 21-40), bus stops (Frames 41-60), and parking lots (Frames 61-100). Thus, B is the most accurate choice.",B,True
+E. Did not observe anything specific.",B,"Option: B; Reason: The video frames show a descent from a high vantage point to street level, capturing various elements such as high-rise buildings in the initial frames (Frames 6-20), roads throughout the sequence, bus stops with people waiting and buses arriving (Frames 41-60), and parking lots with parked cars (Frames 21-40). Additionally, specific details like ""people waiting at the bus stop"" and ""shops and signage"" are visible in the later frames (Frames 61-70). This comprehensive observation aligns with option B: High-rise buildings, roads, bus stops, and parking lots.",B,True
 AerialVLN_107_3RSDURM96JKGMMUZTRUL89KBMYHEYM.mp4,"Question: What is near the hat-shaped advertisement on the rooftop?  
 Choice: A. A satellite dish.  
           B. A billboard.  
           C. A water tank.  
           D. A tree.  
-          E. A bench.  ",A,"Option: B; Reason: In frames 1, 2, and 3, the hat-shaped advertisement is prominently displayed on the rooftop. The rooftop area appears relatively clear, with no large cylindrical structure resembling a water tank or other specific objects like a satellite dish, tree, or bench near the advertisement. The hat-shaped advertisement itself can be considered a type of billboard, displaying information or branding. This aligns with the general definition of a billboard as a large poster or sign used for advertising. Therefore, the most accurate and supported option based on the visual evidence is B (A billboard).",B,False
+          E. A bench.  ",A,"Option: D; Reason: The specific visual evidence from frames 10, 11, 12, 21, and 22 supports the choice of a framework or scaffolding structure. The object next to the hat-shaped advertisement has a grid-like pattern and metallic appearance, which is characteristic of construction frameworks rather than a water tank. There is no visual evidence of a satellite dish, billboard, tree, or bench in the immediate vicinity of the hat-shaped advertisement. Therefore, the most strongly supported option by the visual evidence is D, a framework or scaffolding structure.",D,False
 AerialVLN_98_3QAVNHZ3EV2TWA6OU739IISOPDPALK_6.mp4,"Question: Navigation Instruction given at initial position: [fly up over the power lines and turn left. go to the short building across the channel. fly up and go to the top of the tallest building ahead. turn right and look down. turn back forward and go to the similar sized building across the channel. fly down to the ground and turn left. go to the end of the channel and go behind the trees. go to the left towards the open area. go to the tan coloured apartments and land on the ground.]. You move according to a series of movement instructions. In terms of next steps, what is your best next step?  
 choose:  
 A. I rise and then fly forward.  
 B. I go forward and turn left.  
 C. I fly forward while descending.  
 D. I turn right and go up.  
-E. I rotate the camera downward and then lower it.  ",B,"Option: A; Reason: Frames 1-3 show the agent ascending above the power lines, which aligns with the instruction to ""fly up over the power lines."" After reaching a sufficient height, the logical next step is to fly forward before turning left as instructed.",A,False
+E. I rotate the camera downward and then lower it.  ",B,"Option: C; Reason: The agent's movement from Frames 24 to 28 shows a continuous approach towards the tan-colored apartment building, indicating forward motion. Additionally, the gradual change in the agent's position relative to the building suggests a descent, aligning with the instruction to ""land on the ground."" This rules out options A, B, D, and E, which do not match the visual evidence of forward movement and descent. Earlier frames (1-23) establish the initial path, leading up to this final approach.",C,False
 AerialVLN_66_3EFVCAY5LC79IWP9UO7I6C91ZZGJ8L_1.mp4,"Question: Navigation Instruction given at initial position: [take off then move forward towards the tall building then turn left and move forward. move forward until it get closer to the building then turn left and look up then fly higher and forward then turn left. move forward and fly lower between the buildings then move forward until it get closer to the building fly lower then turn left. turn right and move forward towards the building until it get closer to the advertisement board then turn left. turn right and move forward to get closer to the building then turn right and fly higher and move forward towards the corner building along the road then turn right. move forward until it get closer to the building then turn left and fly lower towards the ground then turn left and move forward towards the tree then fly lower to the ground then turn right. turn right and turn left then look around the place then look up to focus the car advertisement board in the building.]. At the initial position, you are asked to move according to a series of movement instructions. When you arrive at your current location, what is your landmark position relative to the billboard on the building?  
 choose:  
 A. I am to the right of the building's billboard.  
 B. I am far from the building's billboard.  
 C. I am above the building's billboard.  
 D. I am to the left of the building's billboard.  
-E. I am beneath the building's billboard.  ",B,"Option: D; Reason: Frames 23-25 show the ""FARMERS MARKET"" billboard on the right side of the building from the agent's perspective, indicating that the agent is to the left of the billboard.",D,False
+E. I am beneath the building's billboard.  ",B,"Option: A; Reason: In Frame 22, the billboard is visible on the side of the building as the agent approaches. By Frame 23, the agent is directly adjacent to the billboard at the same level, indicating it is neither above nor below it. In Frame 24, the agent's perspective shows it is clearly to the right of the billboard, as evidenced by the visible edge of the building and the angle of view. Therefore, the most accurate answer is A. I am to the right of the building's billboard.",A,False
 RealWorld_GN_28_1.mp4,"Question: At the initial position, you are asked to navigate to the pond and rockery in the community ahead. At your current location, if the pond and rockery are not within your field of view, what is the most relevant object in your field of view and where is this object?  
 choose:  
 A. I can already see the pond and rockery.  
 B. I cannot see the pond and rockery, but there is a small square with a fountain in the center of my field of view.  
 C. I cannot see the pond and rockery, but I can see a row of tall buildings in the background.  
 D. I cannot see the pond and rockery within my field of view, but there is a parking lot on the left side of my field of view.  
-E. I cannot see the pond and rockery in my field of view, but I can see a group of shops in the lower left part of my field of view.  ",A,"Option: C; Reason: The initial frames (1-4) clearly show a row of tall buildings in the background, which are large, distinct, and occupy a significant portion of the view. Since the pond and rockery are not visible in these frames, the most accurate answer is **C. I cannot see the pond and rockery, but I can see a row of tall buildings in the background.**",C,False
+E. I cannot see the pond and rockery in my field of view, but I can see a group of shops in the lower left part of my field of view.  ",A,"Option: B; Reason: The video frames show that the pond and rockery are not visible in the initial frames. However, as the agent moves, a small square with a fountain becomes prominently visible in the center of the field of view. Specifically, in frames 3, 4, and 5, the fountain is clearly seen becoming more central and detailed. The visibility and prominence of the fountain evolve over time, making it the most relevant object in the initial field of view. Therefore, the most accurate answer is B. I cannot see the pond and rockery, but there is a small square with a fountain in the center of my field of view.",B,False
 RealWorld_3.mp4,"Question: Starting from your position, you are required to navigate to the entrance of the community. There is a moon-shaped blue pool in front. What is the correct summary of your trajectory from the beginning to the current position?  
 Choice:  
 A. I start from above the playground, rise to a certain height, turn left and adjust the field of view, fly forward, and then adjust the field of view to reach the current position.  
 B. I start from a high-rise building, descend to the ground, move along the road, and reach the current location.  
 C. I start from the park, fly over the basketball court, rise to a higher altitude, and move towards the residential area.  
 D. I start from the scooter lane in the park, turn left to face the street outside the park, gradually rise to the height above the high-rise building, and move forward to my current location, which is the residential area above the park entrance, with a blue moon-shaped pool in front.  
-E. I start from the high-rise building and move directly to the entrance of the community.  ",A,"Option: D; Reason: The trajectory from the scooter lane in the park to the current position above the moon-shaped blue pool is accurately described by Option D. It captures the agent's movement from the park, turning left to face the street, gradually rising above high-rise buildings, and moving forward to the residential area with the blue moon-shaped pool in front, as confirmed by the visual evidence in frames 16 to 20.",D,False
+E. I start from the high-rise building and move directly to the entrance of the community.  ",A,"Option: D; Reason: The agent's trajectory starts from a position above the park near the basketball court (Frame 1), moves forward and rises to a higher altitude over the park (Frames 10-20), continues towards the residential area (Frames 30-40), and finally reaches a position directly above the residential area with a clear view of the moon-shaped blue pool (Frames 50-60). This sequence accurately matches the description in Option D, which states that the agent starts from the scooter lane in the park, turns left to face the street outside the park, gradually rises above the high-rise building, and navigates towards the residential area with the moon-shaped blue pool in view.",D,False
 AerialVLN_56_3E47SOBEYZUFZOVGTI2NWXQKCCTICX.mp4,"Question: How does the distance between you and the tall building change after you turn slightly left and aim towards the building?  
 Choice: A. I increase the distance between myself and the tall building.  
           B. I decrease the distance between myself and the tall building.  
-          C. The distance between me and the tall building remains constant.  ",B,"Option: B; Reason: Frames 5-22 show the agent moving closer to a specific tall building after a slight left turn. The building's size and detail increase, indicating a decrease in distance. The surrounding environment, including trees and water, gradually becomes less dominant, supporting the conclusion that the agent is approaching the building.",B,True
+          C. The distance between me and the tall building remains constant.  ",B,"Option: B; Reason: The agent progressively decreases the distance between itself and the tall buildings. In Frame 1, the buildings are visible in the distance. By Frame 5, the agent has turned slightly left, and the buildings are more centered and appear larger. In Frame 10, the buildings are even more prominent, and by Frame 15, details of the architecture are clearer. Frames 20 and 25 show the agent very close to the buildings, with a focused view at street level. Each frame demonstrates a continuous approach towards the buildings, with increasing size and detail, directly supporting Option B.",B,True
 AerialVLN_64_3GDTJDAPV39ZJ4VUXLKAM41I3Q58M2.mp4,"Question: Which of the following options better summarizes your movement?  
 Choice:  
 A. Start from the high-rise building in the city, fly along the path parallel to the skyscraper, head to the woods in the middle of the intersection, and climb.  
 B. Fly from the intersection over the trees to the top of the skyscraper.  
 C. Descend from the rooftop to the trees in the middle of the intersection.  
 D. Go from the trees in the middle of the zebra crossing, directly through the skyscrapers, to the nearby parking lot.  
-E. Fly from a cluster of skyscrapers to the roof of a lower building while maintaining altitude.  ",B,"Option: E; Reason: The agent initiates its movement from a high vantage point within a dense cluster of skyscrapers, clearly indicating an aerial perspective at a significant altitude. It progresses steadily along a trajectory that remains parallel to the adjacent skyscrapers, evidencing a consistent altitude without noticeable ascent or descent. While the agent descends slightly to approach street-level features such as trees and crosswalks, there is no explicit evidence of landing on or targeting the roof of a lower building. This observation slightly deviates from Option E's specific mention of 'the roof of a lower building.' However, given the options, **Option E** ('Fly from a cluster of skyscrapers to the roof of a lower building while maintaining altitude') is the closest match. A more precise summary would be: 'Fly from a cluster of skyscrapers towards street level while maintaining altitude.'",E,False
+E. Fly from a cluster of skyscrapers to the roof of a lower building while maintaining altitude.  ",B,"Option: C; Reason: The agent descends from a high vantage point, likely a rooftop, as seen in Frame 1, and moves towards the central intersection while continuously decreasing in altitude. This is evident in Frames 5 and 10, where the perspective shifts closer to the buildings and the intersection becomes more prominent. By Frame 15, the agent is at a lower altitude near the trees, and in Frame 18, it reaches ground level near the trees in the intersection. Thus, the most accurate summary of the movement is Option C: Descend from the rooftop to the trees in the middle of the intersection.",C,False
 AerialVLN_83_3JWH6J9I91BO3KE1CYJKQLGJFT2BNJ_5.mp4,"Question: Navigation Instruction given at initial position: [take off and turn back and move forward and go over the buildings and pond and get down at beside the tree and again turn back and fly up. now move forward and go over the trees and road and turn back at top of the brown building and get down at front of the this building. now get down and fly up and turn right and little move forward and turn left and move forward and turn left and move forward and turn back and fly up and beside the blue building and move forward and go over the top of the buildings and turn right and and fly up at front of the brown building. now turn right and again turn right and beside pond and move forward and go over the road and tip of the buildings and turn right and get up and move forward and stay at front of the building.]. You are moving according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I get off the bus in front of the brown building.  
 B. I fly over the top of a building.  
 C. I turn right, then right again, to reach next to the high-rise building.  
 D. I turn right at the building.  
-E. I move forward and stay in front of the building.  ",C,"Option: E; Reason: The sequence of frames 230-234 shows a clear progression towards and stabilization in front of a specific building, aligning with the final navigation instruction to ""stay at front of the building."" The visual evidence confirms the agent's forward movement and final position in front of the building, making Option E the most accurate description.",E,False
+E. I move forward and stay in front of the building.  ",C,"Option: E; Reason: Frames 26 to 28 show the agent moving forward and stabilizing in front of a specific building, supported by the visual focus on the building and the cessation of dynamic movement.",E,False
 RealWorld_GN_21_1.mp4,"Question: You are navigating to the vicinity of the tower crane at the construction site ahead. Thinking back on past actions and objects seen, what do the surroundings of your current location look like?  
 Choice:  
 A. There is a big park in front of you with a pond. There are several low-rise buildings on the right. Behind you is a busy street with many vehicles.  
@@ -362,7 +359,7 @@ C. There are several high-rise residential buildings on the left and right sides
 
 D. There is a high-rise residential building directly behind you. Ahead is a highway and a large industrial area. There is a small park on the left.  
 
-E. There is a large open space in front of you. Directly behind is a row of high-rise apartments. There is a small shop on the right.  ",B,"Option: B; Reason: Frames 16-35 show a construction site with a crane and concrete mixers, a street with vehicles on the left, and an undeveloped area with sheds behind, perfectly matching the description in option B.",B,True
+E. There is a large open space in front of you. Directly behind is a row of high-rise apartments. There is a small shop on the right.  ",B,"Option: B; Reason: The video clearly shows a construction site with a crane and concrete mixers, a street on the left with vehicles (including motorcycles and cars), and an undeveloped area with small sheds and gardens behind the agent's position. Specifically, the crane is prominently visible in all selected frames, and the street on the left has both parked and moving vehicles. The undeveloped area includes small, makeshift structures and patches of greenery, which are evident in the background.",B,True
 RealWorld_43_0.mp4,"```
 Question: Where are your starting point and ending point in the video?
 Choices:    A. I start at the area surrounding the CEM building and end at a tennis court surrounded by trees.
@@ -372,14 +369,14 @@ Choices:    A. I start at the area surrounding the CEM building and end at a ten
              E. I start at a road with greenery on both sides and end at a city skyline with the CEM building in the distance.
 
 ```
-",B,"Option: C; Reason: The video begins at a tennis court surrounded by trees (Frames 1-5), which does not match the description in option C (""I start at a large industrial complex with multiple buildings""). However, the video ends at a construction site with several houses and buildings (Frames 46-50), perfectly aligning with the latter part of option C. Despite the starting point discrepancy, **C** is the most fitting option given the options.",C,False
+",B,"Option: C; Reason: The video starts at a tennis court surrounded by trees (Frames 1-2) and ends with an aerial view of an industrial complex featuring multiple buildings and rooftops (Frames 31-44), which aligns with the description in Option C.",C,False
 EmbodiedCity_48_2.mp4,"Question: At the initial position, you are asked to navigate to a red motorcycle with a yellow sign in front of a store. Thinking back on past Action Generations and objects you have seen, what should you approach next in order to get from your current location to your destination?  
 choose:  
 A. I go to the center of the intersection.  
 B. I go to the ""Cheegspod"" sign on top of the building.  
 C. I go to bicycles parked in front of the store.  
 D. I go to the streetlight on the corner.  
-E. I go to the highest point of the tall building across the street.  ",C,"Option: C; Reason: The red motorcycle with a distinctive yellow sign is parked among the bicycles in front of the store (Frames 31-60). The ""Cheesspod"" and ""酒便利"" signs on the building confirm this is the correct store. Therefore, approaching the bicycles is the most efficient route to the target motorcycle.",C,True
+E. I go to the highest point of the tall building across the street.  ",C,"Option: C; Reason: The agent's movement towards the ""酒便利"" store is clearly shown in frames 12 to 32. The bicycles parked in front of the store are a distinct and noticeable feature, making them a logical next point to approach. The red motorcycle is located near the bicycles, making it easily identifiable once the bicycles are reached. Therefore, the best choice is **C. I go to bicycles parked in front of the store**.",C,True
 EmbodiedCity_11.mp4,"Question: Where do you start and end your journey?
 
 Choices:  
@@ -387,21 +384,21 @@ A. Start between the skyscrapers and end at the rooftop of the city center build
 B. Start at the city square and end at the conical rooftop of a tower.  
 C. Start between tall buildings and end at the balcony on the 22nd floor.  
 D. Start at the base of a tower and end at the numbered floors of another building.  
-E. Start at the parking lot and end at the cityscape view.  ",C,"Option: B; Reason: The journey begins between tall buildings as seen in Frame 1, and ends at the conical rooftop of a tower as shown in Frames 4 and 5. This aligns with Option B, which describes starting between tall buildings and ending at the conical rooftop of a tower.",B,False
+E. Start at the parking lot and end at the cityscape view.  ",C,"Option: C; Reason: The journey starts between tall buildings (as seen in Frame 1) and ends at the balcony on the 22nd floor (as shown in Frames 28, 40, and 52), with clear visual evidence of the building's exterior and floor numbers. Frame 3 shows a conical rooftop structure, indicating an upward movement before descending to the 22nd floor. The detailed views in Frames 28, 40, and 52 specifically highlight the balconies and floor numbers, confirming the endpoint at the 22nd floor.",C,True
 RealWorld_25.mp4,"Question: What is the area immediately adjacent to the main pool?
 
 Choice: A. A small children's playground with ""Happy Childhood"" written on the ground.  
            B. Older low-rise residential buildings.  
            C. Smaller children's pool with a fish theme.  
            D. Residential vehicle parking lot.  
-           E. Large meadows with mature trees.  ",A,"Option: C; Reason: Frames 46-50 reveal a smaller, fish-themed pool adjacent to the main dolphin-designed pool, confirming Option C. This spatial relationship is clearly depicted, while other options (playground, buildings, parking, meadows) are visually unsupported. Precise positioning and thematic design solidify the accuracy of this choice.",C,False
+           E. Large meadows with mature trees.  ",A,"Option: C; Reason: The visual evidence from frames 31 to 40 clearly shows a smaller children's pool with a fish theme immediately adjacent to the main pool. The fish design at the bottom of the smaller pool and its placement next to the main pool support this choice. Additionally, the surrounding greenery and palm trees enhance the setting, making it evident that this is a designated area for children. Therefore, option C is the most accurate based on the provided video content.",C,False
 RealWorld_16.mp4,"Question: Why did you move closer to the target high-rise building after passing between several high-rise buildings with Chinese characters on them?
 
 Choice: A. To get a clearer view of the building's facade and locate the balcony with the green mesh.  
            B. To avoid potential danger near a high-rise building with Chinese characters on it.  
            C. To approach and avoid parked cars and roads in front of buildings.  
            D. To change your perspective.  
-           E. To capture a wider-angle shot of the building complex.  ",A,"Option: A; Reason: Frames 34-100 unequivocally demonstrate the agent's deliberate approach towards the high-rise, honing in on the balcony with the green mesh. This behavior aligns perfectly with the objective of obtaining a clearer view of the building's facade and pinpointing specific features. The visual data robustly corroborates the agent's intent, making Option A the most logically supported choice.",A,True
+           E. To capture a wider-angle shot of the building complex.  ",A,"Option: A; Reason: The agent moved closer to the target high-rise building to get a clearer view of the building's facade and locate the balcony with the green mesh. This is evident from frames 25 to 60, where the green mesh becomes increasingly visible as the agent approaches the building. The gradual increase in the visibility of the green mesh directly correlates with the agent's movement pattern, supporting the chosen option.",A,True
 EmbodiedCity_39_0.mp4,"Question: At the initial position, you are asked to navigate to the green trees behind the bus stop. What is your next move, given the target location for your next move?  
 choose:  
 A. I rise.  
@@ -410,124 +407,121 @@ C. I fly forward.
 D. I turn left.  
 E. I turn right.  
 F. I rotate the camera upward.  
-G. I descend.  ",G,"Option: C; Reason: ""I fly forward"" is optimal because the frames show a clear path toward the green trees behind the bus stop, with no immediate obstacles. This action directly addresses the goal of reaching the target location efficiently.",C,False
+G. I descend.  ",G,"Option: D; Reason: The green trees are positioned to the left of the bus stop in Frame 23 and Frame 46. Turning left aligns with the direction of these trees, making it the most logical next move to reach the target location. Other options like flying forward or turning right would move away from the green trees, which are the goal.",D,False
 AerialVLN_25_3DY46V3X3YGIOFRM7OWLTIG5F2055N_3.mp4,"Question: Navigation Instruction given at initial position: [turning left and going straight to the buildings and slight right turn. coming near the lake and turning right and going up to the building. coming down to the building and again going up and going straight. going top of the building and turning left and coming down to the building. roaming around a tower and searching each floor of apartment.]. You move according to a series of movement instructions. In terms of next steps, what is your best next step?  
 choose:  
 A. I go up and turn left.  
 B. I descend and fly forward.  
 C. I fly forward while rotating the camera upward.  
 D. I turn right and go up.  
-E. I turn left and descend.  ",A,"Option: B; Reason: The agent is currently on a rooftop and has been moving towards a building. According to the navigation instructions, the next step is to head towards the lake, which is visible in the distance. Descending and flying forward will allow the agent to efficiently reach the lake area, aligning with the instruction to ""come near the lake and turn right."" This action prepares the agent for the subsequent steps of turning right and going up to the building.",B,False
+E. I turn left and descend.  ",A,"Option: A; Reason: The agent is currently on a rooftop with a clear view of a prominent tower in the distance (Frame 245). From Frames 246 to 249, the agent moves closer to the tower, indicating an intention to interact with it. Frame 250 shows a close-up of the building's facade, suggesting the agent is now at the tower. ""Going up and turning left"" likely means accessing an entrance or a higher level of the tower, which aligns with the goal of ""roaming around a tower and searching each floor of apartment."" This action is more suitable than the other options because it directly facilitates the exploration of the tower's floors. Other options do not provide as clear a path for achieving the stated objective.",A,True
 AerialVLN_89_35DR22AR5MIOCJOSZBRN6495RXNX3K_2.mp4,"Question: Navigation Instruction given at initial position: [take off and move forward slow down near pond. now turn left move towards behind the ridge. now turn on your back view and move forward turn left fly towards the mid of pond. now turn left move towards behind the dates car wash building and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I turn left and move toward the back of the Date Car Wash building.  
 B. I take off and slow down near the pond.  
 C. I turn back.  
 D. I turn left and fly towards the center of the pond.  
-E. I open the rear view and move forward, turning left towards the back of the ridge.  ",A,"Option: B; Reason: Frames 1-10 incontrovertibly depict the agent taking off and moving forward, precisely adhering to the initial navigation instruction without deviation.",B,False
+E. I open the rear view and move forward, turning left towards the back of the ridge.  ",A,"Option: A; Reason: The agent's current action, as depicted in the video frames, involves turning left and moving toward the back of the Date Car Wash building. This is evident from Frames 39-46, which show the agent approaching the building, and Frame 54, which confirms the agent has reached and is staying near the Date Car Wash building.",A,True
 AerialVLN_58_30BUDKLTXMTIKYKFIPPOXCMISXQE5S_1.mp4,"Question: Navigation Instruction given at initial position: [take off and turn right and cross the trees towards the pond. now turn right and move forward and go over the trees and get down towards the tree. now turn right and move forward and go over the buildings towards the white building. now turn right and move forward reach the top of the brown building and stay there.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your landmark position to the white building?  
 choose:  
 A. I am to the left of the white building.  
 B. I am above the white building.  
 C. I am located underneath the white building.  
 D. I am located to the right of the white building.  
-E. I am located behind the white building.  ",A,"Option: A; Reason: In Frames 18-21, the agent reaches the top of the brown building. The white building is visible ahead and slightly to the left from this vantage point, confirming that the agent is to the left of the white building.",A,True
+E. I am located behind the white building.  ",A,"Option: C; Reason: The frames show the agent moving from a ground-level view near a building (Frame 1) to an elevated position over a pond (Frame 9). By Frame 17, the agent is closer to the buildings but not clearly above any specific building. Frames 21 and 25 do not provide clear visual evidence of the agent being directly above the white building. Instead, the agent appears to be at a similar elevation level as the buildings, suggesting the agent is near or beside the white building rather than above it.",C,False
 AerialVLN_78_3K772S5NPH9U0R4AJRQXM9P7C8XHE9.mp4,"Question: When the bridge comes into view, what is next to the river?  
 Choice: A. A ""Keep Out"" sign by the river.  
            B. A ""WELCOME"" sign by the river.  
            C. Traffic lights by the river.  
            D. A bus stop by the river.  
-           E. A fountain by the river.  ",A,"Option: A; Reason: Frames 21-23 consistently show a ""KEEP OUT"" sign next to the river as the bridge comes into view. The sign is clearly visible and remains a constant feature in these frames, making it the correct answer.",A,True
+           E. A fountain by the river.  ",A,"Option: A; Reason: In Frame 20, the ""KEEP OUT"" sign is clearly visible on the left side of the riverbank. As the agent moves closer to the bridge in Frames 21 and 22, the sign remains in view, still positioned next to the river. By Frame 23, when the bridge is fully in view, the ""KEEP OUT"" sign continues to be visible on the left side of the riverbank. This consistent presence of the sign next to the river throughout the sequence of frames supports the choice of Option A.",A,True
 AerialVLN_45_3A4NIXBJ7FXUYBFDRATER9NNFVUMLS.mp4,"Question: Which of the following options better summarizes your movement?  
 Choice: A. I descend from the city skyline through trees and mid-rise buildings to Greek-style columned buildings.  
            B. I aim at the road from above the city street, turn left, move forward to the vicinity of a single-story building, and then descend to the height of a column.  
            C. I rise above the city from the tree-lined road to reach the Greek-style columns.  
            D. I fly straight from the city skyline to the main road without descending.  
-           E. I fly left from above the skyscraper to the entrance of the multi-story building.  ",B,"Option: A; Reason: The video frames show the agent descending from a high vantage point over the city skyline, moving through mid-rise buildings, and approaching Greek-style columned buildings. Frame 1 shows the initial high altitude view of the city, while subsequent frames (Frames 5-10) depict the agent moving closer to the ground level among mid-rise structures. Frames 15-20 clearly illustrate the agent nearing and then reaching the detailed view of the columned building, confirming the descent and approach described in Option A.",A,False
+           E. I fly left from above the skyscraper to the entrance of the multi-story building.  ",B,"Option: A; Reason: The video shows the agent starting at a high altitude with a view of the city skyline (Frames 1-5). It then moves forward over mid-rise buildings and trees (Frames 6-15), gradually descending towards the Greek-style columned building (Frames 16-40). This sequence aligns with Option A, which describes descending from the city skyline, moving over mid-rise buildings and trees, and approaching the columns. The gradual descent and focus on the columns are clearly depicted in the latter frames.",A,False
 AerialVLN_55_3JBT3HLQFH0KO3TUYRCFGSSH6W7PZN_3.mp4,"Question: Navigation Instruction given at initial position: [take off and rise up to the top of the buildings. go right through the column of buildings. go straight and toward the red and green trees. go across the water and stop at the edge where the trees are. take a left turn toward the buildings. go straight toward the tall building and rise to the top of that building.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  
 choose:  
 A. I go up and turn left.  
 B. I descend and fly forward.  
 C. I fly forward while rising.  
 D. I turn right and go up.  
-E. I rotate the camera downward.  ",C,"Option: C; Reason: The agent starts at street level (Frames 1-2) and then ascends to an elevated position (Frames 3-4), aligning with the instruction to ""take off and rise up."" This upward and forward motion is best described by Option C (""fly forward while rising"").",C,True
+E. I rotate the camera downward.  ",C,"Option: C; Reason: The agent starts in a narrow alleyway between buildings (Frame 1) and gradually rises, as seen in Frames 2 and 3, where the top of the buildings becomes visible. By Frame 4, the agent has a clear view of the cityscape above the buildings. This sequence supports the action of ""flying forward while rising,"" which aligns with the instruction to navigate through the column of buildings by ascending. The visual evidence clearly shows a progression from a confined space to an open aerial view, making Option C the most appropriate choice.",C,True
 EmbodiedCity_57_0.mp4,"Question: At the initial position, you are asked to navigate to a store with the signboard ""贝壳生鲜 Food."" Thinking back on past Action Generations and objects you have seen, what should you approach next in order to get from your current location to the destination?  
 choose:  
 A. I approach sidewalks adjacent to high-rise buildings.  
 B. I approach the entrance of a high-rise building.  
 C. I approach green spaces near high-rise buildings.  
 D. I approach the parking lot next to the high-rise building.  
-E. I approach rooftops of adjacent buildings.  ",B,"Option: A; Reason: The frames show clear sidewalks adjacent to the high-rise buildings, which are the most direct path to potential store locations like ""贝壳生鲜 Food.""",A,False
+E. I approach rooftops of adjacent buildings.  ",B,"Option: A; Reason: The agent approaches sidewalks adjacent to high-rise buildings, as evidenced by the consistent presence of sidewalks and high-rise buildings in the frames. Additionally, the agent passes by green spaces and road intersections, which further guide the path towards the ""贝壳生鲜 Food"" store. As the agent continues along the sidewalk, the store becomes increasingly visible, confirming that this path leads directly to the destination.",A,False
 AerialVLN_29_3OHYZ19UGL312V9L7ZJ1AZWIN8TOAX_6.mp4,"Question: Navigation Instruction given at initial position: [take off and turn left and move forward and go over the buildings and road and turn right and move forward and go over the buildings and turn left at front of the dates car wash board and move forward. now move forward and get down and besidecharlies chocolate building and turn back and move forward and go over the buildings and get down at intersection road and get up and turn back and move forward. now move forward and get down at front of the white building and turn right and beside sea and move forward and go over the building alley and get down at tastes board with building and land there.]. At the initial position, you are asked to navigate according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I get off the bus in front of the white building.  
 B. I fly over buildings.  
 C. I turn right at the building.  
 D. I turn left before the date car wash board.  
-E. I go through the alley between the buildings.  ",B,"Option: B; Reason: Frames 2-6 depict the agent taking off and flying over buildings, which directly matches the instruction ""take off and move forward and go over the buildings.""",B,True
+E. I go through the alley between the buildings.  ",B,"Option: B; Reason: The agent is consistently shown flying over buildings throughout the selected frames (2, 4, 6, 8, 10, 20, 24, 28, and 32). In Frame 16, the agent approaches ""Charlie's Chocolate"" building, and in Frame 28, it moves beside the sea. Additionally, Frame 24 shows the agent getting down at the front of a white building before turning right. These details provide a comprehensive understanding of the agent's path and actions as per the navigation instructions.",B,True
 RealWorld_31.mp4,"Question: At the initial position, you are asked to navigate to the underground garage near the residential area consisting of gray buildings in front of you for access. Thinking back on past actions and objects you saw, what should you approach next in order to get from your current location to your destination?  
 choose:  
 A. I approach the top of the tallest crane on the construction site.  
 B. I approach the underground garage.  
 C. I approach the street light closest to the building entrance.  
 D. I approach the crosswalk in front of the store.  
-E. I approach the residential area entrance.  ",B,"Option: E; Reason: The frames show a clear view of the residential area entrance gate, which is the most direct path towards the underground garage. The entrance is prominently visible, and there are no immediate indications of other options like a crosswalk, street light, or crane being relevant to the navigation towards the underground garage.",E,False
+E. I approach the residential area entrance.  ",B,"Option: E; Reason: The video frames show a clear progression towards the residential area entrance. In frames 56-65, the entrance to the residential area is visible, with a car entering the underground garage. Frames 66-70 provide a close-up view of the underground garage entrance, confirming the destination. Specifically, in frame 58, a sign indicating the residential area entrance is visible, and in frame 62, a car is seen entering the underground garage. The state transitions from a broad aerial view in frame 37 to a ground-level perspective near the entrance in frame 60. Therefore, the most appropriate choice is **E. I approach the residential area entrance**.",E,False
 AerialVLN_94_3MX2NQ3YCISRQYBWDUFGL17P7ZU5XC_4.mp4,"Question: Navigation Instruction given at initial position: [take off and turn back towards the buildings at back. now move forward over the buildings till the small white building arrives at your front and get down towards it top. now get up and turn left towards the gray tower at left and move closer it. now turn back and move forward over the buildings and get down to the top of the yellow banner at below. now get up and turn back and fly over the buildings till the white building arrives before the road. now move closer to the white building at right and get up and turn left towards the buildings at left. now move forward over the buildings and move towards the gray building at front of you and move closer to it and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  
 choose:  
 A. I fly forward and then rise.  
 B. I drop down and turn left.  
 C. I fly forward while rising.  
 D. I turn left and descend.  
-E. I rotate the camera downward.  ",B,"Option: C; Reason: Frames 1-3 show the agent at ground level, then ascending, which aligns with the ""take off"" instruction. Frame 3 confirms the agent is rising, providing a broader view of the surroundings. ""Fly forward while rising"" (C) precisely follows the initial takeoff and sets up for subsequent maneuvers, making it the optimal choice.",C,False
+E. I rotate the camera downward.  ",B,"Option: C; Reason: The frames show a clear progression of the agent's ascent and forward movement. In Frame 1, the agent is at ground level near a building. By Frame 2, there is a slight elevation, and more of the surrounding area is visible. Frame 3 provides a higher vantage point with a view of the buildings and water body in the distance. Finally, Frame 4 shows the agent above the buildings with a broad cityscape view. This sequence aligns with the instruction to ""take off"" and ""turn back towards the buildings at back,"" supporting Option C (""I fly forward while rising"") as the best next step.",C,False
 AerialVLN_55_3JBT3HLQFH0KO3TUYRCFGSSH6W7PZN_4.mp4,"Question: Navigation Instruction given at initial position: [take off and rise up to the top of the buildings. go right through the column of buildings. go straight and toward the red and green trees. go across the water and stop at the edge where the trees are. take a left turn toward the buildings. go straight toward the tall building and rise to the top of that building.]. You move according to a series of movement instructions. In terms of next steps, what is your best next step?  
 choose:  
 A. I fly forward and rise.  
 B. I turn right and go up.  
 C. I turn left and go up.  
 D. I descend and fly forward.  
-E. I fly forward.  ",C,"Option: A; Reason: Frames 1-3 show the agent taking off and rising, aligning with the instruction to ""rise up to the top of the buildings."" Continuing to fly forward and rise is logical.",A,False
+E. I fly forward.  ",C,"Option: C; Reason: In Frames 21-30, the agent is positioned at the edge of the water near the trees, with buildings visible to the left. Turning left and going up will align the agent with the next instruction to ""go straight toward the tall building and rise to the top of that building."" This action facilitates a clear path toward the tall building, avoiding any obstacles and reaching a higher vantage point as required by the subsequent instructions.",C,True
 EmbodiedCity_75_1.mp4,"Question: You are navigating to the entrance of the community next to the store, which has a yellow sign that says ""乐购便利店"". Thinking back on past actions and objects you’ve seen, what is the surrounding environment like at your current location?  
 Choice:  
 A. There is a high-rise building on your left, a road on your right, and sidewalks and green belts below. There is a fork in the road in front of you that turns left.  
 B. There are two high-rise buildings on your left and right, with a street and a small green space in the middle. There is a parking lot behind you.  
 C. There is a large park directly in front of you. The buildings are far away. There is a big river behind you.  
 D. There is a high-rise building in front of you. There is a road behind you. There is parking underneath you.  
-E. There are several low-rise buildings surrounding you, and there is a busy intersection nearby. There is a construction site behind you.  ",A,"Option: D; Reason: Frames 6-10 show the agent approaching a high-rise building directly in front, a road behind, and an elevated structure suggesting parking underneath, confirming all elements of Option D.",D,False
+E. There are several low-rise buildings surrounding you, and there is a busy intersection nearby. There is a construction site behind you.  ",A,"Option: A; Reason: Frames 6, 7, 8, and others clearly show high-rise buildings on the left, a road on the right with sidewalks and green belts, and a fork in the road turning left, supporting Option A.",A,True
 EmbodiedCity_87.mp4,"Question: Instead of descending further, if you choose to maintain your altitude, can you still reach the two-story small house with a blue roof in the community?  
 Choices:  
 A. I cannot complete the task because I may overshoot the target, and the hypothetical movement takes longer.  
 B. I can complete the task because I have a clear line of sight, but the hypothetical movement takes longer.  
-C. I cannot complete the task because the house is obscured by taller buildings.  ",B,"Option: B; Reason: The clear line of sight and lack of obstructions validate this choice. However, the longer hypothetical movement time due to distance and navigation around structures aligns with B's description.",B,True
+C. I cannot complete the task because the house is obscured by taller buildings.  ",B,"Option: B; Reason: Maintaining altitude allows the agent to reach the target house with a clear line of sight, as evidenced by Frames 2, 34, and 66. The broader scanning area at a higher altitude ensures visibility of the target without obstruction from taller buildings, which is confirmed by the unobstructed view in the frames. However, this approach takes longer because the agent needs to cover a larger area to locate the target accurately.",B,True
 EmbodiedCity_74.mp4,"Question: What is your next action after hovering above a narrow street directly over trees?  
 Choices: A. I descend to street level.  
            B. I fly around the building.  
            C. I reverse direction.  
            D. I ascend to a higher altitude.  
-           E. I turn right towards the main entrance.  ",A,"Option: A; Reason: Visual evidence (Frames 3-70) clearly supports Option A, ""I descend to street level"":
-- **Frames 3-10**: Agent descends from high altitude.
-- **Frames 11-20**: Agent reaches street level.
-- **Frames 21-70**: Agent moves along the street, confirming descent.",A,True
+           E. I turn right towards the main entrance.  ",A,"Option: E; Reason: The video frames show the agent initially hovering above a narrow street lined with trees (Frames 7-15). As the agent continues to move forward along the street (Frames 16-30), it approaches a building on the right side (Frames 31-40). In Frames 41-50, the agent clearly turns right, aligning its path with the main entrance of the building. This sequence of events is consistently supported by the visual evidence, confirming that the next action is to turn right towards the main entrance.",E,False
 AerialVLN_53_3II4UPYCOS52LEPD6M27P5ZONEUQDZ_7.mp4,"Question: Navigation Instruction given at initial position: [take off go straight and reach the pool land slightly and see the city. from the pool take left and go straight and next to the top building comes a little right. from there taking right and reaching the four side road. take a left fro the road and travel to the large building opposite to the charlie chocolate. take a right from the chocolate factory and go to the roof top. after the roof top and reach the road then landed before the lamp post.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is your best next step?  
 choose:  
 A. I turn right and descend.  
 B. I rise and fly forward.  
 C. I descend and fly forward.  
 D. I turn left and go up.  
-E. I rotate the camera downward and fly forward.  ",C,"Option: B; Reason: Frames 1-3 show the agent starting on a platform with a clear, unobstructed path toward the pool. The instruction ""take off go straight and reach the pool"" directly corresponds to the observed forward movement in these frames, confirming that rising and flying forward (Option B) is the logical next step.",B,False
+E. I rotate the camera downward and fly forward.  ",C,"Option: B; Reason: The agent starts on a platform (Frame 1) with a clear view of the city and a pool ahead. Frames 2 to 6 show a gradual approach towards the pool, indicating forward movement. Specifically, Frame 3 reveals the pool becoming more prominent as the agent advances. This aligns with the instruction to ""take off go straight and reach the pool."" Option B (""I rise and fly forward"") is the most appropriate next step as it allows the agent to continue this straight path towards the pool. Other options, such as turning right or left, descending, or rotating the camera downward, do not align with the requirement to go straight. Therefore, rising and flying forward is the logical choice to reach the pool efficiently.",B,False
 AerialVLN_51_3RSDURM96JKGMMUZTRUL89KBMYHEYM_3.mp4,"Question: Navigation Instruction given at initial position: [take of from the river and turn left towards the city and go straight towards the buildings. then take left and then take immediate right towards the board and then suddenly take left and go straight towards the statue then turn right and take of. then go towards the drink ice cold, sun noon board and then take left there was an highest building and then take right from the building then take immediate left from that building in opposite there was an bolt cola board is that our destination.]. You move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I fly over buildings.  
 B. I cross the water.  
 C. I take off from the river.  
 D. I turn right at the building.  
-E. I turn left at the tallest building.  ",E,"Option: C; Reason: Frames 1-4 show the agent starting at the river's edge and moving forward over the river, confirming the ""take off"" action.",C,False
+E. I turn left at the tallest building.  ",E,"Option: C; Reason: The initial frames (1-5) show the agent taking off from the river and moving towards the city, aligning with the instruction to ""take off from the river and turn left towards the city."" Frames 6-24 depict the agent navigating through the city streets, turning left as instructed. The visual evidence in these frames supports the continuous movement from the river into the urban environment, confirming that the current action is indeed taking off from the river and proceeding into the city.",C,False
 AerialVLN_10_32EYX73OY97OEHFZ5WHW4VDH3OSRUM.mp4,"Question: Why did you slightly adjust your path to align with the road's curve towards the left?  
 Choices:  
 A. To ascend to a higher altitude.  
 B. To avoid an obstacle on the road.  
 C. To capture a better view of the lake.  
 D. Because my destination is more likely to exist on the left side of the road by the lake.  
-E. To descend towards the ground.  ",D,"Option: D; Reason: The road curves left in Frames 4-8, and the agent follows this curve. The lake is consistently visible on the left side, suggesting the destination is likely near the lake.",D,True
+E. To descend towards the ground.  ",D,"Option: D; Reason: The primary reason for adjusting the path is to follow the natural curve of the road, which moves closer to the lake on the left. This is evident from Frames 1 to 10, where the agent gradually aligns its path with the road's curve, as seen in Frames 6-10. The adjustment is not for ascending, avoiding an obstacle, capturing a view, or descending, but rather to maintain alignment with the road's direction.",D,True
 EmbodiedCity_6.mp4,"Question: What is your next action after centering the conical structure in the frame?
 
 Choices:  
@@ -535,91 +529,91 @@ A. I ascend toward the top of the conical building.
 B. I turn sharply to the left.  
 C. I move backward to get a wider view of the structure.  
 D. I hover in place above the building.  
-E. I descend, moving closer to the top of the conical building.  ",E,"Option: E; Reason: The visual evidence in frames 7-10 shows a clear descent towards the top of the conical building, as indicated by the increasing detail and prominence of the upper floors.",E,True
+E. I descend, moving closer to the top of the conical building.  ",E,"Option: E; Reason: The video frames show a smooth transition from centering the conical structure to descending closer to the top of the building. Initially, the conical structure is centered (Frame 4), and then the camera moves downward, focusing on the upper floors (Frames 6-64). The numbers on the building (31, 30, 29, etc.) become more prominent, indicating a descent. This continuous movement supports Option E.",E,True
 RealWorld_17.mp4,"Question: Why do you drop to a position diagonally above the road and bus stop after moving slightly forward and downward over the road?
 
 Choice: A. To get a better view of traffic flow on the road.
             B. The bus stop is the final destination.
             C. Due to low battery power.
             D. To avoid collision with nearby buildings.
-            E. To take a clearer shot of the parked car.",B,"Option: B; Reason: The agent drops to a position diagonally above the road and bus stop primarily because the bus stop is the final destination. This is supported by the visual evidence in frames 34 to 38, where the agent's movement is purposefully directed towards and stabilized above the bus stop. The diagonal position provides a clear and stable view, enabling effective monitoring of activities at the bus stop, which appears to be the main point of interest.",B,True
+            E. To take a clearer shot of the parked car.",B,"Option: B; Reason: The bus stop is the primary focus of the drone's movement. The detailed analysis of the drone's trajectory shows it deliberately positions itself above the bus stop, as seen in frames 37-43. This positioning suggests the drone's intent to capture detailed visuals of the bus stop and its surroundings. The presence of people at the bus stop further reinforces its significance as a point of interest. The drone's movement does not align with avoiding collisions or focusing on traffic flow, ruling out other options. Therefore, option B is the most supported choice based on the visual evidence.",B,True
 EmbodiedCity_59_1.mp4,"Question: At the initial position, you are asked to navigate to a store with the sign ""Mr. Fan."" Thinking back on past actions and objects you have seen, what should you approach next in order to get from your current location to the destination?  
 choose:  
 A. I approach a crosswalk on a street.  
 B. I approach the entrance of a high-rise building.  
 C. I approach the lawn next to the high-rise building.  
 D. I approach low-rise ancillary buildings at the bottom of high-rise buildings.  
-E. I approach rooftops of adjacent buildings.  ",D,"Option: D; Reason: The frames consistently highlight ancillary buildings at the base of high-rise structures, which are typical locations for stores like ""Mr. Fan.""",D,True
+E. I approach rooftops of adjacent buildings.  ",D,"Option: D; Reason: Frames 2 to 60 consistently show an overhead view of the environment with high-rise buildings and low-rise ancillary buildings at their base. For instance, Frame 15 and Frame 30 clearly depict these low-rise structures adjacent to the high-rises, which are more likely to house commercial establishments like the ""Mr. Fan"" store. While the specific store sign is not visible, it is reasonable to assume that such stores are typically located in these areas due to their commercial nature. Therefore, approaching the low-rise ancillary buildings is the most logical next step based on the visual evidence.",D,True
 AerialVLN_0_35H6S234SJYE7JR0C76QLOU436G65H_6.mp4,"Question: Navigation Instruction given at initial position: [rise from the concrete and turn right. fly over the middle of the street until you reach the buildings on the left with the short concrete wall like structure around them. turn left right beside the buildings and fly along beside them. when you get to the middle darker brown building then angle straight up and fly toward the top of the building. before you get to the top turn right and begin to level off. fly toward the building with the half pipe or half circle design on the edge of the roof. when you get to the half circle then turn left and downward and fly toward the red roof of the smaller building beside the one you climbed. stop well before you get to the roof.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  
 choose:  
 A. I go up and turn right.  
 B. I descend and fly forward.  
 C. I fly forward while rising.  
 D. I turn left and descend.  
-E. I rotate the camera downward and fly forward.  ",B,"Option: A; Reason: The agent is at ground level on a concrete surface in Frames 1-3, requiring an immediate rise to follow the navigation instructions.",A,False
+E. I rotate the camera downward and fly forward.  ",B,"Option: A; Reason: The agent is currently at ground level on a concrete surface (Frame 1), and the instruction explicitly states to ""rise from the concrete."" Frames 2-5 show forward movement but no ascent, indicating that rising is the next logical step. Additionally, Frames 6-10 continue to show the agent moving forward without ascending, further justifying the need to rise as the next step. Therefore, the best next step is to go up and then turn right, as indicated in option A.",A,False
 RealWorld_17.mp4,"Question: What objects did you observe when you descended over the road for a bird’s eye view?  
 Choice:  
 A. Roads, stores, and parking lots.  
 B. A hazy cityscape, high-rise buildings, and parts of a high-rise residential tower.  
 C. Only one road and one bus stop.  
 D. A group of high-rise residential buildings and a road.  
-E. A bus stop, pedestrians, and a section of road.  ",A,"Option: E; Reason: The selected frames (34-38) distinctly show a bus stop with a shelter and people waiting, pedestrians near the bus stop and on the sidewalk, and a clear section of the road with lane markings and vehicles. These elements directly correspond to option E, providing a comprehensive bird's eye view of the described scene.",E,False
+E. A bus stop, pedestrians, and a section of road.  ",A,"Option: E; Reason: The video frames show a clear bird's eye view of the road, with bus stops, pedestrians, and sections of the road being prominently visible. For example, Frame 45 shows a detailed view of a bus stop with several pedestrians waiting, while Frames 60-70 provide a continuous observation of the road and pedestrian activity. This consistent visual evidence supports the selection of Option E as the most accurate description of the observed elements.",E,False
 AerialVLN_11_3T3IWE1XGFL923LASC2MU9HAR8YQTF_6.mp4,"Question: Navigation Instruction given at initial position: [turn around. fly forward over the buildings to the next road. turn around and fly forward. go to above the four lane highway on the left. fly down to the intersection and stop. turn left at the billboard. fly over the buildings to the left. go towards the water. stop one block away from the water and lower down into the alley. turn around and fly forward one block. go to the taller dark building. lower down to the road. turn left. fly to the white building. fly over the building and go to the next road. stop in front of the red brick building.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach your current location, what is your landmark position relative to the road?  
 choose:  
 A. I am on the left side of the road.  
 B. I am located underneath the road.  
 C. I am on the right side of the road.  
 D. I am located above the road.  
-E. There is no positional relationship between me and the road.  ",D,"Option: D; Reason: Frames 25 and 26 show the agent exiting the building and positioning directly above the road, with a clear downward view confirming this location.",D,True
+E. There is no positional relationship between me and the road.  ",D,"Option: D; Reason: The agent is located above the road. This is supported by specific visual evidence from Frames 13-16 and 23-25, where the agent maintains an elevated perspective over the road. In Frame 13, the angle of the buildings and the shadow of the agent on the road clearly indicate an aerial position. Similarly, in Frame 25, the agent approaches a red brick building while still showing the road below, confirming its elevated status. These details solidify the conclusion that the agent is consistently above the road.",D,True
 AerialVLN_49_3NJM2BJS4547GAIK6DS75URVDUYPCB_4.mp4,"Question: Navigation Instruction given at initial position: [take off and turn left and move forward and go over the building and and turn left and little move forward and turn right and move forward and get down at intersection road and turn right at tree and fly up and move forward. now get down at intersection road and turn left and move forward and our back and fly up and move forward and go over the building and road. now get down front of the pink building and turn back and your see daves car wash building and fly up and move forward and go over the building. now move towards the american board of the building and turn left and fly up and move forward. now get down beside white building and move forward and go over the road and turn left and forward and turn right and move forward and landed at front of american board of the building.]. You move according to a series of movement instructions. In terms of the next steps, what is the best next step for you?  
 choose:  
 A. I drop down and turn left.  
 B. I rise and fly forward.  
 C. I fly forward while rising.  
 D. I turn right and descend.  
-E. I rotate the camera downward.  ",A,"Option: C; Reason: The frames show the agent at a high elevation with a continuous forward and upward trajectory, confirming the action of flying forward while rising. This aligns with the instruction to take off and turn left, as the subsequent movement is logically a forward ascent over the cityscape.",C,False
+E. I rotate the camera downward.  ",A,"Option: C; Reason: The final frames (21-25) show the agent at a high altitude with a clear view of the cityscape, indicating readiness for continued flight. The path ahead is unobstructed, aligning with the instruction to fly forward while rising. Specific visual elements like the distant skyline and open airspace support this next step.",C,False
 RealWorld_GN_16_2.mp4,"Question: At the initial position, you are asked to navigate to a balcony with a green screen across the street on the left. At your current location, if the balcony with the green screen is not in view, what is the most relevant object in view? Where is this object?  
 choose:  
 A. The balcony with the green screen is already within my field of view.  
 B. There is no green screen balcony, but I see a playground in the lower right corner of my field of view.  
 C. There is no balcony with a green screen, but I see a group of tall buildings across the street on the left.  
 D. The balcony with the green screen cannot be seen, but I see a parking lot on the right side of my view.  
-E. The balcony with the green screen is not visible in my field of view, but I see a traffic light in the upper left corner of my field of view.  ",C,"Option: C; Reason: The frames clearly depict modern tall buildings on the left, supporting Option C.",C,True
+E. The balcony with the green screen is not visible in my field of view, but I see a traffic light in the upper left corner of my field of view.  ",C,"Option: C; Reason: The video frames show a gradual panning movement from right to left. Initially, the view includes a parking lot on the right side (Frames 1 and 2). As the camera pans left, the focus shifts to a group of tall buildings across the street on the left side (Frames 3 and 4). These buildings become more prominent and are the most relevant objects in view when the green screen balcony is not visible. Therefore, the most relevant object in view is a **group of tall buildings across the street on the left**.",C,True
 AerialVLN_83_3JWH6J9I91BO3KE1CYJKQLGJFT2BNJ_6.mp4,"Question: Navigation Instruction given at initial position: [take off and turn back and move forward and go over the buildings and pond and get down at beside the tree and again turn back and fly up. now move forward and go over the trees and road and turn back at top of the brown building and get down at front of the this building. now get down and fly up and turn right and little move forward and turn left and move forward and turn left and move forward and turn back and fly up and beside the blue building and move forward and go over the top of the buildings and turn right and and fly up at front of the brown building. now turn right and again turn right and beside pond and move forward and go over the road and tip of the buildings and turn right and get up and move forward and stay at front of the building.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is the Landmark Position from the pond when you reach your current location?  
 choose:  
 A. I am on the right side of the pond.  
 B. I am located above the pond.  
 C. I am located on the left side of the pond.  
 D. I am far away from the pond.  
-E. I am located below the pond.  ",D,"Option: A; Reason: Frame 10 clearly shows the pond on the left side of the view, confirming that the agent is on the right side of the pond. The consistent rightward movement from Frame 6 to Frame 10 supports this conclusion.",A,False
+E. I am located below the pond.  ",D,"Option: C; Reason: The analysis of the selected frames (6, 10, 11, 23, and 24) shows that the pond is consistently on the right side of the agent's path. In Frames 23 and 24, the pond remains on the right, indicating that the agent is on the left side of the pond. This spatial relationship is clearly depicted in the visual evidence, supporting the conclusion that the correct option is C.",C,False
 RealWorld_GN_4_0.mp4,"Question: At the initial position, you are asked to navigate to the roof of a building three floors ahead. Is the destination within sight at the current location? If yes, where is the destination in your view?  
 choose:  
 A. I see the roof of the three-story building ahead in the lower right part of my field of view.  
 B. I see the roof of the three-story building ahead in the lower left part of my field of view.  
 C. I see the roof of the three-story building ahead in the upper center of my field of view.  
 D. I cannot see the roof of the three-story building ahead in my field of view.  
-E. I see the roof of the three-story building ahead on the right side of my field of view.  ",C,Option: C; Reason: The roof of the three-story building ahead is clearly visible in the upper center of the field of view in the initial frames. This is confirmed by the overhead perspective showing the layout of the courtyard and the central positioning of the relevant building's roof.,C,True
+E. I see the roof of the three-story building ahead on the right side of my field of view.  ",C,"Option: C; Reason: The roof of the three-story building is visible in the upper center of the field of view from the initial position. Specifically, in Frame 1, the roof is clearly distinguishable with its flat surface and some structures on it. As the video progresses, the camera maintains a clear view of the roof, confirming its initial visibility. The consistent positioning of the roof in the upper center supports the choice of option C.",C,True
 AerialVLN_98_3QAVNHZ3EV2TWA6OU739IISOPDPALK_2.mp4,"Question: Navigation Instruction given at initial position: [fly up over the power lines and turn left. go to the short building across the channel. fly up and go to the top of the tallest building ahead. turn right and look down. turn back forward and go to the similar sized building across the channel. fly down to the ground and turn left. go to the end of the channel and go behind the trees. go to the left towards the open area. go to the tan coloured apartments and land on the ground.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is your best next step?  
 choose:  
 A. I go up and turn left.  
 B. I turn right and fly forward.  
 C. I fly forward and rotate the camera downward.  
 D. I turn right and go up.  
-E. I turn left and descend.  ",B,"Option: A; Reason: Instructions start with ""fly up over the power lines and turn left."" Frames 1-4 show the agent ascending, matching the ""fly up"" part. Thus, continuing the ascent and turning left (Option A) is the correct next step, supported by visual evidence.",A,False
+E. I turn left and descend.  ",B,"Option: A; Reason: The agent starts at ground level in Frame 1 with power lines directly ahead. Frames 2 to 5 show a clear ascent above the power lines, aligning with the instruction to ""fly up over the power lines."" In Frame 5, the agent is positioned above the power lines, indicating readiness to change direction. Therefore, the next logical step according to the instruction is to ""turn left,"" making Option A the most appropriate choice.",A,False
 EmbodiedCity_88.mp4,"Question: In the starting position, you are asked to navigate over a residential lawn with a small blue house. Thinking back on past action generations and objects you have seen, what is the surrounding environment like at your current location?  
 Choice:  
 A. There is a large open space below me. High-rise buildings are to my right and behind me.  
 B. Two adjacent high-rise buildings are on my right side, and there is a large parking lot in front. A wide road is to my left.  
 C. Three buildings are in a row across the street in front of me. The middle one is much taller than the other two. There is a park behind me with pedal paths and trees. A walkway is underneath me.  
 D. A high-rise building is directly in front of me. There is a large highway to my left and a smaller road to my right.  
-E. Many small buildings are clustered around me, with narrow streets between them.  ",A,"Option: A; Reason: The initial frames show a large open space below and high-rise buildings to the right and behind, matching option A. Other options introduce elements not observed in the frames.",A,True
+E. Many small buildings are clustered around me, with narrow streets between them.  ",A,"Option: B; Reason: Frames 3, 4, and 5 show two adjacent high-rise buildings on the right side, a large parking lot in front, and a wide road to the left, which matches the description in option B. The frames do not show a residential lawn or a small blue house, indicating a possible mismatch with the question's scenario.",B,False
 AerialVLN_65_3IUZPWIU1X5FJHR9ACN0L7C0VNSKWS_7.mp4,"Question: Navigation Instruction given at initial position: [take of and go straight towards the daves car wash building and go up of the building and again down to the building. take right from the shop and suddenly take left and go straight toward the street and cross the farmers market on the left. and take up to the building and go straight the turn the first right and go straight towards the loans building then take immediate left from the building. go straight toward the charlie a chocolate shop and again return to the front building of national optician health insurance is our destination.]. You move according to a series of movement instructions. At this point, what is the best next step for you?  
 choose:  
 A. I fly forward and then rise.  
 B. I descend and turn right.  
 C. I turn left and fly forward.  
 D. I go up and turn left.  
-E. I fly forward while rotating the camera downward.  ",C,"Option: B; Reason: The agent needs to descend (Frames 13-15) and prepare for a right turn (Frames 16-20), aligning with the navigation instructions.",B,False
+E. I fly forward while rotating the camera downward.  ",C,"Option: B; Reason: The agent is descending towards the buildings, as indicated by the increasing detail and prominence of the structures in frames 21 to 30. While the exact turn is not visually confirmed, the navigation instructions suggest taking a right from the shop. Therefore, the best next step is to ""descend and prepare to turn right,"" aligning with the visual evidence and the given directions.",B,False
 RealWorld_26.mp4,"Question: You were flying toward the outer edge of a residential area and made a half-circle. Thinking back on past actions and objects, what is the surrounding environment like at your current location?  
 Choice:  
 A. In front of me is a residential building, and on the right is a park and swimming pool. On the left is the outer edge of the community.  
@@ -630,28 +624,28 @@ C. I am surrounded by high-rise residential buildings, with a small park and swi
 
 D. There is a river in front of me, a bicycle path next to it, and some residential buildings on the right. There is a park with a playground in the back.  
 
-E. There is a busy road with many cars in front of me. There is a construction site behind me. To my left is a large building, and to my right is a residential building with a park.  ",A,"Option: D; Reason: The video clearly shows a river in front, a bicycle path next to it, residential buildings on the right, and a park with a playground in the background, aligning perfectly with the description in option D.",D,False
+E. There is a busy road with many cars in front of me. There is a construction site behind me. To my left is a large building, and to my right is a residential building with a park.  ",A,"Option: D; Reason: The video frames show a river in front (Frames 31-35), a bicycle path next to the river (Frames 36-40), residential buildings on the right (Frames 41-45), and a park with a playground in the back (Frames 46-50). These specific visual elements align perfectly with the description in option D, providing clear and concrete support for the chosen option. The frame selection criteria were based on showing the transition from the inner residential area to the outer edge, highlighting key landmarks like high-rise buildings and busy roads (Frames 7-30) before reaching the final position.",D,False
 AerialVLN_88_35DR22AR5MIOCJOSZBRN64942Z0X3A_5.mp4,"Question: Navigation Instruction given at initial position: [take off and turn slightly right and then turn slightly left towards a brown building. fly forward and turn right towards a white building when above an intersection. fly forward and land in front of a light pole.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  
 choose:  
 A. I go up and turn right.  
 B. I fly forward.  
 C. I fly forward while descending.  
 D. I turn left and go up.  
-E. I rotate my camera upward and fly forward.",B,"Option: B; Reason: The agent is at a low altitude near buildings, indicating the need to ascend (""take off""). Frames 2 and 3 show the agent moving forward along a clear path between buildings, with no immediate indication of needing to turn right. The environment supports continuing forward, making ""I fly forward"" the most appropriate next step.",B,True
+E. I rotate my camera upward and fly forward.",B,"Option: B; Reason: The agent is already aligned with the white building as seen in Frames 15-18, where the white building is clearly visible and the agent is on a direct path towards it. There are no indications of needing to ascend, descend, or turn further at this point. The sequence shows a smooth approach towards the target location, supporting the action of continuing to fly forward without additional maneuvers. There are no observed discrepancies between the described movements and the visual evidence.",B,True
 EmbodiedCity_14_1.mp4,"Question: At the initial position, you are asked to navigate to the balcony on the 19th floor. When you reach the current location, what is the direction to the destination?  
 choose:  
 A. I am currently locating on the left side of the target building, far below the 19th floor.  
 B. I am currently locating directly above the target building, much higher than the 19th floor.  
 C. I am currently locating on the left side of the target building, close to the 19th floor.  
 D. I am currently locating on the ground to the right of the target building.  
-E. I am currently locating on the right side of the target building, much higher than the 19th floor.  ",E,"Option: A; Reason: Analyzing frames 1-5 reveals the agent's initial position relative to the target building. These frames depict a high vantage point between two tall buildings, showing the agent at an elevated position above the cityscape but below the 19th floor. The target building is visible, with the agent approaching from the left side at a lower elevation. This rules out options B (not directly above), C (not close to the 19th floor), and D (not on the ground). Therefore, option A is most plausible: the agent is on the left side of the target building and far below the 19th floor. This is supported by the wide-angle view and the agent's lower elevation relative to the target floor.",A,False
+E. I am currently locating on the right side of the target building, much higher than the 19th floor.  ",E,"Option: E; Reason: The agent is positioned to the right of the target building and at a height much higher than the 19th floor, as evidenced by Frames 31-50 which show a clear view of floors 19 through 31 from an elevated perspective.",E,True
 RealWorld_12.mp4,"Question: You move according to a series of movement instructions. In terms of next steps, what is your best next step?  
 choose:  
 A. I fly forward.  
 B. I descend and turn right.  
 C. I fly forward and rotate the camera upward.  
 D. I turn left and go up.  
-E. I turn right and descend.  ",A,"Option: C; Reason: Frames 3-7 depict continuous forward motion over urban and transitioning to open terrain, maintaining steady altitude. Rotating the camera upward enhances visibility of approaching terrain, facilitating navigation.",C,False
+E. I turn right and descend.  ",A,"Option: C; Reason: Based on the visual evidence, the best next step is to **fly forward and rotate the camera upward** (Option C). This allows the agent to continue navigating the urban environment while gaining a broader perspective of the surroundings, aiding in decision-making at upcoming junctions. Rotating the camera upward will provide a clearer view of the road ahead and any potential obstacles, ensuring safe and efficient navigation. Frames 36, 48, and 60 show the agent approaching and navigating through junctions, highlighting the need for this action.",C,False
 EmbodiedCity_42_0.mp4,"````
 Question: You are navigating to ALL-STAR Cafe in Central. Thinking back on past Action Generations and objects you’ve seen, what is the surrounding environment like at your current location?  
 Choose:  
@@ -660,7 +654,7 @@ B. There are countless skyscrapers in all directions around you. There are no vi
 ````  
 C. There is a low building opposite you. To your left is a parking lot, and behind you is a busy highway. There is no sidewalk visible near you.  
 D. There is a large shopping mall opposite you. Behind you is a construction site, and below you is a bus stop.  
-E. There are several low-rise buildings around you, wide roads, an intersection, many vehicles, streetlights, and trees visible all around.",E,"Option: E; Reason: The frames consistently show an environment with several low-rise buildings, wide roads, intersections, many vehicles, streetlights, and trees, perfectly matching Option E.",E,True
+E. There are several low-rise buildings around you, wide roads, an intersection, many vehicles, streetlights, and trees visible all around.",E,"Option: E; Reason: The video frames consistently depict an urban environment with several low-rise buildings, wide roads, intersections, many vehicles, streetlights, and trees. For instance, Frame 1 shows a broad view of the cityscape with multiple buildings and roads. Frame 16 provides a closer look at an intersection with visible streetlights and vehicles. Frame 32 focuses on a detailed view of the road with cars stopped at an intersection, highlighting the presence of multiple lanes and traffic signals. Frame 48 offers a broader perspective, showing low-rise buildings, wide roads, intersections, vehicles, streetlights, and trees. These specific details in each frame strongly support the choice of Option E.",E,True
 EmbodiedCity_22.mp4,"Question: At the initial position, you are asked to navigate to the 11th-floor balcony. What is your next move, given the target location for your next move?  
 choose:  
 A. I rise.  
@@ -669,14 +663,14 @@ C. I fly forward.
 D. I turn left.  
 E. I turn right.  
 F. I rotate the camera upward.  
-G. I rotate the camera downward.  ",A,"Option: B; Reason: The high-altitude view in the initial frames clearly shows the agent is positioned above the buildings. To reach the 11th-floor balcony, descending is the most logical and necessary action. This aligns directly with the visual evidence of the agent's starting position.",B,False
+G. I rotate the camera downward.  ",A,"Option: A; Reason: The agent has descended to the level of the 11th floor, as indicated by the clear visibility of the floor number in frames 20-30. To align perfectly with the balcony for access, the agent needs to rise slightly. This is supported by the visual evidence showing the increasing detail of the balcony structure in these frames.",A,True
 AerialVLN_17_32ZKVD547OLHZGLRUFZ5H7IDB2WB35.mp4,"Question: Which of the following choices better summarizes your movement route?  
 Choices:  
 A. I go from the rooftop with antennas to the buildings on the right by ascending and then descending towards the road.  
 B. I go from the road leading towards the city to the fourth-floor window by making a semicircular path around the park.  
 C. I go from the rooftop with antennas to the targeted fourth-floor window by flying forward while gradually descending along the road aligned with trees.  
 D. I go from the path along the edge of the park to the rooftop with antennas by flying in a straight trajectory.  
-E. I go from the road with tall buildings on the right to the targeted fourth-floor window by turning sharply to the left.  ",C,"Option: C; Reason: The agent starts on a rooftop with visible antennas (Frames 1-3), flies forward while gradually descending along a tree-lined road (Frames 4-20), and approaches a targeted fourth-floor window (Frames 21-24). This sequence matches the description in Option C.",C,True
+E. I go from the road with tall buildings on the right to the targeted fourth-floor window by turning sharply to the left.  ",C,"Option: C; Reason: The agent starts on a rooftop with visible antennas (Frame 1), flies forward along a tree-lined road (Frames 2-10), gradually descends towards buildings (Frames 11-20), and approaches a specific fourth-floor window (Frames 21-24). This sequence matches the description in Option C.",C,True
 AerialVLN_7_3HVVDCPGTNQIB5CWJMJG7VKB4LPYTK_3.mp4,"Question: Navigation Instruction given at initial position: [ascend straight up, turn to the left, and fly past the soccer fields. go to the tennis courts, turn to the right, and fly straight towards the river. turn around and fly past the bridge. once the second bridge is reached, turn to the right. fly straight past the baseball diamond, and once the intersection is approached, make a descent until the drone lands. turn around and face the construction cones.]. You move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I go straight up.  
@@ -684,37 +678,32 @@ B. I fly straight to the river.
 C. I go to the tennis court.  
 D. I turn around and fly across the bridge.  
 E. I turn right.  
-",D,"Option: B; Reason: Frames 17-23 show the agent flying directly over a river, which aligns with the instruction to ""fly straight towards the river."" The continuous view of the river and the forward movement trajectory confirm this action.",B,False
+",D,"Option: E; Reason: In Frame 35, the agent is at the second bridge and shows a clear turn indicator, suggesting a right turn. By Frame 40, the agent is flying straight past the baseball diamond, confirming the completion of the turn. Therefore, based on the current frame (35), the agent is turning right, which directly answers the question of what is being done now.",E,False
 EmbodiedCity_3_1.mp4,"Question: At the initial position, you are asked to navigate to the 30th-floor balcony. Is the destination within sight at your current location? If yes, where is the destination in view?  
 choose:  
 A. The balcony is currently in the lower left corner of my field of view.  
 B. The balcony is currently in the center of my field of view.  
 C. The balcony is currently in the upper right corner of my field of view.  
 D. The balcony is not within my field of view.  
-E. The balcony is currently on the right side of my field of view.",D,"Option: D; Reason: The 30th-floor balcony is not visible as the initial frames focus on street-level details, excluding higher floors.",D,True
+E. The balcony is currently on the right side of my field of view.",D,"Option: D; Reason: The initial frames (1, 2, and 3) show a broad cityscape with a central high-rise building, but no specific details of the 30th-floor balcony are visible. The perspective is too distant and broad to discern individual floors or balconies. Subsequent frames provide a closer view, but these are not part of the initial position as described in the question. Therefore, based on the visual evidence from the initial frames, the 30th-floor balcony is not within the field of view at the initial position.",D,True
 EmbodiedCity_89_2.mp4,"Question: At the initial position, you are asked to navigate to the middle elevated level of the building on the right front. When you reach your current location, what is your direction to the middle area of the target building?  
 choose:  
 A. The middle area of the target building is on my right front side.  
 B. The middle area of the target building is on my left rear side.  
 C. I am currently close to the side facade of the middle area of the target building, located at ground floor level.  
 D. I am currently at the edge of the middle area of the target building.  
-E. I am currently close to the side facade of the middle floor area of the target building and am at the height of the middle floor.  ",A,Option: A; Reason: Frames 2-5 confirm the middle elevated level is positioned on the right front side relative to the initial higher vantage point.,A,True
+E. I am currently close to the side facade of the middle floor area of the target building and am at the height of the middle floor.  ",A,"Option: E; Reason: The agent is currently close to the side facade of the middle floor area of the target building and is at the height of the middle floor, as evidenced by the alignment with the windows and balconies in frames 40-50. Options A, B, C, and D are incorrect because they do not accurately describe the agent's position relative to the target building based on the visual evidence provided. Specifically, the agent is not at the ground level, top floor, or far from the building, which rules out these options.",E,False
 RealWorld_GN_21_0.mp4,"Question: You are navigating to the vicinity of the tower crane at the construction site ahead. Thinking back on past actions and objects seen, what does the surroundings of your current location look like?  
 Choice:  
 A. There are many high-rise residential buildings in front. To the right is a large construction site with a tower crane. Behind me is a street full of parked cars.  
 B. There is a large park behind me with a small vegetable patch. In front is a street filled with motorcycles and cars. There are several high-rise buildings in front and to my right.  
 C. I am located over a busy road with many vehicles. On the left, there is a large open space, and in front, there is a small house. There are no construction sites nearby.  
 D. There is a wide river in front. There are a few low-rise buildings on the right and a small park with trees on the left.  
-E. There are several small houses surrounding me. In front is an open space covered with some small shrubs. There aren't any high-rise buildings in sight.  ",A,"Option: A; Reason: Option A is supported by the visual evidence:
-- **High-rise residential buildings**: Present in the background (Frames 1-10, 31-50).
-- **Large construction site with a tower crane**: Clearly depicted (Frames 11-50).
-- **Street full of parked cars**: Visible initially (Frames 1-10).
-
-Thus, option A accurately describes the surroundings based on the video frames.",A,True
+E. There are several small houses surrounding me. In front is an open space covered with some small shrubs. There aren't any high-rise buildings in sight.  ",A,"Option: A; Reason: The video frames consistently show high-rise residential buildings in the background, a large construction site with a tower crane to the right, and a street with parked cars to the left. This aligns with Option A: ""There are many high-rise residential buildings in the background. To the right is a large construction site with a tower crane. To the left is a street full of parked cars.""",A,True
 AerialVLN_42_30OG32W0S39MANQLMPLARTM4IDDNE3_0.mp4,"Question: Navigation Instruction given at initial position: [take off and turn right move forward and fly towards the top of brown tower. now turn right move little forward near by pond slow down to the floor. now turn left move towards the mid centre of pond behind the tree slow down and stay there.]. At the initial position, you are asked to follow a series of movement instructions. In terms of next steps, what is your best next step?  
 choose:  
 A. I go up and turn right.  
 B. I descend and then fly forward.  
 C. I fly forward while descending.  
 D. I turn left and descend.  
-E. I rotate the camera up, then down.  ",B,"Option: A; Reason: The initial frames (1-5) show a ground-level view, confirming the agent is on the ground. The instruction ""take off and turn right"" aligns with the visual evidence of an unobstructed path for ascent. Frames 6-10 depict the agent ascending, supporting the need to go up first. Therefore, Option A (""I go up and turn right"") is the best next step.",A,False
+E. I rotate the camera up, then down.  ",B,"Option: A; Reason: The agent takes off as indicated by the transition from ground level in Frames 1-5 to an aerial view in Frames 6-10. By Frame 10, the agent is clearly airborne. In Frames 11-24, the agent begins to adjust its orientation, suggesting preparation to turn right. This aligns with the navigation instruction to ""take off and turn right,"" making Option A (""I go up and turn right"") the most appropriate next step.",A,False

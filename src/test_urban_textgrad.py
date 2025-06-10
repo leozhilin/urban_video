@@ -45,7 +45,7 @@ def main():
     
     # Process each sample
     for idx, row in QA_df.iterrows(): 
-        if idx == 8 or idx == 54 or idx == 94 or idx == 66 or idx == 49:
+        if idx >= 50:
             try:
                 print(f"Processing sample {idx}/{len(QA_df)}")
                 
