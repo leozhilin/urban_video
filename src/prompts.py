@@ -1,21 +1,12 @@
 REASONER_PROMPT = """
-This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. Please answer the following questions by following these steps:
+Please assume the role of an aerial agent.
+This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from the past to the present. Please answer the following questions by following these steps:
 
 The question is:
 {question}
 
 Problem Description:
-The position at the beginning of the video is your initial position. You will receive a series of navigation instructions to move, and the entire video shows the scene of you following the instructions to move.
-If the question explicitly provides specific navigation instructions, then your current position is the position after completing this series of instructions. In this case, you need to combine the video content to determine your current position and answer the question based on your current position;
-If the question does not have explicit navigation instructions, your current position defaults to the last position in the video, which is the position after executing all navigation instructions.
-
-You need to combine the question and video content to answer the question.
-Questions can generally be divided into temporal questions and image questions:
-
-1. Image questions: Questions usually only involve understanding the scene at a single position (for example: at the current position, Is xx on your left, center, or right?).
-- Analyze the current position and locate the correct scene/frame corresponding to the question
-- Combine the question content and scene content to answer the question
-2. Temporal questions: You need to combine the execution of a series of temporal actions to answer the question
+You are now at the position where the video ends. The beginning of the video shows your initial position. You received a series of movement instructions to move from the initial position to your current position. Questions will be asked based on your movement trajectory during this period.
 
 You need to think and reason step by step, answer the question according to the following template, and give your reasons:
 

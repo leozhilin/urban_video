@@ -59,6 +59,7 @@ def process_textgrad_results():
             row = {
                 'video_id': result['video_id'],
                 'question': result['question'],
+                'question_category': result['question_category'],
                 'ground_truth': result['ground_truth'],
                 'model_answer': final_answer,
                 'extracted_option': extracted_option
@@ -71,19 +72,29 @@ def process_textgrad_results():
     # Calculate accuracy
     df['is_correct'] = df['extracted_option'] == df['ground_truth']
     
-    # Group by question category (you may need to extract this from the question text)
-    # For now, we'll just calculate overall accuracy
+    # Initialize a list to store accuracy data for each question category
+    accuracy_data = []
+    
+    # Group the DataFrame by the 'question_category' column
+    for category, group in df.groupby('question_category'):
+        correct_count = group['is_correct'].sum()
+        accuracy = correct_count / len(group)
+        accuracy_data.append({
+            'Category': category,
+            'Accuracy': accuracy,
+            'Num': len(group)
+        })
+    
+    # Calculate the overall accuracy across all categories
     total_correct = df['is_correct'].sum()
     total_accuracy = total_correct / len(df)
-    
-    # Create accuracy summary
-    accuracy_data = [{
+    accuracy_data.append({
         'Category': 'Total',
         'Accuracy': total_accuracy,
         'Num': len(df)
-    }]
+    })
     
-    # Convert to DataFrame
+    # Convert the accuracy data list into a DataFrame
     accuracy_df = pd.DataFrame(accuracy_data)
     
     # Save results
@@ -93,13 +104,18 @@ def process_textgrad_results():
     # Save detailed results
     df.to_csv(os.path.join(output_dir, 'detailed_results.csv'), index=False)
     
-    # Save accuracy results
-    accuracy_df.to_excel(os.path.join(output_dir, 'accuracy_results.xlsx'), index=False)
+    # Save accuracy results to Excel file
+    with pd.ExcelWriter(os.path.join(output_dir, 'accuracy_results.xlsx')) as writer:
+        accuracy_df.to_excel(writer, index=False, sheet_name='Accuracy Results')
     
     print(f"改错数: {evaluation_error}")
     print(f"改对数: {init_answer_error}")
     print(f"Processed {len(json_files)} samples")
     print(f"Overall accuracy: {total_accuracy:.2%}")
+    print("\nAccuracy by Category:")
+    for _, row in accuracy_df.iterrows():
+        if row['Category'] != 'Total':
+            print(f"{row['Category']}: {row['Accuracy']:.2%} ({row['Num']} samples)")
     print(f"Results saved to {output_dir}")
 
 if __name__ == '__main__':

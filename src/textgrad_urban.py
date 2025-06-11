@@ -19,6 +19,7 @@ class QwenModel():
             
         response = self.client.chat.completions.create(
             model=self.model_name,
+            temperature=0.0,
             messages=messages
         )
         return response.choices[0].message.content 
