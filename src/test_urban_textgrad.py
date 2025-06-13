@@ -45,7 +45,8 @@ def main():
     
     # Process each sample
     for idx, row in QA_df.iterrows(): 
-        if idx == 9:
+        # if row['question_category'] == "Action Generation":
+        if True:
             try:
                 print(f"Processing sample {idx}/{len(QA_df)}")
                 
@@ -57,6 +58,7 @@ def main():
                 result = textgrad.process(
                     question=row['question'],
                     frames=frames,
+                    video_path=video_path,
                 )
                 
                 # Save result

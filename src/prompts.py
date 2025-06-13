@@ -1,32 +1,22 @@
 REASONER_PROMPT = """
-Please assume the role of an aerial agent.
-This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from the past to the present. Please answer the following questions by following these steps:
-
-The question is:
+This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. Please answer the following questions:
+The template for the answer is: 
+   Option: []; Reason: []
+   where the Option only outputs one option from 'A' to 'E' here, do not output redundant content. Reason explains why you choose this option.
 {question}
-
-Problem Description:
-You are now at the position where the video ends. The beginning of the video shows your initial position. You received a series of movement instructions to move from the initial position to your current position. Questions will be asked based on your movement trajectory during this period.
-
-You need to think and reason step by step, answer the question according to the following template, and give your reasons:
-
-The template for the answer is:
-Option: []; Reason: []
-where:
-- Option: Choose only one option from 'A' to 'E'
-- Reason: Explain your choice by referencing specific visual evidence from the video
 
 """
 
-EVALUATOR_PROMPT = """
-This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. Please note that due to technical limitations, only a subset of video frames is provided, which means some details might be missing from the visual evidence.
+EVALUATOR_PROMPT = """ # 改用gemini， 也要求以固定格式输出答案，如果两者答案一致跳过后续步骤
+This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. 
 Here's a question about this video: {question}
 
-Please evaluate the following answer by:
-1. Carefully analyzing the video content and visual evidence
-2. Checking if the answer aligns with what is shown in the video frames
-3. Identifying any discrepancies between the answer and the video content
-4. Providing specific feedback based on the visual evidence
+Please evaluate the following answer by: 
+1. Based on your analysis of the video content, locate the video frames that may contain the answer to the question (for example, if the question asks "What objects did you observe when descending towards the community entrance?", you need to locate the frames showing the descent towards the community entrance and focus your analysis on these frames)
+2. Carefully analyzing the video content and visual evidence based on the video frames you have located
+3. Checking if the answer aligns with what is shown in the video frames
+4. Identifying any discrepancies between the answer and the video content
+5. Providing specific feedback based on the visual evidence
 
 Be smart, logical, and critical in your evaluation. Focus on how well the answer reflects the actual content shown in the video.
 
@@ -35,7 +25,7 @@ Answer to evaluate:
 """
 
 FEEDBACKER_PROMPT = """
-You are a feedback provider who needs to give clear feedback on the answer based on the language model's evaluation.
+You are a viewpoint recorder who needs to document key disagreements and areas requiring further verification between the answer and the evaluation.
 
 Question: {question}
 
@@ -43,85 +33,59 @@ Original Answer: {answer}
 
 Language Model's Evaluation: {evaluation}
 
-Based on the above evaluation, provide structured feedback including:
+Based on the above answer and evaluation, provide a structured analysis including:
 
-1. Strengths of the Answer:
-   - List the aspects that were done well according to the evaluation
-   - Specifically explain how these strengths contribute to answering the question
-   - Skip this section if no strengths are explicitly mentioned in the evaluation
+1. Key Disagreements:
+   - List specific points where the answer and evaluation differ
+   - For each disagreement, clearly state both viewpoints
+   - Highlight which aspects are supported by visual evidence and which are not
 
-2. Areas for Improvement:
-   - List specific issues or shortcomings identified in the evaluation
-   - Provide concrete improvement suggestions for each issue
-   - Ensure suggestions align with the video content
+2. Required Verifications:
+   - Identify specific visual evidence that needs to be re-examined
+   - List additional frames or perspectives that would help resolve disagreements
+   - Specify what kind of visual information would be needed to verify each point
 
-3. Overall Recommendations:
-   - Summarize how to improve the answer
-   - Emphasize strengths that should be maintained
-   - Provide specific directions for improvement
+3. Resolution Path:
+   - Suggest specific steps to resolve each disagreement
+   - Prioritize which verifications are most critical
+   - Outline what additional evidence would be most helpful
 
 Please ensure:
-- Feedback is clear, specific, and well-structured
-- Content is strictly based on the evaluation, without adding unmentioned points
-- Use concise and clear language
-- Maintain an objective and professional tone
+- Focus on factual disagreements rather than subjective opinions
+- Be specific about what visual evidence is needed
+- Maintain a neutral and objective tone
+- Structure the analysis clearly and logically
 """
 
 
-GLOSSARY_TEXT = """
-### Glossary of tags that will be sent to you:
-# - <LM_SYSTEM_PROMPT>: The system prompt for the language model.
-# - <LM_INPUT>: The input to the language model.
-# - <LM_OUTPUT>: The output of the language model.
-# - <FEEDBACK>: The feedback to the variable.
-# - <CONVERSATION>: The conversation history.
-# - <FOCUS>: The focus of the optimization.
-# - <ROLE>: The role description of the variable."""
-
-### Optimize Prompts
-
 # System prompt to TGD
 OPTIMIZER_SYSTEM_PROMPT = (
-    "You are part of an optimization system that improves text (i.e., variable). "
-    "You will be asked to creatively and critically improve solutions or answers to problems. "
-    "You will receive a video (captured into multiple frames of images as follows), which presents the perception data of an agent moving in the environment from a first person perspective. "
-    "Please note that due to technical limitations, only a subset of video frames is provided, which means some details might be missing from the visual evidence. "
-    "You will receive some feedback, and use the feedback to improve the variable. "
-    "The feedback may be noisy or contain inaccuracies - carefully analyze and critically evaluate each point of feedback. "
-    "Always verify feedback against the available video content and only incorporate valid suggestions that align with the visual evidence. "
-    "When improving the answer, focus on making it more reasonable and well-supported by the available evidence, even if some details cannot be fully verified. "
-    "Pay attention to the role description of the variable, and the context in which it is used. "
-    "This is very important: You MUST give your response by sending the improved variable between <IMPROVED_VARIABLE> {{improved variable}} </IMPROVED_VARIABLE> tags. "
-    "The text you send between the tags will directly replace the variable.\n\n"
-    f"{GLOSSARY_TEXT}"
+   ""
 )
 
 OPTIMIZER_PROMPT = """
-Here is the role of the variable you will improve: <ROLE>concise and accurate answer to the question</ROLE>.
+This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. 
 
-The variable is the text within the following span: <VARIABLE> {answer} </VARIABLE>
+Here's a question about this video: {question}
 
-Here is the context and feedback we got for the variable:
+Original Answer: {answer}
 
-<FEEDBACK> {feedback} </FEEDBACK>
+Analysis of Disagreements and Required Verifications:
+{feedback}
 
-Please improve the answer by following these steps:
-1. Carefully review the feedback and identify key areas for improvement
-2. Ensure the improved answer strictly aligns with the video content shown in the frames
-3. Make the reasoning more concrete by referencing specific visual evidence from the video
-4. Maintain the required format while making the answer more accurate and precise
+Based on the above analysis, please:
+1. Carefully review each identified disagreement
+2. Re-examine the video frames, paying special attention to the specific visual evidence mentioned in the analysis
+3. Consider the suggested verification steps and additional evidence needed
+4. Provide a revised answer that addresses the identified issues
 
-Your improved answer must follow this exact format:
+Your revised answer must follow this exact format:
 Option: []; Reason: []
 where:
 - Option: Choose only one option from 'A' to 'E'
-- Reason: Explain your choice by referencing specific visual evidence from the video
-
-Send the improved variable in the following format:
-
-<IMPROVED_VARIABLE>
-Option: []; Reason: []
-</IMPROVED_VARIABLE>
-
-Send ONLY the improved variable between the <IMPROVED_VARIABLE> tags, and nothing else. Make sure to maintain the exact format specified above.
+- Reason: Explain your choice by:
+  * Addressing the key disagreements identified
+  * Referencing specific visual evidence that supports your choice
+  * Acknowledging any remaining uncertainties
+  * Explaining why your choice is the most reasonable given the available evidence
 """ 
