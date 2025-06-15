@@ -9,7 +9,7 @@ from prompts import (
 )
 from src.clients.qwen_client import qwen_client
 from src.clients._gemini_api import GeminiVideoClient
-GEMINI_API_KEY = "AIzaSyBcT5KUgqSambiGIz-KuW5Td4MJIx5ld8w"
+GEMINI_API_KEY = ["AIzaSyBcT5KUgqSambiGIz-KuW5Td4MJIx5ld8w", "AIzaSyANKqoVmbi4QKpLvi3g7aYHYNhuq2AByWs"] # 公司、个人gmail
 
 def extract_option_letter(text):
     """Extract option letter from text."""
@@ -46,9 +46,9 @@ class QwenModel():
         return response.choices[0].message.content 
 
 class GeminiModel():
-    def __init__(self, model_name: str = "gemini-2.0-flash"):
+    def __init__(self, model_name: str = "gemini-2.5-flash-preview-05-20"):
         self.model_name = model_name
-        self.client = GeminiVideoClient(api_key=GEMINI_API_KEY)
+        self.client = GeminiVideoClient(api_key=GEMINI_API_KEY[1])
 
     def __call__(self, question, answer, video_path):
         video_file = None

@@ -47,14 +47,14 @@ def process_textgrad_results():
             
 
             if extracted_option_init == result['ground_truth'] and extracted_option != result['ground_truth']: # 改错
-                # print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
+                print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
                 evaluation_error += 1
             if extracted_option == result['ground_truth'] and extracted_option_init != result['ground_truth']: # 改对
-                # print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
+                print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
                 init_answer_error += 1
 
-            if extracted_option_init != result['ground_truth'] or extracted_option != result['ground_truth']:
-                print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
+            # if extracted_option_init != result['ground_truth'] or extracted_option != result['ground_truth']:
+            #     print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
             # Create a row of data
             row = {
                 'video_id': result['video_id'],
