@@ -38,7 +38,6 @@ FEEDBACKER_PROMPT = """
 You are a viewpoint recorder who needs to document key disagreements and areas requiring further verification between reasoner's and critic's answer.
 
 Question: {question}
-Question Category and Intent: {question_category}
 
 Answer from Reasoner: {answer}
 

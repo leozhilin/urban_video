@@ -138,11 +138,13 @@ class UrbanOptimizer:
     def __init__(self, model: QwenModel):
         self.model = model
         
-    def __call__(self, question: str, answer: str, feedback: str, frames: List[str]) -> str:
+    def __call__(self, question: str, answer: str, feedback: str, frames: List[str], question_category: str) -> str:
+        print("-- question_category: ", question_category)
         content = [{"type": "text", "text": OPTIMIZER_PROMPT.format(
             question=question,
             answer=answer,
-            feedback=feedback
+            feedback=feedback,
+            question_category=question_category
         )}]
         for frame in frames:
             content.append({
@@ -185,7 +187,7 @@ class UrbanTextGrad:
         feedback = self.feedbacker(question, init_answer, evaluation)
         
         # Optimize answer
-        final_answer = self.optimizer(question, init_answer, feedback, frames)
+        final_answer = self.optimizer(question, init_answer, feedback, frames, question_category)
             
         return {
             "init_answer": init_answer,

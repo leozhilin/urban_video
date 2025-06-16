@@ -82,7 +82,7 @@ A. I go up and turn right.
 B. I descend and fly forward.  
 C. I fly forward and rotate the camera upward.  
 D. I turn left and go up.  
-E. I turn right and descend.  ",Action Generation,B,"Option: C; Reason: According to the navigation instruction, the next step is to ""rise up and look at the billboard then drop your height and stop."" Since the current position is in front of the buildings and the billboard is not yet visible, the logical next step is to fly forward and rotate the camera upward to locate and view the billboard. Therefore, option C, ""I fly forward and rotate the camera upward,"" aligns with this requirement.",C,False
+E. I turn right and descend.  ",Action Generation,B,"Option: E; Reason: According to the navigation instruction, after stopping right over the trees and turning to the right, the next step is to lower your height then turn back again to the left. This aligns with option E, which involves turning right and descending.",E,False
 AerialVLN_79_3M81GAB8A9H96HRTSQB1UFBOLXQBQU_1.mp4,"Question: Navigation Instruction given at initial position: [take off and turn right until the edge of swimming pool and trees is on the right side view. fly forward until seeing the more buildings. turn right to seeing the big buildings. fly along the right edge of blue buildings.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach the current location, what is your Landmark Position from the edge of the pond and the trees?  
 choose:  
 A. I am located to the left of the edge of the pond and trees.  
@@ -131,7 +131,7 @@ A. Start from a high-rise building, descend to street level, and move toward a b
 B. Start from the street, move along the road, pass several high-rise buildings, and arrive near the current bus stop.  
 C. Start from the park, rise to the roof of the high-rise building, and then move to the current location overlooking the bus stop.  
 D. Start from the roof of a high-rise building, fly across the road and parking lot, and then descend to your current position above the bus stop.  
-E. Start from the scooter lane in the park, turn left to face the street outside the park, rise to the height of the high-rise building across the street, move forward, and stop at your current position above the bus.  ",Trajectory Captioning,D,"Option: B; Reason: The video starts from an aerial view of a street, moves along the road, passes several high-rise buildings, and arrives near the current bus stop. This trajectory aligns with option B, which describes starting from the street, moving along the road, passing high-rise buildings, and arriving near the bus stop. The other options do not accurately reflect the continuous movement along the street and the presence of high-rise buildings as seen in the video.",B,False
+E. Start from the scooter lane in the park, turn left to face the street outside the park, rise to the height of the high-rise building across the street, move forward, and stop at your current position above the bus.  ",Trajectory Captioning,D,"Option: B; Reason: The video starts from an aerial view of the street, showing the agent moving along the road. It passes by several high-rise buildings and eventually arrives near a bus stop where people are waiting. This trajectory matches option B, which describes starting from the street, moving along the road, passing several high-rise buildings, and arriving near the current bus stop.",B,False
 EmbodiedCity_39.mp4,"Question: You are navigating to the green trees behind the bus stop, what is the correct summary of your trajectory from the start to your current location?  
 Choice:  
 A. I start from a high-rise building, descend to street level, and move toward a bus stop.  
@@ -299,21 +299,21 @@ A. I am currently directly above the basketball court.
 B. I am currently over the park, but further away from the basketball court than the buildings.  
 C. I am currently above a high-rise building, at the same height as the basketball court.  
 D. I am currently above the parking lot, facing the street.  
-E. I am currently much higher than the basketball court and slightly behind.  ",Landmark Position,A,"Option: E; Reason: The current position is much higher than the basketball court and slightly behind it, as indicated by the clear view of the entire court from an elevated perspective, showing the surrounding buildings and pathways.",E,False
+E. I am currently much higher than the basketball court and slightly behind.  ",Landmark Position,A,"Option: E; Reason: The current position is much higher than the basketball court and slightly behind it, as indicated by the clear view of the entire court from an elevated perspective, showing the surrounding paths and buildings.",E,False
 EmbodiedCity_27_1.mp4,"Question: At the initial position, you are asked to navigate to the sixth-floor balcony. When you reach the current location, what is the direction to the destination?  
 choose:  
 A. I am currently above the building, slightly to the left, at an altitude of 30 stories.  
 B. I am currently on the ground behind the building.  
 C. I am currently on the ground on the right side of the building.  
 D. I am currently around the building at a height of 15 floors.  
-E. I am currently above the building, slightly to the left, at an altitude of 30 stories.  ",Landmark Position,D,"Option: A; Reason: The current location is above the building, slightly to the left, at an altitude of 30 stories, as indicated by the visible floor numbers and the high vantage point overlooking the building's structure. To reach the sixth-floor balcony, you would need to navigate downward from this elevated position.",A,False
+E. I am currently above the building, slightly to the left, at an altitude of 30 stories.  ",Landmark Position,D,"Option: D; Reason: The current location is around the building at a height of 15 floors, as indicated by the visible floor numbers on the building's side. To reach the sixth-floor balcony, you would need to navigate downward from this position.",D,True
 AerialVLN_50_3E13VNJ1NWTVCLLIDLD3F17T8BN1I3_1.mp4,"Question: Navigation Instruction given at initial position: [now take off and turn right and fly over the pond and closer the white building. now go over the buildings and turn left. now go over the road and buildings and move closer to the white building. now get little down and turn back and go forward until the grey building arrives and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach the current location, what is your Landmark Position from the white building?  
 choose:  
 A. I am to the left of the white building.  
 B. I am located in front of the white building.  
 C. I am located behind the white building.  
 D. I am on the right side of the white building.  
-E. I am above the white building.  ",Landmark Position,B,"Option: D; Reason: The current view shows the white building to the right of the agent's perspective, indicating that the agent is on the right side of the white building.",D,False
+E. I am above the white building.  ",Landmark Position,B,"Option: D; Reason: The current view shows that the white building is to the right of the agent's position, as indicated by the perspective where the building is visible on the right side while other structures and the road are in front. This aligns with the critic's observation from timestamps 0:28 to 0:53, confirming the agent is on the right side of the white building.",D,False
 EmbodiedCity_39_2.mp4,"Question: At the initial position, you are asked to navigate to the green trees behind the bus stop. Is the destination within sight at the current location? If yes, where is the destination in the view?  
 choose:  
 A. The green trees behind the bus stop are currently in the lower left corner of my field of view.  
@@ -327,7 +327,7 @@ A. I wander around a tower and search each floor of the apartment.
 B. When I come to the lake, I turn right and go upstairs.  
 C. I turn left and go straight to the building and then turn slightly right.  
 D. I go down to the building, then go up again and go straight.  
-E. I go to the top of the building and turn left to reach the building.  ",Progress Evaluation,C,"Option: A; Reason: The frames from 0:15 onwards show a continuous view from a high vantage point focusing on a tall tower, indicating that the agent has already completed earlier steps and is now at the final stage of the instructions, wandering around a tower and searching each floor of the apartment.",A,False
+E. I go to the top of the building and turn left to reach the building.  ",Progress Evaluation,C,"Option: A; Reason: The frames show a panoramic view from a high vantage point, focusing on a tall tower-like building, which aligns with the instruction ""roaming around a tower and searching each floor of apartment."" This indicates that the agent is already at a later stage of the instructions, specifically executing the final part described in Option A.",A,False
 AerialVLN_53_3II4UPYCOS52LEPD6M27P5ZONEUQDZ_5.mp4,"Question: Navigation Instruction given at initial position: [take off go straight and reach the pool land slightly and see the city. from the pool take left and go straight and next to the top building comes a little right. from there taking right and reaching the four side road. take a left fro the road and travel to the large building opposite to the charlie chocolate. take a right from the chocolate factory and go to the roof top. after the roof top and reach the road then landed before the lamp post.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  
 choose:  
 A. I turn left and go up.  
@@ -348,7 +348,7 @@ A. I approach the center of the intersection.
 B. I approach roofs of buildings with Chinese characters.  
 C. I approach the nearest street light to ALL-STAR Cafe in Central.  
 D. I approach grass between sidewalks.  
-E. I approach the entrance to ALL-STAR Cafe in Central.  ",High-level Planning,E,"Option: A; Reason: The initial position appears to be at an intersection, and approaching the center of the intersection will provide a better vantage point to locate the ALL-STAR Cafe in Central and determine the correct path to the stairs. This strategic move helps in assessing the surroundings more effectively.",A,False
+E. I approach the entrance to ALL-STAR Cafe in Central.  ",High-level Planning,E,"Option: E; Reason: The goal is to navigate to the stairs in front of ALL-STAR Cafe in Central. Based on the provided frames, the most direct and relevant action is to approach the entrance to the ALL-STAR Cafe in Central, as this will lead directly to the stairs mentioned in the goal. Other options like approaching the center of the intersection or street light are not as directly related to reaching the specific destination of the stairs in front of the cafe.",E,True
 EmbodiedCity_4_1.mp4,"Question: What is the correct summary of your trajectory from the beginning to the current location as you navigate to the balcony on the 29th floor?  
 Choice:  
 A. I start from the park, move toward the street, ascend to a high-rise building, and then descend to the 29th-floor balcony.  
@@ -564,7 +564,7 @@ A. I am located next to the trees on the right side of the pond.
 B. I stay away from the pond next to the woods.  
 C. I am located near the trees above the pond.  
 D. I am located next to the trees on the left side of the pond.  
-E. I am parked on the pond ground next to a tree.  ",Landmark Position,B,"Option: C; Reason: The agent's final position is on top of a building, as indicated by the navigation instructions and visual evidence from the video frames. The frames show a park with a pond and trees from 3:11 to 3:27, suggesting that the agent is located near the trees above the pond. Therefore, ""I am located near the trees above the pond"" is the most accurate choice.",C,False
+E. I am parked on the pond ground next to a tree.  ",Landmark Position,B,"Option: C; Reason: The final view (3:05-3:28) shows the agent positioned above the buildings with a clear view of the pond and trees below, indicating that the agent is located near the trees above the pond.",C,False
 RealWorld_11.mp4,"Question: Which of the following options best summarizes your flight path to the green delivery locker?  
 Choice:  
 A. I start above the school runway, move upward and backward, turn right toward the parking lot between the two buildings, descend to the parking lot level, move forward to the parking lot, and finally position myself on the green delivery above the cabinet.  
@@ -699,7 +699,7 @@ A. I fly forward and then rise.
 B. I drop down and turn right.  
 C. I rotate the camera downward.  
 D. I turn left and descend.  
-E. I fly forward.  ",Action Generation,E,"Option: A; Reason: The initial instruction ""take off and move forward"" implies that the first action should be to take off (rise) from the ground and then proceed to move forward. This aligns with option A, ""I fly forward and then rise,"" ensuring a smooth transition from the ground to the air before advancing forward as instructed.",A,False
+E. I fly forward.  ",Action Generation,E,"Option: A; Reason: The initial instruction is to ""take off and move forward,"" which implies both rising and moving forward, especially if the agent starts from the ground. Therefore, option A, ""I fly forward and then rise,"" aligns with the need to take off properly before moving forward.",A,False
 RealWorld_28.mp4,"Question: How do you correctly summarize your trajectory from the beginning to the current position as you navigate to the pond and rockery in the community ahead?  
 Choose:  
 A. I start from the street, move toward the park, and then rise to observe the pond and rockery from above.  
@@ -748,7 +748,7 @@ A. I fly forward and then rise.
 B. I descend and turn right.  
 C. I fly forward while rising.  
 D. I turn left and descend.  
-E. I rotate the camera downward.  ",Action Generation,A,"Option: C; Reason: The initial instruction is to ""fly to the left side of the bridge,"" which requires the agent to move forward and rise simultaneously to effectively navigate around the bridge structure. This aligns with option C, ensuring a smooth transition to the left side without collision.",C,False
+E. I rotate the camera downward.  ",Action Generation,A,"Option: A; Reason: The initial instruction is to ""fly to the left side of the bridge,"" which implies that the agent should start by moving forward and rising to navigate around the bridge structure effectively. This aligns with option A, which suggests flying forward and then rising, setting the correct trajectory for the subsequent steps in the navigation instructions.",A,True
 AerialVLN_40_3ITXP059P5HR1G4I8MDNN3928CGJSD_6.mp4,"Question: Navigation Instruction given at initial position: [zoom in on the left tower. resume flying over green bush. turn left at grey building. reverse backwards to the green bush. turn left and zoom in on satellite dish. resume flying over the city buildings. stop and turn left. zoom in on red bulletin board. go to ground level of grey building. turn left at the brown sandstone house. zoom in on ord window of the blue building.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I fly over buildings.  
@@ -958,7 +958,7 @@ A. I am to the left of the tennis court.
 B. I am on the right side of the tennis court.  
 C. I am located below the tennis court.  
 D. I am located above the tennis court.  
-E. I am in front of the tennis court.  ",Landmark Position,D,"Option: B; Reason: The visual evidence from the video frames shows that the tennis court is visible on the left side of the screen when the agent reaches the current location, indicating that the agent is on the right side of the tennis court. This aligns with the evaluation viewpoint and provides a clear spatial context based on the final position relative to the tennis court.",B,False
+E. I am in front of the tennis court.  ",Landmark Position,D,"Option: B; Reason: The visual evidence from the video at timestamp 6:41-6:52 shows the tennis court on the left side of the screen after turning right, indicating that the agent is on the right side of the tennis court.",B,False
 AerialVLN_98_3OHYZ19UGL312V9L7ZJ1AZWIN8TOAX.mp4,"Question: Where are the starting and ending points of your journey?  
 Choice:  
 A. Start from the seaside path and end in the space between two buildings.  
@@ -1055,7 +1055,7 @@ A. It is located on my upper right side.
 B. It is located on my upper rear side.  
 C. It is located on my lower right side.  
 D. It is located on my lower left side.  
-E. It is located on my front side.  ",Landmark Position,C,"Option: D; Reason: From the initial position, the small two-story house with a blue roof is located on the lower left side when considering the direction directly below the starting location. The agent's movement and perspective confirm this positioning relative to the surrounding structures.",D,False
+E. It is located on my front side.  ",Landmark Position,C,Option: D; Reason: The small two-story house with a blue roof is located on the lower left side when considering the initial position and the direction of movement towards the current location.,D,False
 AerialVLN_84_3U5NZHP4L00YXIT0S568GLOCBI7PH3_6.mp4,"Question: Navigation Instruction given at initial position: [lift off the road and turn left. go to the golden windows on the building. fly up over the building and go forward one block. turn left and go around the left side of the dark tall building. go straight to the end of the road. turn around and fly behind the golden windowed building. go straight towards the tall tan building. continue straight towards the water. stop one block away from the water. turn left. fly to the left of the tall sky scraper. fly forward to the next road ahead. stop near the billboard on the roof across the road and lower down a bit.]. At the initial position, you move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I fly to the left side of the tall skyscraper.  
@@ -1090,7 +1090,7 @@ A. I approach the balcony on the 24th floor.
 B. I approach the foundation of a building.  
 C. I approach the height of the roof of a high-rise building.  
 D. I approach the street entrance.  
-E. I approach the tops of smaller nearby buildings.  ",High-level Planning,A,"Option: D; Reason: The initial position provides a wide view of the city, indicating that the balcony is not directly accessible from this vantage point. To navigate to the 24th floor balcony of the building on the right, the logical first step is to approach the street entrance, which is the necessary starting point for accessing higher floors.",D,False
+E. I approach the tops of smaller nearby buildings.  ",High-level Planning,A,"Option: A; Reason: The goal is to navigate to the 24th floor balcony of the building on the right. Given the current perspective, which is already at a high vantage point and aligned with the side of the building showing floor numbers, the next logical step is to approach the balcony on the 24th floor directly. This aligns with the objective without unnecessary detours.",A,True
 RealWorld_GN_23_2.mp4,"Question: At the initial position, you are asked to navigate to the entrance to a residential complex across the street, where there is a blue moon-shaped pool. At your current location, if the entrance to the residential complex across the street is not in view, what is the most relevant object in view, and where is this object?  
 choose:  
 A. I see the entrance to the residential complex across the street.  
@@ -1132,7 +1132,7 @@ A. I go up and turn right.
 B. I descend and then fly forward.  
 C. I fly forward and then descend.  
 D. I turn left and go up.  
-E. I fly forward while rotating the camera upward.  ",Action Generation,E,"Option: D; Reason: The next step involves descending and then flying forward to align with the instruction to navigate towards the city show lamp post and signal, as well as the butcher signage. This action ensures a smooth transition from the initial takeoff position to the specified landmarks.",D,False
+E. I fly forward while rotating the camera upward.  ",Action Generation,E,"Option: D; Reason: The initial instruction specifies turning left to navigate towards the city show lamp post and signal, which requires a left turn from the current position. Additionally, going up helps in clearing any obstacles like trees and provides a better view of the butcher signage and subsequent landmarks. This aligns with the critic's viewpoint and the visual evidence from the early frames (0:00-0:15).",D,False
 EmbodiedCity_70.mp4,"Question: At the initial position, you are asked to navigate to a store with a red sign that says ""火锅."" Is the destination within sight at the current location? If yes, where is the destination in the view?  
 choose:  
 A. I see the store with the red word ""hotpot"" in the lower left corner of my field of view.  
@@ -1305,7 +1305,7 @@ AerialVLN_73_3JBT3HLQFH0KO3TUYRCFGSSH6W7PZN.mp4,"Question: If you do not go down
 
 Choice: A. If I ascend immediately, I can complete the mission because I can clearly see the destination, but the alternative will take longer.  
            B. If I ascend immediately, I may not be able to complete the mission as I may lose sight and direction.  
-           C. If I ascend immediately, I can complete the mission because I can gain a higher vantage point faster, whereas the alternative requires less time.  ",Counterfactual,A,"Option: B; Reason: If you ascend immediately, the view becomes increasingly obstructed by other buildings, leading to potential disorientation and loss of sight and direction, making it difficult to complete the mission.",B,False
+           C. If I ascend immediately, I can complete the mission because I can gain a higher vantage point faster, whereas the alternative requires less time.  ",Counterfactual,A,"Option: A; Reason: Ascending immediately provides a clear line of sight to the destination, allowing for efficient navigation to the roof of the low-rise building on the other side of the intersection. This approach leverages the higher vantage point to ensure the mission can be completed effectively, although it might take longer compared to an optimal ground route.",A,True
 EmbodiedCity_37.mp4,"Question: At the initial position, you are asked to navigate to a street light behind a bus stop. What is your next move, given the target location for your next move?  
 choose:  
 A. I rise.  
@@ -1880,7 +1880,7 @@ A. I am positioned over a parking lot near the targeted two-story house, providi
 B. I am located on a wide street across from the target house, over a large gray paved area.  
 C. I am positioned directly above the two-story house, providing a perfect top-down view.  
 D. I am located opposite the community and far away from the target house.  
-E. I am hovering over a high-rise building a few blocks away from the target house.  ",Landmark Position,C,"Option: A; Reason: The agent's perspective shows a direct overhead view of the small two-story house with a blue tile roof, which is located near a parking lot. This indicates that the agent is positioned over a parking lot near the targeted two-story house, providing a clear and direct overhead view.",A,False
+E. I am hovering over a high-rise building a few blocks away from the target house.  ",Landmark Position,C,"Option: C; Reason: The agent's current position provides a perfect top-down view directly above the two-story house with a blue tile roof, as indicated by the overhead perspective in the images.",C,True
 AerialVLN_44_3A4NIXBJ7FXUYBFDRATER9NNFVUMLS.mp4,"Question: After you move forward, how does the distance to the intersection change?  
 Choice: A. I increase the distance to the intersection.  
            B. The distance to the intersection remains unchanged.  
@@ -2108,7 +2108,7 @@ A. I approach the ground level entrance to the beige building.
 B. I approach the height of the 5th floor of the building.  
 C. I approach the rooftop of an adjacent glass building.  
 D. I approach the top of the curved portion of the beige building.  
-E. I approach the traffic intersection across the street.  ",High-level Planning,B,"Option: A; Reason: To navigate to the 5th-floor balcony, the first step is to approach the ground level entrance of the building. This allows entry into the building where further navigation to the 5th floor can be accomplished via internal pathways such as elevators or stairs. The current perspective does not show direct external access to the 5th floor, making ground-level entry the most practical next step.",A,False
+E. I approach the traffic intersection across the street.  ",High-level Planning,B,Option: A; Reason: The agent is currently on the rooftop of an adjacent building and needs to descend to the ground level before approaching the beige building to navigate to the 5th-floor balcony.,A,False
 AerialVLN_14_3YW4XOSQKZJ0LCGI722HY4V3HMY1U8_2.mp4,"Question: Navigation Instruction given at initial position: [lift off and turn left facing left of the bridge and head straight. at the end of the road turn right facing the left of the pop bottle sign and head straight. at the left of the sign turn left facing the road and follow it. veer right to behind the bottle cap sign then veer left to the car wash sign. at the car wash sign turn right facing the yellow sign and head straight. veer right of the sign around the building. at the tall white building climb it to the top and stop at the top.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I take off and turn left, facing left of the bridge, then go straight.  
@@ -2457,7 +2457,7 @@ A. I go up and turn left.
 B. I descend and fly forward.  
 C. I fly forward while rising.  
 D. I turn right and descend.  
-E. I rotate the camera downward.  ",Action Generation,B,"Option: A; Reason: The current view shows a bridge with railings, indicating the agent is at or near the bridge as mentioned in the instructions. The next step according to the instructions is to ""take off, to fountain in center of park,"" which suggests ascending. Therefore, going up and turning left aligns with moving towards the park's center where the fountain is located.",A,False
+E. I rotate the camera downward.  ",Action Generation,B,"Option: C; Reason: The current view shows the agent is approaching the park area, and the instruction requires facing towards the park. To align with the park's perspective as seen in the frames (especially between 20-25 seconds), rising while moving forward ensures a clear view and approach to the park, matching the critic's observation of the camera's orientation.",C,False
 AerialVLN_88_3MHW492WW9BXUGR75EVKEILQEPQVMG.mp4,"Question: Where are the starting and ending points of your journey?  
 Choice:  
 A. Begin with a cityscape above a block at the edge and end on a rooftop next to a sloping skylight.  
@@ -2478,7 +2478,7 @@ A. I am currently located directly above the building, higher than 10 floors.
 B. I am currently located above the park driveway, well above the buildings.  
 C. I am currently located near the park across from the building.  
 D. I am currently located on the side of the roof of the building, at a horizontal distance from the balcony on the 10th floor.  
-E. I am currently close to the side facade of the building, at ground floor level.  ",Landmark Position,D,"Option: A; Reason: The current location is directly above the building, higher than 10 floors, as indicated by the high vantage point over the city and the visible lower floors of the building in the frames.",A,False
+E. I am currently close to the side facade of the building, at ground floor level.  ",Landmark Position,D,"Option: E; Reason: The current location is close to the side facade of the building, at ground floor level, as indicated by the perspective showing the base of the building and the entrance area.",E,False
 AerialVLN_46_3ATPCQ38JH8DW9DNDMSZCQUK2ODYAG.mp4,"Question: If you choose to fly around the park and go directly to the left, will you still be able to reach the windows on the graystone building facing the opposite side of the park?  
 Choice: A. I can accomplish the task by navigating around the park and following alternative paths, but it will take longer.  
            B. I would not be able to complete the mission because I would miss the path to the avenue between the two skyscrapers.  
@@ -2517,7 +2517,7 @@ A. I am to the left of the fountain.
 B. I am far away from the fountain.  
 C. I am far above the fountain.  
 D. I am to the right of the fountain.  
-E. I am below the fountain.  ",Landmark Position,C,"Option: B; Reason: The navigation instructions indicate that after going over the fountain, the agent continues to fly over one building and reaches the edge of the ocean, which is far from the fountain. Therefore, when reaching the current location near the edge of the ocean, the agent is far away from the fountain.",B,False
+E. I am below the fountain.  ",Landmark Position,C,"Option: C; Reason: The navigation instructions indicate that the agent goes over the fountain, which means the agent's position relative to the fountain is far above it when reaching the current location.",C,True
 AerialVLN_26_37QW5D2ZRPK2HZ8ZHIGWYD0OVCQS8V_7.mp4,"Question: Navigation Instruction given at initial position: [rise, turn slightly to the left, and fly to the red trees in the corner of the park. turn left, fly past the bottle cap billboard, and fly behind the billboard across the street from the charlies chocolates billboard. turn to the right and fly straight to the tall stone building. turn around and fly down to the optician billboard.]. At the initial position, you are asked to navigate to the ""Charlie's Chocolate"" billboard. When you reach your current location, what is your position relative to the ""Charlie's Chocolate"" billboard?  
 choose:  
 A. I am located to the left of the ""Charlie's Chocolate"" billboard.  
@@ -2583,7 +2583,7 @@ A. I am currently located on the roof of the building, above the 10th floor balc
 B. I am currently located across the street, facing the balcony of the building.  
 C. I am currently located directly above the balcony, at the same height as the 10th floor.  
 D. I am currently located far away from the building, on the other side of the highway.  
-E. I am currently located on the side of the building, at the same height as the balcony on the 10th floor.",Landmark Position,E,"Option: A; Reason: The agent is currently located on the roof of the building, above the 10th floor balcony, as indicated by the high vantage point and downward angle of the camera perspective.",A,False
+E. I am currently located on the side of the building, at the same height as the balcony on the 10th floor.",Landmark Position,E,"Option: A; Reason: The initial frames show the agent positioned above the 10th floor balcony, specifically on the roof of the building. This is evident from the high vantage point and the downward view of the building's structure.",A,False
 RealWorld_GN_19_2.mp4,"Question: At the initial position, you are asked to navigate to the largest intersection nearby. Is the destination within sight at your current location? If yes, where is the destination in the view?  
 choose:  
 A. I am currently locating the largest intersection in the upper left corner of my field of view.  
@@ -2614,7 +2614,7 @@ Choice: A. I only observed the red car and nothing else.
            B. I observe roads, sidewalks, and street landscapes.  
            C. I observed high-rise buildings and parked cars in the distance.  
            D. I observe parked cars at intersections and streets.  
-           E. I observe the gate, parking lot, and surrounding buildings.  ",Scene Recall,B,"Option: C; Reason: As the agent moved further down the street during the final stages of the journey, high-rise buildings and parked cars in the distance became increasingly visible. The video frames show a clear progression towards these specific objects, making option C the most accurate description of the observed environment.",C,False
+           E. I observe the gate, parking lot, and surrounding buildings.  ",Scene Recall,B,"Option: D; Reason: The video shows parked cars at intersections and along the streets during the final stages of the journey, which aligns with the observations in Option D. While roads, sidewalks, and street landscapes are present, the specific mention of parked cars at intersections is more accurately reflected in the visual evidence.",D,False
 EmbodiedCity_51_1.mp4,"Question: At the initial position, you are asked to navigate to the stone statue to the left of the entrance. Is the destination within sight at the current location? If yes, where is the destination in the view?  
 choose:  
 A. I see the stone statue on the left side of the entrance located lower than the center of my field of view.  
@@ -2707,7 +2707,7 @@ EmbodiedCity_60.mp4,"Question: Which takes longer, your flight to the edge of th
 Choices:  
 A. My flight to the edge of the rooftop takes longer than my descent to the street level.  
 B. My flight to the edge of the rooftop takes the same time as my descent to the street level.  
-C. My flight to the edge of the rooftop takes shorter than my descent to the street level.  ",Duration,C,"Option: A; Reason: The video frames show a gradual and detailed approach to the edge of the rooftop, indicating a slower, more deliberate movement. In contrast, the descent to the street level appears abrupt and rapid, suggesting that the flight to the edge of the rooftop takes longer than the descent.",A,False
+C. My flight to the edge of the rooftop takes shorter than my descent to the street level.  ",Duration,C,"Option: C; Reason: The video frames show a rapid transition from a high vantage point overlooking the city to a closer view of the rooftop and then to street level. The descent appears to be quicker due to the perspective change, making it seem shorter in duration compared to the flight to the edge of the rooftop, which involves more gradual movement across a broader area.",C,True
 EmbodiedCity_11.mp4,"Question: Where do you start and end your journey?
 
 Choices:  
@@ -2898,7 +2898,7 @@ A. I go up and turn left.
 B. I descend and fly forward.  
 C. I fly forward while rotating the camera upward.  
 D. I turn right and go up.  
-E. I turn left and descend.  ",Action Generation,A,"Option: E; Reason: The navigation instruction specifies ""turning left and coming down to the building,"" which directly aligns with option E, ""I turn left and descend."" This action is appropriate given that the agent is already at the top of a building, as indicated by the initial frames showing a rooftop view.",E,False
+E. I turn left and descend.  ",Action Generation,A,"Option: E; Reason: The navigation instruction specifies ""roaming around a tower and searching each floor of apartment,"" which implies the need to descend and explore the floors below. Given the current position on a rooftop, turning left and descending aligns with this requirement to access and search the floors of the apartment building.",E,False
 RealWorld_RN_29_2.mp4,"Question: Navigation Instruction given at initial position: [Raise the drone altitude, then change the camera gimbal from overhead to normal, fly towards the road, fly towards the sun after reaching the sky above the road, and finally turn right towards the residential building.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  
 choose:  
 A. I go to the sky above the road and then fly towards the sun.  
@@ -2982,7 +2982,7 @@ A. There are several high-rise buildings around me, and there is a highway on th
 B. There are no buildings in front of me, just a wide road. There is a large residential area behind me. There is a highway below me.  
 C. There is a high-rise building in front of me. There is a large square behind me. There is no sidewalk underneath me, just a road.  
 D. There are roads and trees next to me. There are many high-rise buildings around me.  
-E. There is a large open space in front of me. There is a highway behind me. There is a small park to the right of me.  ",Cognitive Map,D,"Option: A; Reason: The images show a high-rise building with multiple floors, surrounded by several other high-rise buildings, indicating an urban setting. There is a highway visible on the right side of the frames, and a park-like area with greenery is seen below the current location. This matches the description in option A.",A,False
+E. There is a large open space in front of me. There is a highway behind me. There is a small park to the right of me.  ",Cognitive Map,D,"Option: A; Reason: The images show a high-rise building environment with multiple tall buildings around. There is a visible highway on the right side of the frames, and green spaces that resemble a park are seen below, which aligns with option A's description.",A,False
 AerialVLN_29_3OHYZ19UGL312V9L7ZJ1AZWIN8TOAX_7.mp4,"Question: Navigation Instruction given at initial position: [take off and turn left and move forward and go over the buildings and road and turn right and move forward and go over the buildings and turn left at front of the dates car wash board and move forward. now move forward and get down and besidecharlies chocolate building and turn back and move forward and go over the buildings and get down at intersection road and get up and turn back and move forward. now move forward and get down at front of the white building and turn right and beside sea and move forward and go over the building alley and get down at tastes board with building and land there.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach your current location, what is your Landmark Position from the ""flavor"" board?  
 choose:  
 A. I am located above the ""Taste"" board.  
@@ -3190,7 +3190,7 @@ C. I fly forward.
 D. I turn left.  
 E. I turn right.  
 F. I rotate the camera upward.  
-G. I descend and fly forward.  ",Action Generation,G,"Option: D; Reason: The ALL-STAR Cafe is located slightly to the left of the current direction, so turning left will align the agent's path towards the cafe.",D,False
+G. I descend and fly forward.  ",Action Generation,G,"Option: D; Reason: From the initial position, turning left is necessary to face the direction of the ALL-STAR Cafe, making it the most direct route towards the tables and chairs in front of the cafe.",D,False
 EmbodiedCity_19.mp4,"Question: Where do you start and end your journey?  
 Choices:  
 A. Start at the balcony on the 14th floor and end at the skyscraper corridor between tall buildings.  
@@ -3564,7 +3564,7 @@ A. I fly forward and then rise.
 B. I fly forward and then descend.  
 C. I fly forward while descending.  
 D. I turn right and go up.  
-E. I rotate the camera downward.  ",Action Generation,B,"Option: A; Reason: According to the navigation instruction, after getting closer to the blue building, the next step is to ""get high and move forward till the pond arrives."" The current context suggests that the agent needs to ascend to gain a better vantage point for locating and approaching the pond. Therefore, flying forward and then rising aligns with the requirement to get high before moving towards the pond.",A,False
+E. I rotate the camera downward.  ",Action Generation,B,"Option: B; Reason: According to the navigation instruction, the next step after reaching the blue building is to ""get closer to its bottom and stay there."" This implies that the agent should descend to get closer to the base of the blue building. Therefore, the best next step is to fly forward and then descend.",B,True
 AerialVLN_64_32XVDSJFP8VOXPT5H4B9CDOFHRK2M2_5.mp4,"Question: Navigation Instruction given at initial position: [take off straight up into the air. halfway across the lake, turn slightly to the left and fly over the road. just before the ord intersection, turn slightly towards the last building on the right in that block. at the optician billboard, turn to the left in the direction of 10 oclock and fly forward. fly over 2 blocks of buildings then go lower to the ground in between the and and ord blocks of buildings. land on the far side of the sidewalk. turn to the left in the direction of 9 oclock. fly forward. at the first intersection, stop and look down at the ground. look up at the sky and turn to the right in the direction of 3 oclock. fly over the trees and decrease altitude until reaching the bridge. at the trees, turn to the left in the direction of 7 oclock. fly over the trees and decrease altitude at the fountain. turn to the right in the direction of 3 oclock and fly over the trees and water.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  
 choose:  
 A. I turn left and go up.  
@@ -3690,7 +3690,7 @@ A. I am on the right side of the blue three-story building.
 B. I am located above the blue three-story building.  
 C. I am on the left side of the blue three-story building.  
 D. I am located behind the blue three-story building.  
-E. I am far away from the blue three-story building.  ",Landmark Position,E,"Option: C; Reason: The current location, as depicted in the images from 21s to 32s, shows the agent positioned to the left side of the blue three-story building. The camera angle and surrounding environment confirm this positioning, indicating that the agent is on the left side of the building.",C,False
+E. I am far away from the blue three-story building.  ",Landmark Position,E,"Option: E; Reason: The current view shows a wide landscape with several buildings in the distance, but there is no specific indication of a blue three-story building nearby. The agent appears to be at a considerable distance from any distinct building that matches this description, suggesting they are far away from the target landmark.",E,True
 AerialVLN_0_35H6S234SJYE7JR0C76QLOU436G65H_7.mp4,"Question: Navigation Instruction given at initial position: [rise from the concrete and turn right. fly over the middle of the street until you reach the buildings on the left with the short concrete wall like structure around them. turn left right beside the buildings and fly along beside them. when you get to the middle darker brown building then angle straight up and fly toward the top of the building. before you get to the top turn right and begin to level off. fly toward the building with the half pipe or half circle design on the edge of the roof. when you get to the half circle then turn left and downward and fly toward the red roof of the smaller building beside the one you climbed. stop well before you get to the roof.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach your current location, what is your Landmark Position from the building's rooftop half pipe?  
 choose:  
 A. I am located to the left of the half pipe on the roof of the building.  
@@ -3758,7 +3758,7 @@ Choice: A. It indicates the end of the flight path.
            B. To avoid incoming obstacles.  
            C. I lost altitude due to the wind and dropped slightly.  
            D. To get a better view of the top floor.  
-           E. To prepare to land on the roof of the building.  ",Causal,D,Option: B; Reason: Descending slightly when approaching a building with a triangular antenna is a controlled maneuver to avoid potential obstacles and ensure safe navigation around the structure.,B,False
+           E. To prepare to land on the roof of the building.  ",Causal,D,"Option: D; Reason: Descending slightly when approaching a building with a triangular antenna allows for a closer and clearer view of the top floor, which might be necessary for detailed observation or inspection.",D,True
 AerialVLN_14_3YW4XOSQKZJ0LCGI722HY4V3HMY1U8_6.mp4,"Question: Navigation Instruction given at initial position: [lift off and turn left facing left of the bridge and head straight. at the end of the road turn right facing the left of the pop bottle sign and head straight. at the left of the sign turn left facing the road and follow it. veer right to behind the bottle cap sign then veer left to the car wash sign. at the car wash sign turn right facing the yellow sign and head straight. veer right of the sign around the building. at the tall white building climb it to the top and stop at the top.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  
 choose:  
 A. I go up and turn right.  
@@ -3772,7 +3772,7 @@ A. To ascend to a higher altitude.
 B. To avoid an obstacle on the road.  
 C. To capture a better view of the lake.  
 D. Because my destination is more likely to exist on the left side of the road by the lake.  
-E. To descend towards the ground.  ",Causal,D,"Option: B; Reason: The path was adjusted to avoid orange cones on the right side of the road, as visible in the frames around the 7-second mark, ensuring a clear and safe passage.",B,False
+E. To descend towards the ground.  ",Causal,D,"Option: B; Reason: The path was adjusted to avoid orange cones on the right side, as clearly visible in the early frames (0-5 seconds), ensuring a safe passage along the road.",B,False
 EmbodiedCity_31_1.mp4,"Question: At the initial position, you are asked to navigate to the elevator to the right of the entrance. What is your next move, given the target location for your next move?  
 choose:  
 A. I rise.  
@@ -3820,7 +3820,7 @@ A. I ascend toward the top of the conical building.
 B. I turn sharply to the left.  
 C. I move backward to get a wider view of the structure.  
 D. I hover in place above the building.  
-E. I descend, moving closer to the top of the conical building.  ",Sequence Recall,E,"Option: A; Reason: After centering the conical structure in the frame, the agent ascends toward the top of the conical building to get a better view or reach a specific point of interest at the upper part of the structure. This is evident from the visual evidence showing the camera moving upward after the initial centering.",A,False
+E. I descend, moving closer to the top of the conical building.  ",Sequence Recall,E,"Option: E; Reason: After centering the conical structure in the frame, the next logical action is to descend and move closer to the top of the conical building to get a more detailed view or possibly interact with it. This aligns with the agent's apparent goal of examining the structure closely.",E,True
 EmbodiedCity_55_1.mp4,"Question: At the initial position, you are asked to navigate to a store with a sign called ""常青麦香园."" Given the next move for [shops on the ground floor of high-rise buildings], what’s your next move?  
 choose:  
 A. I rise.  
@@ -3843,7 +3843,7 @@ A. I am located above the high-rise building bypass intersection.
 B. I am far away from the high-rise building bypass intersection.  
 C. I am on the ground near the intersection of high-rise buildings.  
 D. I am located on the left side of the high-rise building bypass intersection.  
-E. I am under the intersection next to the high-rise building.  ",Landmark Position,A,"Option: D; Reason: The sequence of images shows the agent turning left beside the buildings and flying along beside them, indicating that the current position is on the left side of the high-rise building bypass intersection.",D,False
+E. I am under the intersection next to the high-rise building.  ",Landmark Position,A,"Option: A; Reason: The agent has navigated to a position above the high-rise building bypass intersection, as indicated by the elevated perspective and the visible tops of surrounding buildings. This aligns with the instruction to ""angle straight up and fly toward the top of the building,"" suggesting the agent is now above the intersection area.",A,True
 EmbodiedCity_20_2.mp4,"Question: You are navigating to the balcony on the 13th floor. What is the correct summary of your trajectory from the beginning to the current location?  
 Choice:  
 A. I start from a high-rise building, descend to street level, and then ascend to my current location near another high-rise building.  
@@ -4218,7 +4218,7 @@ A. I am located to the left of the brown glass-roofed building.
 B. I am far away from the brown building with a glass roof.  
 C. I am above a brown building with a glass roof.  
 D. I am located to the right of the brown glass-roofed building.  
-E. I am located underneath a brown building with a glass top.  ",Landmark Position,B,"Option: A; Reason: The agent's current position, as indicated by the frames, shows that it is to the left of the brown building with a glass roof. This is evident from the perspective where the building is on the right side of the view, indicating the agent is positioned to its left.",A,False
+E. I am located underneath a brown building with a glass top.  ",Landmark Position,B,"Option: B; Reason: The current location, as depicted in the images, shows a view of the cityscape with multiple buildings but does not indicate proximity to a specific ""brown glass-roofed building."" The agent appears to be at a distance from any particular building with such a description, suggesting that it is far away from the brown building with a glass roof.",B,True
 AerialVLN_25_34MAJL3QPDLXEH0IF0PI9TC71F134N.mp4,"Question: After you aim at the distant cityscape, what is the next step?  
 Options: A. I turn left.  
             B. I ascend to gain a wider view of the skyline.  
@@ -4425,7 +4425,7 @@ C. I am surrounded by high-rise residential buildings, with a small park and swi
 
 D. There is a river in front of me, a bicycle path next to it, and some residential buildings on the right. There is a park with a playground in the back.  
 
-E. There is a busy road with many cars in front of me. There is a construction site behind me. To my left is a large building, and to my right is a residential building with a park.  ",Cognitive Map,A,"Option: E; Reason: The current location shows a busy road with many cars in front, a construction site behind, a large building to the left, and a residential building with a park to the right, which matches the description in option E.",E,False
+E. There is a busy road with many cars in front of me. There is a construction site behind me. To my left is a large building, and to my right is a residential building with a park.  ",Cognitive Map,A,"Option: E; Reason: The current location shows a busy road with many cars in front, a construction site behind, a large building to the left, and a residential building with a park to the right, matching the description in option E.",E,False
 AerialVLN_27_31T4R4OBO1EIA4EKARYQ580BYSNC7T_4.mp4,"Question: Navigation Instruction given at initial position: [take off and turn back and move forward towards the buildings till the brown building which have a glass on its top. now turn back and get closer to the blue building and get high and move forward till the pond arrives. now fly over the pond and move forward towards the road is visible. now turn left and move forward towards the buildings till the building have a banner named bolt cola. now move forward towards the buildings and get closer to the brown building and turn right and move forward till the road splits. now turn left and move forward towards the buildings till the blue building arrives and get closer to its bottom and stay there.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is the Landmark Position from the pond when you reach your current location?  
 choose:  
 A. I am located on the left side of the pond.  
@@ -4519,7 +4519,7 @@ A. I go up and turn left.
 B. I descend and then fly forward.  
 C. I fly forward while rotating the camera upward.  
 D. I turn right and go up.  
-E. I rotate the camera down, then left.  ",Action Generation,B,"Option: D; Reason: The navigation instruction specifies to ""turn right and move towards the high building and show fire exit of building."" Given the current perspective, turning right and going up aligns with approaching the high building as described. This action ensures a clear path towards identifying and showing the fire exit on the building.",D,False
+E. I rotate the camera down, then left.  ",Action Generation,B,"Option: D; Reason: The navigation instruction specifies turning right and moving towards a high building after showing the butcher signage and pathway. Given the current perspective, turning right and going up aligns with approaching the high building as instructed, ensuring the fire exit of the building can be shown next. This action directly follows the sequence of the given instructions.",D,False
 AerialVLN_40_3ITXP059P5HR1G4I8MDNN3928CGJSD_4.mp4,"Question: Navigation Instruction given at initial position: [zoom in on the left tower. resume flying over green bush. turn left at grey building. reverse backwards to the green bush. turn left and zoom in on satellite dish. resume flying over the city buildings. stop and turn left. zoom in on red bulletin board. go to ground level of grey building. turn left at the brown sandstone house. zoom in on ord window of the blue building.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  
 choose:  
 A. I drop down and turn left.  
@@ -4561,7 +4561,7 @@ A. I am on the left side of the pool.
 B. I am located below the pool.  
 C. I am on the right side of the pool.  
 D. I am located above the pool.  
-E. I am on the pool floor.",Landmark Position,D,"Option: A; Reason: The navigation instructions and visual evidence indicate that the agent moves towards the pool and is fully surrounded by red leaves of trees, suggesting a lateral position relative to the pool. The final orientation places the agent on the left side of the pool, as the agent continues along the street and does not return to an elevated position above the pool.",A,False
+E. I am on the pool floor.",Landmark Position,D,"Option: A; Reason: The navigation instructions indicate moving towards the street after crossing the pool, and the final position is described as being on the street with the pool on the left side. This aligns with the agent being on the left side of the pool at the final position.",A,False
 RealWorld_GN_2_0.mp4,"Question: Starting from your starting position, you are asked to navigate to a basketball court near a building below. Thinking back on past actions and objects you’ve seen, what is the surrounding environment like at your current location?  
 Choice:  
 A. Two buildings are close to each other on your left side, and a pond is on your right. A park with winding paths and lush trees is behind you.  
@@ -4958,7 +4958,7 @@ A. I am located on the left side of Waterfront Park.
 B. I am located over Waterfront Park.  
 C. I am far away from the waterfront park.  
 D. I am on the ground of Waterfront Park.  
-E. I am located on the right side of Waterfront Park.  ",Landmark Position,C,"Option: E; Reason: The agent's final position, as indicated by the navigation instructions and visual evidence from frames 3:03 to 3:29, shows the waterfront park visible on the left side of the screen. This places the agent on the right side of the waterfront park, making option E the most accurate choice.",E,False
+E. I am located on the right side of Waterfront Park.  ",Landmark Position,C,"Option: C; Reason: The navigation instructions involve a complex series of movements including flying over water, beside bridges, and navigating through buildings. After completing these instructions, the agent's final position is on top of a building, as indicated by the last frames showing a high vantage point over the city and water. The Waterfront Park is not directly visible or adjacent from this elevated position, suggesting that it is far away from the current location. Therefore, the correct answer is C.",C,True
 AerialVLN_65_3IUZPWIU1X5FJHR9ACN0L7C0VNSKWS_4.mp4,"Question: Navigation Instruction given at initial position: [take of and go straight towards the daves car wash building and go up of the building and again down to the building. take right from the shop and suddenly take left and go straight toward the street and cross the farmers market on the left. and take up to the building and go straight the turn the first right and go straight towards the loans building then take immediate left from the building. go straight toward the charlie a chocolate shop and again return to the front building of national optician health insurance is our destination.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your Landmark Position from Dave's Car Wash building?  
 choose:  
 A. I am located to the left of Dave's Car Wash building.  
