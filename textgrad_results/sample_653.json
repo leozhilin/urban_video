@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_95_3K772S5NPH9U0R4AJRQXM9P7C8XHE9_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [rotating by the supermarket and turning right through the buildings. turning right passing by the bridge. turning right and flying over the sewer. turning left and going toward the grey building. flying up toward the black building. rotating to go toward the brick and black building. landing on the roof.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I turn left and fly forward.  \nB. I spin and walk towards the brick black building.  \nC. I turn right past the bridge.  \nD. I turn right and fly over the sewer.  \nE. I fly towards the black building.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows the agent moving through an urban environment, starting from a position near a supermarket and then navigating through buildings. The current view aligns with the instruction to \"turn right past the bridge,\" as the agent appears to be in a position that suggests it has just made this turn, heading towards the next set of instructions.",
+    "evaluation": "Location: [(0, 5), (38, 47)]\nOption: [C]\nReason: The video starts near a supermarket (0-5s). From 38s to 47s, the video shows the agent passing by a bridge. Therefore, the agent is turning right past the bridge.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows the agent moving through an urban environment, starting from a position near a supermarket and then navigating through buildings. The current view aligns with the instruction to \"turn right past the bridge,\" as the agent appears to be in a position that suggests it has just made this turn, heading towards the next set of instructions."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_9.mp4",
+  "question": "Question: Where do you start and end your journey?  \nChoices:  \nA. Start at the view across the cityscape and end at the top of the curved building.  \nB. Start at the brown spire on top of a tower and end at the balcony on the 24th floor.  \nC. Start between the tall skyscrapers and end at the balcony on the 24th floor.  \nD. Start at the view across the cityscape and end by descending along the face of the building.  \nE. Start at the top of the curved building and end at the brown spire on top of a tower.  ",
+  "question_category": "Start/End Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The journey starts with a view of the brown spire on top of a tower and ends at the balcony on the 24th floor, as indicated by the sequence of images showing a transition from the spire to a detailed view of the balcony.",
+    "evaluation": "Location: [(0, 4), (45, 47)]\nOption: B\nReason: The video starts with a view of the cityscape, then focuses on a brown spire on top of a tower (0-4s). The video ends with a close-up view of the balcony on the 24th floor (45-47s). Therefore, the journey starts at the brown spire on top of a tower and ends at the balcony on the 24th floor. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The journey starts with a view of the brown spire on top of a tower and ends at the balcony on the 24th floor, as indicated by the sequence of images showing a transition from the spire to a detailed view of the balcony."
+  }
+}

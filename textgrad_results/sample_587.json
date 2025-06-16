@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_9_3ERMJ6L4D7QVJQQBNGS4845NR1TM7C_7.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [fly high on the brick building and shoe the fire exits. fly on top of the park and go to the end of the park where the red trees are. fly on front of the street lights and capture the bank signage and enter in to the next street. show the stars of building on your left and and capture the red rocket board. make a turn around the building on the left show the view of end of the street. fly over the lamp post and show the johnny signage.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach your current location, what is your Landmark Position from the mangroves at the end of the park?  \nchoose:  \nA. I am to the left of the mangroves at the end of the park.  \nB. I am located to the right of the mangroves at the end of the park.  \nC. I am located under the mangrove trees at the end of the park.  \nD. I am located above the mangroves at the end of the park.  \nE. I am behind the mangroves at the end of the park.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The sequence of images shows the agent flying over a park with mangroves at the end. The perspective from above the trees indicates that the agent is located above the mangroves at the end of the park, matching option D.",
+    "evaluation": "Location: [(0:32, 0:42)]\nOption: D\nReason: The video shows the agent flying over a park with a lake. The mangroves are located at the end of the park, near the lake. The agent's perspective is from above the trees, indicating that the agent is located above the mangroves at the end of the park. Therefore, the answer is D. I am located above the mangroves at the end of the park. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The sequence of images shows the agent flying over a park with mangroves at the end. The perspective from above the trees indicates that the agent is located above the mangroves at the end of the park, matching option D."
+  }
+}

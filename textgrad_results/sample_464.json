@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_25_3DY46V3X3YGIOFRM7OWLTIG5F2055N_1.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [turning left and going straight to the buildings and slight right turn. coming near the lake and turning right and going up to the building. coming down to the building and again going up and going straight. going top of the building and turning left and coming down to the building. roaming around a tower and searching each floor of apartment.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I wander around a tower and search each floor of the apartment.  \nB. I come to the lake, turn right, and go upstairs.  \nC. I turn left, go straight to the building, and turn slightly right.  \nD. I go down to the building, then go up again and go straight.  \nE. I go to the top of the building and turn left to reach the building.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The initial instruction is to \"turn left and go straight to the buildings and slight right turn.\" The first image shows a view from a high vantage point looking towards buildings, which aligns with the action of having just turned left and proceeding straight toward the buildings. This matches the starting point of the navigation instructions.",
+    "evaluation": "Location: [(0, 1)]\nOption: C\nReason: The video starts with a view from a high vantage point looking towards buildings. This aligns with the initial instruction to \"turn left and go straight to the buildings and slight right turn.\" The first few frames show the agent on a rooftop, looking out at the city buildings. This matches the starting point of the navigation instructions. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The initial instruction is to \"turn left and go straight to the buildings and slight right turn.\" The first image shows a view from a high vantage point looking towards buildings, which aligns with the action of having just turned left and proceeding straight toward the buildings. This matches the starting point of the navigation instructions."
+  }
+}

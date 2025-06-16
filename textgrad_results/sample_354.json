@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_88_3MHW492WW9BXUGR75EVKEILQEPQVMG.mp4",
+  "question": "Question: Where are the starting and ending points of your journey?  \nChoice:  \nA. Begin with a cityscape above a block at the edge and end on a rooftop next to a sloping skylight.  \nB. Start on the block with the courtyard and end on the rooftop structure near the Americanar ad.  \nC. Start from the promenade and end above the center of the main road.  \nD. Start above a tall building and end at the end of the street where the sea is visible.  \nE. Start with the trees lining the street and end with the buildings on the corner near the waterfront.  ",
+  "question_category": "Start/End Position",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The journey begins with a view of a block that includes a courtyard (as seen in the initial frames with buildings and open spaces), and it ends on a rooftop structure where an \"AMERICAR\" advertisement is visible (as seen in the later frames). This matches the description in option B.",
+    "evaluation": "Location: [(0, 5), (48, 58)]\nOption: B\nReason: The video starts with a view of a block that includes a courtyard. The video ends on a rooftop structure where an \"AMERICAR\" advertisement is visible. This matches the description in option B.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The journey begins with a view of a block that includes a courtyard (as seen in the initial frames with buildings and open spaces), and it ends on a rooftop structure where an \"AMERICAR\" advertisement is visible (as seen in the later frames). This matches the description in option B."
+  }
+}

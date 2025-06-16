@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_65_3IUZPWIU1X5FJHR9ACN0L7C0VNSKWS_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take of and go straight towards the daves car wash building and go up of the building and again down to the building. take right from the shop and suddenly take left and go straight toward the street and cross the farmers market on the left. and take up to the building and go straight the turn the first right and go straight towards the loans building then take immediate left from the building. go straight toward the charlie a chocolate shop and again return to the front building of national optician health insurance is our destination.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I make a sudden left turn and head straight toward the street.  \nB. I pick it up directly from the store.  \nC. I take off and head straight to Dave's Car Wash building, then go up and back down.  \nD. I turn right at the first intersection, go straight to the loan building, and then turn left at the building.  \nE. I go straight to Charlie's Chocolate Shop and back again to the front building of the National Optical Health Insurance Building.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows the agent initially moving towards a tall building with a \"Dave's Car Wash\" sign, then ascending and descending along the side of the building, which aligns with the instruction to \"take off and go straight towards the daves car wash building and go up of the building and again down to the building.\" This matches option C.",
+    "evaluation": "Location: [(0, 31)]\nOption: [C]\nReason: The video shows the agent moving towards a tall building with a \"Dave's Car Wash\" sign, then ascending and descending along the side of the building. This aligns with the instruction to \"take off and go straight towards the daves car wash building and go up of the building and again down to the building.\" This matches option C.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows the agent initially moving towards a tall building with a \"Dave's Car Wash\" sign, then ascending and descending along the side of the building, which aligns with the instruction to \"take off and go straight towards the daves car wash building and go up of the building and again down to the building.\" This matches option C."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_64.mp4",
+  "question": "Question: Instead of aligning yourself directly in front of the windows on the highest floor, if you decide to hover above the rooftop gardens, can you still reach the purple window sill on the highest floor?  \nChoices:  \nA. If I choose to hover above the rooftop gardens without aligning with the windows, I can complete the task because I avoid obstacles, but the hypothetical movement takes more time.  \nB. If I choose to hover above the rooftop gardens, I can complete the task because it offers a direct path to the window, and the alternative takes less time.  \nC. If I choose to hover above the rooftop gardens, I cannot complete the task because the gardens are not close to the windows.  ",
+  "question_category": "Counterfactual",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: Hovering above the rooftop gardens does not provide a direct or feasible path to reach the purple window sill on the highest floor, as the gardens are not adjacent to or close enough to the windows.",
+    "evaluation": "Location: [(18, 20)]\nOption: C\nReason: From the video, it is clear that the rooftop gardens are not directly adjacent to the windows on the highest floor. There is a significant distance and a building structure separating them. Therefore, hovering above the rooftop gardens would not provide a direct or feasible path to reach the purple window sill on the highest floor. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: Hovering above the rooftop gardens does not provide a direct or feasible path to reach the purple window sill on the highest floor, as the gardens are not adjacent to or close enough to the windows."
+  }
+}

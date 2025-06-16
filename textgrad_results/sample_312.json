@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_85_34MAJL3QPDLXEH0IF0PI9TC71F134N_1.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off turn back go straight up to the ice cold bar take right go until the fountain take left go straight. up to the ensure advertisement turn right go straight until the center of the lake take left go straight. take left go through buildings move forward until the road near blue three stored building look around see the blue postbox land near that.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your Landmark Position relative to the blue mailbox?  \nchoose:  \nA. I am to the right of the blue mailbox.  \nB. I am located above the blue mailbox.  \nC. I am to the left of the blue mailbox.  \nD. I am located behind the blue mailbox.  \nE. I am far away from the blue mailbox.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The provided frames do not show a blue mailbox, and the current location appears to be far from any such object, as the focus is on navigating through buildings and a park area. Therefore, the agent is far away from the blue mailbox.",
+    "evaluation": "Location: [(0, 60)]\nOption: [E]\nReason: The video shows the agent navigating through a park, buildings, and roads. The blue mailbox is not visible in any of the frames. Therefore, the agent is far away from the blue mailbox. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The provided frames do not show a blue mailbox, and the current location appears to be far from any such object, as the focus is on navigating through buildings and a park area. Therefore, the agent is far away from the blue mailbox."
+  }
+}

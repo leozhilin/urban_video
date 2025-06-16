@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_RN_30_5.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [Observe around the square area, then fly towards the highway, then turn left and land on the roof of the building on the left]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I fly forward and then rise.  \nB. I turn right and descend.  \nC. I fly forward, then turn left.  \nD. My camera rises and rotates downward.  \nE. I descend and then fly forward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The navigation instruction requires turning left and landing on the roof of the building on the left. The current view shows a clear path forward with buildings on both sides, and turning left aligns with the goal of approaching the target building for landing.",
+    "evaluation": "Location: [(0, 15), (116, 128)]\nOption: C\nReason: The initial instruction is to observe the square area, fly towards the highway, then turn left and land on the roof of the building on the left. From the video, we can see the agent is currently observing the square area. The next step is to fly forward towards the highway, and then turn left to approach the building on the left. Therefore, the best next step is to fly forward and then turn left. The video from 0 to 15 seconds shows the initial square area, and the video from 116 to 128 seconds shows the highway and the building on the left. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The navigation instruction requires turning left and landing on the roof of the building on the left. The current view shows a clear path forward with buildings on both sides, and turning left aligns with the goal of approaching the target building for landing."
+  }
+}

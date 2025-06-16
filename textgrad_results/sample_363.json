@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_57_3ON104KXQTUU5F26PK0KEQN3EEB4WZ_7.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off , turn left and turn around focus the entire locations. slightly go down and focus that board american , turn slightly left go high of the building and cross the building there will be a river contains small bridge. slightly go left of that bridge slightly go down of the river and look up , go up in that place cover the entire location.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach the current location, what is the Landmark Position to the bridge?  \nchoose:  \nA. I am far away from the bridge.  \nB. I am on the left side of the bridge.  \nC. I am above the bridge.  \nD. I am on the right side of the bridge.  \nE. I am under the bridge.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The current location, as depicted in the images, shows a view of the city from a high vantage point with no immediate proximity to the bridge mentioned in the navigation instructions. The bridge is not visible in the current frames, indicating that the agent is far away from it.",
+    "evaluation": "Okay, I will analyze the video and the provided answer to give my own evaluation.\n\nLocation: [(0, 42)]\nOption: A\nReason: The video shows a wide view of the city. From 0:00 to 0:42, the camera pans across the city, but the bridge is not visible. Therefore, the agent is far away from the bridge. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The current location, as depicted in the images, shows a view of the city from a high vantage point with no immediate proximity to the bridge mentioned in the navigation instructions. The bridge is not visible in the current frames, indicating that the agent is far away from it."
+  }
+}

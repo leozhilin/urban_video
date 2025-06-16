@@ -50,7 +50,7 @@ def process_textgrad_results():
                 print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
                 evaluation_error += 1
             if extracted_option == result['ground_truth'] and extracted_option_init != result['ground_truth']: # 改对
-                print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
+                # print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
                 init_answer_error += 1
 
             # if extracted_option_init != result['ground_truth'] or extracted_option != result['ground_truth']:

@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_8_1.mp4",
+  "question": "Question: The drone is navigating to the roof of the red teaching building of a nearby school. When the drone reaches the current location, what is the direction to the destination?\nchoose:\n",
+  "question_category": "Landmark Position",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The drone is currently positioned to the side of the building and needs to move forward and then ascend to reach the roof of the red teaching building.",
+    "evaluation": "Location: [(0, 35)]\nOption: [B]\nReason: The drone is currently positioned to the side of the building and needs to move forward and then ascend to reach the roof of the red teaching building.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The drone is currently positioned to the side of the building and needs to move forward and then ascend to reach the roof of the red teaching building."
+  }
+}

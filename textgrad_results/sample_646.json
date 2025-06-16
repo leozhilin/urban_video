@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_75_31HQ4X3T318XW6SIB7P03IMUFFGLS7_7.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn little right and move forward til the pond arrives. now fly over the pond and turn right and move forward towards the red tree and get closer to it. now turn left and move forward towards the trees till the tree in middle of the river arrives. now turn right and move forward towards the buildings till the building have a banner named bolt cola and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I am flying over the trees.  \nB. I am close to mangroves.  \nC. I am crossing the water.  \nD. I turn left and head toward the woods.  \nE. I turn right at the building.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The current view shows a perspective that is aligned with being near buildings, and the presence of a visible banner on a building suggests that the agent has reached the final part of the navigation instructions, which involves staying at a building with a specific banner. Therefore, the agent is now turning right at the building as per the last instruction given.",
+    "evaluation": "Location: [(0, 3), (52, 122), (230, 320)]\nOption: E\nReason: The video shows the agent flying over a pond and then towards buildings. From [0:52] to [1:22], the agent is approaching the buildings. From [2:30] to [3:20], the agent is near the buildings and the building with the banner is visible. The last instruction was to turn right at the building with the banner and stay there. Therefore, the agent is turning right at the building.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The current view shows a perspective that is aligned with being near buildings, and the presence of a visible banner on a building suggests that the agent has reached the final part of the navigation instructions, which involves staying at a building with a specific banner. Therefore, the agent is now turning right at the building as per the last instruction given."
+  }
+}

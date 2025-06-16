@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_9_0.mp4",
+  "question": "Question: You are navigating to the playground next to the building in front of you. What is the correct summary of your trajectory from the start to the current position?  \nChoice:  \nA. I start from above the roof, descend to the playground, and then move to my current location.  \nB. I start from the roof of the building, move toward the playground, and stop at my current location.  \nC. I start from a point above the roof of the building and turn 90 degrees to the right.  \nD. I start from the top of the building, move towards the playground, and stop at my current location near the playground.  \nE. I start from above the roof of the building, move horizontally toward the front of the building, then descend to the playground and move to my current position next to the playground.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The trajectory starts from a high vantage point above the roof of the building, moves horizontally towards the front of the building, then descends to the playground area, and finally continues to the current position next to the playground. This matches the sequence of frames showing a descent from an aerial view to a closer view of the playground and surrounding buildings.",
+    "evaluation": "Location: [(0, 10)]\nOption: [E]\nReason: The video starts with a view from above the roof of a building (0-2s), then moves horizontally towards the front of the building, showing the playground (2-6s), and finally descends to a position next to the playground (6-10s). This matches the description in option E.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The trajectory starts from a high vantage point above the roof of the building, moves horizontally towards the front of the building, then descends to the playground area, and finally continues to the current position next to the playground. This matches the sequence of frames showing a descent from an aerial view to a closer view of the playground and surrounding buildings."
+  }
+}

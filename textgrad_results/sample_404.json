@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_63_3FTYUGLFS3JDSS6FMUE4RU4XSMUD55.mp4",
+  "question": "Question: What is the path you take to descend to the roof of a low-rise building?  \nChoices:  \nA. There is a billboard near the descent path.  \nB. There is a flagpole near the descent path.  \nC. There is a water tower near the descent path.  \nD. There is a tree near the descent path.  \nE. There is a satellite dish near the descent path.  ",
+  "question_category": "Object Recall",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: In the initial frames, a billboard is visible near the descent path as the agent moves towards and descends to the roof of a low-rise building. This feature stands out compared to the other options provided.",
+    "evaluation": "Location: [(0, 3)]\nOption: A\nReason: From 0 to 3 seconds, the video shows a billboard near the path the agent takes to descend to the roof of a low-rise building.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: In the initial frames, a billboard is visible near the descent path as the agent moves towards and descends to the roof of a low-rise building. This feature stands out compared to the other options provided."
+  }
+}

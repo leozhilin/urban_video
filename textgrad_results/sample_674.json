@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_122_3X4MXAO0BPM16L440WWXMJYDJQUWRI.mp4",
+  "question": "Question: Which of the following options better summarizes your movement?  \nChoice:  \nA. I fly straight down from the center of the road with lane markings to the position directly in front of the Greek-style column.  \nB. I turn left from the starting city street and rise, flying along the right trajectory facing the column.  \nC. I drop to the entrance level by hovering in place from approaching the intersection.  \nD. I fly backward from the rightward trajectory facing the column to the starting city street.  \nE. I depart from the lobby building and descend at the intersection, providing a clearer view of the city streets at the starting point.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The sequence of images shows a continuous forward movement from the center of a road with lane markings directly towards a building with Greek-style columns. There is no indication of turning, rising, dropping, flying backward, or departing from a lobby, which rules out options B, C, D, and E. The path is straightforward, aligning with option A.",
+    "evaluation": "Location: [(0, 17)]\nOption: [A]\nReason: From the beginning of the video (0s) to the end (17s), the camera moves straight forward from the center of a road with lane markings directly towards a building with Greek-style columns. There is no turning, rising, dropping, flying backward, or departing from a lobby. The path is straightforward, aligning with option A. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The sequence of images shows a continuous forward movement from the center of a road with lane markings directly towards a building with Greek-style columns. There is no indication of turning, rising, dropping, flying backward, or departing from a lobby, which rules out options B, C, D, and E. The path is straightforward, aligning with option A."
+  }
+}

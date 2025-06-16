@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_75_1.mp4",
+  "question": "**Question:** At the initial position, you are asked to navigate to the entrance of the community next to the store, which has a yellow sign that says \"\u4e50\u8d2d\u4fbf\u5229\u5e97.\" Is the destination within sight at the current location? If yes, where is the destination in the view?  \n**choose:**  \nA. I see the community entrance next to the store with a yellow sign saying \"\u4e50\u8d2d\u4fbf\u5229\u5e97\" in the lower left corner of my field of view.  \nB. I see the community entrance next to the store with a yellow sign saying \"\u4e50\u8d2d\u4fbf\u5229\u5e97\" in the center of my field of view.  \nC. I see the community entrance next to the store with a yellow sign saying \"\u4e50\u8d2d\u4fbf\u5229\u5e97\" in the upper right corner of my field of view.  \nD. The entrance to the community next to the store with the yellow sign of \"\u4e50\u8d2d\u4fbf\u5229\u5e97\" is not within my field of view.  \nE. I see the community entrance next to the store with a yellow sign saying \"\u4e50\u8d2d\u4fbf\u5229\u5e97\" in the lower right corner of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The provided images do not show any sign of a community entrance next to a store with a yellow sign saying \"\u4e50\u8d2d\u4fbf\u5229\u5e97.\" The frames primarily depict a pathway between buildings and do not include the specified destination within the field of view.",
+    "evaluation": "Location: [(0, 43)]\nOption: [D]\nReason: The video shows a top-down view of buildings and roads. There is no visible store with a yellow sign saying \"\u4e50\u8d2d\u4fbf\u5229\u5e97\" or a community entrance in any of the frames. Therefore, the destination is not within the field of view. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The provided images do not show any sign of a community entrance next to a store with a yellow sign saying \"\u4e50\u8d2d\u4fbf\u5229\u5e97.\" The frames primarily depict a pathway between buildings and do not include the specified destination within the field of view."
+  }
+}

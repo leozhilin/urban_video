@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_120_3WR9XG3T6C9FF015HCS8MAON6F774C.mp4",
+  "question": "Question: What is near the central island in the lake?  \nChoice: A. A person is next to the park near the island in the lake.  \n           B. A series of connected walking trails are near the central island in the lake.  \n           C. A fountain is near the central island in the lake.  \n           D. A row of buildings is near the central island in the lake.  \n           E. A parking lot is near the island in the center of the lake.  ",
+  "question_category": "Object Recall",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The images show a series of connected walking trails near the central island in the lake. These trails are visible as they wind through the greenery and alongside the water, providing a clear path for pedestrians. There is no indication of a person, fountain, row of buildings, or parking lot directly near the central island in the provided frames.",
+    "evaluation": "Location: [(0, 16)]\nOption: [B]\nReason: From 0 to 16 seconds, the video shows a series of connected walking trails near the central island in the lake.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The images show a series of connected walking trails near the central island in the lake. These trails are visible as they wind through the greenery and alongside the water, providing a clear path for pedestrians. There is no indication of a person, fountain, row of buildings, or parking lot directly near the central island in the provided frames."
+  }
+}

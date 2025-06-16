@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_29_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the elevator on the left side of the entrance. When you reach your current location, what is the direction to the destination?  \nchoose:  \nA. I am currently located over the park, far away from the target building.  \nB. I am currently located directly above the elevator, to the left of the entrance.  \nC. I am currently located to the right of the target building, above street level.  \nD. I am currently located on the roof level of the target building.  \nE. I am currently located behind and to the left of the target building, above street level.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The current view shows a high vantage point with no visible elevator or entrance, indicating that the agent is on the roof level of the target building.",
+    "evaluation": "Location: [(0, 10), (32, 42)]\nOption: D\nReason: The video shows a high vantage point with a view of the city skyline. The camera then pans down, revealing that it is on top of a building. The elevator and entrance are not visible from this perspective. Therefore, the agent is located on the roof level of the target building. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The current view shows a high vantage point with no visible elevator or entrance, indicating that the agent is on the roof level of the target building."
+  }
+}

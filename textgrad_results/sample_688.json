@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_0.mp4",
+  "question": "Question: Where are the starting and ending points of your journey?  \nChoice: A. I start in the central area of the complex near the pond and end high above the buildings and courtyards with a paved path.  \n           B. I start high above the red brick path in the courtyard between high-rise buildings and end at the orange tile roof of the gazebo.  \n           C. I start from the orange tile roof of the overlooking pavilion and end in the central area of the complex near the pond.  \n           D. I start from the central area with landscaping, pools, and pavilions and end high above the buildings and courtyards with paved paths.  \n           E. I begin with a larger pond with palm trees and landscaping and end with a detailed view of the orange tile roof of the gazebo.  ",
+  "question_category": "Start/End Position",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The journey starts high above the red brick path in the courtyard between high-rise buildings, as seen in the initial frames with an aerial view of the complex. It ends at the orange tile roof of the gazebo, which is clearly visible in the final frames with a detailed top-down view of the roof.",
+    "evaluation": "Location: [(0, 10), (38, 47)]\nOption: B\nReason: The video starts with an aerial view of a red brick path in a courtyard surrounded by high-rise buildings. The video ends with a close-up view of the orange tile roof of a gazebo. Therefore, the journey starts high above the red brick path in the courtyard between high-rise buildings and ends at the orange tile roof of the gazebo.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The journey starts high above the red brick path in the courtyard between high-rise buildings, as seen in the initial frames with an aerial view of the complex. It ends at the orange tile roof of the gazebo, which is clearly visible in the final frames with a detailed top-down view of the roof."
+  }
+}

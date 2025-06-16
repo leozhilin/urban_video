@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_70.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a store with a red sign that says \"\u706b\u9505.\" Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. I see the store with the red word \"hotpot\" in the lower left corner of my field of view.  \nB. I see the store marked with the word \"\u706b\u9505\" in red in the center of my field of view.  \nC. I see the store with the red word \"\u706b\u9505\" in the upper right corner of my field of view.  \nD. I do not see any shops marked with the word \"hotpot\" in red in my field of view.  \nE. I see the store with the red word \"hotpot\" on the right side of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The store with the red sign that says \"\u706b\u9505\" is visible in the center of the field of view as the agent approaches it. The sign is clearly marked and stands out among the other shops.",
+    "evaluation": "Location: [(0, 50)]\nOption: [B]\nReason: From the initial position, the video shows the agent moving towards a row of shops. At the end of the video, specifically at 0:50, the store with the red sign \"\u706b\u9505\" is clearly visible in the center of the field of view. Therefore, the destination is within sight at the current location. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The store with the red sign that says \"\u706b\u9505\" is visible in the center of the field of view as the agent approaches it. The sign is clearly marked and stands out among the other shops."
+  }
+}

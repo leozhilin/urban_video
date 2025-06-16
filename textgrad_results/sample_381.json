@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_69_3M0BCWMB84UEQENF4ZA7M4T9OECBWC_1.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and look at the sea and turn back to fly over the buildings a trees and pond is visible. now get down on the land and look at the tree. now turn back and fly over the trees and reach the road and turn little right. now move towards the sea and look at the grey building. now turn right side of the building and move between two building and go top the back side of the building. now turn to the building named with drink ice cold and fly over the building and take little right and look at the tall building. now move forwards to the pond is visible and take right and move forward to the roads and take little right and move to the brown building. now turn left and move towards the brown building and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach the current location, what is the Landmark Position to the brown building?  \nchoose:  \nA. The brown building is to my left.  \nB. I am above a brown building.  \nC. The brown building is located on the other side of me.  \nD. I am in front of a brown building.  \nE. I am far away from the brown building.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The final instruction directs the agent to turn left and move towards the brown building, indicating that the brown building is to the left of the current position.",
+    "evaluation": "Location: [(0, 155)]\nOption: A\nReason: The instruction says \"now turn left and move towards the brown building and stay there\". So the brown building is to my left.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The final instruction directs the agent to turn left and move towards the brown building, indicating that the brown building is to the left of the current position."
+  }
+}

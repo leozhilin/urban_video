@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_97_3Q5C1WP23VZJ0XQ361U9QS3O2S551Q_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and move between to the two building and towards to the green tree and move into the tree. now turn right and fly over the buildings and get high and move forward near to the antenna tower. now turn right and move little forward and get down to the bridge and towards to the building and get down to the building and stay there.]. At the initial position, you are asked to follow a series of movement instructions. What are you doing now?  \nchoose:  \nA. I go down to the bridge.  \nB. I turn right and move forward slightly.  \nC. I fly upward into the air.  \nD. I move between the two buildings and toward the tree.  \nE. I take off and move between two buildings.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The initial instruction is to \"take off and move between the two buildings and towards the green tree.\" The first image shows a view from ground level between two buildings, indicating the start of this sequence. Therefore, the action being performed now is taking off and moving between the two buildings.",
+    "evaluation": "Location: [(0, 1)]\nOption: [E]\nReason: The video starts with a ground-level view between two buildings, looking towards a green tree. The initial instruction is to \"take off and move between the two buildings and towards the green tree.\" Therefore, the action being performed now is taking off and moving between the two buildings.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The initial instruction is to \"take off and move between the two buildings and towards the green tree.\" The first image shows a view from ground level between two buildings, indicating the start of this sequence. Therefore, the action being performed now is taking off and moving between the two buildings."
+  }
+}

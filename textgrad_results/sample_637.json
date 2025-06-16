@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_12_0.mp4",
+  "question": "Question: You are navigating to the 21st floor balcony. Thinking back on past Action Generations and objects you have seen, what is the surrounding environment like at your current location?  \nChoose:  \nA. There is a big park in front of me with a pond. There are several tall buildings on my right side. There is a highway to my left.  \nB. There are four skyscrapers closely connected in front of me. There is a large highway intersection below me.  \nC. There is a high-rise building directly in front of me. To my left is the highway system, and to my right are a few low-rise buildings.  \nD. There are roads and trees next to me. There are many high-rise buildings around me.  \nE. There are countless low-rise buildings surrounding me. There is a large open space behind me.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The images show a high vantage point with multiple skyscrapers closely connected in the view, and a large highway intersection is visible below, which matches option B's description.",
+    "evaluation": "Location: [(0, 13)]\nOption: B\nReason: The video shows the agent is on the 21st floor of a high-rise building. From this vantage point, multiple skyscrapers are visible in close proximity. A large highway intersection is also visible below. This aligns with the description in option B.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The images show a high vantage point with multiple skyscrapers closely connected in the view, and a large highway intersection is visible below, which matches option B's description."
+  }
+}

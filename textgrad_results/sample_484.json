@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_79_3M81GAB8A9H96HRTSQB1UFBOLXQBQU_1.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn right until the edge of swimming pool and trees is on the right side view. fly forward until seeing the more buildings. turn right to seeing the big buildings. fly along the right edge of blue buildings.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach the current location, what is your Landmark Position from the edge of the pond and the trees?  \nchoose:  \nA. I am located to the left of the edge of the pond and trees.  \nB. I stay away from the edge of the pond and trees.  \nC. I am positioned on the edge of the pond and on the ground among trees.  \nD. I am positioned at the edge of the pond and above the trees.  \nE. I am located to the right of the edge of the pond and trees.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The navigation instruction specifies turning right until the edge of the swimming pool and trees is on the right side view. From the provided frames, it is evident that the agent has followed this instruction, as the edge of the pond and trees are consistently visible on the right side of the view. Therefore, the agent is located to the right of the edge of the pond and trees.",
+    "evaluation": "Location: [(0, 49)]\nOption: [E]\nReason: The video shows the agent moving along a path where the pond and trees are consistently on the right side of the view. This aligns with the instruction to \"turn right until the edge of swimming pool and trees is on the right side view.\" Therefore, the agent is located to the right of the edge of the pond and trees. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The navigation instruction specifies turning right until the edge of the swimming pool and trees is on the right side view. From the provided frames, it is evident that the agent has followed this instruction, as the edge of the pond and trees are consistently visible on the right side of the view. Therefore, the agent is located to the right of the edge of the pond and trees."
+  }
+}

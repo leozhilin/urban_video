@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_16.mp4",
+  "question": "Question: After you pass between several tall buildings with Chinese characters on their sides, what is your next move?  \n\nOptions:  \nA. Rise to a higher altitude.  \nB. Turn around and return to the starting point.  \nC. Continue forward, passing over parked cars and roads.  \nD. Descend to a lower altitude.  \nE. Hover in place.  ",
+  "question_category": "Sequence Recall",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: After passing between several tall buildings with Chinese characters on their sides, the agent continues forward, passing over parked cars and roads, as indicated by the sequence of images showing a gradual movement towards and over a street area with vehicles.",
+    "evaluation": "Location: [(0:15, 0:28)]\nOption: C\nReason: From 0:15 to 0:28, the video shows the agent passing between tall buildings with Chinese characters on their sides. After passing these buildings, the agent continues forward, passing over parked cars and roads. Therefore, the next move is to continue forward, passing over parked cars and roads. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: After passing between several tall buildings with Chinese characters on their sides, the agent continues forward, passing over parked cars and roads, as indicated by the sequence of images showing a gradual movement towards and over a street area with vehicles."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_77_3DHE4R9OC59O5FXJ61DEZ84IL4AG28_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and fly upwards same to the building height and take a turn and fly straight to the opposite building after reaching the building turn left. after turning left fly between the gap of the building and fly downwards to the lake and fly upwards from the lake and turn left and fly straight towards the building at the opposite and fly near to the entrance of the park. fly upwards and take a turn and start flying straight to the building at the opposite crossover the lake after reaching the building fly near the eds butcher shop and fly upwards and again take a turn. after taking a turn fly straight towards the tall building in the opposite fly at the same height of the building. after reaching the tall building turn right to the opposite of the building and start flying downwards continuously towards the lake fly downwards at the center of the lake.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your Landmark Position from the lake?  \nchoose:  \nA. I am above the lake.  \nB. I am on the left side of the lake.  \nC. I am on the right side of the lake.  \nD. I am located below the surface of the lake.  \nE. I am far away from the lake.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The current view shows a direct perspective over the lake, indicating that the agent is above the lake as described in the navigation instructions where it mentions flying upwards from the lake and then turning. This aligns with option A, confirming the agent's position above the lake.",
+    "evaluation": "Location: [(0, 103), (149, 157)]\nOption: A\nReason: The video shows the agent flying downwards towards the lake (0-103). The navigation instruction says \"fly upwards from the lake\". From (149-157), the agent is flying upwards and the lake is visible below. Therefore, the agent is above the lake.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The current view shows a direct perspective over the lake, indicating that the agent is above the lake as described in the navigation instructions where it mentions flying upwards from the lake and then turning. This aligns with option A, confirming the agent's position above the lake."
+  }
+}

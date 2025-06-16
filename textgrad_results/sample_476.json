@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_109_3TE3O857396FU56XMC7QYCIPM7PR26.mp4",
+  "question": "Question: What objects do you observe as you ascend to align with the roof of a nearby building?  \nChoice: A. I observe a crosswalk and lamppost as I ascend.  \n           B. I observe the fountain and plaza during my ascent.  \n           C. I observe a tree and part of the waterfront as I ascend.  \n           D. I observe a statue and a bridge during my ascent.  \n           E. I observe the rooftop garden and swimming pool during my ascent.  ",
+  "question_category": "Scene Recall",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: As the agent ascends, a tree and part of the waterfront become visible in the frames. The sequence shows an increasing elevation that reveals more of the waterfront and a tree near the edge, aligning with option C.",
+    "evaluation": "Location: [(0, 30)]\nOption: [C]\nReason: As the agent ascends from 0 to 30 seconds, the view expands to reveal more of the waterfront and the trees along the edge. This aligns with option C, which states \"I observe a tree and part of the waterfront as I ascend.\" The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: As the agent ascends, a tree and part of the waterfront become visible in the frames. The sequence shows an increasing elevation that reveals more of the waterfront and a tree near the edge, aligning with option C."
+  }
+}

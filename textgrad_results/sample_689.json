@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_5_3GDTJDAPV39ZJ4VUXLKAM41I3Q58M2_7.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off fly straight to the opposite building before reaching the building turn left and turn right and fly downwards to the road fly near the crossway and turn right and fly upwards to the second tall building fly to the top of the building. after reaching the top of the building turn left and fly straight to the river and fly at the right side of the building and cross the first checkpoint and fly in to the road presented in the bridge. after entering in to the bridge fly straight to the road which ends in the opposite of the bridge.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your Landmark Position relative to the bridge?  \nchoose:  \nA. I am on the left side of the bridge.  \nB. I am above the bridge.  \nC. I am under the bridge.  \nD. I am on the right side of the bridge.  \nE. I am far away from the bridge.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The current view shows that the agent is flying above the bridge, as indicated by the perspective looking down at the bridge structure and the road below. This aligns with the instruction to \"fly in to the road presented in the bridge\" and then \"fly straight to the road which ends in the opposite of the bridge,\" suggesting an aerial position above the bridge.",
+    "evaluation": "Location: [(00:42, 00:47), (02:24, 02:30)]\nOption: B\nReason: From 00:42 to 00:47, the video shows the agent's perspective gradually shifting to reveal the bridge in the distance. From 02:24 to 02:30, the agent is clearly flying above the bridge, looking down at the bridge structure and the water below. This confirms that the agent's current location is above the bridge.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The current view shows that the agent is flying above the bridge, as indicated by the perspective looking down at the bridge structure and the road below. This aligns with the instruction to \"fly in to the road presented in the bridge\" and then \"fly straight to the road which ends in the opposite of the bridge,\" suggesting an aerial position above the bridge."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_95_3NQL1CS1506XOXGLOHJV8D8XNYAYVD.mp4",
+  "question": "Question: Which takes longer, the time it takes for you to descend into alignment with the target building or the time it takes to approach the rooftop ad?  \nChoice: A. I take longer to descend into alignment with the target building than to approach the rooftop ad.  \n           B. The time it takes me to descend into alignment with the target building is shorter than the time it takes to approach the rooftop ad.  \n           C. I descend into alignment with the target building at the same time as I approach the rooftop ad.  ",
+  "question_category": "Duration",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The sequence of frames shows that the agent quickly descends and aligns with the target building, which happens relatively early in the sequence. After alignment, the agent continues to move forward, taking more time to approach and get closer to the rooftop ad, as indicated by the gradual increase in the size and detail of the ad in the later frames. Therefore, approaching the rooftop ad takes longer than descending into alignment with the target building.",
+    "evaluation": "Location: [(0, 15), (15, 120)]\nOption: B\nReason: From 0 to 15 seconds, the agent descends and aligns with the target building. From 15 to 120 seconds, the agent approaches the rooftop ad. It is evident that the time it takes to approach the rooftop ad is longer than the time it takes to descend into alignment with the target building.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The sequence of frames shows that the agent quickly descends and aligns with the target building, which happens relatively early in the sequence. After alignment, the agent continues to move forward, taking more time to approach and get closer to the rooftop ad, as indicated by the gradual increase in the size and detail of the ad in the later frames. Therefore, approaching the rooftop ad takes longer than descending into alignment with the target building."
+  }
+}

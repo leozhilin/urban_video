@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_13_3QAVNHZ3EV2TWA6OU739IISOS5ULAN_6.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off towards the trees and them make a left. flat towards the tree on the corner and land. fly over the buildings and bear left. follow the path to the tall building on height then turn right. fly upwards over the billboard. fly over the first tall building then to the next and go left around it. make a left and fly back past the tall buildings on your left. make a right and go downwards to the building on the corner by the water. when over the building turn right towards the water. turn left and follow the path in front of the building next to the water.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I fly forward and rise.  \nB. I turn right and descend.  \nC. I turn left and fly forward.  \nD. I raise and rotate the camera upward.  \nE. I descend and turn right.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The navigation instruction indicates that the next step involves turning right and going downwards to the building on the corner by the water. The current view shows a high vantage point near buildings, suggesting it's time to descend towards the specified location by the water.",
+    "evaluation": "Location: [(0, 3), (300, 305)]\nOption: [B]\nReason: The navigation instruction is to go downwards to the building on the corner by the water and then turn right towards the water. The current view shows a high vantage point near buildings, suggesting it's time to descend towards the specified location by the water. The water is visible in the distance. Therefore, the best next step is to turn right and descend. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The navigation instruction indicates that the next step involves turning right and going downwards to the building on the corner by the water. The current view shows a high vantage point near buildings, suggesting it's time to descend towards the specified location by the water."
+  }
+}

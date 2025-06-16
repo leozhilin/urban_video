@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_19_33ISQZVXPYKOML9G1861LUSPYXOCCJ.mp4",
+  "question": "Question: What is your next action after moving above the urban area towards the park?  \nChoices:  \nA. Descend toward the lake.  \nB. Turn and ascend above the buildings again.  \nC. Hover in place to capture the view.  \nD. Fly back towards the residential building.  \nE. Circle around the park.  ",
+  "question_category": "Sequence Recall",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: After moving above the urban area towards the park, the next logical action is to descend toward the lake. This allows for a closer inspection of the water body and its surroundings, which could provide valuable details or points of interest not visible from a higher altitude. Additionally, approaching the lake can offer a unique perspective on the interaction between the natural and urban environments.",
+    "evaluation": "Location: [(0, 57)]\nOption: A\nReason: The video shows the agent moving above the urban area towards the park. After that, the agent descends toward the lake.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: After moving above the urban area towards the park, the next logical action is to descend toward the lake. This allows for a closer inspection of the water body and its surroundings, which could provide valuable details or points of interest not visible from a higher altitude. Additionally, approaching the lake can offer a unique perspective on the interaction between the natural and urban environments."
+  }
+}

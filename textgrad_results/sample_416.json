@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_69_3ITXP059P5HR1G4I8MDNN3928CGJSD.mp4",
+  "question": "Question: What is the next step after you fly over the buildings close to the park area?  \nChoice: A. Hover in place.  \n           B. Descend from the roof.  \n           C. Move backward.  \n           D. Turn around and face the bridge.  \n           E. Turn slightly to the right to align with the park.  ",
+  "question_category": "Sequence Recall",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: After flying over the buildings close to the park area, the next logical step is to turn slightly to the right to align with the park. This maneuver helps in smoothly transitioning towards the park while maintaining a clear path and avoiding any obstacles. The sequence of images shows a gradual approach towards the park area, indicating that aligning with it is the intended next action.",
+    "evaluation": "Location: [(0, 46)]\nOption: E\nReason: From 0 to 46 seconds, the video shows the agent flying over buildings close to the park area. After that, the agent turns slightly to the right to align with the park.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: After flying over the buildings close to the park area, the next logical step is to turn slightly to the right to align with the park. This maneuver helps in smoothly transitioning towards the park while maintaining a clear path and avoiding any obstacles. The sequence of images shows a gradual approach towards the park area, indicating that aligning with it is the intended next action."
+  }
+}

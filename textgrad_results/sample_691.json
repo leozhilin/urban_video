@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_119_3VELCLL3GTHB2UJSCD7IC4U1RE41FA.mp4",
+  "question": "Question: What is shown on the advertisement on the facade of the building you are approaching?  \nChoice: A. A red and white advertisement for Dave's Car Wash.  \n          B. A blue and white advertisement for a local restaurant.  \n          C. A green and yellow advertisement for a travel agency.  \n          D. A black and white advertisement for a music festival.  \n          E. No advertisements on the front of the building.  ",
+  "question_category": "Object Recall",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The advertisement on the facade of the building clearly displays \"Dave's Car Wash\" with a red and white color scheme.",
+    "evaluation": "Location: [(19, 24)]\nOption: A\nReason: From 0:19 to 0:24, the advertisement on the facade of the building is clearly visible. It is a red and white advertisement for \"Dave's Car Wash\". The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The advertisement on the facade of the building clearly displays \"Dave's Car Wash\" with a red and white color scheme."
+  }
+}

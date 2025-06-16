@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_4_3U8YCDAGXYE8MUOJUAECAYF5UTB0QF_6.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn little left and get high and move forward towards the buildings. now move forward and fly over the road and get down to the white line mark on the road. now turn back and move forward towards the buildings till the brown red building visible and get down to the building. now get high and move forward towards the buildings till the brown building steps visible. now fly over the buildings and get down to the chairs between the buildings and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I take off and turn slightly to the left, then fly towards the building.  \nB. I go to the white line mark on the road.  \nC. I stand tall and head toward the building until I see the steps of the brown building.  \nD. I turn around and head toward the building until I see the brown-red building.  \nE. I go directly above the road.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The initial instruction is to \"take off and turn little left and get high and move forward towards the buildings.\" The first frame shows a ground-level view, suggesting the starting point. The subsequent frames depict an ascent and a slight left turn, aligning with the instruction to get high and move towards the buildings. Therefore, the action described in option A matches the beginning of the navigation instructions.",
+    "evaluation": "Location: [(0, 15)]\nOption: [A]\nReason: The video starts with a ground-level view, and the camera ascends and turns slightly to the left. This aligns with the initial instruction to \"take off and turn little left and get high and move forward towards the buildings.\" Therefore, option A is the correct answer.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The initial instruction is to \"take off and turn little left and get high and move forward towards the buildings.\" The first frame shows a ground-level view, suggesting the starting point. The subsequent frames depict an ascent and a slight left turn, aligning with the instruction to get high and move towards the buildings. Therefore, the action described in option A matches the beginning of the navigation instructions."
+  }
+}

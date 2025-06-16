@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_49_3NJM2BJS4547GAIK6DS75URVDUYPCB_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn left and move forward and go over the building and and turn left and little move forward and turn right and move forward and get down at intersection road and turn right at tree and fly up and move forward. now get down at intersection road and turn left and move forward and our back and fly up and move forward and go over the building and road. now get down front of the pink building and turn back and your see daves car wash building and fly up and move forward and go over the building. now move towards the american board of the building and turn left and fly up and move forward. now get down beside white building and move forward and go over the road and turn left and forward and turn right and move forward and landed at front of american board of the building.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I turn left, fly forward, and then descend.  \nB. I rise and fly forward.  \nC. I fly forward while rising.  \nD. I turn right and descend.  \nE. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The navigation instruction indicates that the next steps involve flying forward and over buildings, which suggests rising and moving forward in the air. The current position appears to be at a high vantage point, making it logical to rise and fly forward as the next action.",
+    "evaluation": "Location: [(0, 41)]\nOption: B\nReason: The navigation instruction includes \"fly up and move forward and go over the building\", which indicates that the next steps involve rising and moving forward in the air. The current position appears to be at a high vantage point, making it logical to rise and fly forward as the next action.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The navigation instruction indicates that the next steps involve flying forward and over buildings, which suggests rising and moving forward in the air. The current position appears to be at a high vantage point, making it logical to rise and fly forward as the next action."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_11_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a nearby green delivery cabinet. When you reach the current location, what is the direction to the destination?  \nchoose:  \nA. I am currently above the street, and my destination is slightly behind and to the left.  \nB. I am currently located directly above my destination.  \nC. I am currently above the parking lot, directly in front of my destination.  \nD. I am currently over the school, and my destination is on the far right.  \nE. I am currently above the high-rise building, and my destination is at the far left rear.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The current location is above a parking lot, and the green delivery cabinet is directly in front of this position based on the aerial view provided.",
+    "evaluation": "Location: [(0, 25), (32, 35)]\nOption: C\nReason: From the aerial view between 0-25 seconds, the camera pans from the initial position to the destination. The initial position is above the parking lot next to the school's running track. The green delivery cabinet is located directly in front of the parking lot, across the running track. The video between 32-35 seconds also shows the same view. Therefore, the correct answer is C.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The current location is above a parking lot, and the green delivery cabinet is directly in front of this position based on the aerial view provided."
+  }
+}

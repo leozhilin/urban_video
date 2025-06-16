@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_62_3EFE17QCRL3VAA9SKMA2BQTMDFHHSH_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and little turn right and move forward and go over the water and beside the bridge and move towards the glass building and turn right at building and get down and again turn right and move forward and turn back at ember soap board and move forward. now little move forward to american board and little fly up and move forward and go over the building and road and beside trees and pond. now turn back and move forward and turn right at white building and little move forward and turn left and move towards the top of the next white building and go over the building. now move forward and next building top and turn left and get down and stay there.]. At the initial position, you are asked to follow a series of movement instructions. What are you doing now?  \nchoose:  \nA. I turn left at the glass building and move toward the pond.  \nB. I cross the water.  \nC. I get down and stay there.  \nD. I move forward to the top of the next building.  \nE. I turn right at the white building.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The initial instruction is to \"take off and little turn right and move forward and go over the water and beside the bridge.\" The images show a progression from a bridge over water towards a cityscape, indicating that the agent has crossed the water as part of the navigation instructions. Therefore, the correct action being performed now is crossing the water.",
+    "evaluation": "Location: [(0, 32)]\nOption: B\nReason: The video shows the agent moving forward on a bridge over water. The initial instruction was to \"take off and little turn right and move forward and go over the water and beside the bridge\". Therefore, the agent is currently crossing the water.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The initial instruction is to \"take off and little turn right and move forward and go over the water and beside the bridge.\" The images show a progression from a bridge over water towards a cityscape, indicating that the agent has crossed the water as part of the navigation instructions. Therefore, the correct action being performed now is crossing the water."
+  }
+}

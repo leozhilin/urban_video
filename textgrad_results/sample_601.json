@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_51.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the stone statue on the left side of the entrance. When you reach the current location, what is the direction to the destination?  \nChoose:  \nA. I am currently to the right of the statue, above the street.  \nB. I am currently directly above the statue.  \nC. I am currently far away from the statue and above the street.  \nD. I am currently to the left of the statue, above the street.  \nE. I am currently above the square, slightly to the right of the statue.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The current location is above the square, and the stone statue is visible slightly to the right, indicating that the agent is not directly above the statue but rather positioned slightly to its right on the square.",
+    "evaluation": "Location: [(37, 58)]\nOption: [E]\nReason: From 37s to 58s, the video shows the agent's perspective as it approaches the stone statue. The statue is on the left side of the entrance. The agent is above the square, and the statue is slightly to the right. Therefore, the agent is currently above the square, slightly to the right of the statue.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The current location is above the square, and the stone statue is visible slightly to the right, indicating that the agent is not directly above the statue but rather positioned slightly to its right on the square."
+  }
+}

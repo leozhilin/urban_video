@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_50_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the main entrance. Is the destination within sight at the current location? If yes, where is the destination in your view?  \nChoose:  \nA. The main entrance is currently in the lower right corner of my field of view.  \nB. The main entrance is not within my field of view.  \nC. The main entrance is currently on the left side of my field of view.  \nD. The main entrance is currently in the upper left corner of my field of view.  \nE. The main entrance is currently above the center of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The main entrance is not visible within the current field of view. The image shows a courtyard area with trees and pathways, but no clear indication of a main entrance can be seen from this perspective.",
+    "evaluation": "Location: [(0, 30)]\nOption: B\nReason: From the initial position (0-30s), the view is an aerial view of a courtyard surrounded by buildings. There is no visible main entrance in the current field of view. Therefore, the main entrance is not within sight.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The main entrance is not visible within the current field of view. The image shows a courtyard area with trees and pathways, but no clear indication of a main entrance can be seen from this perspective."
+  }
+}

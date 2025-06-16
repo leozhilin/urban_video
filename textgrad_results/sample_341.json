@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_0_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the center of the tarmac. When you reach the last frame of the video, is the destination within view at your current location? If yes, where is the destination in the view?  \nchoose:  \nA. I see the center of the apron in the lower right corner of my field of view.  \nB. I see the center of the apron in the upper left corner of my field of view.  \nC. I see the center of the apron on the left side of my field of view.  \nD. I do not see the center of the apron within my field of view.  \nE. I see the center of the apron at the center of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The last frame of the video shows a close-up view of a helipad, and there is no indication of the center of the tarmac within the field of view. The focus is entirely on the helipad marking, suggesting that the destination (center of the tarmac) is not visible from this perspective.",
+    "evaluation": "Location: [(0, 20)]\nOption: D\nReason: The video shows a first-person view approaching a helipad. The question asks if the center of the *tarmac* is visible in the last frame. The last few frames of the video focus entirely on the helipad, and the tarmac is not visible. Therefore, the destination is not within view. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The last frame of the video shows a close-up view of a helipad, and there is no indication of the center of the tarmac within the field of view. The focus is entirely on the helipad marking, suggesting that the destination (center of the tarmac) is not visible from this perspective."
+  }
+}

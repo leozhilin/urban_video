@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_43_0.mp4",
+  "question": "\"\"\"\nQuestion: You are navigating to the building with the 'CEM' sign. Given your next movement plan, what Actions should you perform next?\nChoices:\nA.\tAscend.\nB.\tDescend.\nC.\tFly forward.\nD.\tTurn left.\nE.\tTurn right.\nF.\tRotate the camera to the left.\nG.\tRotate the camera to the right.\n\n\"\"\"\n",
+  "question_category": "Action Generation",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The agent is navigating towards a building with the 'CEM' sign, and based on the provided frames, it appears that the agent needs to move forward in a straight path to reach the target building. Therefore, the most appropriate action is to fly forward.",
+    "evaluation": "Location: [(15, 21)]\nOption: [C]\nReason: From 0:15 to 0:21, the video shows a clear view of the buildings in the distance, including the tall building with the 'CEM' sign. The agent needs to move forward to reach that building. Therefore, the most appropriate action is to fly forward. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The agent is navigating towards a building with the 'CEM' sign, and based on the provided frames, it appears that the agent needs to move forward in a straight path to reach the target building. Therefore, the most appropriate action is to fly forward."
+  }
+}

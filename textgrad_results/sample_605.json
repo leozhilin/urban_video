@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_78_3K772S5NPH9U0R4AJRQXM9P7C8XHE9.mp4",
+  "question": "Question: Instead of flying over a broken road, you choose to fly over a row of buildings. Can you still reach the bridge across the creek?  \nChoice:  \nA. I can accomplish the task because it allows a clearer path, but it will take longer.  \nB. I cannot complete my mission because I lose visibility into the river.  \nC. I can complete the mission because I avoid obstacles, but it will take longer.  ",
+  "question_category": "Counterfactual",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: Flying over a row of buildings instead of a broken road allows the agent to avoid obstacles, which can be safer and more efficient in terms of navigation. However, this route might be longer compared to flying directly over the broken road, hence it will take longer to reach the bridge across the creek.",
+    "evaluation": "Location: [(0, 42)]\nOption: [C]\nReason: The video shows the agent moving through a city with damaged roads and buildings. From 0:00 to 0:42, the agent navigates through the environment, eventually reaching the bridge across the creek. Flying over buildings instead of broken roads would avoid obstacles, but it's likely to be a longer route. Therefore, the agent can complete the mission, but it will take longer.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: Flying over a row of buildings instead of a broken road allows the agent to avoid obstacles, which can be safer and more efficient in terms of navigation. However, this route might be longer compared to flying directly over the broken road, hence it will take longer to reach the bridge across the creek."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_126_3YMTUJH0D1E2DYYCUFV9R6G5V9TT4Z.mp4",
+  "question": "Question: If you don't fly directly over the trees, but instead fly around the park, can you still maintain your position above the trees in the center of the park?  \nChoice: A. I can accomplish the task because I avoid areas with denser trees, but the alternative movement will take longer.  \n          B. I cannot complete my mission because I end up outside the park area.  \n          C. I can maintain position because I hug the park boundaries and the alternative motion is faster.  ",
+  "question_category": "Counterfactual",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: By flying around the park instead of directly over the trees, you can still maintain a position above the center of the park. This approach helps in avoiding denser areas of trees, ensuring safety and stability. However, this alternative route will indeed take longer compared to a direct flight over the trees.",
+    "evaluation": "Location: [(0, 60)]\nOption: A\nReason: The video shows a park surrounded by buildings. If the agent flies around the park boundaries, it can still maintain a position above the trees in the center of the park. However, this alternative route will take longer than flying directly over the trees.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: By flying around the park instead of directly over the trees, you can still maintain a position above the center of the park. This approach helps in avoiding denser areas of trees, ensuring safety and stability. However, this alternative route will indeed take longer compared to a direct flight over the trees."
+  }
+}

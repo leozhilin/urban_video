@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_3.mp4",
+  "question": "Question: When you fly over the blue moon-shaped pool, how does the distance between you and the moon-shaped blue pool change?\n\nChoice: A. Increase the distance between me and the moon-shaped blue pool.  \n           B. The distance between me and the moon-shaped blue pool first decreases and then increases.  \n           C. The distance between me and the moon-shaped blue pool remains constant.  ",
+  "question_category": "Proximity",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The video shows the agent flying over the blue moon-shaped pool. Initially, the distance between the agent and the pool decreases as the agent approaches it. After passing over the pool, the distance increases again as the agent moves away from it. Therefore, the distance between the agent and the moon-shaped blue pool first decreases and then increases.",
+    "evaluation": "Location: [(0:110, 01:25)]\nOption: [B]\nReason: From 01:10 to 01:25, the video shows the agent flying over the blue moon-shaped pool. Initially, the distance between the agent and the pool decreases as the agent approaches it. After passing over the pool, the distance increases again as the agent moves away from it. Therefore, the distance between the agent and the moon-shaped blue pool first decreases and then increases.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The video shows the agent flying over the blue moon-shaped pool. Initially, the distance between the agent and the pool decreases as the agent approaches it. After passing over the pool, the distance increases again as the agent moves away from it. Therefore, the distance between the agent and the moon-shaped blue pool first decreases and then increases."
+  }
+}

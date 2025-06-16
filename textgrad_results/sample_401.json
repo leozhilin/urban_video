@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_13.mp4",
+  "question": "Question: You are navigating to the seven-story red brick building on the left side of the road. What is the correct summary of your trajectory from the beginning to the current position?  \nChoice:  \nA. I start from the parking lot, fly forward across the road, turn right, fly along the road, and reach my current position above the building parking lot.  \nB. I start from above the multi-story building, fly forward and slightly to the right, cross the road, and reach my current position in front of the target building.  \nC. I start from a high-rise building, move downward and forward, then turn right, fly along the road, pass through several intersections, and finally reach my current position above the building.  \nD. I start from a high-rise building, fly forward, descend, then turn right, move forward along the road, turn backward, rise, then turn right, descend, and move forward.  \nE. I start from the street, turn left, fly over the park, then turn right, fly along the road, and reach my current position behind the target building.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The trajectory starts from a high vantage point above a multi-story building, moves forward and slightly to the right, crosses over a road, and reaches a position in front of the target seven-story red brick building. This matches the description in option B.",
+    "evaluation": "Location: [(0, 25)]\nOption: B\nReason: The video starts from a high vantage point above a multi-story building. The trajectory moves forward and slightly to the right, crossing over a road. The target building is the seven-story red brick building on the left side of the road. The current position is in front of the target building. This matches the description in option B.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The trajectory starts from a high vantage point above a multi-story building, moves forward and slightly to the right, crosses over a road, and reaches a position in front of the target seven-story red brick building. This matches the description in option B."
+  }
+}

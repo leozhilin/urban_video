@@ -49,13 +49,17 @@ class GeminiModel():
         self.model_name = model_name
         self.client = GeminiVideoClient(api_key=GEMINI_API_KEY[1])
 
-    def __call__(self, question, answer, video_path):
+    def __call__(self, question, answer, video_path, question_category):
         video_file = None
         try:
             video_file = self.client.upload_file(video_path, mime_type="video/mp4")
             
             contents = [
-                EVALUATOR_PROMPT.format(question=question, answer=answer),
+                EVALUATOR_PROMPT.format(
+                    question=question, 
+                    answer=answer,
+                    question_category=question_category
+                ),
                 video_file,
             ]
 
@@ -72,7 +76,6 @@ class GeminiModel():
                 contents=contents,
                 generation_config=generation_config
             )
-            # print("---- gemini response: ", response.text)
             return response.text
         finally:
             if video_file:
@@ -99,11 +102,12 @@ class UrbanEvaluator:
     def __init__(self, model):
         self.model = model
         
-    def __call__(self, question: str, answer: str, frames: List[str], video_path: str) -> str:
+    def __call__(self, question: str, answer: str, frames: List[str], video_path: str, question_category: str) -> str:
         if isinstance(self.model, QwenModel):
             content = [{"type": "text", "text": EVALUATOR_PROMPT.format(
                 question=question,
-                answer=answer
+                answer=answer,
+                question_category=question_category
             )}]
             for frame in frames:
                 content.append({
@@ -113,7 +117,7 @@ class UrbanEvaluator:
             messages = [{"role": "user", "content": content}]
             evaluation = self.model(messages)
         elif isinstance(self.model, GeminiModel):
-            evaluation = self.model(question, answer, video_path)
+            evaluation = self.model(question, answer, video_path, question_category)
 
         return evaluation
 
@@ -161,13 +165,13 @@ class UrbanTextGrad:
         self.feedbacker = UrbanFeedbacker(self.qwen_model)
         self.optimizer = UrbanOptimizer(self.qwen_model)
         
-    def process(self, question: str, frames: List[str], video_path: str) -> Dict[str, Any]:
+    def process(self, question: str, frames: List[str], video_path: str, question_category: str) -> Dict[str, Any]:
         # Initial reasoning
         init_answer = self.reasoner(question, frames)
         init_option = extract_option_letter(init_answer)
         
         # Evaluate current answer
-        evaluation = self.evaluator(question, init_answer, frames, video_path)
+        evaluation = self.evaluator(question, init_answer, frames, video_path, question_category)
         eval_option = extract_option_letter(evaluation)
         if init_option == eval_option: # 如果初始答案和评估答案一致，则直接返回
             return {

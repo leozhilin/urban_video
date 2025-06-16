@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_39_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the green trees behind the bus stop. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. The green trees behind the bus stop are currently in the lower left corner of my field of view.  \nB. The green trees behind the bus stop are currently on the right side of my field of view.  \nC. The green tree behind the bus stop is currently in the upper right corner of my field of view.  \nD. The green trees behind the bus stop are not within my field of view.  \nE. The green trees behind the bus stop are currently in the center of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The green trees behind the bus stop are not within the current field of view. The perspective is focused on the road and buildings ahead, and there are no visible green trees in the immediate view.",
+    "evaluation": "Location: [(0, 27)]\nOption: [D]\nReason: From the initial position (0-27s), the camera is looking down at the street. The bus stop is visible, but there are no green trees behind it within the field of view. The view is mostly of the road, cars, and buildings. Therefore, the green trees behind the bus stop are not within sight.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The green trees behind the bus stop are not within the current field of view. The perspective is focused on the road and buildings ahead, and there are no visible green trees in the immediate view."
+  }
+}

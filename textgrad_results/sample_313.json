@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_44_392CY0QWGAPC4KI103W5DZEWKVCI4C_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn left and move forward and get down towards the white building terrace. now turn right and go over the buildings and trees towards the pond. now turn left and go over the buildings and get down reach the road and landed.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is the Landmark Position from the pond when you reach the current location?  \nchoose:  \nA. I am on the right side of the pond.  \nB. I am located above the pond.  \nC. I am located on the left side of the pond.  \nD. I am located below the pond.  \nE. I am far away from the pond.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The current view shows that the agent is positioned above the pond, as indicated by the elevated perspective and the visible expanse of the pond below. This aligns with the navigation instructions which involved moving over the pond after turning right from the initial position.",
+    "evaluation": "Location: [(0, 24)]\nOption: [B]\nReason: From the beginning of the video until 24 seconds, the agent is positioned above the pond. The pond is visible below the agent.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The current view shows that the agent is positioned above the pond, as indicated by the elevated perspective and the visible expanse of the pond below. This aligns with the navigation instructions which involved moving over the pond after turning right from the initial position."
+  }
+}

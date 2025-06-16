@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_45.mp4",
+  "question": "Question: What is the correct summary of your trajectory from start to your current location while navigating to a bicycle in front of a coffee shop?  \nChoice:  \nA. I started high above the city, descended toward the street, and landed near the coffee shop.  \nB. I start from above the street, turn left to face the inner street, descend to the street, move left to the front of the store, rise diagonally above the store, then move left and descend to the bicycle in front of the cafe.  \nC. I start from the top of a high-rise building, descend to street level, and move towards the coffee shop.  \nD. I start from the street, drive along the road, and turn right to face the coffee shop.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The trajectory described in option B matches the movement from an elevated position above the street, turning and descending towards the coffee shop, and finally approaching the bicycle in front of it. The detailed sequence of actions aligns with the visual progression shown in the frames, indicating a complex path that includes both aerial and ground-level navigation.",
+    "evaluation": "Location: [(0, 36)]\nOption: B\nReason: The video starts from an elevated position above the street (0-2s), then turns left to face the inner street (2-5s), descends to the street (5-10s), moves left to the front of the store (10-25s), rises diagonally above the store (25-30s), then moves left and descends to the bicycle in front of the cafe (30-36s). This trajectory matches option B. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The trajectory described in option B matches the movement from an elevated position above the street, turning and descending towards the coffee shop, and finally approaching the bicycle in front of it. The detailed sequence of actions aligns with the visual progression shown in the frames, indicating a complex path that includes both aerial and ground-level navigation."
+  }
+}

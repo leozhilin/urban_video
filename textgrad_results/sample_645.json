@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_16_32ZKVD547OLHZGLRUFZ5H7IDB2WB35.mp4",
+  "question": "Question: How does the distance between you and the grey building featuring the brown car advertisement change after you descend slightly?  \nChoices:  \nA. The distance decreases after I descend slightly.  \nB. The distance increases after I descend slightly.  \nC. The distance remains the same after I descend slightly.  ",
+  "question_category": "Proximity",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: After descending slightly, the grey building featuring the brown car advertisement appears larger and more detailed, indicating that the distance between the agent and the building has decreased.",
+    "evaluation": "Location: [(0, 16)]\nOption: [A]\nReason: From 0s to 16s, the camera descends. During this period, the grey building with the brown car advertisement becomes larger and more detailed. This indicates that the distance between the camera and the building decreases.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: After descending slightly, the grey building featuring the brown car advertisement appears larger and more detailed, indicating that the distance between the agent and the building has decreased."
+  }
+}

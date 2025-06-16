@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_35_3EF8EXOTTATR7W5OV3Y3R2MS0QD1JT_6.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [once you have risen turn right until you are facing a rectangular tower with an projection on its roof. land in front of a door and mailbox which is street level to this building. fly straight until you are close to this tower. then turn left until you see a passageway between two towers. fly straight. then lower your altitude so that you can see the top of a building then fly straight. turn left until you see a pond ringed with green and red leafed trees. head towards the pond. fly over the pond. once you have flown over the pond go through the trees surrounding the pond. when you see a small building with a billboard on it, fly towards it then lower your height.]. You move according to a series of movement instructions. In terms of next steps, what is your best next step?  \nchoose:  \nA. I turn right and descend.  \nB. I fly forward and then rise.  \nC. I fly forward.  \nD. I turn left and descend.  \nE. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The current view shows a clear path forward between buildings, aligning with the instruction to \"fly straight until you are close to this tower.\" This suggests that continuing to fly forward is the appropriate next step.",
+    "evaluation": "Location: [(0, 10)]\nOption: [C]\nReason: The instruction is \"once you have risen turn right until you are facing a rectangular tower with an projection on its roof. land in front of a door and mailbox which is street level to this building. fly straight until you are close to this tower.\" From the current view (0-10s), the agent has already risen and turned right, and is now facing a rectangular tower. The next step is to fly straight until close to the tower. Therefore, the best next step is to fly forward. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The current view shows a clear path forward between buildings, aligning with the instruction to \"fly straight until you are close to this tower.\" This suggests that continuing to fly forward is the appropriate next step."
+  }
+}

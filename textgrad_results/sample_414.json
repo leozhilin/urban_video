@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_57_3EF8EXOTTATR7W5OV3Y3R2MS0QD1JT.mp4",
+  "question": "Question: If you do not fly over the building on the right, but choose to fly left towards the water tower, will you still be able to reach the roofs of several low-rise buildings under the multi-story tower?  \nChoice: A. If I choose to fly left toward the water tower, I cannot complete my mission because I am off path and the hypothetical movement takes longer.  \n         B. If I choose to fly left toward the water tower, I can complete the mission because it reduces the total distance, but it will take longer.  \n         C. If I choose to fly left toward the water tower, I will not be able to complete the mission because I lose the direct path to my destination.  ",
+  "question_category": "Counterfactual",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: Flying left towards the water tower deviates from the direct path to the roofs of the low-rise buildings under the multi-story tower, making it unlikely to reach the intended destination efficiently.",
+    "evaluation": "Let's analyze the video and the provided answer.\n\nLocation: [(0, 5)]\nOption: C\nReason: From the initial frames (0-5s), we can see the relative positions of the water tower, the multi-story tower, and the low-rise buildings. Flying left towards the water tower would indeed deviate from the direct path to the low-rise buildings under the multi-story tower. This deviation would make it less likely to reach the intended destination efficiently. The provided answer correctly identifies this deviation and its potential impact on completing the mission. Therefore, the provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: Flying left towards the water tower deviates from the direct path to the roofs of the low-rise buildings under the multi-story tower, making it unlikely to reach the intended destination efficiently."
+  }
+}

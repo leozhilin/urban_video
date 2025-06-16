@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_90_1.mp4",
+  "question": "Question: At the starting position, you are asked to navigate to the gate of the community, which features a stone with the words \"\u5b9c\u76db\u82b1\u56ed\" written on it. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. I see a stone at the entrance of the residential area in the lower left corner of my field of view with \"\u5b9c\u76db\u82b1\u56ed\" written on it.  \nB. I see a stone at the entrance of the residential area in the center of my field of view with \"\u5b9c\u76db\u82b1\u56ed\" written on it.  \nC. I see a stone with the words \"\u5b9c\u76db\u82b1\u56ed\" written on it at the entrance of the residential area in the middle right corner of my field of view.  \nD. I do not see a stone with the words \"\u5b9c\u76db\u82b1\u56ed\" written on it at the entrance of the residential area.  \nE. I see a stone with the words \"\u5b9c\u76db\u82b1\u56ed\" written on it at the entrance of the residential area in the upper left corner of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The provided images show an aerial view of a residential area, but there is no visible stone with the words \"\u5b9c\u76db\u82b1\u56ed\" written on it at the entrance or anywhere else in the current field of view. Therefore, the destination is not within sight at the current location.",
+    "evaluation": "Location: [(0, 16)]\nOption: D\nReason: From the aerial view provided in the images, I cannot see a stone with the words \"\u5b9c\u76db\u82b1\u56ed\" written on it at the entrance of the residential area or anywhere else. Therefore, the destination is not within sight at the current location. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The provided images show an aerial view of a residential area, but there is no visible stone with the words \"\u5b9c\u76db\u82b1\u56ed\" written on it at the entrance or anywhere else in the current field of view. Therefore, the destination is not within sight at the current location."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_8.mp4",
+  "question": "Question: Where do you start and end in the scene?  \nChoice: A. Start from the school playground and end at the window of the light gray building where clothes are dried.  \n           B. Start from the window of a light gray building where clothes are hanging and end on the roof of the red teaching building.  \n           C. Start from the roof of the red teaching building and end at the window where clothes are dried on the light gray building.  \n           D. Start from the parking lot and end at the campus.  \n           E. Start from the road and end on the roofs of the buildings surrounding the red building.  ",
+  "question_category": "Start/End Position",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows a progression from a close-up view of a light gray building with clothes hanging on a window to an aerial view of a red teaching building. The final frames focus on the roof of the red building, indicating that the scene starts from the light gray building and ends at the roof of the red teaching building.",
+    "evaluation": "Location: [(0, 1), (40, 41), (59, 60), (109, 110)]\nOption: C\nReason: The video starts with a close-up of a light gray building with clothes hanging on a window (0-1s). Later, the video shows the red teaching building and its surroundings (40-41s, 59-60s). The video ends with a view of the roof of the red teaching building (109-110s). Therefore, the video starts at the light gray building and ends on the roof of the red teaching building. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows a progression from a close-up view of a light gray building with clothes hanging on a window to an aerial view of a red teaching building. The final frames focus on the roof of the red building, indicating that the scene starts from the light gray building and ends at the roof of the red teaching building."
+  }
+}

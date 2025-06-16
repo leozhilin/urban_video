@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_9_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the playground next to the building ahead. At the current location, if the playground next to the building in front of you is not within your field of view, what is the most relevant object in your field of view, and where is this object?  \nchoose:  \nA. The playground next to the building in front is already in view.  \nB. The playground next to the building in front cannot be seen in my field of view, but there is a basketball court on the roof of a building in the lower right corner of my view.  \nC. The playground next to the building in front is not in my field of vision, but there is a red building in front of my view.  \nD. The playground next to the building in front is out of my view, but there is a tree on the right side of my view.  \nE. The playground next to the building in front is out of my view, but the parking lot is in the lower left corner of my view.  ",
+  "question_category": "Association Reasoning",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The playground next to the building in front is not within the field of view, but there is a basketball court on the roof of a building visible in the lower right corner of the view.",
+    "evaluation": "Location: [(0, 10), (35, 50)]\nOption: B\nReason: From the initial position (0-10s), the playground is not in view. However, a basketball court on the roof of a building is visible in the lower right corner of the view. This is also confirmed in the later part of the video (35-50s). The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The playground next to the building in front is not within the field of view, but there is a basketball court on the roof of a building visible in the lower right corner of the view."
+  }
+}

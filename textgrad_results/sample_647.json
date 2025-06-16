@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_18_3RWE2M8QWQ8NJXBREIMV64KZ4S70N8_5.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [rise up and go straight down the bridge and stop halfway. turn to the right and go over water look left and go under bridge. turn right and go forward back the street stopping at intersection and looking right. rise up and go right stopping at the red and white bottle cap. go straight until reaching brown and then look down and right at the water.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach your current location, what is your orientation to the building?  \nchoose:  \nA. I am located on the left side of the building.  \nB. I am located underneath the building.  \nC. I am located on the right side of the building.  \nD. I am located above the building.  \nE. I am located behind a building.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The final frames show a view from an elevated position looking down at the cityscape, indicating that the agent is above the buildings.",
+    "evaluation": "Okay, I will analyze the video and the provided answer to give my own evaluation.\n\nLocation: [(0, 3), (210, 250), (310, 350)]\nOption: [D]\nReason: The video starts on a bridge with a cityscape in the distance. The agent moves forward on the bridge, then goes under the bridge. After that, the agent moves forward on the street, stopping at an intersection. Finally, the agent rises up and stops at the red and white bottle cap. The last few frames of the video show the agent at an elevated position looking down at the cityscape. Therefore, the agent is located above the buildings.\n\nThe provided answer is correct.\nLocation: [(0, 350)]\nOption: [D]\nReason: The final frames of the video show a view from an elevated position looking down at the cityscape, indicating that the agent is above the buildings.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The final frames show a view from an elevated position looking down at the cityscape, indicating that the agent is above the buildings."
+  }
+}

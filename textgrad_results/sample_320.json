@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_22.mp4",
+  "question": "Question: You are navigating to the balcony on the 11th floor. What is the correct summary of your trajectory from the beginning to the current location?  \nChoice:  \nA. Start from a high-rise building, descend to street level, and move towards the target building.  \nB. Start from the left side of the building with a huge conical dome, turn right, descend to a certain height, and move forward to approach the balcony on the 11th floor.  \nC. Start from above the city, descend to the height of the target building, and hover near the 11th floor.  \nD. Start from the park, rise vertically, move horizontally, and reach the current position next to the target building.  \nE. Start from a high-rise building, move horizontally over streets and parks, then descend and move vertically to the 11th-floor balcony.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The trajectory starts from the left side of a building with a distinctive conical dome, then turns right, descends to a certain height, and moves forward to approach the balcony on the 11th floor. This matches the visual sequence where the agent initially views the building from a higher vantage point and gradually approaches the specific floor level.",
+    "evaluation": "Location: [(0, 57)]\nOption: B\nReason: The video starts from a high vantage point, showing a building with a conical dome. The camera then moves down and to the right, approaching the target building. The floors are numbered, and the camera moves towards the 11th floor. Therefore, the trajectory starts from the left side of the building with a huge conical dome, turns right, descends to a certain height, and moves forward to approach the balcony on the 11th floor.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The trajectory starts from the left side of a building with a distinctive conical dome, then turns right, descends to a certain height, and moves forward to approach the balcony on the 11th floor. This matches the visual sequence where the agent initially views the building from a higher vantage point and gradually approaches the specific floor level."
+  }
+}

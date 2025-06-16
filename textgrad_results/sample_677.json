@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_51_3RSDURM96JKGMMUZTRUL89KBMYHEYM_6.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take of from the river and turn left towards the city and go straight towards the buildings. then take left and then take immediate right towards the board and then suddenly take left and go straight towards the statue then turn right and take of. then go towards the drink ice cold, sun noon board and then take left there was an highest building and then take right from the building then take immediate left from that building in opposite there was an bolt cola board is that our destination.]. At the initial position, you are asked to follow a series of movement instructions. When you reach the current location, what is your position relative to the \"Drink Ice Cold, Sun is Noon\" billboard?  \nchoose:  \nA. I am to the left of the \"Drink Ice Cold, The Sun Is Noon\" billboard.  \nB. I am far away from the \"Drink Ice Cold, The Sun Is Noon\" billboard.  \nC. I am behind the \"Drink Ice Cold, The Sun Is Noon\" billboard.  \nD. I am on the right side of the \"Drink Ice Cold, The Sun Is Noon\" billboard.  \nE. I am under the \"Drink Ice Cold, The Sun Is Noon\" billboard.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The current location, as indicated by the frames, shows that the agent is on the right side of the \"Drink Ice Cold, Sun is Noon\" billboard. This is evident from the perspective where the billboard is visible to the left of the agent's viewpoint.",
+    "evaluation": "Location: [(02:36, 02:47)]\nOption: [D]\nReason: From 02:36 to 02:47, the \"Drink Ice Cold, Sun Noon\" billboard is visible to the left of the agent's viewpoint. Therefore, the agent is on the right side of the billboard.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The current location, as indicated by the frames, shows that the agent is on the right side of the \"Drink Ice Cold, Sun is Noon\" billboard. This is evident from the perspective where the billboard is visible to the left of the agent's viewpoint."
+  }
+}

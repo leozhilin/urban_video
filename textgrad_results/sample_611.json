@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_89_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the middle elevated level of the building on the right front. Given the next steps for [planned milestone], what are your next steps?  \nchoose:  \nA. I move up and rotate the camera down.  \nB. I descend and rotate the camera upward.  \nC. I fly forward.  \nD. I fly forward to the right.  \nE. I fly forward to the left.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: To navigate to the middle elevated level of the building on the right front, flying forward to the right will align the agent's path with the target building's position. This direction ensures a clear approach towards the intended destination while avoiding obstacles.",
+    "evaluation": "Location: [(0, 10)]\nOption: [D]\nReason: The video shows a top-down view of the environment. The target building is located to the right and slightly forward from the initial position. Therefore, flying forward to the right will align the agent's path with the target building's position. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: To navigate to the middle elevated level of the building on the right front, flying forward to the right will align the agent's path with the target building's position. This direction ensures a clear approach towards the intended destination while avoiding obstacles."
+  }
+}

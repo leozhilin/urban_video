@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_17_32ZKVD547OLHZGLRUFZ5H7IDB2WB35.mp4",
+  "question": "Question: What is your next action after descending slightly along the edge of the park?  \nChoices:  \nA. Hover above the road aligned with trees in the park.  \nB. Move backward to the rooftop.  \nC. Ascend slightly to gain a better view of the buildings.  \nD. Adjust your position to follow the road with tall buildings on the right.  \nE. Descend directly to the ground.  ",
+  "question_category": "Sequence Recall",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: After descending slightly along the edge of the park, the next logical action is to adjust your position to follow the road with tall buildings on the right. This allows for a smooth transition into navigating the urban environment while maintaining a clear path and avoiding obstacles.",
+    "evaluation": "Location: [(0, 55)]\nOption: D\nReason: From the beginning of the video to 0:55, the agent descends slightly along the edge of the park. After that, the agent adjusts its position to follow the road with tall buildings on the right.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: After descending slightly along the edge of the park, the next logical action is to adjust your position to follow the road with tall buildings on the right. This allows for a smooth transition into navigating the urban environment while maintaining a clear path and avoiding obstacles."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_54_3DY46V3X3YGIOFRM7OWLTIG5F2055N.mp4",
+  "question": "Question: After you turn left and fly along the building, how does the distance to the shoreline trees change?  \nChoice: A. I reduce the distance to the tree line.  \n           B. The distance to the tree line remains constant.  \n           C. The distance to the tree line increases.  ",
+  "question_category": "Proximity",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: As the agent turns left and flies along the building, it gradually approaches the shoreline trees, thereby reducing the distance to the tree line. This is evident from the increasing size and detail of the trees in the frames.",
+    "evaluation": "Location: [(0, 52)]\nOption: [A]\nReason: After the agent turns left and flies along the building, the trees along the shoreline become larger and more detailed, indicating that the agent is getting closer to them. Therefore, the distance to the tree line decreases.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: As the agent turns left and flies along the building, it gradually approaches the shoreline trees, thereby reducing the distance to the tree line. This is evident from the increasing size and detail of the trees in the frames."
+  }
+}

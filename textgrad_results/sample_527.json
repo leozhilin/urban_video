@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_45_351SEKWQS9FB0ZRLETVQ8WFJDCODMO_6.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [Raise the cam slightly and turn left to face the tall building, then right to face the beige building. Move straight toward the tall building, fly over its roof, and tilt the cam right while flying. Lower the cam to face the path and building, pause, then go straight. Near the tree, raise the cam slightly, turn right to face the distant tall building, and go straight. Turn left to face another building, move straight toward the tree, then turn left toward the tall beige building. Fly over its roof, go straight, and near the building, tilt the cam right to face the small building. Turn left to face the beige building, tilt down briefly, then up. Lower the cam to face the road below the hoardings, and continue straight.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your landmark position relative to the beige building?  \nchoose:  \nA. I am located to the left of the beige building.  \nB. I am located above the beige building.  \nC. I am far away from the beige building.  \nD. I am located on the right side of the beige building.  \nE. I am located underneath the beige building.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The current view shows a high vantage point above the buildings, indicating that the agent is flying over them. The beige building is visible below, suggesting that the agent is located above it.",
+    "evaluation": "Location: [(0, 15), (115, 145), (250, 260)]\nOption: [B]\nReason: From the beginning of the video to 15s, the camera is at a low position. From 115s to 145s, the camera is at a high position, and the beige building is below the camera. From 250s to 260s, the camera is at a high position, and the beige building is below the camera. So the answer is B. I am located above the beige building.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The current view shows a high vantage point above the buildings, indicating that the agent is flying over them. The beige building is visible below, suggesting that the agent is located above it."
+  }
+}

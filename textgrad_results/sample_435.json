@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_27.mp4",
+  "question": "Question: If you do not descend directly to the entrance of Building 4, but choose to fly around the building first, can you still reach the entrance? What is the time of the alternative route?\n\nChoice: A. If I fly around Building 4, I can still reach the entrance, but the alternative route will take longer.  \n           B. If I fly around Building 4, I can reach the entrance, but the route will take a similar amount of time.  \n           C. If I fly around Building 4, I am unable to reach the entrance due to obstacles.  ",
+  "question_category": "Counterfactual",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: Flying around Building 4 will still allow you to reach the entrance, but it will take longer compared to descending directly. The alternative route involves additional distance and time due to the detour around the building.",
+    "evaluation": "Location: [(0, 15), (132, 150)]\nOption: A\nReason: From the video, it is clear that flying around Building 4 will still allow you to reach the entrance, but it will take longer compared to descending directly. The alternative route involves additional distance and time due to the detour around the building.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: Flying around Building 4 will still allow you to reach the entrance, but it will take longer compared to descending directly. The alternative route involves additional distance and time due to the detour around the building."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_28.mp4",
+  "question": "Question: Does it take longer for you to descend from above the road to the square than from above the building to the pond?\n\nChoice: A. It would take longer for me to descend from above the road to the square.  \n           B. It takes longer for me to descend from above the building to the pond.  \n           C. The two descents take approximately the same amount of time.  ",
+  "question_category": "Duration",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The descent from above the building to the pond appears to involve a greater vertical distance compared to the descent from above the road to the square, indicating it would take longer.",
+    "evaluation": "Location: [(0, 32)]\nOption: B\nReason: From the video, it is evident that the descent from above the building to the pond involves a significantly greater vertical distance compared to the descent from above the road to the square. Therefore, it would take longer to descend from above the building to the pond. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The descent from above the building to the pond appears to involve a greater vertical distance compared to the descent from above the road to the square, indicating it would take longer."
+  }
+}

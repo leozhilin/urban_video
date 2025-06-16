@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_25.mp4",
+  "question": "Question: You are navigating to the community swimming pool. What is the correct summary of your trajectory from the beginning to the current position?  \nChoice:  \nA. I start from a high-rise building, descend to the ground, and move towards the swimming pool.  \nB. I start from the street, fly over high-rise buildings, and descend to the swimming pool.  \nC. I start from the high-rise building, fly to the park, and then fly to the swimming pool.  \nD. I start from the park, move over high-rise buildings, and descend to my current position above the swimming pool.  \nE. I start from a high altitude, approach the high-rise building, pass the playground, and fly towards the swimming pool.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The trajectory starts from a high altitude, as indicated by the initial wide view of the high-rise buildings and the surrounding area. The agent then approaches the high-rise buildings, providing a closer view of the structures. Afterward, the agent passes over a playground, which is visible in the frames showing the colorful play area with slides and other equipment. Finally, the agent flies towards the swimming pool, which is clearly shown in the later frames with detailed views of the pool's design and surrounding area. This sequence matches the description in option E.",
+    "evaluation": "Location: [(0, 140)]\nOption: [E]\nReason: The video starts with a wide view of the city from a high altitude (0-8s), then approaches the high-rise buildings (8-30s), passes the playground (30-40s), and flies towards the swimming pool (1:25-1:40). This matches the description in option E.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The trajectory starts from a high altitude, as indicated by the initial wide view of the high-rise buildings and the surrounding area. The agent then approaches the high-rise buildings, providing a closer view of the structures. Afterward, the agent passes over a playground, which is visible in the frames showing the colorful play area with slides and other equipment. Finally, the agent flies towards the swimming pool, which is clearly shown in the later frames with detailed views of the pool's design and surrounding area. This sequence matches the description in option E."
+  }
+}

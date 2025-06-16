@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_38_3BEFOD78WFRY038SLIUX5SLD16S4ME_4.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [rise, turn to the right and fly to the center of the lake. turn slightly to the left and fly to the building across from the 'instant coffee' billboard. turn to the right and fly to the tall stone building with the half oval windows. turn to the left and fly to the intersection with the blue mailbox by the park.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I fly over buildings.  \nB. I turn right at the building.  \nC. I turn left and fly to the intersection with the blue mailbox next to the park.  \nD. I rise.  \nE. I go up the white building with golden glass.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows the agent has already risen, turned right to fly towards the lake, then slightly left to the building across from the 'instant coffee' billboard, and right again to the tall stone building with half oval windows. The current view suggests the agent is now turning left and flying towards the intersection with the blue mailbox by the park, as indicated by the open space and road layout visible in the latest frames.",
+    "evaluation": "Location: [(215, 240)]\nOption: [C]\nReason: The video shows the agent flying towards a tall building with half oval windows (2:15-2:20). Then the agent turns left and flies towards the intersection with the blue mailbox next to the park (2:20-2:40).",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows the agent has already risen, turned right to fly towards the lake, then slightly left to the building across from the 'instant coffee' billboard, and right again to the tall stone building with half oval windows. The current view suggests the agent is now turning left and flying towards the intersection with the blue mailbox by the park, as indicated by the open space and road layout visible in the latest frames."
+  }
+}

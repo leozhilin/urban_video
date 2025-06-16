@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_14.mp4",
+  "question": "Question: You are navigating forward toward an intersection, hovering as you approach the intersection, and then landing. Thinking back on past actions and objects you have seen, what is the surrounding environment like at your current location?  \nChoice:  \nA. There is a large park with a playground in front of me. There are several low-rise buildings on my left. There is a wide road to my right.  \nB. There are many buildings of different heights in front of me. Some are high-rise residential buildings, and some are low-rise commercial buildings. There is a wide road below me that leads to the intersection ahead. There is a modern building with a large glass curtain wall on my right.  \nC. There is a river and a park behind me. There is a large factory to my right. There is a highway in front of me.  \nD. There are only low buildings around me. I am located on a narrow road flanked by low buildings.  \nE. There is a large shopping mall across the street in front of me. There is a residential area behind me. There is a construction site next to me.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The environment shows a mix of high-rise and low-rise buildings, a wide road leading to an intersection, and a modern building with a large glass curtain wall on the right, which matches the description in option B.",
+    "evaluation": "Location: [(0, 15), (35, 48), (55, 128)]\nOption: B\nReason: The video shows a mix of high-rise and low-rise buildings, a wide road leading to an intersection, and a modern building with a large glass curtain wall on the right. This matches the description in option B.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The environment shows a mix of high-rise and low-rise buildings, a wide road leading to an intersection, and a modern building with a large glass curtain wall on the right, which matches the description in option B."
+  }
+}

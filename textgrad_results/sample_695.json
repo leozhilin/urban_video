@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_32.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a red car at the edge of a residential area ahead. Is the destination within sight at your current location? If yes, where is the destination in the view?  \nchoose:  \nA. I see the red car on the left side of my field of view.  \nB. I see the red car in the center of my field of view.  \nC. I see the red car in the lower right corner of my field of view.  \nD. I do not see the red car in my field of view.  \nE. I see the red car on the right side of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The red car is visible on the left side of the field of view, parked along the roadside.",
+    "evaluation": "Location: [(0:59, 1:16)]\nOption: [A]\nReason: From 0:59 to 1:16, the red car is visible on the left side of the field of view, parked along the roadside.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The red car is visible on the left side of the field of view, parked along the roadside."
+  }
+}

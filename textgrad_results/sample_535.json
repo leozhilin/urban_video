@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_10_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the 23rd-floor balcony. What is your next move, given the target location for your next move?  \nchoose:  \nA. I rise.  \nB. I rotate the camera downward.  \nC. I fly forward.  \nD. I turn left.  \nE. I turn right.  \nF. I rotate the camera upward.  \nG. I descend.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "G",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: To navigate to the 23rd-floor balcony, the agent needs to rise vertically since the current perspective is from a lower position relative to the building. Rising will bring the agent closer to the target floor.",
+    "evaluation": "Location: [(0, 2)]\nOption: A\nReason: From the initial position (0-2s), the camera is looking at the surrounding buildings. To reach the 23rd-floor balcony, the agent needs to move upwards. Therefore, the next move is to rise.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: To navigate to the 23rd-floor balcony, the agent needs to rise vertically since the current perspective is from a lower position relative to the building. Rising will bring the agent closer to the target floor."
+  }
+}

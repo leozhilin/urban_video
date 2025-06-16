@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_50_3E13VNJ1NWTVCLLIDLD3F17T8BN1I3_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [now take off and turn right and fly over the pond and closer the white building. now go over the buildings and turn left. now go over the road and buildings and move closer to the white building. now get little down and turn back and go forward until the grey building arrives and stay there.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I go up and turn right.  \nB. I descend and then fly forward.  \nC. I fly forward.  \nD. I turn left and descend.  \nE. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The navigation instruction starts with \"now take off and turn right and fly over the pond,\" which indicates that the initial action should be to ascend (take off) and then make a right turn. This matches option A, \"I go up and turn right.\" The other options do not align with the first part of the given instructions.",
+    "evaluation": "Location: [(0, 2)]\nOption: A\nReason: The navigation instruction starts with \"now take off and turn right and fly over the pond,\" which indicates that the initial action should be to ascend (take off) and then make a right turn. The video starts with the agent on the ground. This matches option A, \"I go up and turn right.\" The other options do not align with the first part of the given instructions.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The navigation instruction starts with \"now take off and turn right and fly over the pond,\" which indicates that the initial action should be to ascend (take off) and then make a right turn. This matches option A, \"I go up and turn right.\" The other options do not align with the first part of the given instructions."
+  }
+}

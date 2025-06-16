@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_90_3NG53N1RL4H547S7P1C238VD5CTP8N.mp4",
+  "question": "Question: Which of the following options better summarizes your movement?  \nChoice: A. Fly straight along the deck from the bridge head to the second arch.  \n         B. Ascend from the ramp to the fourth arch and fly smoothly over the road.  \n         C. Pass through multiple arches from the starting point of the suspension bridge to the middle of the bridge deck.  \n         D. Keep flying at a low altitude from the slope of the bridge to near the third arch.  \n         E. Sail along the deck from the top of the slope of the arch section to outside the fourth arch.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows a continuous movement along the bridge, passing through multiple arches from the starting point to the middle of the bridge deck. This aligns with option C, which describes moving from the starting point of the suspension bridge to the middle of the bridge deck. The other options involve specific actions like flying or ascending that are not evident in the frames provided.",
+    "evaluation": "Location: [(0, 60)]\nOption: C\nReason: The video shows a continuous movement along the bridge, passing through multiple arches from the starting point to the middle of the bridge deck. This aligns with option C, which describes moving from the starting point of the suspension bridge to the middle of the bridge deck. The other options involve specific actions like flying or ascending that are not evident in the frames provided.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows a continuous movement along the bridge, passing through multiple arches from the starting point to the middle of the bridge deck. This aligns with option C, which describes moving from the starting point of the suspension bridge to the middle of the bridge deck. The other options involve specific actions like flying or ascending that are not evident in the frames provided."
+  }
+}

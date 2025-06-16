@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_40_1.mp4",
+  "question": "Question: You are navigating to the first air conditioning unit on the left side of the top floor. What is the correct summary of your trajectory from the beginning to the current position?  \nChoice:  \nA. I launch from the rooftop, descend to street level, and move toward the building.  \nB. I start from the park, rise, move forward and to the right, and reach the current position.  \nC. I start from the roof of the building, rise a certain distance, and fly above the road.  \nD. I start from the crosswalk, move to the edge of the road, rise to the height of the roof of the building, and move to my current location.  \nE. I start from the scooter lane in the park, turn left to face the street outside the park, rise to the height of the high-rise building across the street, and move forward to the roof of the high-rise building at my current location outside the edge.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The trajectory starts from a lower elevation (scooter lane in the park), moves towards the street, rises to the height of a high-rise building across the street, and then proceeds forward to the roof of the high-rise building at the current location. This matches the visual progression from ground level to an elevated position overlooking the urban landscape.",
+    "evaluation": "Location: [(0, 9)]\nOption: E\nReason: From the beginning of the video (0s), the drone starts at a low altitude near a park with a scooter lane. It then rises and moves forward, passing over a street and towards a high-rise building. The current position is on the roof of that high-rise building. This trajectory aligns with option E.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The trajectory starts from a lower elevation (scooter lane in the park), moves towards the street, rises to the height of a high-rise building across the street, and then proceeds forward to the roof of the high-rise building at the current location. This matches the visual progression from ground level to an elevated position overlooking the urban landscape."
+  }
+}

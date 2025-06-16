@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_2_0.mp4",
+  "question": "Question: Starting from your starting position, you are asked to navigate to a basketball court near a building below. Thinking back on past actions and objects you\u2019ve seen, what is the surrounding environment like at your current location?  \nChoice:  \nA. Two buildings are close to each other on your left side, and a pond is on your right. A park with winding paths and lush trees is behind you.  \nB. Three buildings are in a row across the street in front of you. The middle one is much taller than the other two. A park with scooter lanes and trees is behind you, and there is a walkway underneath you.  \nC. There is a large park in front of you with a playground and a pond. Residential buildings are behind you.  \nD. A high-rise building is in front of you, and a small pond is on your right.  \nE. Many high-rise residential buildings are around you, and a small park can be seen on your left.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The current location shows two buildings close to each other on the left side, a pond on the right, and a park with winding paths and lush trees behind the agent, which matches the description in option A.",
+    "evaluation": "Location: [(0, 33)]\nOption: A\nReason: From the aerial view, the agent is located on top of a building. To the left are two buildings close to each other. To the right is a pond. Behind the agent is a park with winding paths and lush trees. This matches option A.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The current location shows two buildings close to each other on the left side, a pond on the right, and a park with winding paths and lush trees behind the agent, which matches the description in option A."
+  }
+}

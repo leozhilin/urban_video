@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_5_3GDTJDAPV39ZJ4VUXLKAM41I3Q58M2_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off fly straight to the opposite building before reaching the building turn left and turn right and fly downwards to the road fly near the crossway and turn right and fly upwards to the second tall building fly to the top of the building. after reaching the top of the building turn left and fly straight to the river and fly at the right side of the building and cross the first checkpoint and fly in to the road presented in the bridge. after entering in to the bridge fly straight to the road which ends in the opposite of the bridge.]. At the initial position, you are asked to move according to a series of movement instructions. What is the Landmark Position of the river when you reach your current location?  \nchoose:  \nA. I am on the left side of the river.  \nB. I am far away from the river.  \nC. I am located above the river.  \nD. I am located on the right side of the river.  \nE. I am located below the river.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The sequence of images shows the agent moving towards and then flying near a river, with the final frames indicating that the agent is on the right side of the river relative to its direction of travel. This aligns with the instruction to fly at the right side of the building and cross the first checkpoint, suggesting the current location is on the right side of the river.",
+    "evaluation": "Location: [(0, 15), (38, 150)]\nOption: []\nReason:From the video, the agent starts in a city environment, flies towards a tall building, turns left and right, and then flies downwards to a road near a crossway. After turning right and flying upwards to the second tall building, the agent reaches the top of the building. Then the agent turns left and flies straight to the river. The river is on the right side of the building.\nOption: D",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The sequence of images shows the agent moving towards and then flying near a river, with the final frames indicating that the agent is on the right side of the river relative to its direction of travel. This aligns with the instruction to fly at the right side of the building and cross the first checkpoint, suggesting the current location is on the right side of the river."
+  }
+}

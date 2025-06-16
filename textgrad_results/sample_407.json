@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_18.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a seller's store behind a nearby bus stop. Is the destination within sight at your current location? If yes, where is the destination in the view?  \nchoose:  \nA. I see the seller\u2019s store in the lower left corner of my field of view.  \nB. I see the seller's store in the center of my field of view.  \nC. I see the seller\u2019s store in the upper right corner of my field of view.  \nD. I do not see the seller\u2019s store in my field of view.  \nE. I see the seller\u2019s store on the right side of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The initial frames show a view from a high vantage point overlooking a cityscape with buildings, roads, and vehicles. There is no visible sign of a seller's store behind a nearby bus stop in the current field of view. The perspective does not include ground-level details that would reveal such a store.",
+    "evaluation": "Location: [(0, 59)]\nOption: D\nReason: From the initial position (0:00-0:59), the seller's store is not within sight. The camera is too far away to see the store clearly.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The initial frames show a view from a high vantage point overlooking a cityscape with buildings, roads, and vehicles. There is no visible sign of a seller's store behind a nearby bus stop in the current field of view. The perspective does not include ground-level details that would reveal such a store."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_90_3NG53N1RL4H547S7P1C238VD5CTP8N.mp4",
+  "question": "Question: Where are the starting and ending points of your journey?  \nChoice:  \nA. Start at the ascent of the ramp and end in an area close to the third arch.  \nB. Start from the starting point of the suspension bridge and end in the middle of the bridge deck.  \nC. Start from the slope of the bridge and end at the first arch above the road.  \nD. Start from the top of the slope of the arch section and end at the approach of the fourth arch.  \nE. Start from the path of the third arch and end at the entrance of the second arch.  ",
+  "question_category": "Start/End Position",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The sequence of images shows a continuous movement starting from the beginning of the suspension bridge, where the road inclines slightly as it approaches the first arch. The journey progresses through the bridge, and the final frames depict a position roughly in the middle of the bridge deck, with the city skyline becoming more prominent in the background. This matches the description in option B.",
+    "evaluation": "Location: [(0, 111)]\nOption: B\nReason: The video starts at the beginning of the suspension bridge (0-5s), where the road inclines slightly. The video ends roughly in the middle of the bridge deck (50-60s), with the city skyline becoming more prominent in the background. This matches the description in option B.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The sequence of images shows a continuous movement starting from the beginning of the suspension bridge, where the road inclines slightly as it approaches the first arch. The journey progresses through the bridge, and the final frames depict a position roughly in the middle of the bridge deck, with the city skyline becoming more prominent in the background. This matches the description in option B."
+  }
+}

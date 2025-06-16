@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_50_1.mp4",
+  "question": "\"\"\"\nQuestion: You are moving following a series of movement instructions: \"Move towards a modern glass walled office building nearby. Then fly to the top of the adjacent hill\". What is the positional relationship between you and the modern glass walled office building when it reached current position?\nChoices:\nA. I am located to the left of the modern glass walled office building.\nB. I am located above the modern glass walled office building.\nC. I am located to the right of the modern glass walled office building.\nD. I am located below the modern glass walled office building.\nE. I am located behind the modern glass walled office building.\n\n\"\"\"\n",
+  "question_category": "Landmark Position",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The agent has moved to the top of the adjacent hill, which places it above the modern glass-walled office building. The perspective in the images shows a downward view towards the building, indicating that the agent is now at a higher elevation than the building.",
+    "evaluation": "Location: [(0, 59)]\nOption: B\nReason: The video shows the agent moving towards the modern glass walled office building and then ascending to a higher altitude. From 0:04 to 0:59, the camera is positioned above the building, looking down. This indicates that the agent is located above the modern glass walled office building. Therefore, the positional relationship between the agent and the building is that the agent is above the building. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The agent has moved to the top of the adjacent hill, which places it above the modern glass-walled office building. The perspective in the images shows a downward view towards the building, indicating that the agent is now at a higher elevation than the building."
+  }
+}

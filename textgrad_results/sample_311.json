@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_23_0.mp4",
+  "question": "Question: You are navigating to the entrance to a residential complex across the street, where there is a moon-shaped blue pool of water. What is the correct summary of your trajectory from start to your current location?  \nChoice:  \nA. Start from above the building under construction, move toward the street, and then fly across the street to your current location.  \nB. Start from the roof of the building under construction, fly over the street, move toward the residential area, and finally reach your current location.  \nC. Start from the park, fly to the building under construction, then fly to the street, and finally arrive at your current location.  \nD. Start from the building under construction, move toward the street, fly across the street to the residential area, and finally reach your current location.  \nE. Start from the building under construction, turn left to face the street, rise to a height above the street, and move forward to reach your current location.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The trajectory starts from the building under construction, moves toward the street, flies across the street to the residential area, and finally reaches the current location near the moon-shaped blue pool of water. This matches the sequence of events shown in the frames, where the initial view is of a construction site, followed by movement towards and across a street, and ending at a residential complex with a distinctive pool.",
+    "evaluation": "Location: [(0, 15)]\nOption: [D]\nReason: The video starts from the top of a building under construction (0-3s), then moves towards the street (3-5s), flies across the street to the residential area (5-12s), and finally reaches the current location near the moon-shaped blue pool of water (12-15s). Therefore, option D is the correct answer.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The trajectory starts from the building under construction, moves toward the street, flies across the street to the residential area, and finally reaches the current location near the moon-shaped blue pool of water. This matches the sequence of events shown in the frames, where the initial view is of a construction site, followed by movement towards and across a street, and ending at a residential complex with a distinctive pool."
+  }
+}

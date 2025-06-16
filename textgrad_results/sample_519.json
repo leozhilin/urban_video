@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_44.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the tables and chairs in front of the ALL-STAR Cafe in Central. When you reach the current location, what is the direction to the destination?  \nchoose:  \nA. I am currently located above the street, directly above the cafe.  \nB. I am currently several blocks away from the cafe.  \nC. I am currently on the other side of the building, further away from the cafe.  \nD. I am currently located on the sidewalk in front of the cafe.  \nE. I am currently at the same altitude as the cafe, but a few blocks away.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The current location is on the sidewalk in front of the cafe, as indicated by the presence of outdoor seating and the cafe's entrance directly ahead.",
+    "evaluation": "Location: [(34, 51)]\nOption: D\nReason: From 0:34 to 0:51, the video shows tables and chairs on the sidewalk in front of a building. The awning of the building reads \"CENTRAL ALL-STAR\". Therefore, the current location is on the sidewalk in front of the cafe.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The current location is on the sidewalk in front of the cafe, as indicated by the presence of outdoor seating and the cafe's entrance directly ahead."
+  }
+}

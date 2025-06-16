@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_21_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the vicinity of the tower crane at the construction site ahead. Thinking back on past actions and objects you have seen, what should you approach next in order to get from your current location to your destination?  \nchoose:  \nA. I approach the top of the construction site wall.  \nB. I approach the edge of an overgrown field.  \nC. I approach small ponds in overgrown areas.  \nD. I approach the street next to the construction site.  \nE. I approach the roof of the nearest high-rise building.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The street next to the construction site provides a clear and accessible path towards the tower crane. It avoids obstacles like overgrown fields, small ponds, and high-rise buildings, making it the most practical choice for navigation.",
+    "evaluation": "Location: [(0, 7), (34, 41)]\nOption: D\nReason: From the initial position (0-7s), the street next to the construction site is visible and appears to be the most direct and accessible route towards the tower crane. The video (34-41s) shows a clear view of the street running alongside the construction site, confirming its accessibility. Approaching the street would avoid the overgrown field and potential ponds, as well as the impractical options of the construction site wall or high-rise buildings. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The street next to the construction site provides a clear and accessible path towards the tower crane. It avoids obstacles like overgrown fields, small ponds, and high-rise buildings, making it the most practical choice for navigation."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_11_32EYX73OY97OEHFZ5WHW4VDH3OSRUM.mp4",
+  "question": "Question: What objects did you observe while crossing over the large body of water?  \nChoices:  \nA. A bicycle, a lake, and a barn.  \nB. A park bench, a playground, and a road.  \nC. A bridge, a boat, and a tower.  \nD. A statue, a flower bed, and a gazebo.  \nE. A round fountain, red brick paving, and trees.  ",
+  "question_category": "Scene Recall",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The images show a large body of water with a round fountain in the center, red brick paving around it, and trees surrounding the area. These elements match the description in option E.",
+    "evaluation": "Location: [(0, 144)]\nOption: [E]\nReason: From the beginning of the video to the end, the camera shows a large body of water with a round fountain in the center. The area around the fountain is paved with red brick. Trees surround the area. Therefore, the answer is E.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The images show a large body of water with a round fountain in the center, red brick paving around it, and trees surrounding the area. These elements match the description in option E."
+  }
+}

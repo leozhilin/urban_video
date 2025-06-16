@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_3.mp4",
+  "question": "Question: Starting from the starting position, you are asked to navigate to the entrance of the community, with a moon-shaped blue pool in front. Thinking back on past actions and objects seen, what is the surrounding environment like at your current location?  \nChoose:  \nA. There is a large park in the center with a playground and basketball court, surrounded by high-rise buildings. I am positioned above the sidewalk.  \nB. There are several low-rise buildings surrounding me. Ahead is a big highway with lots of traffic. There is a small undeveloped area in the back.  \nC. I am surrounded by high-rise buildings. Directly below is a busy street with a small pond visible to the rear and right.  \nD. Three high-rise buildings are gathered in front of me. Behind me is a large parking lot. To my left, there is a smaller building under construction.  \nE. The upper part of my field of view is composed of buildings, and the upper center is the entrance to the residential area and the blue crescent-shaped pond. There are sidewalks and driveways in the part under my field of view.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The current location, as seen from the aerial view, shows a community entrance with a moon-shaped blue pool in front. The upper part of the field of view includes buildings and the entrance to the residential area, while sidewalks and driveways are visible in the lower part of the field of view, matching the description in option E.",
+    "evaluation": "Location: [(0, 15), (110, 127), (230, 245), (350, 355), (400, 411)]\nOption: E\nReason: From the video, especially between 1:10-1:27, the agent is surrounded by high-rise buildings. The blue moon-shaped pool is visible, and the entrance to the residential area is also visible. Sidewalks and driveways are also present. Therefore, option E is the correct answer.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The current location, as seen from the aerial view, shows a community entrance with a moon-shaped blue pool in front. The upper part of the field of view includes buildings and the entrance to the residential area, while sidewalks and driveways are visible in the lower part of the field of view, matching the description in option E."
+  }
+}

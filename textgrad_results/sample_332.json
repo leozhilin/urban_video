@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_11_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the balcony on the 22nd floor. When you reach the current location, what is the direction to the destination?  \nchoose:  \nA. I am currently located across the street from the target building at an altitude of 30 stories.  \nB. I am currently located directly above the target building, far exceeding the 22nd floor.  \nC. I am currently on the ground across the street from the target building.  \nD. I am currently located behind the target building, slightly above the 22nd floor.  \nE. I am currently located around the target building at a height of approximately 26 floors.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The current location is around the target building at a height of approximately 26 floors, as indicated by the visible floor numbers on the building. This means the direction to the 22nd floor balcony would be downward and towards the building.",
+    "evaluation": "Location: [(0, 25)]\nOption: [E]\nReason: From the video, especially between 0:08 and 0:25, the building's floor numbers are visible. The camera is positioned around the 26th floor of the target building. Therefore, the direction to the 22nd floor balcony would be downward and towards the building. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The current location is around the target building at a height of approximately 26 floors, as indicated by the visible floor numbers on the building. This means the direction to the 22nd floor balcony would be downward and towards the building."
+  }
+}

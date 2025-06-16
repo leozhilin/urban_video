@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_9_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the 24th-floor balcony of the building on the right. Given the next steps for [planned milestone], what are your next steps?  \nchoose:  \nA. I rise.  \nB. I rotate the camera downward.  \nC. I fly forward.  \nD. I turn left.  \nE. I turn right.  \nF. I rotate the camera upward.  \nG. I descend.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "G",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: To navigate to the 24th-floor balcony of the building on the right, the first step is to turn right to align with the target building. This will position the agent correctly to approach the desired structure.",
+    "evaluation": "Location: [(0, 4)]\nOption: []\nReason: From the initial position (0-4s), the building on the right is slightly behind the agent. To navigate to the 24th-floor balcony of that building, the agent needs to turn right first.\n\nLocation: []; Option: [E]; Reason: []\n- Location: [(0, 4)]\n- Option: E\n- Reason: The building on the right is slightly behind the agent's initial position. Therefore, the first step to navigate to the 24th-floor balcony of that building is to turn right. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: To navigate to the 24th-floor balcony of the building on the right, the first step is to turn right to align with the target building. This will position the agent correctly to approach the desired structure."
+  }
+}

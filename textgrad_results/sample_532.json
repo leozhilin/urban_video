@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_57.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to [the store with the signboard \"\u8d1d\u58f3\u751f\u9c9c Food\"]. Thinking back on past Action Generations and objects you saw, what should you approach next in order to get from your current location to your destination?  \nchoose:  \nA. I approach a crosswalk on a street.  \nB. I approach the doors and windows of the target store.  \nC. I approach the grass next to the building.  \nD. I approach the parking lot in front of the store.  \nE. I approach rooftops of adjacent buildings.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The goal is to navigate to the store with the signboard \"\u8d1d\u58f3\u751f\u9c9c Food\". Based on the provided images, the final frames show the storefront of \"\u8d1d\u58f3\u751f\u9c9c\". Therefore, the next logical step is to approach the doors and windows of the target store to reach the destination.",
+    "evaluation": "Location: [(00:52, 01:09)]\nOption: [B]\nReason: The video shows the agent approaching the store with the signboard \"\u8d1d\u58f3\u751f\u9c9c Food\". The final frames show the storefront of \"\u8d1d\u58f3\u751f\u9c9c\". Therefore, the next logical step is to approach the doors and windows of the target store to reach the destination.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The goal is to navigate to the store with the signboard \"\u8d1d\u58f3\u751f\u9c9c Food\". Based on the provided images, the final frames show the storefront of \"\u8d1d\u58f3\u751f\u9c9c\". Therefore, the next logical step is to approach the doors and windows of the target store to reach the destination."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_29_3OHYZ19UGL312V9L7ZJ1AZWIN8TOAX_5.mp4",
+  "question": "Question: The drone moves according to a series of movement instructions. When the drone reaches its current location, what is its Landmark Position from Charlie's Chocolate Mansion?\nchoose:\n",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The drone's current location, as indicated by the sequence of images, places it in a position where Charlie's Chocolate Mansion (as identified by the sign) is to its right side. This suggests that the landmark is positioned to the east relative to the drone's current orientation and location.",
+    "evaluation": "Location: [(216, 232)]\nOption: [B]\nReason: From 2:16 to 2:32, the drone's current location shows that Charlie's Chocolate Mansion is to its right side. This suggests that the landmark is positioned to the east relative to the drone's current orientation and location.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The drone's current location, as indicated by the sequence of images, places it in a position where Charlie's Chocolate Mansion (as identified by the sign) is to its right side. This suggests that the landmark is positioned to the east relative to the drone's current orientation and location."
+  }
+}

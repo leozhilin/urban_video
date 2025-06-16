@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_RN_12_10.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [Raise the altitude, fly over the opposite road, and fly in the direction of the mountains]. You move according to a series of movement instructions. In terms of next steps, what is your best next step?  \nchoose:  \nA. I rise and then fly forward.  \nB. I descend and turn left.  \nC. I fly forward and rotate the camera upward.  \nD. I turn right and descend.  \nE. I turn right and fly forward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The navigation instruction requires raising the altitude and flying over the opposite road towards the mountains. Option A, \"I rise and then fly forward,\" aligns with this requirement by first increasing altitude and then moving forward, which is necessary to navigate over the road and towards the mountains.",
+    "evaluation": "Location: [(00:17, 00:27)]\nOption: A\nReason: From the initial position (0:00-0:17), the mountains are visible in the distance. The instruction is to raise altitude, fly over the road, and head towards the mountains. Therefore, the next best step is to rise and then fly forward. Option A aligns with this instruction.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The navigation instruction requires raising the altitude and flying over the opposite road towards the mountains. Option A, \"I rise and then fly forward,\" aligns with this requirement by first increasing altitude and then moving forward, which is necessary to navigate over the road and towards the mountains."
+  }
+}

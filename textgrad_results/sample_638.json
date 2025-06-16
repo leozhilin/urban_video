@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_10_3HYA4D4520HIRF1OVH7WHN46KPYF2W_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off to the ground near the flag and turn left move upward to reach the terrace of the building. to reach the antenna in that building and cross the building to the next building to see the red colour eds butcher shop board in it. to move forward to see the pool shines by sunlight and cross the pool to reach the street. move towards to the top of the building and see the cloudy, shiny sky and also the reflected sea. turn left side and move towards the pool and fully surrounded by red leaves of trees and move towards to the street. move to the same road on the street and go straight to the corner of the road and reach the optician board on the right side. and move down to the board and see the health insurance in the down to the optician in that board.]. At the initial position, you are asked to move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I make a U-turn in the air.  \nB. I drop down and turn left.  \nC. I fly forward while rising.  \nD. I turn right and descend.  \nE. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The initial instruction states to \"take off to the ground near the flag and turn left move upward to reach the terrace of the building.\" Since the agent is at the initial position, the next logical step would be to drop down (to the ground near the flag) and then turn left, making option B the correct choice.",
+    "evaluation": "Location: [(0, 5)]\nOption: B\nReason: The video starts with a view of the ground and a flag in the distance. The instruction is to \"take off to the ground near the flag and turn left move upward to reach the terrace of the building.\" Therefore, the best next step is to drop down and turn left.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The initial instruction states to \"take off to the ground near the flag and turn left move upward to reach the terrace of the building.\" Since the agent is at the initial position, the next logical step would be to drop down (to the ground near the flag) and then turn left, making option B the correct choice."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_97_3Q5C1WP23VZJ0XQ361U9QS3O2S551Q_5.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and move between to the two building and towards to the green tree and move into the tree. now turn right and fly over the buildings and get high and move forward near to the antenna tower. now turn right and move little forward and get down to the bridge and towards to the building and get down to the building and stay there.]. At the initial position, you are asked to navigate according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I go to the building.  \nB. I turn right over the bridge.  \nC. I turn right and move forward slightly.  \nD. I turn right at the building.  \nE. I move between the two buildings and toward the tree.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The initial instruction is to \"take off and move between the two buildings and towards the green tree,\" which matches the visual context of the first image where the agent is positioned between two buildings and moving toward a tree. This is the starting point of the navigation instructions.",
+    "evaluation": "Location: [(0, 10)]\nOption: [E]\nReason: The video starts with a view between two buildings, heading towards a green tree in the distance. This aligns with the instruction \"take off and move between the two buildings and towards the green tree.\"\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The initial instruction is to \"take off and move between the two buildings and towards the green tree,\" which matches the visual context of the first image where the agent is positioned between two buildings and moving toward a tree. This is the starting point of the navigation instructions."
+  }
+}

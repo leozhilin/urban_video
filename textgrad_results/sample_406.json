@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_50_3DBQWDE4YFWME4XSBOS7NZGR3FWN58.mp4",
+  "question": "Question: After you approach the building of the Sky Blue Pyramid, how does your distance to the building change?  \nChoice:  \nA. After I approach the building, my distance to the building increases.  \nB. After I approach the building, my distance to the building decreases.  \nC. After I approach the building, my distance to the building remains unchanged.  ",
+  "question_category": "Proximity",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: As the agent approaches the building of the Sky Blue Pyramid, the building appears larger and more detailed in each subsequent frame, indicating a decrease in distance. This visual progression shows that the agent is moving closer to the building, thus reducing the distance between them.",
+    "evaluation": "Location: [(0, 12), (12, 40), (40, 149)]\nOption: [B]\nReason: From 0s to 12s, the Sky Blue Pyramid is not visible. From 12s to 40s, the Sky Blue Pyramid is visible in the distance. From 40s to 149s, the Sky Blue Pyramid becomes larger and larger, indicating that the agent is approaching the building. Therefore, the distance between the agent and the building decreases. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: As the agent approaches the building of the Sky Blue Pyramid, the building appears larger and more detailed in each subsequent frame, indicating a decrease in distance. This visual progression shows that the agent is moving closer to the building, thus reducing the distance between them."
+  }
+}

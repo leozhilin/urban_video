@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_11_3T3IWE1XGFL923LASC2MU9HAR8YQTF_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [turn around. fly forward over the buildings to the next road. turn around and fly forward. go to above the four lane highway on the left. fly down to the intersection and stop. turn left at the billboard. fly over the buildings to the left. go towards the water. stop one block away from the water and lower down into the alley. turn around and fly forward one block. go to the taller dark building. lower down to the road. turn left. fly to the white building. fly over the building and go to the next road. stop in front of the red brick building.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach your current location, what is your Landmark Position from the sea?  \nchoose:  \nA. I am on the left side of the pool.  \nB. I have no positional relationship with the sea.  \nC. I stick to the sea.  \nD. The sea is in front of me.  \nE. I am located in the ocean.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The sequence of images shows a progression from an urban environment to a view where the sea is visible in the distance, directly in front of the current position. This indicates that the agent has moved to a location where the sea is in front, aligning with option D.",
+    "evaluation": "Location: [(21, 44)]\nOption: [D]\nReason: From 0:21 to the end of the video, the sea is visible in front of the agent's current location. Therefore, the sea is in front of me.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The sequence of images shows a progression from an urban environment to a view where the sea is visible in the distance, directly in front of the current position. This indicates that the agent has moved to a location where the sea is in front, aligning with option D."
+  }
+}

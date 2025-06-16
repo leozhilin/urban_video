@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_85.mp4",
+  "question": "Question: At the starting position, you are required to navigate to the entrance of the residential community below. There is a shop \"Jiuyuan Tobacco and Liquor Store\" next to the entrance. How can you correctly summarize your trajectory from the start to the current position?  \nChoice:  \nA. I start from the sky above the building, descend to the street level, and then point the camera at the building on the street to look for \"Jiuyuan Tobacco and Liquor Store.\"  \nB. I start from the park, ascend to observe the city, and then descend to street level near the target store.  \nC. I start from a high altitude above the city, descend to the target store, and land at the gate of the community.  \nD. I start from the scooter lane in the park, turn left to face the street outside the park, rise to the height of the high-rise building across the street, move forward to a position above the street level, and then descend to a position near the entrance of the current community.  \nE. I follow a straight path from a distance to the community entrance, ignoring intermediate points.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The trajectory described in option D matches the visual sequence of the frames. It starts from a higher vantage point (scooter lane in the park), moves to an elevated position overlooking the city, and then descends towards the entrance of the residential community, which is consistent with the changing perspectives shown in the images.",
+    "evaluation": "Location: [(0, 23), (230, 251)]\nOption: D\nReason: The video starts with a high-altitude view of the city (0-23s). As the video progresses, the camera descends, eventually focusing on the street level and showing the shops, including \"Jiuyuan Tobacco and Liquor Store\" (230-251s). This trajectory aligns with option D, which describes starting from a high vantage point, moving to an elevated position, and then descending to the target store.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The trajectory described in option D matches the visual sequence of the frames. It starts from a higher vantage point (scooter lane in the park), moves to an elevated position overlooking the city, and then descends towards the entrance of the residential community, which is consistent with the changing perspectives shown in the images."
+  }
+}

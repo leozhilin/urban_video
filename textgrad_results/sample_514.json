@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_23_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the entrance to a residential complex across the street, where there is a blue moon-shaped pool. Given the planned next move [at the entrance to the targeted residential complex directly below], what's your next move?  \nchoose:  \nA. I rise.  \nB. I hover.  \nC. I fly forward.  \nD. I turn left.  \nE. I turn right.  \nF. I move backward.  \nG. I decline.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "G",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The agent is currently at a high vantage point and needs to navigate towards the entrance of the residential complex across the street. Given the planned next move is \"at the entrance to the targeted residential complex directly below,\" the most logical action is to fly forward to approach the entrance directly.",
+    "evaluation": "Location: [(0, 32)]\nOption: [C]\nReason: From the initial position, the residential complex with the blue moon-shaped pool is across the street. The planned next move is \"at the entrance to the targeted residential complex directly below\". Therefore, the next move should be to fly forward towards the entrance. The video shows the agent is at a high vantage point, and the target is across the street and below. Flying forward will bring the agent closer to the target.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The agent is currently at a high vantage point and needs to navigate towards the entrance of the residential complex across the street. Given the planned next move is \"at the entrance to the targeted residential complex directly below,\" the most logical action is to fly forward to approach the entrance directly."
+  }
+}

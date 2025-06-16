@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_121_3WR9XG3T6C9FF015HCS8MAON6F774C.mp4",
+  "question": "Question: Where are your starting and ending points?  \nChoice: A. I start from the rooftop garden and end at the street near the entrance of the target building.  \n           B. I start above the rooftop and end at street level near the entrance to the taller low-rise building.  \n           C. I start with a cityscape and end with a taller building immediately to the right.  \n           D. I start at the edge of the pond in the park and end above the rooftop.  \n           E. I start above the park and end at the rooftop garden.  ",
+  "question_category": "Start/End Position",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The sequence starts with a view from above the rooftop, showing a cityscape with buildings. As the frames progress, the perspective moves downward and forward, ending at street level near the entrance to a taller low-rise building. This matches the description in option B.",
+    "evaluation": "Location: [(0, 115)]\nOption: B\nReason: The video starts with a view from above a rooftop, showing a cityscape with buildings. As the video progresses, the perspective moves downward and forward, ending at street level near the entrance to a taller low-rise building. This matches the description in option B. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The sequence starts with a view from above the rooftop, showing a cityscape with buildings. As the frames progress, the perspective moves downward and forward, ending at street level near the entrance to a taller low-rise building. This matches the description in option B."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_12_388U7OUMFGZ8YV3J7P3CFOPAP930RT_7.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn back and move forward and go over the trees and pond and get down and get up and move forward and go over the trees and reach front of the brown building. now turn right and move forward and go over the building and slightly turn right and move forward and go over the intersection road and buildings. now turn right and move forward and turn back at front of the red board and move fly forward and get up at front of the white building and move forward and get down and stay there.]. You are moving according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I turn right and continue forward.  \nB. I come down and stay there.  \nC. I move over trees and ponds.  \nD. I move forward.  \nE. I fly over buildings.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The final part of the navigation instruction states \"get down and stay there,\" which matches the current perspective shown in the images where the agent appears to have landed and is no longer moving.",
+    "evaluation": "Location: [(456, 501)]\nOption: [B]\nReason: The video shows the agent has landed inside a building with large glass windows. The final instruction was to \"get down and stay there\". Therefore, the agent is currently coming down and staying there.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The final part of the navigation instruction states \"get down and stay there,\" which matches the current perspective shown in the images where the agent appears to have landed and is no longer moving."
+  }
+}

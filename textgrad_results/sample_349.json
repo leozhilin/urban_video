@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_51_3RSDURM96JKGMMUZTRUL89KBMYHEYM_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take of from the river and turn left towards the city and go straight towards the buildings. then take left and then take immediate right towards the board and then suddenly take left and go straight towards the statue then turn right and take of. then go towards the drink ice cold, sun noon board and then take left there was an highest building and then take right from the building then take immediate left from that building in opposite there was an bolt cola board is that our destination.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I fly forward, then turn left.  \nB. I drop down and turn right.  \nC. I fly forward while rising.  \nD. I turn right.  \nE. I rotate the camera downward, then fly forward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The initial instruction is to \"take off from the river and turn left towards the city.\" Given the current perspective over the river with the city in view, the logical next step is to fly forward and then turn left to align with the direction towards the city as instructed.",
+    "evaluation": "Location: [(0, 11)]\nOption: [A]\nReason: The video starts with a view of the city across the river. The instruction is to \"take off from the river and turn left towards the city\". Therefore, the best next step is to fly forward and then turn left to head towards the city. The video from 0 to 11 seconds shows the city in front, so flying forward and turning left is the correct action.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The initial instruction is to \"take off from the river and turn left towards the city.\" Given the current perspective over the river with the city in view, the logical next step is to fly forward and then turn left to align with the direction towards the city as instructed."
+  }
+}

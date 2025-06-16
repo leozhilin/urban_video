@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_50_3E13VNJ1NWTVCLLIDLD3F17T8BN1I3_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [now take off and turn right and fly over the pond and closer the white building. now go over the buildings and turn left. now go over the road and buildings and move closer to the white building. now get little down and turn back and go forward until the grey building arrives and stay there.]. At the initial position, you are asked to navigate according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I go over the road and buildings and approach the white building.  \nB. I turn around.  \nC. I fly over the pond and approach the white building.  \nD. I turn right and fly across the pond.  \nE. I take off and turn right.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The initial instruction is to \"take off and turn right,\" which is the first step in the series of navigation instructions provided. The other options describe actions that come later in the sequence, but at the initial position, the correct action is to take off and turn right.",
+    "evaluation": "Location: [(0, 1)]\nOption: E\nReason: The question asks what the agent is doing at the initial position, and the first instruction is to \"take off and turn right.\" The video starts with the agent on the ground, so the first action would be to take off and turn right.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The initial instruction is to \"take off and turn right,\" which is the first step in the series of navigation instructions provided. The other options describe actions that come later in the sequence, but at the initial position, the correct action is to take off and turn right."
+  }
+}

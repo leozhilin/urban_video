@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_53.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the tree directly opposite the entrance. Given the next move target near [Target's tree facing the entrance to the tall building], what is your next move?  \nchoose:  \nA. I rise.  \nB. I descend.  \nC. I fly forward.  \nD. I turn left.  \nE. I turn right.  \nF. I rotate the camera upward.  \nG. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: To navigate to the tree directly opposite the entrance, the agent needs to move forward towards the target location. The option \"I fly forward\" is the most appropriate action to achieve this goal from the current position.",
+    "evaluation": "Location: [(0, 4)]\nOption: [C]\nReason: From the initial position, the tree directly opposite the entrance is in front of the agent. Therefore, the next move should be to fly forward.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: To navigate to the tree directly opposite the entrance, the agent needs to move forward towards the target location. The option \"I fly forward\" is the most appropriate action to achieve this goal from the current position."
+  }
+}

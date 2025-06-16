@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_9_3ERMJ6L4D7QVJQQBNGS4845NR1TM7C_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [fly high on the brick building and shoe the fire exits. fly on top of the park and go to the end of the park where the red trees are. fly on front of the street lights and capture the bank signage and enter in to the next street. show the stars of building on your left and and capture the red rocket board. make a turn around the building on the left show the view of end of the street. fly over the lamp post and show the johnny signage.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is the Landmark Position between you and the park when you reach your current location?  \nchoose:  \nA. I am on the left side of the park.  \nB. I am on the right side of the park.  \nC. I am over the park.  \nD. I am below the park.  \nE. I am on park grounds.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows the agent flying over a park area, which aligns with the instruction to \"fly on top of the park.\" This indicates that the agent's current position is directly above the park, making option C the correct choice.",
+    "evaluation": "Location: [(0, 20)]\nOption: C\nReason: The video shows the agent starting on top of a building and then flying towards and over a park. The instruction was to \"fly on top of the park,\" and the video evidence shows the agent doing exactly that. Therefore, the agent's current position is over the park. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows the agent flying over a park area, which aligns with the instruction to \"fly on top of the park.\" This indicates that the agent's current position is directly above the park, making option C the correct choice."
+  }
+}

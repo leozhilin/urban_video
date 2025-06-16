@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_26_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate towards the outer edge of the residential area and make a half circle. Thinking back on past actions and objects seen, what should you approach next in order to get from your current location to your destination?  \nchoose:  \nA. I go to the center of the pond.  \nB. I go to the top of the tallest palm tree in the yard.  \nC. I go to the nearest street corner to a residential area.  \nD. I go to the park edge.  \nE. I go to the building roof with yellow walls.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: To navigate towards the outer edge of the residential area and make a half circle, the next logical step is to approach the nearest street corner to a residential area. This will allow for a turn that can lead to completing the half-circle maneuver around the residential zone. The other options do not provide a feasible path for achieving the navigation goal as described.",
+    "evaluation": "Location: [(0, 46)]\nOption: C\nReason: The video shows the residential area and the surrounding environment. To navigate towards the outer edge of the residential area and make a half circle, approaching the nearest street corner to a residential area is a logical step. From the initial position, the video shows a street corner near the pond that could be approached to start the half-circle maneuver around the residential zone.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: To navigate towards the outer edge of the residential area and make a half circle, the next logical step is to approach the nearest street corner to a residential area. This will allow for a turn that can lead to completing the half-circle maneuver around the residential zone. The other options do not provide a feasible path for achieving the navigation goal as described."
+  }
+}

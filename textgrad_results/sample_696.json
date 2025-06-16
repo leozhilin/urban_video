@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_14_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the 19th-floor balcony. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nChoose:  \nA. The balcony on the 19th floor is currently located in the lower-left corner of my field of view.  \nB. The 19th-floor balcony is currently located on the right side of my field of view.  \nC. The balcony on the 19th floor is currently located in the upper-right corner of my field of view.  \nD. The balcony on the 19th floor is not within my field of view.  \nE. The balcony on the 19th floor is currently located below the center of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The initial position shows a view of tall buildings and a cityscape, but there is no visible balcony on the 19th floor within the current field of view. The perspective does not include the specific destination.",
+    "evaluation": "Location: [(0, 7)]\nOption: D\nReason: From the initial position (0-7 seconds), the view shows a cityscape with tall buildings. There is no visible balcony on the 19th floor within the current field of view. The perspective does not include the specific destination.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The initial position shows a view of tall buildings and a cityscape, but there is no visible balcony on the 19th floor within the current field of view. The perspective does not include the specific destination."
+  }
+}

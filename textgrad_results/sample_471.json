@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_10_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the gymnastics horizontal bar at a nearby track and field. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. I see the gymnastics horizontal bar in the lower left corner of my field of view.  \nB. I see the gymnastics horizontal bar in the center of my field of view.  \nC. I do not see the gymnastics horizontal bar within my field of view.  \nD. I see the gymnastics horizontal bar in the upper right corner of my field of view.  \nE. I see the gymnastics horizontal bar in the lower right corner of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The gymnastics horizontal bar is not visible within the current field of view. The images show a basketball court and a track and field area, but no gymnastics equipment is in sight.",
+    "evaluation": "Location: [(0, 25)]\nOption: [C]\nReason: From the initial position, the view shows a basketball court and a track and field. There is no gymnastics horizontal bar visible in the field of view.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The gymnastics horizontal bar is not visible within the current field of view. The images show a basketball court and a track and field area, but no gymnastics equipment is in sight."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_98.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the parking space on the right after entering the entrance of the community. Is the destination within sight at your current location? If yes, where is the destination in your view?  \nchoose:  \nA. I currently see the parking space in the center of my field of view.  \nB. I currently see the parking space on the left side of my field of view.  \nC. I currently see the parking space in the upper left corner of my field of view.  \nD. The parking space is not within my field of view.  \nE. I currently see the parking space on the right side of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The initial position shows a view of the community entrance and surrounding buildings, but the parking space on the right is not visible within the current field of view. The agent would need to move further into the community to locate the parking space.",
+    "evaluation": "Location: [(0, 10)]\nOption: [D]\nReason: From the initial position (0-10s), the view shows the entrance of the community and surrounding buildings. The parking space on the right is not visible. The agent needs to move further into the community to locate the parking space. Therefore, the destination is not within sight.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The initial position shows a view of the community entrance and surrounding buildings, but the parking space on the right is not visible within the current field of view. The agent would need to move further into the community to locate the parking space."
+  }
+}

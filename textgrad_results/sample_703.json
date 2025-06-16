@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_70_3EKVH9QME72LTVNS4BC6TN1L76S2D5_4.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn right and go over the brown buildings and get down towards the white terrace. now turn left and fly over the buildings and get down towards the trees. now turn left and cross the road and go over the buildings towards the ash terrace. now turn right and move forward and get down towards the road. now turn left and go over the road and reach the white building and stay there.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I go up and turn right.  \nB. I turn left and fly forward.  \nC. I fly forward when rising.  \nD. I turn left and descend.  \nE. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: According to the navigation instruction, after flying over the buildings and getting down towards the trees, the next step is to turn left and cross the road. The current view shows a road ahead, so moving forward and then turning left aligns with the given instructions. Therefore, the best next step is to turn right and move forward as part of navigating towards the road.",
+    "evaluation": "Location: [(17, 32)]\nOption: D\nReason: From 0:17 to 0:32, the video shows the agent flying over buildings and descending towards trees. The navigation instruction states: \"now turn left and cross the road and go over the buildings towards the ash terrace.\" Therefore, the next step is to turn left and descend.\n\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: According to the navigation instruction, after flying over the buildings and getting down towards the trees, the next step is to turn left and cross the road. The current view shows a road ahead, so moving forward and then turning left aligns with the given instructions. Therefore, the best next step is to turn right and move forward as part of navigating towards the road."
+  }
+}

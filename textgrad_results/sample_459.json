@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_31_2.mp4",
+  "question": "Question: Starting from your initial position, you are required to navigate to an underground garage near a residential area consisting of gray buildings in front of you. How can your trajectory from the starting position to the current position be correctly summarized?  \nChoice: A. Start from the parking lot, head toward the road, then turn left toward the building.  \n           B. Start from the edge of the building, move backward along the street, and then descend into the parking lot.  \n           C. Launch from above a building, descend to the street, and then move toward an open space.  \n           D. Start from the parking lot near the building group, move toward a street, fly over the street, and move forward to reach the current position above the open space.  \n           E. Start from the street and fly over some trees, streets, and open spaces, moving toward a group of tall buildings.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The trajectory described in option D matches the visual sequence of the frames. The agent starts from a parking lot near a building group, moves toward a street, flies over the street, and then proceeds forward to reach a current position above an open space. This is consistent with the observed movement from a residential area with parked cars to an elevated view overlooking the urban landscape.",
+    "evaluation": "Location: [(0, 59)]\nOption: D\nReason: The video starts with a view of a parking lot near a group of buildings. The camera then moves forward, flying over a street and an open space. This matches the description in option D: \"Start from the parking lot near the building group, move toward a street, fly over the street, and move forward to reach the current position above an open space.\" The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The trajectory described in option D matches the visual sequence of the frames. The agent starts from a parking lot near a building group, moves toward a street, flies over the street, and then proceeds forward to reach a current position above an open space. This is consistent with the observed movement from a residential area with parked cars to an elevated view overlooking the urban landscape."
+  }
+}

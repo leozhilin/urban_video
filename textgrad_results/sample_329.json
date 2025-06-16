@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_11_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the 22nd floor balcony. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. The balcony on the 22nd floor is currently located in the lower left corner of my field of view.  \nB. The balcony on the 22nd floor is currently on the left side of my field of view.  \nC. The balcony on the 22nd floor is currently located in the upper right corner of my field of view.  \nD. The balcony on the 22nd floor is not within my field of view.  \nE. The balcony on the 22nd floor is currently located in the center of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The initial position shows a view of the city and buildings, but there is no visible balcony on the 22nd floor within the current field of view. The perspective does not include close-up details of specific floors or balconies.",
+    "evaluation": "Location: [(0, 5)]\nOption: D\nReason: From the initial position (0-5 seconds), the view shows a wide cityscape with many buildings. However, the perspective is too distant to identify a specific balcony on the 22nd floor. Therefore, the destination is not within sight. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The initial position shows a view of the city and buildings, but there is no visible balcony on the 22nd floor within the current field of view. The perspective does not include close-up details of specific floors or balconies."
+  }
+}

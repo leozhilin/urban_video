@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_3_30X31N5D6COG0N1EEG0AU46JK6WSAG.mp4",
+  "question": "Question: If you rise from the side of the road on the edge of the city but choose to move close to the ground, can you still reach the target three-story rectangular building?  \nChoice:  \nA. I can complete the mission because it aligns with the destination and shortens the route.  \nB. I cannot complete the mission because I am not allowed to fly on the ground.  \nC. I can complete the task since the destination is in the center, but the alternative route will take longer because there are more obstacles near the ground.  ",
+  "question_category": "Counterfactual",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The destination is a three-story rectangular building located in the center of the city. Moving close to the ground would involve navigating through more obstacles such as trees, roads, and other buildings, which would make the route longer and more complex compared to flying at a higher altitude. However, it is still possible to reach the target building by carefully maneuvering around these obstacles.",
+    "evaluation": "Location: [(0, 50), (50, 125)]\nOption: [C]\nReason: From the video, we can see that the destination is a three-story rectangular building located in the center of the city. If the agent moves close to the ground, it would involve navigating through more obstacles such as trees, roads, and other buildings, which would make the route longer and more complex compared to flying at a higher altitude. However, it is still possible to reach the target building by carefully maneuvering around these obstacles.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The destination is a three-story rectangular building located in the center of the city. Moving close to the ground would involve navigating through more obstacles such as trees, roads, and other buildings, which would make the route longer and more complex compared to flying at a higher altitude. However, it is still possible to reach the target building by carefully maneuvering around these obstacles."
+  }
+}

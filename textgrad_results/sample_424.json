@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_5.mp4",
+  "question": "Question: You are navigating to a nearby store with a red billboard named \"maco.\" What is the correct summary of your trajectory from the start to the current location?  \nChoice:  \nA. I launch from the rooftop, descend to street level, and then move toward the \"maco\" store.  \nB. I start from the park, fly over the residential buildings, and land in front of the \"maco\" store.  \nC. I launch from the rooftop, move horizontally along the edge of the building, and then descend above the street near the \"maco\" store.  \nD. I launch from the roof of the building, fly across the street, and finally land at street level in front of the \"maco\" store.  \nE. I start from the park, fly over the residential area, approach the street, and finally land in front of the \"maco\" store.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The trajectory starts from a rooftop view, moves across the street, and finally lands at street level in front of the \"maco\" store, which matches the sequence of events shown in the images.",
+    "evaluation": "Okay, I will analyze the video and provide my answer in the specified format.\n\nLocation: [(0, 46)]\nOption: D\nReason: The video starts with a rooftop view (0-3s). Then, it shows the agent flying across the street (4-15s). Finally, it lands at street level in front of the \"maco\" store (36-46s). This matches option D. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The trajectory starts from a rooftop view, moves across the street, and finally lands at street level in front of the \"maco\" store, which matches the sequence of events shown in the images."
+  }
+}

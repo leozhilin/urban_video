@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_21_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the vicinity of the tower crane at the construction site ahead. At your current location, if the tower crane at the construction site ahead is not within your field of view, what is the most relevant object in your field of view and where is this object?  \nchoose:  \nA. I can already see the tower crane at the construction site ahead.  \nB. I cannot see the tower crane at the construction site ahead, but there is a group of high-rise buildings in the middle of my field of vision.  \nC. I cannot see the tower crane at the construction site ahead, but there is a large construction area in the right part of my field of vision.  \nD. The area near the tower crane at the construction site ahead is not within my field of vision, but there is a road with vehicles in the lower part of my field of vision.  \nE. I cannot see the tower crane at the construction site ahead, but there is a small pond in the lower right corner of my field of vision.  ",
+  "question_category": "Association Reasoning",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The tower crane at the construction site ahead is clearly visible in the initial frames of the video, making it unnecessary to identify another object.",
+    "evaluation": "Location: [(0, 5)]\nOption: A\nReason: In the initial frames of the video (0-5 seconds), the tower crane at the construction site is clearly visible in the distance. Therefore, the statement \"I can already see the tower crane at the construction site ahead\" is accurate.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The tower crane at the construction site ahead is clearly visible in the initial frames of the video, making it unnecessary to identify another object."
+  }
+}

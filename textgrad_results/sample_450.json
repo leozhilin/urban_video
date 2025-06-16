@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_63_35BLDD71IFVXTNQQK3LEMKHY8YPVZ1_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [taking off to the right and rotating by a pink building with stairs. flying through the buildings and passing by the red telephone cabin. rotating in between the buildings. zoom in to the instant coffee. flying to the top of the roof. rotating left going toward the buildings by the ocean. turning left and going toward the bridge.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I fly over buildings.  \nB. I move across the water.  \nC. I fly forward past a row of red phone booths.  \nD. I turn right at the building.  \nE. I zoom in on instant coffee.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows the agent moving through a cityscape and passing by a row of red phone booths, which aligns with the instruction \"flying forward past a row of red phone booths.\" This specific detail in the visual data matches option C.",
+    "evaluation": "Location: [(111, 151)]\nOption: [C]\nReason: From 1:51 to 1:11, the video shows the agent flying forward past a row of red phone booths. This aligns with the instruction \"flying forward past a row of red phone booths.\" Therefore, option C is the correct answer. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows the agent moving through a cityscape and passing by a row of red phone booths, which aligns with the instruction \"flying forward past a row of red phone booths.\" This specific detail in the visual data matches option C."
+  }
+}

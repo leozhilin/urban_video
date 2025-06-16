@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_27.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the 6th floor balcony. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. The 6th floor balcony is currently in the center of my field of view.  \nB. The balcony on the 6th floor is currently located in the upper left corner of my field of view.  \nC. The balcony on the 6th floor is currently located on the right side of my field of view.  \nD. The balcony on the 6th floor is not within my field of view.  \nE. The 6th floor balcony is currently at the bottom of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The initial position shows a view of the building's exterior with floors labeled up to 7, but there is no visible balcony on the 6th floor from this perspective. The 6th floor is present but its balcony is not within sight at the current location.",
+    "evaluation": "Location: [(0, 127)]\nOption: [D]\nReason: From the initial position (0:00-0:04), the 6th floor balcony is not within the field of view. As the camera pans down the building (0:05-1:27), the floors are labeled, and the 6th floor balcony becomes visible, but this is not the initial position. Therefore, the destination is not within sight at the current location.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The initial position shows a view of the building's exterior with floors labeled up to 7, but there is no visible balcony on the 6th floor from this perspective. The 6th floor is present but its balcony is not within sight at the current location."
+  }
+}

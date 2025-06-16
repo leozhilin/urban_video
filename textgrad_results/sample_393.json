@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_39.mp4",
+  "question": "Question: You are navigating to the green trees behind the bus stop, what is the correct summary of your trajectory from the start to your current location?  \nChoice:  \nA. I start from a high-rise building, descend to street level, and move toward a bus stop.  \nB. I start from the park, fly across the street, and land on the sidewalk near the bus stop.  \nC. I start from across the street, move towards the bus stop, and hover over the green trees.  \nD. I start from a high-rise building, descend to street level, move to the bus stop, and stop at the current location.  \nE. I start from a high altitude above the city, hover in the sky, turn the camera right for a while, slowly descend for a distance, then rise for a distance, and finally drop to the bus stop and the green trees behind it.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The trajectory starts from a high altitude above the city, as indicated by the initial wide-angle view of the urban landscape. The agent then hovers in the sky, turns the camera right for a while, slowly descends for a distance, and finally drops to the bus stop and the green trees behind it, which matches the detailed sequence of movements described in option E.",
+    "evaluation": "Location: [(0, 36)]\nOption: E\nReason: The video starts with a wide view of the city from a high altitude (0-3s). The camera then moves downwards, showing the buildings and streets below (3-10s). The camera then turns to the right (10-15s), and continues to descend towards the bus stop (15-30s). Finally, the camera is positioned near the bus stop and the green trees behind it (30-36s). This trajectory matches the description in option E.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The trajectory starts from a high altitude above the city, as indicated by the initial wide-angle view of the urban landscape. The agent then hovers in the sky, turns the camera right for a while, slowly descends for a distance, and finally drops to the bus stop and the green trees behind it, which matches the detailed sequence of movements described in option E."
+  }
+}

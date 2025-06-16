@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_30_3VAR3R6G1YZNJ7G6A1ZNE8QNU348ON_7.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off then fly toward white building then make a high turn. fly plane toward large building with satellite dish on top then make a left turn. descend plane then land on ground next to trees.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I go up and turn left.  \nB. I fly forward and then descend.  \nC. I fly forward while rising.  \nD. I turn right.  \nE. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The navigation instruction indicates that after flying toward the large building with a satellite dish and making a left turn, the next step is to descend and land on the ground next to trees. The current position appears to be in the air near buildings, so the logical next step is to fly forward and then begin the descent to land as instructed.",
+    "evaluation": "Location: [(0, 56)]\nOption: [B]\nReason: From the video, we can see the large building with a satellite dish on top. According to the navigation instruction, after flying toward the large building with a satellite dish on top and making a left turn, the next step is to descend and land on the ground next to trees. So the logical next step is to fly forward and then begin the descent to land as instructed.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The navigation instruction indicates that after flying toward the large building with a satellite dish and making a left turn, the next step is to descend and land on the ground next to trees. The current position appears to be in the air near buildings, so the logical next step is to fly forward and then begin the descent to land as instructed."
+  }
+}

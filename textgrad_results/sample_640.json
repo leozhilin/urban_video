@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_0.mp4",
+  "question": "Question: What objects do you observe as you fly over the pond?  \nChoice:  \nA. The surrounding apartment buildings, palm trees, and landscape as you pass over the pond.  \nB. An asphalt road, green space, and trees while passing over a pond.  \nC. A swimming pool, a pavilion, and a fountain while passing over the pond.  \nD. A bicycle, a person, and a dog while passing by a pond.  \nE. Only water and some reflections as you pass over the pond.  ",
+  "question_category": "Scene Recall",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: As the agent flies over the pond, a pavilion with a red-tiled roof and a fountain are clearly visible within the pond area, matching the description in option C. The surrounding apartment buildings, asphalt road, bicycles, and people mentioned in other options are not directly observed while flying over the pond.",
+    "evaluation": "Location: [(0, 10), (32, 42)]\nOption: C\nReason: As the agent flies over the pond, a pavilion with a red-tiled roof and a fountain are clearly visible within the pond area, matching the description in option C. The surrounding apartment buildings, asphalt road, bicycles, and people mentioned in other options are not directly observed while flying over the pond.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: As the agent flies over the pond, a pavilion with a red-tiled roof and a fountain are clearly visible within the pond area, matching the description in option C. The surrounding apartment buildings, asphalt road, bicycles, and people mentioned in other options are not directly observed while flying over the pond."
+  }
+}

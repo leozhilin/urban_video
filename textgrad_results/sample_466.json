@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_9_31T4R4OBO1EIA4EKARYQ580BYSNC7T.mp4",
+  "question": "Question: What objects do you observe while circling the corner of the apartment building?  \nChoices:  \nA. A tree, a lamp post, and a balcony.  \nB. A streetlight, a billboard, and a distant bridge.  \nC. A window, a column, and a decorative cornice.  \nD. A car, a bicycle, and a street sign.  \nE. A statue, a fountain, and a bench.  ",
+  "question_category": "Scene Recall",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: While circling the corner of the apartment building, the frames show architectural details such as windows, columns, and decorative cornices, which are typical features of building facades. These elements are clearly visible and match the description in option C.",
+    "evaluation": "Location: [(17, 27)]\nOption: [C]\nReason: From 17s to 27s, the video shows the agent circling the corner of an apartment building. During this time, windows, columns, and decorative cornices are visible on the building's facade. Therefore, option C is the correct answer.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: While circling the corner of the apartment building, the frames show architectural details such as windows, columns, and decorative cornices, which are typical features of building facades. These elements are clearly visible and match the description in option C."
+  }
+}

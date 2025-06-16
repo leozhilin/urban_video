@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_37_3U4J9857ON9Z0ZMEWR2VUOUTF1V7BC_6.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn left fly along the garden pathway. now turn left fly over the pond and move forward to the red rockets building. now move towards between the buildings and turn right move towards the top of blue tower slow down to the tower. now turn left cross the bolt cola building and move forward behind grocery and dry building slow down and stay there.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is your landmark position from the pond when you reach the current location?  \nchoose:  \nA. I am on the right side of the pond.  \nB. I am far away from the pond.  \nC. I am located above the pond.  \nD. I am on the left side of the pond.  \nE. I am on the pond floor.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The current location, as indicated by the navigation instructions and the visual frames, is far from the pond. After flying over the pond and moving forward to various buildings, the agent has traveled a significant distance away from the pond, making it no longer in close proximity.",
+    "evaluation": "Okay, I will analyze the video and provide my answer in the specified format.\n\nLocation: [(0, 5), (34, 57), (156, 160), (230, 240), (300, 305), (330, 340), (350, 360), (420, 430), (510, 520), (550, 560)]\nOption: B\nReason: The navigation instructions state that the agent takes off, turns left, flies along the garden pathway, turns left again, and flies over the pond. After flying over the pond, the agent moves forward to the red rockets building, then between buildings, turns right, and moves towards the top of the blue tower. Finally, the agent turns left, crosses the bolt cola building, and moves forward behind the grocery and dry building. The video shows the agent moving through the environment as described. By the end of the video, the pond is far away in the distance. Therefore, the agent is far away from the pond.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The current location, as indicated by the navigation instructions and the visual frames, is far from the pond. After flying over the pond and moving forward to various buildings, the agent has traveled a significant distance away from the pond, making it no longer in close proximity."
+  }
+}

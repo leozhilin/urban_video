@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_39_3634BBTX0XSM20FQKKSO43BN9L9IFO.mp4",
+  "question": "Question: After you move forward, how does the distance to the visible sea surface on the right change?  \nChoice: A. The distance to the sea surface increases.  \n           B. The distance to the sea remains constant.  \n           C. The distance to the sea surface decreases.  ",
+  "question_category": "Proximity",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: As the agent moves forward, the visible sea surface on the right appears to get closer, indicating a decrease in distance to the sea. This is evident from the increasing prominence and detail of the sea in the frames as the agent progresses.",
+    "evaluation": "Location: [(0, 47)]\nOption: C\nReason: From the beginning of the video to around 0:47, the agent moves forward. During this time, the sea surface on the right becomes more prominent and detailed, indicating that the distance to the sea surface is decreasing.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: As the agent moves forward, the visible sea surface on the right appears to get closer, indicating a decrease in distance to the sea. This is evident from the increasing prominence and detail of the sea in the frames as the agent progresses."
+  }
+}

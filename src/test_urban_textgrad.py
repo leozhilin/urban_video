@@ -46,7 +46,7 @@ def main():
     # Process each sample
     for idx, row in QA_df.iterrows(): 
         # if row['question_category'] == "Action Generation":
-        if idx <= 300:
+        if idx in [654, 649, 458, 229, 555, 338, 644, 574, 243, 9, 631, 663, 266, 147, 650, 335, 463, 366, 516, 239, 351, 509, 309, 522, 24, 133, 563, 445, 456, 483, 69, 45, 667, 480, 46, 398, 474, 567]:
             try:
                 print(f"Processing sample {idx}/{len(QA_df)}")
                 
@@ -59,6 +59,7 @@ def main():
                     question=row['question'],
                     frames=frames,
                     video_path=video_path,
+                    question_category=row['question_category']
                 )
                 
                 # Save result

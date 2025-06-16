@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_60_3EFVCAY5LC79IWP9UO7I6C91ZZGJ8L.mp4",
+  "question": "Question: What is near the building with the car advertisement at the end of the street?  \nChoice: A. A promenade lined with street lights and trees.  \n           B. A bridge across the street.  \n           C. A bus stop with a large bench featuring car advertisements.  \n           D. A market bustling with vendors.  \n           E. A park with a playground.  ",
+  "question_category": "Object Recall",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The images show a promenade lined with street lights and trees near the building with the car advertisement at the end of the street. There is no indication of a bridge, bus stop, market, or park in the provided frames.",
+    "evaluation": "Location: [(0, 143)]\nOption: [A]\nReason: The video shows a building with a car advertisement at the end of the street. Near the building, there is a promenade lined with street lights and trees. There is no evidence of a bridge, bus stop, market, or park in the provided frames. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The images show a promenade lined with street lights and trees near the building with the car advertisement at the end of the street. There is no indication of a bridge, bus stop, market, or park in the provided frames."
+  }
+}

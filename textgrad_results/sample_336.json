@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_44_3A4NIXBJ7FXUYBFDRATER9NNFVUMLS.mp4",
+  "question": "Question: After you move forward, how does the distance to the intersection change?  \nChoice: A. I increase the distance to the intersection.  \n           B. The distance to the intersection remains unchanged.  \n           C. I decrease the distance to the intersection.  ",
+  "question_category": "Proximity",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: As the agent moves forward, the view transitions from a close-up of buildings to a broader street scene with visible intersections. This indicates that the agent is approaching the intersection, thus decreasing the distance to it.",
+    "evaluation": "Location: [(0, 32)]\nOption: [C]\nReason: From 0 to 32 seconds, the agent moves forward, and the intersection becomes more and more clear. So the distance to the intersection decreases.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: As the agent moves forward, the view transitions from a close-up of buildings to a broader street scene with visible intersections. This indicates that the agent is approaching the intersection, thus decreasing the distance to it."
+  }
+}

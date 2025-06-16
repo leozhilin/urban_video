@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_6_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the 27th floor balcony. Given the next move goals for [Window on the 27th Floor], what's your next move?  \nchoose:\nA. I rise.  \nB. I rotate the camera downward.  \nC. I fly forward.  \nD. I turn left.  \nE. I turn right.  \nF. I rotate the camera upward.  \nG. I descend.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "G",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: To navigate to the 27th floor balcony, the next logical move is to rise, as the goal is to reach a higher elevation within the building. The other options do not directly contribute to ascending to the desired floor.",
+    "evaluation": "Location: [(0, 12)]\nOption: A\nReason: The video shows the building from a high vantage point, looking down. To reach the 27th-floor balcony, the agent needs to move upwards. Therefore, the next move should be to rise. The video shows the floors of the building, confirming the need to ascend. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: To navigate to the 27th floor balcony, the next logical move is to rise, as the goal is to reach a higher elevation within the building. The other options do not directly contribute to ascending to the desired floor."
+  }
+}

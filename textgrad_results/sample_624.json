@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_35_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the bus stop in front of the building. Is the destination within sight at the current location? If yes, where is the destination in view?  \nchoose:  \nA. The bus stop is currently located in the lower center of my field of view.  \nB. The bus stop is currently located in the upper right corner of my field of view.  \nC. The bus stop is not within my field of view.  \nD. The bus stop is currently located in the lower left corner of my field of view.  \nE. The bus stop is currently on the right side of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The bus stop is not visible within the current field of view. The images show a street view with buildings, cars, and a pedestrian crossing, but no bus stop is apparent.",
+    "evaluation": "Location: [(0, 4)]\nOption: [C]\nReason: From the initial position shown in the images (0-4s), the view is of a street with buildings, cars, and a pedestrian crossing. There is no bus stop visible in the current field of view.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The bus stop is not visible within the current field of view. The images show a street view with buildings, cars, and a pedestrian crossing, but no bus stop is apparent."
+  }
+}

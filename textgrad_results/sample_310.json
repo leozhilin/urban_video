@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_86_1.mp4",
+  "question": "Question: At the starting position, you are required to navigate to the open space to the right of the \"Mr. Fan\" shop in the residential area below. Where does your trajectory come from? From start to current position?  \nChoice:  \nA. I start from a high-rise building, descend to street level, and move toward the parking lot entrance.  \nB. I start over the city, descend to a group of high-rise buildings, focus on one of the buildings, and then move to my current location close to the street.  \nC. I start from the park, fly toward the street, then fly to the community entrance, and then move to my current position in front of the store.  \nD. I fly over the community and descend to my current location near the street in front of the parking lot entrance.  \nE. I start from the scooter lane in the park, turn left to face the street outside the park, rise to the height of the high-rise building across the street, move forward to the top of the high-rise building at my current location outside the edge, and then descend to the \"Jiuyuan Tobacco and Liquor Shop,\" my current location in front of the store.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The sequence of images starts with a high aerial view over the city, then gradually descends towards a specific group of high-rise buildings. The perspective narrows down to focus on one particular building and its surroundings, which aligns with the description in option B. This trajectory is consistent with the visual progression from a broad cityscape to a detailed view of the street level near the \"Mr. Fan\" shop.",
+    "evaluation": "Location: [(0, 43)]\nOption: [B]\nReason: The video starts with a high-altitude view of the city and gradually descends towards a group of high-rise buildings. The perspective then narrows to focus on one particular building and its surroundings. This aligns with the description in option B.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The sequence of images starts with a high aerial view over the city, then gradually descends towards a specific group of high-rise buildings. The perspective narrows down to focus on one particular building and its surroundings, which aligns with the description in option B. This trajectory is consistent with the visual progression from a broad cityscape to a detailed view of the street level near the \"Mr. Fan\" shop."
+  }
+}

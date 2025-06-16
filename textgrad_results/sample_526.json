@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_40_1.mp4",
+  "question": "```\nQuestion: Summarize your movement route in the video by combining the specific objects along the way.\n\nChoices:\nA. I go from above a row of greenhouses and a street to a nearby football field, ascending and moving right over streets, buildings, and residential areas, then passing factory buildings before reaching the destination.\nB. I start above a crosswalk and a street with greenhouses on my left and end at a distant park, flying over cars and buildings before reaching a wider city view.\nC. I begin near a parking lot and a cluster of buildings, ascending over hills and residential areas and ending above a series of greenhouses.\nD. My journey begins above a football field and ends amidst a collection of factory buildings, passing by residential areas and a main street with traffic.\nE. I start near a group of houses and move towards a row of greenhouses, passing over roads with parked cars and trees.\n\n\n```\n",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The video starts with a view above a row of greenhouses and a street, then moves over streets, buildings, and residential areas. It continues to ascend and move right, passing factory buildings before reaching the destination. This matches the description in option A.",
+    "evaluation": "Location: [(0, 47)]\nOption: A\nReason: The video starts above a row of greenhouses and a street (0-6s). It then moves over streets, buildings, and residential areas (6-35s). Finally, it passes factory buildings (35-47s) before reaching the destination. This matches the description in option A.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The video starts with a view above a row of greenhouses and a street, then moves over streets, buildings, and residential areas. It continues to ascend and move right, passing factory buildings before reaching the destination. This matches the description in option A."
+  }
+}

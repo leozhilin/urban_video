@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_65_3IUZPWIU1X5FJHR9ACN0L7C0VNSKWS_4.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take of and go straight towards the daves car wash building and go up of the building and again down to the building. take right from the shop and suddenly take left and go straight toward the street and cross the farmers market on the left. and take up to the building and go straight the turn the first right and go straight towards the loans building then take immediate left from the building. go straight toward the charlie a chocolate shop and again return to the front building of national optician health insurance is our destination.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your Landmark Position from Dave's Car Wash building?  \nchoose:  \nA. I am located to the left of Dave's Car Wash building.  \nB. I am located to the right of Dave's Car Wash building.  \nC. I am located above Dave's Car Wash building.  \nD. I am located underneath Dave's Car Wash building.  \nE. I am far away from Dave\u2019s Car Wash building.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows the agent moving upwards towards and then alongside a tall building with a \"Dave's Car Wash\" sign, indicating that the agent is now located above the Dave's Car Wash building.",
+    "evaluation": "Okay, I will analyze the video and the provided answer to give my evaluation in the specified format.\n\nLocation: [(0, 31)]\nOption: C\nReason: From 0:00 to 0:31, the video shows the agent moving upwards alongside a tall building. At 0:20, the \"Dave's Car Wash\" sign is clearly visible on the building. Therefore, the agent is located above Dave's Car Wash building. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows the agent moving upwards towards and then alongside a tall building with a \"Dave's Car Wash\" sign, indicating that the agent is now located above the Dave's Car Wash building."
+  }
+}

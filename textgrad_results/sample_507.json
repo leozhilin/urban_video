@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_2_2.mp4",
+  "question": "````\nQuestion: Starting from a starting position, a drone is asked to navigate to a basketball court near a building below. Thinking back on past actions and objects seen in the video, what is the surrounding environment like at the drone's current location?\nchoose:\n",
+  "question_category": "Cognitive Map",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The drone's current location is surrounded by high-rise buildings with a central basketball court visible. The environment includes pathways, greenery, and a few parked cars, indicating a residential area with recreational facilities. The perspective shows a top-down view, suggesting the drone is positioned above the basketball court, providing a clear overview of the surrounding structures and layout.",
+    "evaluation": "Location: [(0, 141)]\nOption: [A]\nReason: [The drone's current location is surrounded by high-rise buildings with a central basketball court visible. The environment includes pathways, greenery, and a few parked cars, indicating a residential area with recreational facilities. The perspective shows a top-down view, suggesting the drone is positioned above the basketball court, providing a clear overview of the surrounding structures and layout.]",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The drone's current location is surrounded by high-rise buildings with a central basketball court visible. The environment includes pathways, greenery, and a few parked cars, indicating a residential area with recreational facilities. The perspective shows a top-down view, suggesting the drone is positioned above the basketball court, providing a clear overview of the surrounding structures and layout."
+  }
+}

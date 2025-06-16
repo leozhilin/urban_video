@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_98_3OHYZ19UGL312V9L7ZJ1AZWIN8TOAX.mp4",
+  "question": "Question: Where are the starting and ending points of your journey?  \nChoice:  \nA. Start from the seaside path and end in the space between two buildings.  \nB. Start over the seaside street and end at the garage door of the building at the intersection.  \nC. Start from the corner building on the right and end in the narrow alley.  \nD. Start from the row of buildings aligned with you and end on the right side of the street.  \nE. Start from the narrow alley and end at the edge of the seaside path.  ",
+  "question_category": "Start/End Position",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The journey begins with a view of the seaside path (as seen in the initial frames with the sea and beach visible) and progresses through various urban environments, ultimately ending in a space between two buildings (as indicated by the later frames showing narrow passages and building interiors).",
+    "evaluation": "Location: [(0, 3), (32, 33)]\nOption: A\nReason: The video starts with a view of the seaside path (0-3s). The video ends in a space between two buildings (32-33s). Therefore, the journey starts from the seaside path and ends in the space between two buildings.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The journey begins with a view of the seaside path (as seen in the initial frames with the sea and beach visible) and progresses through various urban environments, ultimately ending in a space between two buildings (as indicated by the later frames showing narrow passages and building interiors)."
+  }
+}

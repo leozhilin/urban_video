@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_90_3X4MXAO0BPM16L440WWXMJYDJQUWRI_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [go to sun. go to brown building. go towards trees.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach the current location, what is your landmark position relative to the trees?  \nchoose:  \nA. I am to the left of the trees.  \nB. I am on the right side of the trees.  \nC. I am positioned above the trees at a horizontal distance.  \nD. I am located beneath the trees.  \nE. I am located in the middle of the trees.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The current view shows the trees on the left side of the path, indicating that the agent is on the right side of the trees.",
+    "evaluation": "Location: [(0, 31), (32, 57)]\nOption: B\nReason: From the beginning of the video until around 0:31, the trees are visible on the left side of the path the agent is traveling on. This indicates that the agent is on the right side of the trees. From 0:32 to 0:57, the trees are still visible on the left side. Therefore, the agent is on the right side of the trees. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The current view shows the trees on the left side of the path, indicating that the agent is on the right side of the trees."
+  }
+}

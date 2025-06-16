@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_81_3KB8R4ZV1N5ITSXFPU6P017MCZSGBQ.mp4",
+  "question": "Question: Does it take you longer to rise to the level of the bridge or to descend to a position near the yellow roof advertisement?  \nChoice: A. I take longer to rise to the height of the bridge than to descend near the yellow roof advertisement.  \n           B. I take less time to rise to the height of the bridge than to descend near the yellow roof advertisement.  \n           C. I take the same amount of time to rise to the height of the bridge as to descend near the yellow roof advertisement.  ",
+  "question_category": "Duration",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The sequence of images shows that the agent takes more frames (and thus more time) to ascend to the level of the bridge compared to the fewer frames needed to descend towards the yellow roof advertisement. This indicates a longer duration for the ascent.",
+    "evaluation": "Location: [(0, 27), (32, 55)]\nOption: [A]\nReason: From 0 to 27 seconds, the agent rises to the level of the bridge. From 32 to 55 seconds, the agent descends to a position near the yellow roof advertisement. By observing the video, it is evident that the ascent to the bridge takes longer than the descent to the yellow roof advertisement. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The sequence of images shows that the agent takes more frames (and thus more time) to ascend to the level of the bridge compared to the fewer frames needed to descend towards the yellow roof advertisement. This indicates a longer duration for the ascent."
+  }
+}

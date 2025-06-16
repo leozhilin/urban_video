@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_34_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a red billboard on the fifth floor (top floor). What is your next move, given the target location for your next move?  \nchoose:  \nA. I rise.  \nB. I rotate the camera downward.  \nC. I fly forward.  \nD. I turn left.  \nE. I turn right.  \nF. I rotate the camera upward.  \nG. I descend.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "G",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: To navigate to a red billboard on the fifth floor (top floor), the agent needs to ascend to reach the higher elevation where the billboard is located. Therefore, the next move should be to rise.",
+    "evaluation": "Location: [(0, 14)]\nOption: [A]\nReason: The video shows a cityscape. The question asks to navigate to a red billboard on the fifth floor. Since the initial position is at a lower level, the next move should be to rise to reach the higher elevation where the billboard is located.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: To navigate to a red billboard on the fifth floor (top floor), the agent needs to ascend to reach the higher elevation where the billboard is located. Therefore, the next move should be to rise."
+  }
+}

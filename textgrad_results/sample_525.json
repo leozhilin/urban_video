@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_6_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the balcony on the 27th floor. Thinking back on past Action Generations and objects you saw, what should you approach next in order to get from your current location to your destination?  \nchoose:  \nA. I approach the 27th floor of the building.  \nB. I approach roof height of high-rise buildings.  \nC. I approach the top of a nearby highway overpass.  \nD. I approach street level next to a building.  \nE. I approach the building\u2019s 31st floor.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The goal is to navigate to the balcony on the 27th floor. Based on the images, the agent is currently near a high-rise building with visible floor numbers. The most direct approach is to move towards the 27th floor of this building to reach the destination. Options B, C, D, and E do not align with the specific goal of reaching the 27th floor balcony.",
+    "evaluation": "Location: [(0, 37)]\nOption: A\nReason: The video shows a high-rise building with floor numbers clearly visible. The goal is to reach the balcony on the 27th floor. Therefore, the most direct approach is to move towards the 27th floor of the building. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The goal is to navigate to the balcony on the 27th floor. Based on the images, the agent is currently near a high-rise building with visible floor numbers. The most direct approach is to move towards the 27th floor of this building to reach the destination. Options B, C, D, and E do not align with the specific goal of reaching the 27th floor balcony."
+  }
+}

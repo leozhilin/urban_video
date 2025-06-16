@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_5_3GDTJDAPV39ZJ4VUXLKAM41I3Q58M2_1.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off fly straight to the opposite building before reaching the building turn left and turn right and fly downwards to the road fly near the crossway and turn right and fly upwards to the second tall building fly to the top of the building. after reaching the top of the building turn left and fly straight to the river and fly at the right side of the building and cross the first checkpoint and fly in to the road presented in the bridge. after entering in to the bridge fly straight to the road which ends in the opposite of the bridge.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I fly directly to the opposite building.  \nB. I fly to the top of the building.  \nC. I fly from the right side of the building and go through the first checkpoint.  \nD. I fly straight to the road across the bridge.  \nE. I fly to the intersection, turn right, and fly up to the second tall building.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The sequence of images shows the agent flying towards and then alongside a tall building, which aligns with the instruction to \"fly upwards to the second tall building.\" The perspective and positioning relative to the buildings suggest that the agent is navigating towards a specific tall structure, consistent with the given navigation instruction.",
+    "evaluation": "Location: [(0, 32)]\nOption: E\nReason: The video shows the agent flying straight, then turning left and right, and then flying upwards towards a tall building. This aligns with the instruction \"fly near the crossway and turn right and fly upwards to the second tall building\". Therefore, the agent is currently flying to the intersection, turning right, and flying up to the second tall building.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The sequence of images shows the agent flying towards and then alongside a tall building, which aligns with the instruction to \"fly upwards to the second tall building.\" The perspective and positioning relative to the buildings suggest that the agent is navigating towards a specific tall structure, consistent with the given navigation instruction."
+  }
+}

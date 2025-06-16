@@ -10,6 +10,7 @@ The template for the answer is:
 EVALUATOR_PROMPT = """ # 改用gemini， 也要求以固定格式输出答案，如果两者答案一致跳过后续步骤
 This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. 
 Here's a question about this video: {question}
+Question Category and Intent: {question_category}
 
 Please evaluate the following answer by: 
 1. Independently analyze the question and provide your own answer
@@ -34,18 +35,19 @@ where:
 """
 
 FEEDBACKER_PROMPT = """
-You are a viewpoint recorder who needs to document key disagreements and areas requiring further verification between the answer and the evaluation.
+You are a viewpoint recorder who needs to document key disagreements and areas requiring further verification between reasoner's and critic's answer.
 
 Question: {question}
+Question Category and Intent: {question_category}
 
-Original Answer: {answer}
+Answer from Reasoner: {answer}
 
-Language Model's Evaluation: {evaluation}
+Answer and comments from Critic: {evaluation}
 
-Based on the above answer and evaluation, provide a structured analysis including:
+Based on the above answers, provide a structured analysis including:
 
 1. Key Disagreements:
-   - List specific points where the answer and evaluation differ
+   - List specific points where the reasoner's answer and critic's answer differ
    - For each disagreement, clearly state both viewpoints
    - Highlight which aspects are supported by visual evidence and which are not
 
@@ -60,10 +62,10 @@ Based on the above answer and evaluation, provide a structured analysis includin
    - Outline what additional evidence would be most helpful
 
 Please ensure:
-- Focus on factual disagreements rather than subjective opinions
+- Keep neutral and objective, only point out disagreements, do not give any subjective opinions or preferences
 - Be specific about what visual evidence is needed
-- Maintain a neutral and objective tone
 - Structure the analysis clearly and logically
+- Do not give any subjective opinions or preferences
 """
 
 
@@ -71,6 +73,7 @@ OPTIMIZER_PROMPT = """
 This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. 
 
 Here's a question about this video: {question}
+Question Category and Intent: {question_category}
 
 This is your answer about this question: {answer}
 
@@ -82,6 +85,7 @@ Based on the above analysis, please:
 2. Re-examine the video frames, paying special attention to the specific visual evidence mentioned in the analysis
 3. Consider the suggested verification steps and additional evidence needed
 4. Provide a revised answer that addresses the identified issues
+5. Note that the evaluator may make mistakes, so you need to carefully consider the feedback and independently think about the answer
 
 Your revised answer must follow this exact format:
 Option: []; Reason: []

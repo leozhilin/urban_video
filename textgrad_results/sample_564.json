@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_50_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the main entrance. When you reach your current location, what is the direction between you and your destination?  \nchoose:  \nA. I am currently positioned above the main entrance, aligned vertically.  \nB. I am currently located west of the main entrance, at the same altitude.  \nC. I am currently located on the north side of the main entrance at a higher altitude.  \nD. I am currently located south of the main entrance, at a higher altitude.  \nE. I am currently located east of the main entrance, at a higher altitude.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The agent is currently positioned on the north side of the main entrance and at a higher altitude, as indicated by the top-down view showing the agent above the main entrance area.",
+    "evaluation": "Location: [(0, 20)]\nOption: [C]\nReason: The video shows a top-down view. The agent starts on top of a building. The main entrance is located to the south of the building where the agent is located. Therefore, the agent is located on the north side of the main entrance at a higher altitude.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The agent is currently positioned on the north side of the main entrance and at a higher altitude, as indicated by the top-down view showing the agent above the main entrance area."
+  }
+}

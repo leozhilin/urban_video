@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_75_31HQ4X3T318XW6SIB7P03IMUFFGLS7_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn little right and move forward til the pond arrives. now fly over the pond and turn right and move forward towards the red tree and get closer to it. now turn left and move forward towards the trees till the tree in middle of the river arrives. now turn right and move forward towards the buildings till the building have a banner named bolt cola and stay there.]. At the initial position, you are asked to navigate according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I fly forward, then turn right.  \nB. I go up and turn left.  \nC. I fly forward while rising.  \nD. I turn right and descend.  \nE. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The initial instruction is to \"take off and turn little right and move forward till the pond arrives.\" Since the agent is at the initial position on the ground, the best next step is to fly forward while rising to gain altitude, which aligns with the take-off part of the instruction. This prepares the agent to then make the slight right turn and continue towards the pond as directed.",
+    "evaluation": "Location: [(0, 6)]\nOption: [C]\nReason: The instruction starts with \"take off\", which means the agent needs to rise. The instruction also says \"move forward\", so the agent needs to fly forward. Therefore, the best next step is to fly forward while rising. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The initial instruction is to \"take off and turn little right and move forward till the pond arrives.\" Since the agent is at the initial position on the ground, the best next step is to fly forward while rising to gain altitude, which aligns with the take-off part of the instruction. This prepares the agent to then make the slight right turn and continue towards the pond as directed."
+  }
+}

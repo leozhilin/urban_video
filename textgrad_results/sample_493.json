@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_57_3EF8EXOTTATR7W5OV3Y3R2MS0QD1JT.mp4",
+  "question": "Question: After you rise slightly and clearly see the roof of the building and the horizon in the distance, what is your next step?  \nChoices: A. Deflect slightly to the left.  \n         B. Hover in place.  \n         C. Rotate to the left.  \n         D. Descend to the ground.  \n         E. Move forward and fly over the building on the right.  ",
+  "question_category": "Sequence Recall",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The agent has risen and can now see the roof of the building and the horizon. To continue navigating effectively, moving forward and flying over the building on the right is a logical next step to gain more perspective and avoid obstacles.",
+    "evaluation": "Location: [(0, 10), (37, 47)]\nOption: [E]\nReason: From 0 to 10 seconds, the agent rises and can clearly see the roof of the building and the horizon in the distance. From 37 to 47 seconds, the agent moves forward and flies over the building on the right. Therefore, the next step is to move forward and fly over the building on the right.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The agent has risen and can now see the roof of the building and the horizon. To continue navigating effectively, moving forward and flying over the building on the right is a logical next step to gain more perspective and avoid obstacles."
+  }
+}

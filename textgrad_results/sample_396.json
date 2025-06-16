@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_14_32XVDSJFP8VOXPT5H4B9CDOFHRK2M2.mp4",
+  "question": "Question: Which takes longer, your ascent to a higher position or your left turn to capture a broad view of the park?  \nChoices:  \nA. My ascent to a higher position takes longer than my left turn to capture a broad view of the park.  \nB. My left turn to capture a broad view of the park takes longer than my ascent to a higher position.  \nC. Both actions take the same amount of time.  ",
+  "question_category": "Duration",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The sequence of frames shows a gradual left turn that captures a broad view of the park, which appears to take more time compared to the ascent to a higher position, as the change in elevation is not significantly depicted over time.",
+    "evaluation": "Location: [(0, 25)]\nOption: [B]\nReason: From 0 to 25 seconds, the camera gradually turns left, providing a broad view of the park. The ascent to a higher position is not noticeable during this period. Therefore, the left turn takes longer than the ascent. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The sequence of frames shows a gradual left turn that captures a broad view of the park, which appears to take more time compared to the ascent to a higher position, as the change in elevation is not significantly depicted over time."
+  }
+}

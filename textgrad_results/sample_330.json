@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_51_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the stone statue to the left of the entrance. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. I see the stone statue on the left side of the entrance located lower than the center of my field of view.  \nB. I see the stone statue on the left side of the entrance located in the upper right corner of my field of view.  \nC. I do not see the stone statue on the left side of the entrance within my field of view.  \nD. I see the stone statue on the left side of the entrance located in the lower right corner of my field of view.  \nE. I see the stone statue on the left side of the entrance located in the lower left corner of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The initial position shows a view of tall buildings and a road with no visible stone statue on the left side of any entrance. The environment consists mainly of roads, trees, and buildings without any immediate sight of a stone statue.",
+    "evaluation": "Location: [(0, 4)]\nOption: [C]\nReason: The initial view from 0-4 seconds shows tall buildings and a road. There is no stone statue visible on the left side of any entrance. Therefore, the destination is not within sight. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The initial position shows a view of tall buildings and a road with no visible stone statue on the left side of any entrance. The environment consists mainly of roads, trees, and buildings without any immediate sight of a stone statue."
+  }
+}

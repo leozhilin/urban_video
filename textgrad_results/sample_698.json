@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_58_30BUDKLTXMTIKYKFIPPOXCMISXQE5S_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn right and cross the trees towards the pond. now turn right and move forward and go over the trees and get down towards the tree. now turn right and move forward and go over the buildings towards the white building. now turn right and move forward reach the top of the brown building and stay there.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I turn right and go up.  \nB. I descend and then fly forward.  \nC. I fly forward, then turn right.  \nD. I turn left and descend.  \nE. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The navigation instruction indicates that after crossing the trees towards the pond and turning right, the next step is to move forward and go over the trees. Therefore, flying forward and then turning right aligns with the next steps in the given instructions.",
+    "evaluation": "Location: [(0, 31)]\nOption: C\nReason: The video shows the agent moving forward after turning right and crossing the trees towards the pond. The navigation instruction indicates that after crossing the trees towards the pond and turning right, the next step is to move forward and go over the trees. Therefore, flying forward and then turning right aligns with the next steps in the given instructions.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The navigation instruction indicates that after crossing the trees towards the pond and turning right, the next step is to move forward and go over the trees. Therefore, flying forward and then turning right aligns with the next steps in the given instructions."
+  }
+}
