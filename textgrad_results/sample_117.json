@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_14_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the intersection ahead. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. The intersection ahead is currently located in the upper left corner of my field of view.  \nB. The intersection ahead is currently located in the center of my field of view.  \nC. The intersection ahead is not within my field of view.  \nD. The intersection ahead is currently located in the lower left corner of my field of view.  \nE. The intersection ahead is currently located in the upper right corner of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The intersection ahead is clearly visible and located in the center of the field of view. The roads converge at a point that is directly in the middle of the image, making it the central focus.",
+    "evaluation": "Location: [(0, 28)]\nOption: [B]\nReason: From the initial position (0-28s), the intersection ahead is clearly visible in the center of the field of view. The roads converge at a point that is directly in the middle of the image, making it the central focus. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The intersection ahead is clearly visible and located in the center of the field of view. The roads converge at a point that is directly in the middle of the image, making it the central focus."
+  }
+}

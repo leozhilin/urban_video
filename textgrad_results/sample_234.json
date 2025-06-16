@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_21_34HJIJKLPEUHQQ21ZAVOSO4QR0YV4H.mp4",
+  "question": "Question: Where are your starting and ending points during the journey?  \nChoice: A. Start high above the baseball field and end at the park's main entrance.  \n           B. Start from the road intersection and end at a row of trees on the roadside.  \n           C. Start from the left curve of the road and end with a view of the baseball field ahead.  \n           D. Start from another section of road with trees and end at the bend of the road on the right.  \n           E. Start on the road near the small lake and end at the baseball field, with a clear view of the diamond and outfield.  ",
+  "question_category": "Start/End Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The journey begins with a view of a road near a small lake (as seen in the initial frames with the lake on the left side) and progresses towards a baseball field, ending with a clear view of the diamond and outfield (as depicted in the final frames where the baseball field is prominently visible).",
+    "evaluation": "Location: [(0, 5), (28, 35)]\nOption: E\nReason: The video starts with a view of a road near a small lake on the left side (0-5s). The video ends with a clear view of the baseball field, including the diamond and outfield (28-35s). Therefore, the journey starts on the road near the small lake and ends at the baseball field. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The journey begins with a view of a road near a small lake (as seen in the initial frames with the lake on the left side) and progresses towards a baseball field, ending with a clear view of the diamond and outfield (as depicted in the final frames where the baseball field is prominently visible)."
+  }
+}

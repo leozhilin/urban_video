@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_41.mp4",
+  "question": "Question: You are navigating to the window directly above the central ALL-STAR cafe. Thinking back on past Action Generations and objects you\u2019ve seen, what is the surrounding environment like at your current location?  \nChoice:  \nA. There is a large park behind me with many trees and benches, and a narrow street in front with only a few cars. There are no sidewalks nearby.  \nB. There is a building to my right with many air conditioners on the walls. There is a small square in front of me with several cars parked. In front of the building to my right, there is a larger street with heavy traffic, and behind me, there is a smaller street with less traffic.  \nC. There are several low-rise buildings around me, wide roads, an intersection, many vehicles, street lights, and trees can be seen all around.  \nD. There is a tall skyscraper directly in front of me, blocking anything in the distance. There are no distinguishing features behind me.  \nE. There are no buildings in sight; just an open field extending in all directions from my current position.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The surrounding environment includes several low-rise buildings, wide roads, an intersection, many vehicles, street lights, and trees, which matches the description in option C. The frames show a busy urban setting with these features prominently.",
+    "evaluation": "Location: [(0, 54)]\nOption: C\nReason: The video shows a busy urban environment with several low-rise and high-rise buildings, wide roads, an intersection, many vehicles, street lights, and trees all around. This matches the description in option C.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The surrounding environment includes several low-rise buildings, wide roads, an intersection, many vehicles, street lights, and trees, which matches the description in option C. The frames show a busy urban setting with these features prominently."
+  }
+}

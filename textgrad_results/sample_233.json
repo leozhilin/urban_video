@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_44.mp4",
+  "question": "Question: You are navigating to the tables and chairs in front of the central ALL-STAR cafe. What is the correct summary of your trajectory from the beginning to the current location?  \nChoice:  \nA. I start from a high-rise building, rotate diagonally above the roof, descend to street level, move toward the cafe, and finally reach the ground near the cafe.  \nB. I start from the intersection, travel along the road, and then turn to the cafe.  \nC. I start from the park, fly over roads and buildings, and land near the cafe.  \nD. I start from the high-rise building, move along the street, and descend to the ground near the cafe.  \nE. I start from a high-rise building, move to an intersection, fly across the street to the sidewalk, and end at the current location.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The trajectory starts from an intersection, as indicated by the presence of multiple roads and traffic lights in the initial frames. The agent then travels along the road, following the street layout shown in the subsequent frames. Finally, the agent turns towards the cafe, which is evident from the frames showing the approach to the \"CENTRAL ALL-STAR\" cafe with tables and chairs in front. This sequence matches the description in option B.",
+    "evaluation": "Location: [(0, 36)]\nOption: [B]\nReason: The video starts at an intersection (0-7s), then travels along the road (7-30s), and finally turns to the cafe (30-36s). This matches option B. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The trajectory starts from an intersection, as indicated by the presence of multiple roads and traffic lights in the initial frames. The agent then travels along the road, following the street layout shown in the subsequent frames. Finally, the agent turns towards the cafe, which is evident from the frames showing the approach to the \"CENTRAL ALL-STAR\" cafe with tables and chairs in front. This sequence matches the description in option B."
+  }
+}

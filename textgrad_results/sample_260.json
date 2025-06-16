@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_44.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the tables and chairs in front of ALL-STAR Cafe in Central. What is your next move, given the target location for your next move?  \nchoose:  \nA. I rise.  \nB. I descend.  \nC. I rotate the camera upward.  \nD. I turn left.  \nE. I turn right.  \nF. I fly forward and left.  \nG. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "F",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: To navigate to the tables and chairs in front of ALL-STAR Cafe in Central, the next logical move is to turn right. The current view shows a straight path leading forward with no immediate access to the cafe's seating area. Turning right will likely align the agent's path with the cafe's entrance or seating area, as indicated by the presence of outdoor furniture and the cafe's signage in that direction.",
+    "evaluation": "Location: [(0, 5)]\nOption: [E]\nReason: From the initial position (0-5s), the agent is at a T-junction. The Central ALL-STAR Cafe is located to the right. Therefore, the next move should be to turn right. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: To navigate to the tables and chairs in front of ALL-STAR Cafe in Central, the next logical move is to turn right. The current view shows a straight path leading forward with no immediate access to the cafe's seating area. Turning right will likely align the agent's path with the cafe's entrance or seating area, as indicated by the presence of outdoor furniture and the cafe's signage in that direction."
+  }
+}

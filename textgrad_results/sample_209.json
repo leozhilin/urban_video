@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_92_3L2IS5HSFJG3ZJN7CP0FVB8756KNU8_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and move forward and turn left and go over the buildings towards the brown building. now turn right and move forward and turn back and get up and go over the buildings towards top of the brown building and get down. now turn left and move forward and go over the pond towards the red advertisement board. now turn right and go over the buildings towards the brown building. now turn right and move forward and get down reach the front off brown building near to street light and landed.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I go to the chair between the buildings.  \nB. I fly over buildings.  \nC. I cross the water.  \nD. I turn right at the building.  \nE. I turn back.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The sequence of images shows a perspective from above the buildings, indicating that the agent is flying over them. This aligns with the navigation instruction to \"go over the buildings,\" which is a recurring directive in the given instructions. Therefore, the current action is flying over buildings.",
+    "evaluation": "Location: [(0, 15), (30, 50)]\nOption: [B]\nReason: The video shows a view from above the buildings, indicating that the agent is flying over them. The instructions given at the beginning of the video include \"go over the buildings,\" which is consistent with the current view. Therefore, the agent is currently flying over buildings.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The sequence of images shows a perspective from above the buildings, indicating that the agent is flying over them. This aligns with the navigation instruction to \"go over the buildings,\" which is a recurring directive in the given instructions. Therefore, the current action is flying over buildings."
+  }
+}

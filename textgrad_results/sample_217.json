@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_11.mp4",
+  "question": "Question: If you choose to fly straight forward in your original direction from above the school runway, instead of ascending and then turning left, can you reach the green delivery locker? What are the alternative routes?  \nChoice: A. If I fly in a straight line, the task can be completed because the green delivery cabinet is visible, and the alternative route takes less time.  \n           B. If I fly straight forward, I will not be able to complete the mission because the target is at the lower left of my initial position, and I will miss the target by flying straight and cannot reach the destination.  \n           C. If I fly straight ahead, I can complete the mission because I won't hit any obstacles, but the alternative route will take longer.  ",
+  "question_category": "Counterfactual",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: If you fly straight forward from above the school runway, you will not be able to complete the mission because the green delivery locker is located at the lower left of the initial position. Flying straight would cause you to miss the target and not reach the destination. The alternative route, which involves ascending and then turning left, is necessary to correctly align with the green delivery locker's position.",
+    "evaluation": "Location: [(0, 26), (200, 217)]\nOption: B\nReason: From the initial view above the school runway (0-26s), the green delivery locker is located to the lower left. Flying straight forward would cause the agent to miss the target. The video from 2:00-2:17 shows the final location of the green delivery locker. Therefore, flying straight will not complete the mission.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: If you fly straight forward from above the school runway, you will not be able to complete the mission because the green delivery locker is located at the lower left of the initial position. Flying straight would cause you to miss the target and not reach the destination. The alternative route, which involves ascending and then turning left, is necessary to correctly align with the green delivery locker's position."
+  }
+}

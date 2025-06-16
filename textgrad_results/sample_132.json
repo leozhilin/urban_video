@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_30_3VAR3R6G1YZNJ7G6A1ZNE8QNU348ON_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off then fly toward white building then make a high turn. fly plane toward large building with satellite dish on top then make a left turn. descend plane then land on ground next to trees.]. At the initial position, you are asked to navigate based on a series of movement instructions. When you reach the current location, what is your Landmark Position from the tall building with the satellite dish on top?  \nchoose:  \nA. I am located on the left side of the tall building with a satellite antenna on the top.  \nB. I am under a tall building with a satellite dish above.  \nC. I am located above a tall building with a satellite antenna on the top.  \nD. I am located on the right side of the tall building with a satellite antenna on the top.  \nE. I am on the ground next to a tall building with a satellite dish on top.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The current location shows a view from the ground level next to trees, which aligns with the final instruction to \"land on ground next to trees.\" This indicates that the agent has completed the navigation instructions and is now positioned on the ground adjacent to trees, as described in option E.",
+    "evaluation": "Location: [(0, 10), (26, 57), (137, 145), (200, 207)]\nOption: E\nReason: The video shows the agent starting in a dark room, then transitioning to an aerial view of a city with a tall building with satellite dishes on top. The video then descends, and the final view is from the ground, next to trees. This matches the final instruction to \"land on ground next to trees,\" and the tall building with the satellite dish is visible in the distance. Therefore, the agent is on the ground next to trees, near the tall building with the satellite dish.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The current location shows a view from the ground level next to trees, which aligns with the final instruction to \"land on ground next to trees.\" This indicates that the agent has completed the navigation instructions and is now positioned on the ground adjacent to trees, as described in option E."
+  }
+}

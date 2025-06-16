@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_4_2.mp4",
+  "question": "Question: You are navigating to the balcony on the 29th floor. What is the correct summary of your trajectory from the beginning to the current location?  \nChoice:  \nA. I start from the park, rise to the height of a high-rise building, and move toward the side of the building.  \nB. I start from the sidewalk, drive forward to the street, turn left toward the high-rise, rise to a height above the 29th floor, and then descend to my current location.  \nC. I start from the left side of the building with a huge conical dome, turn right, and descend to a certain height.  \nD. I start from the scooter lane in the park, turn left to face the street outside the park, rise to the height of the high-rise building across the street, and move forward to reach the roof of the high-rise building at my current location outside the edge.  \nE. I take off from the ground near the high-rise building, rise directly to the 29th floor, and hover near the balcony.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The trajectory starts from the ground near the high-rise building, rises directly to the 29th floor, and hovers near the balcony, which matches the visual progression in the frames provided.",
+    "evaluation": "Location: [(0, 3)]\nOption: E\nReason: From the beginning of the video, the camera is already at the height of the 29th floor, near the balcony. This indicates that the trajectory started from the ground near the high-rise building and rose directly to the 29th floor.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The trajectory starts from the ground near the high-rise building, rises directly to the 29th floor, and hovers near the balcony, which matches the visual progression in the frames provided."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_78_2.mp4",
+  "question": "Question: What is the correct summary of your trajectory from start to your current location while navigating to find the back door of a residential building?  \nChoice:  \nA. I start from above the high-rise building, adjust my perspective downward to overlook, pan left to the sky above the backyard, descend to the ground, and finally adjust my perspective upward to face the back door of the building.  \nB. I start from a high altitude, descend, move along the road to approach the building, and finally reach the building parking lot.  \nC. I start from the street, move along the sidewalk, and reach the green trash can at the back of the building.  \nD. I start from a point above the high-rise building, descend, move along the side of the building, approach the rear, and reach my current position near the parking lot.  \nE. I start from the park, rise to a high altitude, then descend to the ground near the building, and then move behind the building.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The trajectory starts from a high altitude providing an overview of the high-rise buildings, then descends and moves along the side of the building, approaching the rear area which includes a parking lot. This matches the sequence of images showing a transition from a wide aerial view to a closer view of the building's side and parking area.",
+    "evaluation": "Location: [(0, 32)]\nOption: D\nReason: The video starts with a high-altitude view of the high-rise building (0-3s). Then, the camera descends and moves along the side of the building (3-32s), approaching the rear area, which includes a parking lot. This matches option D.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The trajectory starts from a high altitude providing an overview of the high-rise buildings, then descends and moves along the side of the building, approaching the rear area which includes a parking lot. This matches the sequence of images showing a transition from a wide aerial view to a closer view of the building's side and parking area."
+  }
+}

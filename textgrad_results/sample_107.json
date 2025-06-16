@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_42_30OG32W0S39MANQLMPLARTM4IDDNE3_4.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn right move forward and fly towards the top of brown tower. now turn right move little forward near by pond slow down to the floor. now turn left move towards the mid centre of pond behind the tree slow down and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I slow down and stay here.  \nB. I turn right and fly forward to the top of the brown tower.  \nC. I turn right and move forward slightly near the pond, slowing down to the ground.  \nD. I now turn left and move toward the center of the pond behind the tree.  \nE. I take off and turn right to continue forward.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The initial instruction is to \"take off and turn right move forward and fly towards the top of brown tower.\" The sequence of images shows a progression from ground level to an aerial view, indicating that the agent has taken off. The subsequent frames depict a movement towards a prominent tower, aligning with the instruction to fly towards the top of the brown tower. Therefore, the agent is currently executing the step to turn right and fly forward towards the specified tower.",
+    "evaluation": "Location: [(0, 21), (36, 40), (48, 56), (156, 160), (209, 214)]\nOption: [B]\nReason: The video shows the agent taking off from the ground (0-21s). Then, the video shows the agent flying towards a brown tower (36-40s, 48-56s, 156-160s, 209-214s). Therefore, the agent is turning right and flying forward to the top of the brown tower.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The initial instruction is to \"take off and turn right move forward and fly towards the top of brown tower.\" The sequence of images shows a progression from ground level to an aerial view, indicating that the agent has taken off. The subsequent frames depict a movement towards a prominent tower, aligning with the instruction to fly towards the top of the brown tower. Therefore, the agent is currently executing the step to turn right and fly forward towards the specified tower."
+  }
+}

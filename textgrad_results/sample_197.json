@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_29_3OHYZ19UGL312V9L7ZJ1AZWIN8TOAX_7.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn left and move forward and go over the buildings and road and turn right and move forward and go over the buildings and turn left at front of the dates car wash board and move forward. now move forward and get down and besidecharlies chocolate building and turn back and move forward and go over the buildings and get down at intersection road and get up and turn back and move forward. now move forward and get down at front of the white building and turn right and beside sea and move forward and go over the building alley and get down at tastes board with building and land there.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach your current location, what is your Landmark Position from the \"flavor\" board?  \nchoose:  \nA. I am located above the \"Taste\" board.  \nB. I am far away from the \"taste\" board.  \nC. I am to the left of the \"Flavours\" board.  \nD. I am located to the right of the \"Flavours\" board.  \nE. I am located at the \"Tastes\" board on the ground.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The final instruction in the navigation sequence is to \"get down at tastes board with building and land there,\" which indicates that the current location is at the \"Tastes\" board on the ground. Therefore, option E accurately describes the landmark position relative to the \"Tastes\" board.",
+    "evaluation": "Location: [(507, 511)]\nOption: [E]\nReason: The video shows the agent landing at the \"Tastes\" board on the ground. The final instruction was to \"get down at tastes board with building and land there.\" Therefore, the agent is located at the \"Tastes\" board on the ground.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The final instruction in the navigation sequence is to \"get down at tastes board with building and land there,\" which indicates that the current location is at the \"Tastes\" board on the ground. Therefore, option E accurately describes the landmark position relative to the \"Tastes\" board."
+  }
+}

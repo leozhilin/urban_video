@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_26_37QW5D2ZRPK2HZ8ZHIGWYD0OVCQS8V_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [rise, turn slightly to the left, and fly to the red trees in the corner of the park. turn left, fly past the bottle cap billboard, and fly behind the billboard across the street from the charlies chocolates billboard. turn to the right and fly straight to the tall stone building. turn around and fly down to the optician billboard.]. At the initial position, you are asked to follow a series of movement instructions. What are you doing now?  \nchoose:  \nA. I fly over the bottle cap billboard.  \nB. I turn around and fly towards the optical shop billboard.  \nC. I turn slightly to the left and fly towards the mangroves in the corner of the park.  \nD. I turn right and fly straight towards the tall stone building.  \nE. I rise.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The navigation instruction starts with \"rise,\" which is the first action to be taken at the initial position. The subsequent instructions involve turning and flying towards specific landmarks, but the immediate action based on the given sequence is to rise.",
+    "evaluation": "Location: [(0, 5)]\nOption: E\nReason: The video starts with a view of a lake and a city skyline. From 0 to 5 seconds, the camera angle slightly rises, indicating an upward movement. The question asks what the agent is doing at the initial position, and the first instruction is to \"rise.\" Therefore, the agent is rising.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The navigation instruction starts with \"rise,\" which is the first action to be taken at the initial position. The subsequent instructions involve turning and flying towards specific landmarks, but the immediate action based on the given sequence is to rise."
+  }
+}

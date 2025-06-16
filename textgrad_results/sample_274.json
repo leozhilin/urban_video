@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_18_3RWE2M8QWQ8NJXBREIMV64KZ4S70N8_7.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [rise up and go straight down the bridge and stop halfway. turn to the right and go over water look left and go under bridge. turn right and go forward back the street stopping at intersection and looking right. rise up and go right stopping at the red and white bottle cap. go straight until reaching brown and then look down and right at the water.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach your current location, what is your Landmark Position from the billboard?  \nchoose:  \nA. I am located to the left of the billboard.  \nB. I am positioned above the billboard.  \nC. I am located underneath the billboard.  \nD. I am located to the right of the billboard.  \nE. I am located behind the billboard.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: Based on the navigation instructions and the sequence of images, the agent moves through various landmarks including bridges and buildings. The final frames show a view from a high vantage point overlooking water, indicating the agent has moved to a position relative to a billboard (assuming the \"red and white bottle cap\" is a notable landmark similar to a billboard). The perspective suggests the agent is now to the right of this landmark, as the view is expansive and not obstructed by it. Therefore, option D is the most plausible.",
+    "evaluation": "Location: [(410, 414)]\nOption: [D]\nReason: The video ends with the agent positioned on a rooftop next to a red and white bottle cap billboard. The camera pans to show the billboard on the right side of the agent's view. Therefore, the agent is located to the right of the billboard.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: Based on the navigation instructions and the sequence of images, the agent moves through various landmarks including bridges and buildings. The final frames show a view from a high vantage point overlooking water, indicating the agent has moved to a position relative to a billboard (assuming the \"red and white bottle cap\" is a notable landmark similar to a billboard). The perspective suggests the agent is now to the right of this landmark, as the view is expansive and not obstructed by it. Therefore, option D is the most plausible."
+  }
+}

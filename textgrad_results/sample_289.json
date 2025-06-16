@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_39_0.mp4",
+  "question": "```\nQuestion: Summarize your movement route in the video by combining the specific objects along the way.\n\nChoices:\nA. I go from above a group of buildings to a large vegetable shed on the left side of the road, passing over more buildings, green spaces, and a sports field.\nB. I start above a sports field and fly directly to the large vegetable shed, ignoring all other buildings and structures.\nC. I begin near a large vegetable shed and fly upward and backward, eventually reaching a mountain range.\nD. I fly from the mountain range to a group of buildings, then circle around before landing on the road near the vegetable shed.\nE. I start at a high altitude above a road with buildings on the right and fly to a group of buildings on the left.\n\n\n```\n",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The video shows a movement starting from above a group of buildings, then passing over more buildings, green spaces, and a sports field, eventually approaching a large vegetable shed on the left side of the road. This sequence matches the description in option A.",
+    "evaluation": "Location: [(0, 27)]\nOption: A\nReason: From the beginning of the video, the camera starts above a group of buildings. As the video progresses (0-27s), the camera moves forward, passing over more buildings, green spaces, and a sports field. Finally, a large vegetable shed becomes visible on the left side of the road. This matches the description in option A. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The video shows a movement starting from above a group of buildings, then passing over more buildings, green spaces, and a sports field, eventually approaching a large vegetable shed on the left side of the road. This sequence matches the description in option A."
+  }
+}

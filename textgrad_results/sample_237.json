@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_28_34S6N1K2Z4H86XE20DD1Z4FS2MUHL9.mp4",
+  "question": "Question: Which takes longer, your ascent to match the higher floor or your movement to align with the ad?  \nChoice:  \nA. I take longer to rise to match the higher floor than it takes to move into alignment with the ad.  \nB. The time I take to rise to the upper level of the match is the same as the time it takes to move into alignment with the ad.  \nC. The time I take to rise to match a higher floor is shorter than the time it takes to move into alignment with the ad.  ",
+  "question_category": "Duration",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows that the agent quickly ascends to match the higher floor, as the change in elevation appears swift. In contrast, the movement to align with the ad is more gradual and takes a longer time, as indicated by the detailed progression towards the ad in subsequent frames. Therefore, rising to match the higher floor is shorter in duration compared to moving into alignment with the ad.",
+    "evaluation": "Location: [(0, 19), (19, 53)]\nOption: C\nReason: From 0 to 19 seconds, the camera quickly ascends to a higher floor. From 19 to 53 seconds, the camera slowly moves towards the ad. Therefore, the time it takes to rise to the upper level of the match is shorter than the time it takes to move into alignment with the ad.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows that the agent quickly ascends to match the higher floor, as the change in elevation appears swift. In contrast, the movement to align with the ad is more gradual and takes a longer time, as indicated by the detailed progression towards the ad in subsequent frames. Therefore, rising to match the higher floor is shorter in duration compared to moving into alignment with the ad."
+  }
+}

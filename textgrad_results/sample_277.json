@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_79_3K772S5NPH9U0R4AJRQXM9P7C8XHE9.mp4",
+  "question": "Question: What is near the intersection as seen from slightly above the surrounding buildings?  \nOptions:  \nA. A streetlight at the intersection.  \nB. An open sign at the intersection.  \nC. A building with an antenna at the intersection.  \nD. A tree at the intersection.  \nE. A debris pile at the intersection.  ",
+  "question_category": "Object Recall",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The images show a building with an antenna on its roof near the intersection when viewed from slightly above the surrounding buildings. This is evident as the camera perspective rises, revealing the rooftop structures including antennas.",
+    "evaluation": "Location: [(0, 15), (23, 59), (144, 159)]\nOption: [C]\nReason: From the video, especially between 0-15s, 23-59s, and 144-159s, as the camera angle rises, a building with an antenna on its roof becomes visible near the intersection. This matches option C.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The images show a building with an antenna on its roof near the intersection when viewed from slightly above the surrounding buildings. This is evident as the camera perspective rises, revealing the rooftop structures including antennas."
+  }
+}

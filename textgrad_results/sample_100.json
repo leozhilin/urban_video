@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_28.mp4",
+  "question": "Question: After you flew over the roof of a building near the square, what was the next step?\n\nOptions:  \nA. I rise to a higher altitude.  \nB. I move forward and slightly to the right.  \nC. I continue my descent, approaching the pond.  \nD. I turn left and fly over the commercial street.  \nE. I hover in place for a few seconds.  ",
+  "question_category": "Sequence Recall",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows a continuous descent towards the pond after flying over the roof near the square. The perspective shifts from a higher altitude view of the buildings and square to a closer, more detailed view of the pond and surrounding rocks, indicating a descent.",
+    "evaluation": "Location: [(0, 32)]\nOption: [C]\nReason: From 0 to 32 seconds, the video shows the drone descending and approaching the pond.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows a continuous descent towards the pond after flying over the roof near the square. The perspective shifts from a higher altitude view of the buildings and square to a closer, more detailed view of the pond and surrounding rocks, indicating a descent."
+  }
+}

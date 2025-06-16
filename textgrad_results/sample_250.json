@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_11.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the 22nd floor balcony. What is your next move, given the target location for your next move?  \nchoose:  \nA. I rise.  \nB. I descend.  \nC. I rotate the camera upward.  \nD. I turn left.  \nE. I turn right.  \nF. I fly forward.  \nG. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "F",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: To navigate to the 22nd floor balcony, the next logical move is to rise, as the agent needs to ascend to reach the higher floor.",
+    "evaluation": "Location: [(0, 5)]\nOption: [A]\nReason: From the initial position (0-5s), the agent is at the bottom of the building. To reach the 22nd floor balcony, the agent needs to move upwards. Therefore, the next move is to rise.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: To navigate to the 22nd floor balcony, the next logical move is to rise, as the agent needs to ascend to reach the higher floor."
+  }
+}

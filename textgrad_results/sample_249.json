@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_112_3TESA3PJ3A8E4TXYRMUTRM2DJ0QMM6.mp4",
+  "question": "Question: What objects do you observe when you fly toward an intersection near a river?  \nChoice:  \nA. I observe the Townhall supermarket sign, a series of telephone poles, and several signs.  \nB. I observe a playground, a street vendor, and a tree.  \nC. I observe a bus stop, a bridge, and a billboard.  \nD. I observe a statue, a fountain, and a bicycle.  \nE. I observe parking lots, supermarket carts, and street lights.  ",
+  "question_category": "Scene Recall",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The sequence of images shows a clear view of the \"Townhall Supermarket\" sign, multiple telephone poles lining the path, and various signs along the way as the agent moves toward an intersection near a river. These elements match the description in option A.",
+    "evaluation": "Location: [(0, 7), (14, 28)]\nOption: A\nReason: From 0 to 7 seconds, the video shows the \"Townhall Supermarket\" sign and other signs. From 14 to 28 seconds, the video shows the agent moving toward an intersection near a river, and there are telephone poles and signs along the way. Therefore, option A is the correct answer. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The sequence of images shows a clear view of the \"Townhall Supermarket\" sign, multiple telephone poles lining the path, and various signs along the way as the agent moves toward an intersection near a river. These elements match the description in option A."
+  }
+}

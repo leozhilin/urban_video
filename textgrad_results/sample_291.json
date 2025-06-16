@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_5_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the balcony on the 28th floor. When you reach the current location, what is the direction to the destination?  \nchoose:  \nA. I am currently located on the left side below the balcony on the 28th floor.  \nB. I am currently located directly above the balcony on the 28th floor.  \nC. I am currently far away from the building and above the road.  \nD. I am currently located below the 28th-floor balcony, on the street.  \nE. I am currently located above the balcony on the 28th floor at a horizontal distance.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The current location is above the balcony on the 28th floor at a horizontal distance, as indicated by the perspective which shows the building's side and the balcony below.",
+    "evaluation": "Location: [(0, 35)]\nOption: [E]\nReason: From the video, especially between 0-35 seconds, we can see the camera's perspective. The camera is positioned above the road and at a horizontal distance from the building. The 28th-floor balcony is visible below. Therefore, the correct answer is: I am currently located above the balcony on the 28th floor at a horizontal distance. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The current location is above the balcony on the 28th floor at a horizontal distance, as indicated by the perspective which shows the building's side and the balcony below."
+  }
+}

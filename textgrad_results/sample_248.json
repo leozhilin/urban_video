@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_56.mp4",
+  "question": "Question: How does the distance between you and the tall buildings change after you navigate around the building?  \nChoices: A. The distance between me and the tallest building decreases.  \n           B. The distance between me and the tallest building remains the same.  \n           C. The distance between me and the tallest building increases.  ",
+  "question_category": "Proximity",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: After navigating around the building, the agent moves further away from the tall buildings in the background, increasing the distance between the agent and the tallest buildings.",
+    "evaluation": "Location: [(0, 10), (57, 130)]\nOption: C\nReason: Initially, the tall buildings are in the distance (0-10s). As the agent navigates around the building, it moves away from the initial position where the tall buildings were visible in the background (57-130s). Therefore, the distance between the agent and the tall buildings increases.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: After navigating around the building, the agent moves further away from the tall buildings in the background, increasing the distance between the agent and the tallest buildings."
+  }
+}

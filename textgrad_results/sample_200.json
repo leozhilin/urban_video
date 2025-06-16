@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_32.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the Shanghai Pudong Development Bank entrance next to the huge conical dome building. When you reach your current location, what is the direction to the destination?  \nchoose:  \nA. I am currently located inside the entrance of Shanghai Pudong Development Bank.  \nB. I am currently far away from the entrance of Shanghai Pudong Development Bank, passing through a main road and some green spaces.  \nC. I am currently on the other side of the building, facing away from the bank entrance.  \nD. I am currently hovering over a nearby high-rise building, far away from the entrance of Shanghai Pudong Development Bank.  \nE. I am currently located above the entrance of Shanghai Pudong Development Bank, at a horizontal distance.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The current view shows the entrance of the Shanghai Pudong Development Bank, indicating that the agent has reached the destination.",
+    "evaluation": "Location: [(0, 239)]\nOption: [A]\nReason: From the beginning of the video to the end, the camera is located directly above the entrance of Shanghai Pudong Development Bank. The camera gradually zooms in, and the entrance of Shanghai Pudong Development Bank is clearly visible. Therefore, the agent is currently located inside the entrance of Shanghai Pudong Development Bank. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The current view shows the entrance of the Shanghai Pudong Development Bank, indicating that the agent has reached the destination."
+  }
+}

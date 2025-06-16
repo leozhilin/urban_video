@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_4_0.mp4",
+  "question": "Question: You are navigating to [the roof of the three floors ahead]. What is the correct summary of your trajectory from the beginning to your current position?  \nChoice:  \nA. I start from above the park, descend to street level, then move toward the three-story building and ascend to my current location.  \nB. I start from the street, move toward the park, then turn to the three floors and rise to my current location.  \nC. I start from the park, move toward the street, then rise to the height above the high-rise building, move toward the third floor, and finally reach my current location.  \nD. I start from above the main road, fly forward and descend, and reach my current position.  \nE. I start from a position above a high-rise building, move downward toward the street, and then move to a three-story building to reach my current location.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The trajectory starts from a high vantage point above a high-rise building, moves downward toward the street level, and then approaches a three-story building to reach the current position on its roof. This matches the description in option E.",
+    "evaluation": "Location: [(0, 13)]\nOption: [E]\nReason: From the beginning of the video (0s), the camera is positioned above a high-rise building. It then moves downward towards the street and approaches a three-story building, eventually reaching the roof of the three-story building. This trajectory aligns with the description provided in option E.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The trajectory starts from a high vantage point above a high-rise building, moves downward toward the street level, and then approaches a three-story building to reach the current position on its roof. This matches the description in option E."
+  }
+}

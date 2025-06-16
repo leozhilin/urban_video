@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_57_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a store with the sign \"\u8d1d\u58f3\u751f\u9c9c Food.\" When you reach your current location, what is your relative position to the destination?  \nchoose:  \nA. I am in the back left corner of the building, overlooking the \"\u8d1d\u58f3\u751f\u9c9c\" store across the street.  \nB. I am above the \"\u8d1d\u58f3\u751f\u9c9c\" store at high altitude.  \nC. I am above the sidewalk below the high-rise building, but the relative location of the target store is unknown.  \nD. I am on the right front of the building, a few blocks away from the \"\u8d1d\u58f3\u751f\u9c9c\" store.  \nE. I am flying over the street, directly above the middle of the street.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The agent's perspective shows a high-altitude view directly above the buildings, indicating that the agent is above the \"\u8d1d\u58f3\u751f\u9c9c\" store at a high altitude.",
+    "evaluation": "Location: [(0, 52)]\nOption: B\nReason: From the beginning of the video to the end, the agent's perspective is a high-altitude view directly above the buildings. Therefore, the agent is above the \"\u8d1d\u58f3\u751f\u9c9c\" store at a high altitude.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The agent's perspective shows a high-altitude view directly above the buildings, indicating that the agent is above the \"\u8d1d\u58f3\u751f\u9c9c\" store at a high altitude."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_72_3IUZPWIU1X5FJHR9ACN0L7C0VNSKWS.mp4",
+  "question": "Question: After you rise and fly forward, how does the distance to the intersection change?  \nChoice: A. I increase the distance to the intersection.  \n           B. I decrease the distance to the intersection.  \n           C. The distance to the intersection remains unchanged.  ",
+  "question_category": "Proximity",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: As the agent rises and flies forward, the perspective shifts closer to the buildings ahead, indicating a decrease in distance to the intersection. The frames show a gradual approach towards the buildings, which suggests that the agent is moving closer to the intersection rather than further away or maintaining the same distance.",
+    "evaluation": "Location: [(0, 15)]\nOption: [B]\nReason: From the beginning of the video to 0:15, the agent rises and flies forward. During this period, the buildings in front of the agent become larger and closer, indicating that the distance to the intersection is decreasing. Therefore, the distance to the intersection decreases.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: As the agent rises and flies forward, the perspective shifts closer to the buildings ahead, indicating a decrease in distance to the intersection. The frames show a gradual approach towards the buildings, which suggests that the agent is moving closer to the intersection rather than further away or maintaining the same distance."
+  }
+}

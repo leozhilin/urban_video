@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_21.mp4",
+  "question": "Question: You are hovering in the upper right corner of the construction site. After seeing the construction site and surrounding buildings, what is your next step?  \nChoice: A. I rise to a higher altitude.  \n           B. I move backward and return along the original route.  \n           C. I turn left to the opposite direction.  \n           D. I descend to a lower altitude.  \n           E. I turn left.  ",
+  "question_category": "Sequence Recall",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The agent is currently hovering in the upper right corner of the construction site and has a clear view of the surrounding buildings and area. To continue exploring or moving towards a specific point of interest, turning left would allow the agent to navigate along the road, providing a broader perspective of the urban environment and potentially approaching other significant structures or areas of interest. This movement aligns with the natural flow of the scene and the layout of the streets and buildings.",
+    "evaluation": "Location: [(0, 10), (40, 43)]\nOption: E\nReason: From the video, the agent is hovering in the upper right corner of the construction site. Turning left would allow the agent to navigate along the road, providing a broader perspective of the urban environment and potentially approaching other significant structures or areas of interest.\n\nThe provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The agent is currently hovering in the upper right corner of the construction site and has a clear view of the surrounding buildings and area. To continue exploring or moving towards a specific point of interest, turning left would allow the agent to navigate along the road, providing a broader perspective of the urban environment and potentially approaching other significant structures or areas of interest. This movement aligns with the natural flow of the scene and the layout of the streets and buildings."
+  }
+}

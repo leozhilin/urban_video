@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_28.mp4",
+  "question": "Question: If you do not descend directly to the pond after flying over the building, but choose to fly horizontally along the roof of the building before descending, can you still reach the pond and rockery? How does the time of the alternative route compare?\n\nChoice: A. If I fly level, I can still reach my destination, but the alternative route will take longer.  \n           B. If I fly horizontally, I will not be able to reach my destination because I will lose sight of the pond.  \n           C. If I fly level, I can still reach my destination, and the alternative route will take approximately the same time.  ",
+  "question_category": "Counterfactual",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: Flying horizontally along the roof of the building before descending will still allow you to reach the pond and rockery, but it will take longer compared to a direct descent. The additional horizontal flight distance increases the total travel time.",
+    "evaluation": "Location: [(0, 35)]\nOption: [A]\nReason: From the video, we can see that the pond and rockery are located to the side of the building. If the agent flies horizontally along the roof of the building, it will still be able to see the pond and rockery. However, the alternative route will take longer because the agent will have to fly a longer distance. Therefore, the answer is A.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: Flying horizontally along the roof of the building before descending will still allow you to reach the pond and rockery, but it will take longer compared to a direct descent. The additional horizontal flight distance increases the total travel time."
+  }
+}

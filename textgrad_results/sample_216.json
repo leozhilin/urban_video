@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_113_3U4J9857ON9Z0ZMEWR2VUOUTF1V7BC.mp4",
+  "question": "Question: Which of the following options better summarizes your movement?  \nChoice:  \nA. I look over the city from the rooftops, moving along the sides of the buildings to the main doors and windows.  \nB. I align myself from the street facing the high-rise building and reach the height of the main entrance by hovering in place.  \nC. I quickly descend from the corner of the building to the lower window.  \nD. I overlook the city from the rooftop and reach the mid-level windows by ascending to the top floor.  \nE. I move from facing the door and windows directly back to the rooftop panorama.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The sequence of images shows a movement starting from a high vantage point overlooking the city, then moving closer to and along the sides of the buildings, focusing on the main doors and windows at street level. This aligns with option A's description of looking over the city from rooftops and moving along the sides of buildings to the main doors and windows.",
+    "evaluation": "Location: [(0, 19)]\nOption: A\nReason: The video starts with a high-level view of the city from a rooftop (0-3). The camera then moves closer to the buildings, focusing on the windows and sides of the buildings (4-19). This movement aligns with option A, which describes looking over the city from the rooftops and moving along the sides of the buildings to the main doors and windows. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The sequence of images shows a movement starting from a high vantage point overlooking the city, then moving closer to and along the sides of the buildings, focusing on the main doors and windows at street level. This aligns with option A's description of looking over the city from rooftops and moving along the sides of buildings to the main doors and windows."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_109_3TE3O857396FU56XMC7QYCIPM7PR26.mp4",
+  "question": "Question: Does it take you longer to ascend to the height of nearby trees or to descend to a higher floor?  \nChoice: A. I take longer to ascend to the height of nearby trees than to descend to a higher floor.  \n          B. I take less time to ascend to the height of nearby trees than to descend to a higher floor.  \n          C. I take the same amount of time to ascend to the height of nearby trees as to descend to upper heights.",
+  "question_category": "Duration",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The sequence of images shows a gradual ascent from ground level to an aerial view above the city, indicating that the agent is ascending. Given the significant height achieved, which far exceeds the height of nearby trees, it suggests that ascending to such a height would take longer compared to descending to a higher floor within a building.",
+    "evaluation": "Location: [(0, 58)]\nOption: A\nReason: The video shows the agent ascending from ground level to a height far exceeding the nearby trees. The ascent is gradual and takes a significant amount of time. Since the video only shows the ascent and not the descent, we can infer that ascending to the height of nearby trees takes longer than descending to a higher floor. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The sequence of images shows a gradual ascent from ground level to an aerial view above the city, indicating that the agent is ascending. Given the significant height achieved, which far exceeds the height of nearby trees, it suggests that ascending to such a height would take longer compared to descending to a higher floor within a building."
+  }
+}

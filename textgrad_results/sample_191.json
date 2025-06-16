@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_93_32ZKVD547OLHZGLRUFZ5H7IDB2WB35_1.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [taking off and turning left going straight and taking right turn. going straight and coming down the building level and taking left turn. going straight and turning right and above the building level and going straight. coming slight down near apartment.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your position relative to the red car billboard?  \nchoose:  \nA. I am located to the left of the red car billboard.  \nB. I am far away from the red car billboard.  \nC. I am located in front of the red car billboard.  \nD. I am located beneath the red car billboard.  \nE. I am located to the right of the red car billboard.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The sequence of images shows the agent navigating through the environment according to the given instructions. After taking off, turning left, going straight, and making subsequent turns as described, the agent reaches a position where the red car billboard is visible. The final frames indicate that the agent is located to the right of the red car billboard, as the billboard is on the left side of the view from the agent's perspective. Therefore, option E is the correct choice.",
+    "evaluation": "Location: [(0, 26)]\nOption: [E]\nReason: From the initial position, the agent takes off, turns left, goes straight, and takes a right turn. After going straight and coming down the building level, the agent takes a left turn, goes straight, and turns right. The agent then goes above the building level and goes straight, coming slightly down near an apartment. The red car billboard is visible on the left side of the view, indicating that the agent is located to the right of the red car billboard.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The sequence of images shows the agent navigating through the environment according to the given instructions. After taking off, turning left, going straight, and making subsequent turns as described, the agent reaches a position where the red car billboard is visible. The final frames indicate that the agent is located to the right of the red car billboard, as the billboard is on the left side of the view from the agent's perspective. Therefore, option E is the correct choice."
+  }
+}

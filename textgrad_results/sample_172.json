@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_75_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the entrance of the community next to the store, which has a yellow sign that says \"\u4e50\u8d2d\u4fbf\u5229\u5e97.\" Thinking back on past Action Generations and objects you have seen, what should you approach next in order to get from your current location to your destination?  \nchoose:  \nA. I approach crosswalks near high-rise buildings.  \nB. I approach the parking lot entrance.  \nC. I turn left ahead.  \nD. I approach the ground floor of a high-rise building.  \nE. I approach the top of a high-rise building.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The agent is currently on a path between high-rise buildings. To reach the entrance of the community next to the store with the yellow sign \"\u4e50\u8d2d\u4fbf\u5229\u5e97,\" the agent should turn left ahead, as this direction seems to lead towards an open area where such a store might be located. The other options involve approaching specific features like crosswalks, parking lots, or parts of high-rise buildings, which are not directly relevant to reaching the store entrance based on the current path and goal.",
+    "evaluation": "Location: [(0, 43)]\nOption: C\nReason: The video shows a top-down view of the agent navigating between high-rise buildings. The destination is the entrance of the community next to the store with the yellow sign \"\u4e50\u8d2d\u4fbf\u5229\u5e97.\" Based on the initial position and the layout of the buildings and roads, turning left ahead appears to be the most direct route towards a more open area where the store might be located. The other options, such as approaching crosswalks, parking lots, or specific parts of high-rise buildings, do not seem as relevant to reaching the store entrance based on the current view. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The agent is currently on a path between high-rise buildings. To reach the entrance of the community next to the store with the yellow sign \"\u4e50\u8d2d\u4fbf\u5229\u5e97,\" the agent should turn left ahead, as this direction seems to lead towards an open area where such a store might be located. The other options involve approaching specific features like crosswalks, parking lots, or parts of high-rise buildings, which are not directly relevant to reaching the store entrance based on the current path and goal."
+  }
+}

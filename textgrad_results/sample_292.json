@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_31.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the underground garage near the residential area consisting of gray buildings in front of you for access. Given the next steps for the underground garage, what\u2019s your next step?  \nchoose:  \nA. I rise.  \nB. I decline.  \nC. I move backward.  \nD. I turn left and go up.  \nE. I turn right and back up.  \nF. I adjust the field of view downward and fly forward.  \nG. I hover.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "F",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The next step should be to decline (go down) towards the underground garage entrance, which is visible at the base of the buildings and accessible from the current elevated position.",
+    "evaluation": "Location: [(0, 15)]\nOption: B\nReason: The underground garage is located at the base of the gray buildings. From the initial position, the agent needs to descend to reach the entrance of the garage. Therefore, the next step is to decline.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The next step should be to decline (go down) towards the underground garage entrance, which is visible at the base of the buildings and accessible from the current elevated position."
+  }
+}

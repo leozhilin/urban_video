@@ -12,16 +12,25 @@ This video (captured into multiple frames of images as follows) presents the per
 Here's a question about this video: {question}
 
 Please evaluate the following answer by: 
-1. Based on your analysis of the video content, locate the video frames that may contain the answer to the question (for example, if the question asks "What objects did you observe when descending towards the community entrance?", you need to locate the frames showing the descent towards the community entrance and focus your analysis on these frames)
-2. Carefully analyzing the video content and visual evidence based on the video frames you have located
-3. Checking if the answer aligns with what is shown in the video frames
-4. Identifying any discrepancies between the answer and the video content
-5. Providing specific feedback based on the visual evidence
+1. Independently analyze the question and provide your own answer
+- Answer localization: Based on the question, locate the video segments that may contain the answer
+- Analyze video segments: Carefully analyze the content in the video segments, reason step by step, retrieve relevant visual evidence, and provide your answer
 
-Be smart, logical, and critical in your evaluation. Focus on how well the answer reflects the actual content shown in the video.
+2. As an evaluator, assess the correctness of the following answer based on your perspective:
+- Answer to evaluate: {answer}
+- If there are disagreements between this answer and your perspective, you need to point out the errors and provide reasons
+- Be smart, logical, and critical in your evaluation.
 
-Answer to evaluate:
-{answer}
+Your revised answer must follow this exact format:
+Location: []; Option: []; Reason: []
+where:
+- Location: 
+  * Locate the video clips that may contain the answer to the question.
+  * Must follow this format: Location: [(start_time, end_time), ...] e.g. [(0, 3), (32, 36)] means the answer is located between 0~3s and 32~36s of the video
+- Option: Your own answer to the question, don't be influenced by the provided answer. Choose only one option from 'A' to 'E'
+- Reason: 
+  * Explain your choice based on the visual evidence in the video segments you located
+  * If you believe the provided answer contains errors, please point them out and explain why
 """
 
 FEEDBACKER_PROMPT = """
@@ -58,19 +67,14 @@ Please ensure:
 """
 
 
-# System prompt to TGD
-OPTIMIZER_SYSTEM_PROMPT = (
-   ""
-)
-
 OPTIMIZER_PROMPT = """
 This video (captured into multiple frames of images as follows) presents the perception data of an agent moving in the environment from a first person perspective. 
 
 Here's a question about this video: {question}
 
-Original Answer: {answer}
+This is your answer about this question: {answer}
 
-Analysis of Disagreements and Required Verifications:
+However, the Evaluator has some disagreements with your perspective and has identified areas that need further verification:
 {feedback}
 
 Based on the above analysis, please:
@@ -81,19 +85,6 @@ Based on the above analysis, please:
 
 Your revised answer must follow this exact format:
 Option: []; Reason: []
-where:
-- Option: Choose only one option from 'A' to 'E'
-- Reason: Explain your choice by:
-  * Addressing the key disagreements identified
-  * Referencing specific visual evidence that supports your choice
-  * Acknowledging any remaining uncertainties
-  * Explaining why your choice is the most reasonable given the available evidence
+where the Option only outputs one option from 'A' to 'E' here, do not output redundant content. 
+Reason explains why you choose this option.
 """ 
-
-
-"""
-核心分歧点1：塔吊的位置
-<原始答案观点>:塔吊位于位于视野的“正中央”
-<评估者观点>:塔吊位于视野的右侧，因为视频初始帧（00:00–00:05）显示塔吊明显偏右，而非居中。
-<分歧解决方案>:
-"""

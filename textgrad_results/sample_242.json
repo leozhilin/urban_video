@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_10_3HYA4D4520HIRF1OVH7WHN46KPYF2W_1.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off to the ground near the flag and turn left move upward to reach the terrace of the building. to reach the antenna in that building and cross the building to the next building to see the red colour eds butcher shop board in it. to move forward to see the pool shines by sunlight and cross the pool to reach the street. move towards to the top of the building and see the cloudy, shiny sky and also the reflected sea. turn left side and move towards the pool and fully surrounded by red leaves of trees and move towards to the street. move to the same road on the street and go straight to the corner of the road and reach the optician board on the right side. and move down to the board and see the health insurance in the down to the optician in that board.]. You move according to a series of movement instructions. When you reach your current location, what is your Landmark Position from the tree next to the pool?  \nchoose:  \nA. I am to the left of the tree.  \nB. I am under the tree.  \nC. I am to the right of the tree.  \nD. I am above the tree.  \nE. I am far away from the tree.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The agent is currently at a high vantage point, likely on top of a building, as indicated by the view over the city and the presence of an antenna structure. This elevated position suggests that the agent is above the tree next to the pool, making option D the correct choice.",
+    "evaluation": "Location: [(37, 41), (59, 62), (100, 103)]\nOption: []; Reason: The agent is currently on the top of the building, and the pool is located below the building. Therefore, the agent is above the tree next to the pool.\nLocation: [(37, 41), (59, 62), (100, 103)]\nOption: [D]\nReason: The agent is on top of a building, overlooking the pool and surrounding trees. This elevated position means the agent is above the trees next to the pool.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The agent is currently at a high vantage point, likely on top of a building, as indicated by the view over the city and the presence of an antenna structure. This elevated position suggests that the agent is above the tree next to the pool, making option D the correct choice."
+  }
+}

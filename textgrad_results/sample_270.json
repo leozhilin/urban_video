@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_32.mp4",
+  "question": "Question: You are navigating to a red car at the edge of a residential area ahead. Thinking back on past actions and objects you\u2019ve seen, what is the surrounding environment like at your current location?  \nChoose:  \nA. There is a large shopping mall in front and a park on the left. There\u2019s a parking lot directly behind me.  \nB. There is a row of shops and residential buildings behind me and a busy multi-lane street in front.  \nC. There are several high-rise buildings around me, and there\u2019s a road in front. There\u2019s a large park behind me.  \nD. There\u2019s a large park with a fountain directly in front of me, surrounded by residential buildings. Behind me is a street.  \nE. There\u2019s a high-rise building directly in front of me and an open space behind.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The current location shows a large park with a fountain directly in front, surrounded by residential buildings. Behind the agent, there is a street visible, which matches the description in option D. The environment includes greenery and a central water feature, typical of a park setting within a residential area.",
+    "evaluation": "Location: [(0, 12), (40, 57), (58, 116)]\nOption: D\nReason: From the video, especially between 0:00-0:12, 0:40-0:57, and 0:58-1:16, it's evident that there's a park with a fountain in front of the agent. The area is surrounded by residential buildings. Behind the agent, a street is visible. This aligns perfectly with option D. The other options don't accurately describe the environment.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The current location shows a large park with a fountain directly in front, surrounded by residential buildings. Behind the agent, there is a street visible, which matches the description in option D. The environment includes greenery and a central water feature, typical of a park setting within a residential area."
+  }
+}

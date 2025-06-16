@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_26_37QW5D2ZRPK2HZ8ZHIGWYD0OVCQS8V_7.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [rise, turn slightly to the left, and fly to the red trees in the corner of the park. turn left, fly past the bottle cap billboard, and fly behind the billboard across the street from the charlies chocolates billboard. turn to the right and fly straight to the tall stone building. turn around and fly down to the optician billboard.]. At the initial position, you are asked to navigate to the \"Charlie's Chocolate\" billboard. When you reach your current location, what is your position relative to the \"Charlie's Chocolate\" billboard?  \nchoose:  \nA. I am located to the left of the \"Charlie's Chocolate\" billboard.  \nB. I am located above the \"Charlie's Chocolate\" billboard.  \nC. I am far away from the \"Charlie's Chocolate\" billboard.  \nD. I am located to the right of the \"Charlie's Chocolate\" billboard.  \nE. I am located beneath the \"Charlie's Chocolate\" billboard.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The current location, as depicted in the frames, shows a distant view of the cityscape with no immediate proximity to any specific billboard. The \"Charlie's Chocolate\" billboard is not visible in the current frames, indicating that the agent is far away from it. Therefore, the correct answer is C.",
+    "evaluation": "Location: [(00:54, 01:25)]\nOption: [C]\nReason: From 00:54 to 01:25, the \"Charlie's Chocolate\" billboard is visible in the distance. The agent is not close to the billboard, so the agent is far away from the \"Charlie's Chocolate\" billboard.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The current location, as depicted in the frames, shows a distant view of the cityscape with no immediate proximity to any specific billboard. The \"Charlie's Chocolate\" billboard is not visible in the current frames, indicating that the agent is far away from it. Therefore, the correct answer is C."
+  }
+}

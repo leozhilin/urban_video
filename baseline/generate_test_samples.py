@@ -6,7 +6,7 @@ def generate_samples():
     df = pd.read_parquet('UrbanVideo-Bench/MCQ.parquet')
     
     # Randomly select 100 samples
-    df = df.sample(n=100, random_state=42)
+    df = df.sample(n=1000, random_state=42)
     
     # Save as JSONL file
     with open('baseline/test_samples.jsonl', 'w') as f:

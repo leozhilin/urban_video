@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_55_3JBT3HLQFH0KO3TUYRCFGSSH6W7PZN_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and rise up to the top of the buildings. go right through the column of buildings. go straight and toward the red and green trees. go across the water and stop at the edge where the trees are. take a left turn toward the buildings. go straight toward the tall building and rise to the top of that building.]. At the initial position, you are asked to follow a series of movement instructions. What are you doing now?  \nchoose:  \nA. I go across the water and stop at the edge where the trees are.  \nB. I go straight towards the red and green trees.  \nC. I turn left toward the building.  \nD. I take off and rise to the top of the building.  \nE. I go straight to the tall building and rise to the top of it.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The initial instruction is to \"take off and rise up to the top of the buildings,\" which matches the action depicted in the sequence of images where the perspective rises above the building level.",
+    "evaluation": "Location: [(0, 15)]\nOption: D\nReason: From the beginning of the video to 15 seconds, the camera view is rising from the ground level to the top of the buildings. This matches the instruction \"take off and rise up to the top of the buildings\".",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The initial instruction is to \"take off and rise up to the top of the buildings,\" which matches the action depicted in the sequence of images where the perspective rises above the building level."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_20_0.mp4",
+  "question": "Question: You are navigating to the 13th-floor balcony. Thinking back on past action generations and objects seen, what is the surrounding environment like at your current location?  \nChoice:  \nA. Highways and parks are on my right. Several low-rise buildings are behind me. A large square is below me.  \nB. A building is ahead. Behind it is a large industrial park. A wide river is directly below me.  \nC. A high-rise building is directly in front of me. Behind me is a large expanse of open water. A parallel highway is below me.  \nD. Roads and trees are next to me. Many high-rise buildings are around me.  \nE. Many low-rise buildings are clustered around me, with no obvious pattern. A parking lot is behind me. A small roundabout is below me.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The images show a high-rise building with roads and trees next to it, and many other high-rise buildings around, which matches the description in option D.",
+    "evaluation": "Location: [(0, 17)]\nOption: [D]\nReason: The video shows the agent is on the 13th-floor balcony of a high-rise building. Roads and trees are next to the building, and many other high-rise buildings are around. This matches the description in option D.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The images show a high-rise building with roads and trees next to it, and many other high-rise buildings around, which matches the description in option D."
+  }
+}

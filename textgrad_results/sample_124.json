@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_16_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the 17th floor balcony. Thinking back on past Action Generations and objects seen, what should you approach next in order to get from your current location to your destination?  \nchoose:  \nA. I approach the base of the target building.  \nB. I approach the center of the highway intersection.  \nC. I approach the entrance to the building.  \nD. I approach the height of 17 floors.  \nE. I approach the top of the adjacent skyscraper.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: To navigate to the 17th floor balcony, the first step is to approach the entrance to the building. From there, you can enter the building and find a way to reach the 17th floor, such as using an elevator or stairs. The other options do not directly facilitate entry into the building to reach the specific floor.",
+    "evaluation": "Location: [(0, 53)]\nOption: [C]\nReason: The video shows the building and its surroundings. To reach the 17th-floor balcony, the most logical first step is to approach the entrance to the building. From there, one can find a way to access the upper floors, such as using an elevator or stairs. The other options are not directly related to entering the building. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: To navigate to the 17th floor balcony, the first step is to approach the entrance to the building. From there, you can enter the building and find a way to reach the 17th floor, such as using an elevator or stairs. The other options do not directly facilitate entry into the building to reach the specific floor."
+  }
+}

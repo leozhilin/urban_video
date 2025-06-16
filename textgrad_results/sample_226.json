@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_26.mp4",
+  "question": "Question: How does the distance between you and the residential building change after you start circling the outer edge?  \nChoice: A. I increase the distance from residential buildings.  \n           B. I decrease the distance from the residential building.  \n           C. I keep the distance from the residential building relatively constant.  ",
+  "question_category": "Proximity",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The video shows the agent circling the outer edge of the residential area, maintaining a consistent distance from the residential buildings. There is no significant increase or decrease in the distance between the agent and the buildings, indicating that the distance remains relatively constant.",
+    "evaluation": "Location: [(0, 24), (1:35, 1:48)]\nOption: C\nReason: From the beginning of the video to 0:24, the agent is circling the residential buildings, and the distance between the agent and the buildings remains relatively constant. Also, from 1:35 to 1:48, the agent is circling the residential buildings, and the distance between the agent and the buildings remains relatively constant. Therefore, the distance between the agent and the residential buildings remains relatively constant after the agent starts circling the outer edge. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The video shows the agent circling the outer edge of the residential area, maintaining a consistent distance from the residential buildings. There is no significant increase or decrease in the distance between the agent and the buildings, indicating that the distance remains relatively constant."
+  }
+}

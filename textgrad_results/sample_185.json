@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_20.mp4",
+  "question": "Question: Instead of taking a steady descent towards the balcony on the 13th floor, if you choose to hover around the cylindrical building instead, can you complete the task, and how is the alternative route?  \nChoices:  \nA. If I choose to hover around the building, I can complete the task because I avoid obstacles, and the hypothetical movement takes shorter time.  \nB. If I choose to hover around the building, I can complete the task because I acquire a better vantage point, but the alternative takes longer time.  \nC. If I choose to hover around the building, I cannot complete the task because the balcony is only accessible by descending further.  ",
+  "question_category": "Counterfactual",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: Hovering around the cylindrical building does not provide a path to reach the balcony on the 13th floor, as the task specifically requires descending towards it. The balcony is only accessible by moving directly towards and descending to the specified floor.",
+    "evaluation": "Location: [(0, 57), (57, 110)]\nOption: C\nReason: The video shows the building with numbered floors. The 13th floor is clearly visible. Hovering around the building would not allow access to the balcony on the 13th floor, as the balcony is only accessible by descending to that specific floor. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: Hovering around the cylindrical building does not provide a path to reach the balcony on the 13th floor, as the task specifically requires descending towards it. The balcony is only accessible by moving directly towards and descending to the specified floor."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_45_351SEKWQS9FB0ZRLETVQ8WFJDCODMO_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [Raise the cam slightly and turn left to face the tall building, then right to face the beige building. Move straight toward the tall building, fly over its roof, and tilt the cam right while flying. Lower the cam to face the path and building, pause, then go straight. Near the tree, raise the cam slightly, turn right to face the distant tall building, and go straight. Turn left to face another building, move straight toward the tree, then turn left toward the tall beige building. Fly over its roof, go straight, and near the building, tilt the cam right to face the small building. Turn left to face the beige building, tilt down briefly, then up. Lower the cam to face the road below the hoardings, and continue straight.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I walk straight toward the building.  \nB. I make the camera levitate and face the high-rise building.  \nC. I turn the camera to the right and face the tall building in the distance.  \nD. I turn the camera to the left, facing the beige tall building.  \nE. I float the camera downward, facing the road and buildings.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows a progression where the camera initially faces upwards towards the sky and then gradually shifts to show a distant tall building, indicating that the camera has been turned to the right to face the tall building in the distance as per the navigation instruction.",
+    "evaluation": "Location: [(0, 8), (9, 15)]\nOption: C\nReason: The video starts with the camera facing upwards towards the sky. From 0 to 8 seconds, the camera gradually rotates to the right, revealing a distant tall building. From 9 to 15 seconds, the tall building becomes more prominent in the view, confirming that the camera has been turned to the right to face it. Therefore, option C is the correct answer.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows a progression where the camera initially faces upwards towards the sky and then gradually shifts to show a distant tall building, indicating that the camera has been turned to the right to face the tall building in the distance as per the navigation instruction."
+  }
+}

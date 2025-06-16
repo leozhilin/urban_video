@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_32_0.mp4",
+  "question": "Question: You are traveling toward a red car along the edge of a residential area ahead. What is the correct summary of your trajectory from start to current location?  \nChoice:  \nA. I start from inside the community, move toward the street, and fly to my current position above the street.  \nB. I start from the parking lot, move directly to the residential area, and gradually rise to my current location.  \nC. I start from the sidewalk in the park, turn left, rise to a height above the building, and then move forward to my current position outside the building.  \nD. I start from a low altitude in the park, climb to the sky above the building, and then move forward to my current position.  \nE. I start from the street outside the community, fly toward the park, fly over the park, and reach my current location.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The video shows a trajectory starting from a higher vantage point overlooking a residential area, moving forward and slightly downward towards a street scene with buildings on both sides. This matches option E, which describes starting from the street outside the community, flying toward the park, over the park, and reaching the current location, aligning with the observed movement and scenery changes.",
+    "evaluation": "Location: [(0, 18)]\nOption: E\nReason: The video starts with a view overlooking a residential area and a park. The camera then moves forward and slightly downward towards a street with buildings on both sides. This trajectory matches option E, which describes starting from the street outside the community, flying toward the park, over the park, and reaching the current location. The initial high vantage point and the subsequent movement towards the street are consistent with this description.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The video shows a trajectory starting from a higher vantage point overlooking a residential area, moving forward and slightly downward towards a street scene with buildings on both sides. This matches option E, which describes starting from the street outside the community, flying toward the park, over the park, and reaching the current location, aligning with the observed movement and scenery changes."
+  }
+}

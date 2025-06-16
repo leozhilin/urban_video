@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_84_3U5NZHP4L00YXIT0S568GLOCBI7PH3_6.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [lift off the road and turn left. go to the golden windows on the building. fly up over the building and go forward one block. turn left and go around the left side of the dark tall building. go straight to the end of the road. turn around and fly behind the golden windowed building. go straight towards the tall tan building. continue straight towards the water. stop one block away from the water. turn left. fly to the left of the tall sky scraper. fly forward to the next road ahead. stop near the billboard on the roof across the road and lower down a bit.]. At the initial position, you move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I fly to the left side of the tall skyscraper.  \nB. I go straight to the tall brown building.  \nC. I go straight to the end of the road.  \nD. I stop near the billboard on the roof across the street and lower myself a little further.  \nE. I turn left.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The final part of the navigation instruction states to \"stop near the billboard on the roof across the road and lower down a bit.\" The current image shows a view from above, looking towards a building with a visible billboard on its roof, which aligns with this final step in the instructions. Therefore, the agent is now stopping near the billboard and lowering itself a little further.",
+    "evaluation": "Location: [(0:35, 0:47), (3:53, 4:10)]\nOption: D\nReason: From 0:35 to 0:47, the camera shows a view of the city from above, and a billboard on the roof of a building across the street is visible. From 3:53 to 4:10, the camera is closer to the billboard. This aligns with the final instruction to \"stop near the billboard on the roof across the road and lower down a bit.\" Therefore, the agent is now stopping near the billboard and lowering itself a little further.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The final part of the navigation instruction states to \"stop near the billboard on the roof across the road and lower down a bit.\" The current image shows a view from above, looking towards a building with a visible billboard on its roof, which aligns with this final step in the instructions. Therefore, the agent is now stopping near the billboard and lowering itself a little further."
+  }
+}

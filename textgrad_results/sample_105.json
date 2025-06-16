@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_17.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a nearby bus stop. Given what\u2019s next for the parking lot across the street, what\u2019s your next step?  \nchoose:  \nA. I rise.  \nB. I decline.  \nC. I fly forward.  \nD. I turn left.  \nE. I turn right.  \nF. I move backward.  \nG. I hover.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "G",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The video shows a bird's-eye view of a street with a bus stop on the right side. To navigate to the nearby bus stop, turning right would align with the direction of the bus stop visible in the frames.",
+    "evaluation": "Location: [(0, 23), (23, 47), (47, 117), (117, 145), (145, 240)]\nOption: [E]\nReason: From the initial position, the video shows the parking lot across the street. The bus stop is located on the right side of the parking lot. Therefore, the next step is to turn right.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The video shows a bird's-eye view of a street with a bus stop on the right side. To navigate to the nearby bus stop, turning right would align with the direction of the bus stop visible in the frames."
+  }
+}

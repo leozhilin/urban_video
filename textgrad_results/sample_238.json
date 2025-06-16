@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_17_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a nearby bus stop. When you reach the current location, what is the direction to the destination?  \nchoose:  \nA. I am currently over the parking lot next to the bus stop.  \nB. I am currently far away from the bus station and located over a large residential area.  \nC. I am currently directly above the bus stop.  \nD. I am currently across the street from the bus stop and above the road.  \nE. I am currently slightly to the right of the bus stop, hovering near a building.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The current location shows a view directly above a road with trees and a sidewalk, indicating that the agent is across the street from the bus stop. The presence of the road and the layout suggest that the bus stop is on the opposite side of the street.",
+    "evaluation": "Location: [(0:26, 0:32), (1:00, 1:02), (1:16, 1:22)]\nOption: D\nReason: The video shows the agent is directly above a road with trees and a sidewalk. On the other side of the road, there are buildings and a bus stop. Therefore, the agent is currently across the street from the bus stop and above the road.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The current location shows a view directly above a road with trees and a sidewalk, indicating that the agent is across the street from the bus stop. The presence of the road and the layout suggest that the bus stop is on the opposite side of the street."
+  }
+}

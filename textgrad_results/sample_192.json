@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_2_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the 31st floor balcony. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. The balcony on the 31st floor is currently in the center of my field of view.  \nB. The balcony on the 31st floor is currently on the left side of my field of view.  \nC. The balcony on the 31st floor is currently in the lower right corner of my field of view.  \nD. The balcony on the 31st floor is not within my field of view.  \nE. The balcony on the 31st floor is currently on the right side of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The initial position shows a view of tall buildings and the cityscape, but there is no visible balcony on the 31st floor within the current field of view. The focus is more on the general urban environment rather than specific details like a balcony.",
+    "evaluation": "Location: [(0, 5)]\nOption: D\nReason: From the initial position (0-5s), the view shows tall buildings and the cityscape. There is no visible balcony on the 31st floor within the current field of view. The focus is on the general urban environment.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The initial position shows a view of tall buildings and the cityscape, but there is no visible balcony on the 31st floor within the current field of view. The focus is more on the general urban environment rather than specific details like a balcony."
+  }
+}

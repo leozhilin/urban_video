@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_20.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the Huaji Shimo Rice Roll Rice Shop in the remaining area in front of you. Given what\u2019s next for the parking lot in front of the store, what\u2019s next for you?  \nchoose:  \nA. I rise.  \nB. I decline.  \nC. I fly forward.  \nD. I turn left.  \nE. I turn right.  \nF. I move backward.  \nG. I hover.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "G",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The video shows a first-person perspective moving through an urban environment. To navigate to the Huaji Shimo Rice Roll Rice Shop, the agent needs to turn right as the shop is located in that direction based on the visible storefronts and the layout of the area. Turning right aligns with the goal of reaching the desired destination efficiently.",
+    "evaluation": "Location: [(0, 15), (113, 115), (141, 144)]\nOption: [E]\nReason: From the initial position, the Huaji Shimo Rice Roll Rice Shop is located to the right. Therefore, the next step is to turn right.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The video shows a first-person perspective moving through an urban environment. To navigate to the Huaji Shimo Rice Roll Rice Shop, the agent needs to turn right as the shop is located in that direction based on the visible storefronts and the layout of the area. Turning right aligns with the goal of reaching the desired destination efficiently."
+  }
+}

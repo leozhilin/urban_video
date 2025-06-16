@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_20_3LEIZ60CDSXZWGDNH2GIU2S220FZ99_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take of from the sea and take left there was an golden building and go to the top of the building and go straight. there was an another building and then take left from the building then go straight for a while. go straight for a while there was a sea at the end of the building then take then take left from the building, again take right. again take right from the building then take a turn from the building, then land near the building is our final destination.]. At the initial position, you are asked to navigate based on a series of movement instructions. When you reach the current location, what is your landmark position relative to the golden building?  \nchoose:  \nA. I am to the left of the golden building.  \nB. I am on the right side of the golden building.  \nC. I am located above the golden building.  \nD. I am located under the golden building.  \nE. I am behind the golden building.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The navigation instructions indicate that the agent took off from the sea, went to the top of the golden building, and continued with further instructions. The current location appears to be at a high vantage point overlooking the sea and other buildings, which aligns with being above the golden building. Therefore, the landmark position relative to the golden building is that the agent is located above it.",
+    "evaluation": "Location: [(0, 37)]\nOption: [C]\nReason: The video shows a high vantage point overlooking the sea and other buildings. The navigation instructions state that the agent took off from the sea and went to the top of the golden building. Therefore, the current location is above the golden building.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The navigation instructions indicate that the agent took off from the sea, went to the top of the golden building, and continued with further instructions. The current location appears to be at a high vantage point overlooking the sea and other buildings, which aligns with being above the golden building. Therefore, the landmark position relative to the golden building is that the agent is located above it."
+  }
+}

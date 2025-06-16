@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_25_34MAJL3QPDLXEH0IF0PI9TC71F134N.mp4",
+  "question": "Question: After you aim at the distant cityscape, what is the next step?  \nOptions: A. I turn left.  \n            B. I ascend to gain a wider view of the skyline.  \n            C. I hover in place.  \n            D. I descend to a lower altitude.  \n            E. I continue forward, moving over the park.",
+  "question_category": "Sequence Recall",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The sequence of images shows a continuous forward movement towards the cityscape, passing over a park area. This indicates that after aiming at the distant cityscape, the next step is to continue forward, moving over the park.",
+    "evaluation": "Location: [(0, 32)]\nOption: [E]\nReason: From the beginning of the video to 32 seconds, the camera moves forward towards the cityscape, passing over a park area. This indicates that after aiming at the distant cityscape, the next step is to continue forward, moving over the park.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The sequence of images shows a continuous forward movement towards the cityscape, passing over a park area. This indicates that after aiming at the distant cityscape, the next step is to continue forward, moving over the park."
+  }
+}

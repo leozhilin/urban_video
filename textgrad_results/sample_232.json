@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_17_0.mp4",
+  "question": "Question: You are navigating to the balcony on the 16th floor. What is the correct summary of your trajectory from the beginning to the current location?  \nChoice:  \nA. Start from the park, move toward the highway, rise to the top of a high-rise building, and then descend to the base of a building near your current location.  \nB. Start from the left side of the building with a huge conical dome, turn right, and descend to a certain height.  \nC. Start from above the highway, descend to a high-rise building, and then move upward to your current position near the roof.  \nD. Start from the park, move towards the high-rise building, rise to the height of the roof of the building, and continue to move towards your current position near the side of the building.  \nE. Start from the park, turn to face a high-rise building, rise a little above the building, and then move to your current position on the balcony of the 16th floor.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The trajectory starts from a park-like area, moves towards a high-rise building, rises slightly above the building, and then proceeds to the current position on the balcony of the 16th floor, which matches the visual progression in the frames.",
+    "evaluation": "Location: [(0, 1), (4, 6)]\nOption: E\nReason: The video starts with a view of a park and a high-rise building. The camera then moves towards the building, rises slightly above it, and finally moves to the balcony of the 16th floor. This trajectory matches option E.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The trajectory starts from a park-like area, moves towards a high-rise building, rises slightly above the building, and then proceeds to the current position on the balcony of the 16th floor, which matches the visual progression in the frames."
+  }
+}

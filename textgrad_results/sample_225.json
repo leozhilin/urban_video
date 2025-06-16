@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_21.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the balcony on the 12th floor. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. The balcony on the 12th floor is currently located in the lower left corner of my field of view.  \nB. The balcony on the 12th floor is currently located on the right side of my field of view.  \nC. The balcony on the 12th floor is currently located in the upper right corner of my field of view.  \nD. The balcony on the 12th floor is not within my field of view.  \nE. The balcony on the 12th floor is currently located in the center of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The balcony on the 12th floor is not within the field of view in the initial position. The view starts from a higher floor and moves downward, but at the initial position, only floors above the 12th floor are visible.",
+    "evaluation": "Location: [(0, 53)]\nOption: D\nReason: From the initial position (0:00-0:53), the camera is looking down from a high vantage point. While the building with the numbered floors is visible, the 12th floor is not within the initial field of view. The camera needs to pan down further to bring the 12th floor into sight.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The balcony on the 12th floor is not within the field of view in the initial position. The view starts from a higher floor and moves downward, but at the initial position, only floors above the 12th floor are visible."
+  }
+}

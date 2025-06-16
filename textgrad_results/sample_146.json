@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_108_3T3IWE1XGFL923LASC2MU9HAR8YQTF.mp4",
+  "question": "Question: Which would take longer, you flying over a rooftop or aligning with a \"DAVE'S CAR WASH\" ad?  \nChoice: A. I fly over the roof longer than I am aligned with the ad.  \n           B. I fly over the rooftop for less time than I am aligned with the ad.  \n           C. I fly over the roof for the same amount of time as I am aligned with the ad.  ",
+  "question_category": "Duration",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The sequence of images shows that the agent spends more frames (and thus more time) aligning with and passing the \"DAVE'S CAR WASH\" ad than it does flying over the rooftop. The initial frames focus on the rooftop, but the latter and majority of the frames are dedicated to the alignment with the ad, indicating a longer duration spent there.",
+    "evaluation": "Location: [(0, 10), (10, 40)]\nOption: [B]\nReason: The video shows the agent flying over a rooftop from 0 to 10 seconds. From 10 to 40 seconds, the agent is aligned with the \"DAVE'S CAR WASH\" ad. Therefore, the agent spends more time aligned with the ad than flying over the rooftop. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The sequence of images shows that the agent spends more frames (and thus more time) aligning with and passing the \"DAVE'S CAR WASH\" ad than it does flying over the rooftop. The initial frames focus on the rooftop, but the latter and majority of the frames are dedicated to the alignment with the ad, indicating a longer duration spent there."
+  }
+}

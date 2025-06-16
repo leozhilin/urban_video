@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_85_34MAJL3QPDLXEH0IF0PI9TC71F134N_1.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off turn back go straight up to the ice cold bar take right go until the fountain take left go straight. up to the ensure advertisement turn right go straight until the center of the lake take left go straight. take left go through buildings move forward until the road near blue three stored building look around see the blue postbox land near that.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I go all the way to the center of the lake.  \nB. I head straight to the cold bar.  \nC. I fly over buildings.  \nD. I turn right at the building.  \nE. I turn left through the building.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The initial instruction is to \"take off turn back go straight up to the ice cold bar,\" which suggests that the first action involves heading towards the 'ice cold bar.' The provided frames show a progression from an open area towards a more urban setting with buildings, which aligns with moving towards a specific landmark like a bar. Therefore, the current action based on the instructions and the visual sequence is heading straight to the cold bar.",
+    "evaluation": "Location: [(0, 52)]\nOption: [B]\nReason: The initial instruction is \"take off turn back go straight up to the ice cold bar\". From the video, we can see that the agent is flying towards the buildings, and the \"Drink Ice Cold\" advertisement is visible on the building. Therefore, the agent is heading straight to the cold bar.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The initial instruction is to \"take off turn back go straight up to the ice cold bar,\" which suggests that the first action involves heading towards the 'ice cold bar.' The provided frames show a progression from an open area towards a more urban setting with buildings, which aligns with moving towards a specific landmark like a bar. Therefore, the current action based on the instructions and the visual sequence is heading straight to the cold bar."
+  }
+}

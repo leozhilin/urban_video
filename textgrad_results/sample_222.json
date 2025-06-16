@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_85_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the entrance of the residential community below. There is a shop called \"Jiuyuan Tobacco and Liquor Store\" next to the entrance. Given the next steps for [planned milestone], what are your next steps?  \nchoose:  \nA. I rise.  \nB. I descend.  \nC. I fly forward.  \nD. I turn left.  \nE. I turn right.  \nF. I rotate the camera upward.  \nG. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "G",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The agent is currently at a high vantage point overlooking the city. To navigate to the entrance of the residential community and locate the \"Jiuyuan Tobacco and Liquor Store,\" the agent needs to descend to ground level where the shop can be found. Therefore, the next logical step is to descend.",
+    "evaluation": "Location: [(0, 134)]\nOption: B\nReason: The agent is currently at a high altitude, overlooking the city. To reach the entrance of the residential community and find the \"Jiuyuan Tobacco and Liquor Store,\" the agent must descend to ground level. Therefore, the next logical step is to descend.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The agent is currently at a high vantage point overlooking the city. To navigate to the entrance of the residential community and locate the \"Jiuyuan Tobacco and Liquor Store,\" the agent needs to descend to ground level where the shop can be found. Therefore, the next logical step is to descend."
+  }
+}

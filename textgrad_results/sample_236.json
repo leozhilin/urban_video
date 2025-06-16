@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_19_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the largest intersection nearby. Thinking back on past actions and objects you\u2019ve seen, what should you approach next in order to get from your current location to the destination?  \nchoose:  \nA. I approach the center of the roundabout.  \nB. I approach the top of the traffic light pole at the intersection.  \nC. I approach the building roof with an INSE banner.  \nD. I approach street parking.  \nE. I approach the street corner opposite the park entrance.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The street corner opposite the park entrance is a strategic point to approach next as it likely leads to a larger intersection. This area appears to be a convergence point of multiple roads, which is typical for major intersections in urban settings. Additionally, navigating towards this corner can provide a clearer view of the surrounding streets and help in identifying the largest intersection nearby.",
+    "evaluation": "Location: [(0, 16), (25, 32), (56, 59), (142, 153), (309, 317), (350, 355)]\nOption: [E]\nReason: From the initial position, the street corner opposite the park entrance appears to be a convergence point of multiple roads, which is typical for major intersections in urban settings. Additionally, navigating towards this corner can provide a clearer view of the surrounding streets and help in identifying the largest intersection nearby.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The street corner opposite the park entrance is a strategic point to approach next as it likely leads to a larger intersection. This area appears to be a convergence point of multiple roads, which is typical for major intersections in urban settings. Additionally, navigating towards this corner can provide a clearer view of the surrounding streets and help in identifying the largest intersection nearby."
+  }
+}

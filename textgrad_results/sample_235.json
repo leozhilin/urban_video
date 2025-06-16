@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_10_32EYX73OY97OEHFZ5WHW4VDH3OSRUM.mp4",
+  "question": "Question: Instead of flying above the road, if you choose to fly above the lake, can you reach the wooden pavilion, and how is the alternative route?  \nChoices:  \nA. I complete the task because I may have a clearer view of the pavilion, but the alternative route might take longer.  \nB. I cannot complete the task because I will miss the pavilion by a wide margin.  \nC. I cannot complete the task because I will drown.  ",
+  "question_category": "Counterfactual",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: Flying above the lake might provide a clearer view of the wooden pavilion and the surrounding area, which can be beneficial for navigation. However, this alternative route could take longer compared to flying directly above the road, as it may involve additional maneuvers to avoid obstacles and maintain a safe distance from the water surface.",
+    "evaluation": "Location: [(0, 57)]\nOption: A\nReason: From the video, we can see the lake is next to the road and the wooden pavilion is on the other side of the lake. Flying above the lake might provide a clearer view of the pavilion. However, the alternative route might take longer.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: Flying above the lake might provide a clearer view of the wooden pavilion and the surrounding area, which can be beneficial for navigation. However, this alternative route could take longer compared to flying directly above the road, as it may involve additional maneuvers to avoid obstacles and maintain a safe distance from the water surface."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_1_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the blue roof of a nearby building. When you reach the current location, what is the direction to the destination?  \nchoose:  \nA. I am currently higher than the building and above the Circus.  \nB. I am currently hovering over the roof of the building.  \nC. I am currently on the left side of the building, at a lower altitude.  \nD. I am currently behind the building at the same height as the roof.  \nE. I am currently on the right side of the building, at the same height as the building's roof.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The current location shows an aerial view directly above a building with a red roof, indicating that the agent is hovering over the roof of the building.",
+    "evaluation": "Location: [(0, 7)]\nOption: B\nReason: The video shows a direct aerial view of a building with a red roof. This indicates that the agent is hovering directly above the roof of the building. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The current location shows an aerial view directly above a building with a red roof, indicating that the agent is hovering over the roof of the building."
+  }
+}

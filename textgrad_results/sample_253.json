@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_87_30ZX6P7VFHTYWHNKE7YHWLWYAKP2J5_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn left and turn right move forward to the blue building. now turn left move towards the top and slow down to the road fly along the road. now turn right move towards the building turn left and slow down behind the grey building closely and stay there.]. You move according to a series of movement instructions. In terms of next steps, what is your best next step?  \nchoose:  \nA. I go up and turn right.  \nB. I turn right and fly forward.  \nC. I fly forward while rotating the camera upward.  \nD. I turn left and go up.  \nE. I rotate the camera down and then to the right.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The navigation instruction indicates that after reaching the grey building, the next step is to turn right and move towards another building. The current position appears to be near a building, and turning right aligns with the given instructions to continue moving forward in the specified direction.",
+    "evaluation": "Location: [(0, 32)]\nOption: B\nReason: The instruction says \"now turn right move towards the building turn left and slow down behind the grey building closely and stay there.\". After that, the instruction says \"now turn right move towards the building\". So the next step is to turn right and fly forward.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The navigation instruction indicates that after reaching the grey building, the next step is to turn right and move towards another building. The current position appears to be near a building, and turning right aligns with the given instructions to continue moving forward in the specified direction."
+  }
+}

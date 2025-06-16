@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_85_3M81GAB8A9H96HRTSQB1UFBOLXQBQU.mp4",
+  "question": "Question: If you do not choose the middle floor of a multi-story building, but choose to fly from above the building to the lake, can you complete the mission? What are the alternative routes?  \nChoice: A. If I fly over the building, I cannot complete the mission because I am targeting the middle floors, and the alternative would take longer.  \n         B. If I fly over the building, I can complete the mission because I have a clearer path, and the alternative takes less time.  \n         C. If I fly over the building, I will not be able to complete my mission because I will be completely outside my destination.  ",
+  "question_category": "Counterfactual",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: Flying over the building means bypassing the middle floors, which are likely the target destination. This would prevent completing the mission as intended. Alternative routes that involve ground or lower-level traversal might take longer due to obstacles and distance.",
+    "evaluation": "Location: [(0, 15), (118, 138)]\nOption: A\nReason: The video shows a multi-story building. If the mission requires targeting the middle floors, flying over the building would bypass those floors, making it impossible to complete the mission as intended. Alternative routes, such as navigating through the city streets or lower levels of the building, might take longer due to obstacles and distance. The video shows the building's structure and its location relative to the lake, supporting the idea that flying over would miss the target floors.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: Flying over the building means bypassing the middle floors, which are likely the target destination. This would prevent completing the mission as intended. Alternative routes that involve ground or lower-level traversal might take longer due to obstacles and distance."
+  }
+}

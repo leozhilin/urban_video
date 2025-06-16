@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_31_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to an underground garage near a residential area consisting of gray buildings ahead. At the current location, if the underground garage near the open space is not within the field of view, what is the most relevant object in the field of view and where is this object?  \nchoose:  \nA. I can see the underground garage near the open space.  \nB. I cannot see the underground garage near the open space, but I notice a construction site with a crane in the middle right part of my field of view.  \nC. I cannot see the underground garage near the open space, but I see the open space itself in the middle of my field of view.  \nD. I cannot see the underground garage near the open space, but I observe a row of parked cars on the lower right side of my field of view.  \nE. I cannot see the underground garage near the open space, but I see a group of trees in the lower left corner of my field of view.  ",
+  "question_category": "Association Reasoning",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The underground garage near the open space is not visible in the field of view. However, there is a construction site with a crane noticeable in the middle right part of the field of view, which stands out as a significant feature in the scene.",
+    "evaluation": "Location: [(0, 20)]\nOption: [B]\nReason: From the initial position (0-20s), the underground garage is not visible. However, there is a construction site with cranes visible in the middle right part of the field of view.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The underground garage near the open space is not visible in the field of view. However, there is a construction site with a crane noticeable in the middle right part of the field of view, which stands out as a significant feature in the scene."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_76_3MHW492WW9BXUGR75EVKEILQEPQVMG_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off from the terrace and show the loan signage and turn left show the bridge and sea view. turn left and fly over the pond and shows trees and turn right show the white statue in the park and turn left move towards to the city road path way. show loan signage and fly high turn left and the high building mobile tower and show american signage. move towards to the sea view and show the building mobile tower end up with building wall.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your Landmark Position to the bridge?  \nchoose:  \nA. I am under the bridge.  \nB. I am on the left side of the bridge.  \nC. I am far away from the bridge.  \nD. I am located above the bridge.  \nE. I am located on the right side of the bridge.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The current view shows the bridge on the left side of the perspective, indicating that the agent is on the left side of the bridge as it moves forward. This aligns with the navigation instruction to turn left and show the bridge and sea view. Therefore, the correct landmark position relative to the bridge is that the agent is on the left side of the bridge.",
+    "evaluation": "Location: [(0, 47)]\nOption: [B]\nReason: The video shows the agent moving along a road with the bridge visible to the left. The instruction was to turn left and show the bridge and sea view. The current view confirms that the bridge is on the left side of the agent's perspective. Therefore, the agent is located on the left side of the bridge.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The current view shows the bridge on the left side of the perspective, indicating that the agent is on the left side of the bridge as it moves forward. This aligns with the navigation instruction to turn left and show the bridge and sea view. Therefore, the correct landmark position relative to the bridge is that the agent is on the left side of the bridge."
+  }
+}

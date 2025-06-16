@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_73_3FTYUGLFS3JDSS6FMUE4RU4XSMUD55_5.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn left and go over the buildings towards the top of the brown building. now turn right and move forward and go over the buildings towards the white building. now turn right and move forward and go over the buildings and get down reach the road. now turn left and get up and move forward and get down towards the brown building. now turn back reach the brown building and stay there.]. At the initial position, you are asked to follow a series of movement instructions. What are you doing now?  \nchoose:  \nA. I turn left and fly forward.  \nB. I retrace my steps to the brown building and stay there.  \nC. I turn right and move forward, past the building and onto the road.  \nD. I go over the building and to the top of the brown building.  \nE. I turn right and move forward, past the buildings, towards the white building.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The sequence of images shows the agent has completed the navigation instructions and is now at the final destination, which is the brown building. The agent has retraced steps to reach and stay at the brown building as per the last part of the instruction.",
+    "evaluation": "Location: [(201, 220)]\nOption: B\nReason: The video shows the agent is near the brown building. The last instruction was to return to the brown building and stay there.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The sequence of images shows the agent has completed the navigation instructions and is now at the final destination, which is the brown building. The agent has retraced steps to reach and stay at the brown building as per the last part of the instruction."
+  }
+}

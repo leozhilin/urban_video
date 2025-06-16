@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_14_3YW4XOSQKZJ0LCGI722HY4V3HMY1U8_1.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [lift off and turn left facing left of the bridge and head straight. at the end of the road turn right facing the left of the pop bottle sign and head straight. at the left of the sign turn left facing the road and follow it. veer right to behind the bottle cap sign then veer left to the car wash sign. at the car wash sign turn right facing the yellow sign and head straight. veer right of the sign around the building. at the tall white building climb it to the top and stop at the top.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you arrive at your current location, what is your Landmark Position to the white tall building?  \nchoose:  \nA. I am located on the left side of the white tall building.  \nB. I am far away from the white tall building.  \nC. I am parked on the ground of a white high-rise building.  \nD. I am located above a tall white building.  \nE. I am located on the right side of the white tall building.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The final instruction is to \"climb it to the top and stop at the top,\" which indicates that the agent has reached a position above the tall white building. Therefore, the correct answer is D, as the agent is located above the tall white building.",
+    "evaluation": "Location: [(1:32, 1:37)]\nOption: [D]\nReason: The video shows the agent climbing the tall white building and stopping at the top. Therefore, the agent is located above the tall white building.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The final instruction is to \"climb it to the top and stop at the top,\" which indicates that the agent has reached a position above the tall white building. Therefore, the correct answer is D, as the agent is located above the tall white building."
+  }
+}

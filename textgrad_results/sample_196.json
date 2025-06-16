@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_18_3RWE2M8QWQ8NJXBREIMV64KZ4S70N8_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [rise up and go straight down the bridge and stop halfway. turn to the right and go over water look left and go under bridge. turn right and go forward back the street stopping at intersection and looking right. rise up and go right stopping at the red and white bottle cap. go straight until reaching brown and then look down and right at the water.]. At the initial position, you are asked to navigate according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I go across the water.  \nB. I stand up and walk to the right, stopping at the red and white bottle caps.  \nC. I walk in a straight line along the bridge.  \nD. I turn right and walk forward back to the street, stop at the intersection, and look to the right.  \nE. I turn right, cross the water, look left, and go under the bridge.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The initial instruction is to \"rise up and go straight down the bridge and stop halfway.\" The images show a continuous forward movement along the bridge, indicating that the agent is currently walking in a straight line along the bridge as instructed.",
+    "evaluation": "Location: [(0, 38)]\nOption: C\nReason: The video shows the agent moving forward in a straight line on the bridge. The initial instruction was to \"rise up and go straight down the bridge and stop halfway.\" Therefore, the agent is currently walking in a straight line along the bridge. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The initial instruction is to \"rise up and go straight down the bridge and stop halfway.\" The images show a continuous forward movement along the bridge, indicating that the agent is currently walking in a straight line along the bridge as instructed."
+  }
+}

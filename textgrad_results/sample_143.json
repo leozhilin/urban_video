@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_36_35H6S234SJYE7JR0C76QLOU436G65H.mp4",
+  "question": "Question: Where are the starting and ending points of your journey?  \nChoice: A. I start in a residential area and end in a park.  \n           B. I start on the main street and end at the Rotunda.  \n           C. I start from the central square and end on the roof of the skyscraper.  \n           D. I start high above the city and end with flat red-roofed buildings.  \n           E. I start from the outskirts of the city and end at the stadium.  ",
+  "question_category": "Start/End Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The journey begins with a high aerial view of the city, showing numerous tall buildings and a broad landscape, indicating a starting point high above the city. As the sequence progresses, the perspective gradually descends and moves towards areas with flatter rooftops that are predominantly red, matching the description in option D.",
+    "evaluation": "Location: [(0, 231)]\nOption: [D]\nReason: The video starts with a high aerial view of the city, showing numerous tall buildings and a broad landscape, indicating a starting point high above the city. As the sequence progresses, the perspective gradually descends and moves towards areas with flatter rooftops that are predominantly red, matching the description in option D.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The journey begins with a high aerial view of the city, showing numerous tall buildings and a broad landscape, indicating a starting point high above the city. As the sequence progresses, the perspective gradually descends and moves towards areas with flatter rooftops that are predominantly red, matching the description in option D."
+  }
+}

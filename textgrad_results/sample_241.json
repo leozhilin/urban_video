@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_18_33FBRBDW6XXMAIJ3KWQWJ8W69D98CU.mp4",
+  "question": "Question: Which of the following choices better summarizes your movement route?  \nChoices:  \nA. I go from the vantage point over the park to the window with a white curtain by flying over the treetops, down the street, and aligning myself with the rooftop of the mid-rise buildings.  \nB. I go from the position over the park to the window with a white curtain by ascending over the park and moving toward the cluster of skyscrapers, then crossing the street outside the park and aiming at the targeted window with a white curtain.  \nC. I go from the rows of buildings to the window with a white curtain by passing over the rooftops and following the main street.  \nD. I go from the park's center to the window with a white curtain by descending over buildings and aligning with the skyscrapers.  \nE. I go from the eighth-floor apartment to the window with a white curtain by flying through the city skyline above the park.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The sequence of images shows a movement starting from an elevated position over a park, ascending further to get a broader view of the cityscape including skyscrapers, then transitioning towards a specific building with a visible window that has a white curtain. This aligns with the description in option B, which mentions ascending over the park, moving toward the cluster of skyscrapers, and aiming at the targeted window.",
+    "evaluation": "Location: [(0, 102)]\nOption: [B]\nReason: The video starts with a view over a park (0-10s). The camera then moves towards a cluster of skyscrapers (10-50s), and finally focuses on a window with a white curtain (50-102s). This matches option B.\nThe provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The sequence of images shows a movement starting from an elevated position over a park, ascending further to get a broader view of the cityscape including skyscrapers, then transitioning towards a specific building with a visible window that has a white curtain. This aligns with the description in option B, which mentions ascending over the park, moving toward the cluster of skyscrapers, and aiming at the targeted window."
+  }
+}

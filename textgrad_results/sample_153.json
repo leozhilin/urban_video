@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_57_1.mp4",
+  "question": "Question: What is the correct summary of your trajectory from the beginning to the current location?  \nChoice:  \nA. I start from a high altitude, descend to street level, and move toward the building.  \nB. I start from the street, move along the road, and approach the building from the side of the street.  \nC. I start from a high altitude, move forward and slightly to the right, and descend towards the building entrance.  \nD. I start from the park area, move toward the street, and descend to a position near half the height of the high-rise building.  \nE. I launch from the roof of the building and descend to the ground.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The trajectory starts from a high altitude, providing a broad view of the urban landscape. As the sequence progresses, the perspective moves forward and slightly to the right, gradually descending towards the building entrance. This is evident from the increasing detail and proximity to the building's structure, culminating in a clear overhead view of the building's courtyard and entrance area.",
+    "evaluation": "Location: [(0, 34)]\nOption: C\nReason: The video starts with a high-altitude view of the city and gradually descends towards a specific building. The perspective also shifts slightly to the right as it moves forward. This trajectory matches option C, which describes starting from a high altitude, moving forward and slightly to the right, and descending towards the building entrance. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The trajectory starts from a high altitude, providing a broad view of the urban landscape. As the sequence progresses, the perspective moves forward and slightly to the right, gradually descending towards the building entrance. This is evident from the increasing detail and proximity to the building's structure, culminating in a clear overhead view of the building's courtyard and entrance area."
+  }
+}

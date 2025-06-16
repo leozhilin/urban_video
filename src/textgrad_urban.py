@@ -5,7 +5,6 @@ from prompts import (
     EVALUATOR_PROMPT, 
     FEEDBACKER_PROMPT, 
     OPTIMIZER_PROMPT,
-    OPTIMIZER_SYSTEM_PROMPT
 )
 from src.clients.qwen_client import qwen_client
 from src.clients._gemini_api import GeminiVideoClient
@@ -58,9 +57,6 @@ class GeminiModel():
             contents = [
                 EVALUATOR_PROMPT.format(question=question, answer=answer),
                 video_file,
-                "The template for the answer is:\n" \
-                "Option: [] (Only output one option from 'A' to 'E' here, do not output redundant content)\n" \
-                "Reason: [] (Explain why you choose this option)"
             ]
 
             generation_config = {
@@ -151,7 +147,7 @@ class UrbanOptimizer:
             })
             
         messages = [{"role": "user", "content": content}]
-        improved = self.model(messages, system_prompt=OPTIMIZER_SYSTEM_PROMPT).strip()
+        improved = self.model(messages).strip()
 
         return improved
 

@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_5.mp4",
+  "question": "Question: Where are the starting and ending points of your journey?  \nOptions:  \nA. Start from the \"maco\" store and end on the rooftop with three air conditioning units.  \nB. Start in a landscaped area between apartment buildings and end in a parking lot with cars and motorcycles near a store.  \nC. Start in a courtyard with a swimming pool and fountain and end in a street with parked cars and motorcycles.  \nD. Start from a rooftop with three air conditioners and end above the sidewalk where cars and battery-powered carts are parked in front of the \"maco\" store.  \nE. Begin on a street with parked cars and motorcycles and end at a row of shops, one of which has a red \"maco\" billboard.  ",
+  "question_category": "Start/End Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The journey starts from a rooftop with three air conditioning units visible in the first frame and ends above a sidewalk where cars and battery-powered carts are parked in front of the \"maco\" store, as seen in the final frames.",
+    "evaluation": "Location: [(0, 2), (36, 42)]\nOption: D\nReason: The video starts with a view from a rooftop with three air conditioning units (0-2s). The video ends with a view above the sidewalk where cars and battery-powered carts are parked in front of the \"maco\" store (36-42s). Therefore, the journey starts from a rooftop with three air conditioners and ends above the sidewalk where cars and battery-powered carts are parked in front of the \"maco\" store.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The journey starts from a rooftop with three air conditioning units visible in the first frame and ends above a sidewalk where cars and battery-powered carts are parked in front of the \"maco\" store, as seen in the final frames."
+  }
+}
