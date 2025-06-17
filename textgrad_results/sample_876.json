@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_91_3NG53N1RL4H547S7P1C238VD5CTP8N.mp4",
+  "question": "Question: Where are the starting and ending points of your journey?  \nChoice: A. Start from the river and end at the waterfront road.  \n           B. Start from the tall building on the right and end at the body of water.  \n           C. Start from the river and end with an advertisement in the shape of a soda bottle cap on the roof.  \n           D. Start at a curve in the road and end at a lower roof.  \n           E. Start from the seaside street and end at the tall building on the right.",
+  "question_category": "Start/End Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The journey starts near the river as seen in the initial frames, and it ends with a view of an advertisement in the shape of a soda bottle cap on the roof, which is visible in the final frames.",
+    "evaluation": "Location: [(0, 3), (54, 57)]\nOption: C\nReason: The video starts near the river, as seen in the initial frames (0-3). The video ends with a view of an advertisement in the shape of a soda bottle cap on the roof, which is visible in the final frames (54-57). Therefore, the journey starts near the river and ends with a view of the soda bottle cap advertisement.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The journey starts near the river as seen in the initial frames, and it ends with a view of an advertisement in the shape of a soda bottle cap on the roof, which is visible in the final frames."
+  }
+}

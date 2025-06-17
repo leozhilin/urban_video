@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_95_3NQL1CS1506XOXGLOHJV8D8XNYAYVD.mp4",
+  "question": "Question: What objects do you observe while flying over the center of the street?  \nChoice: A. I observe tall buildings, roads, and parked cars.  \n           B. I observe a fountain, a bicycle, and a dog.  \n           C. I observe lampposts, billboards, and trees.  \n           D. I observe a vacant lot, a construction site, and a tower crane.  \n           E. I observe street lights, several vehicles, and traffic lights.  ",
+  "question_category": "Scene Recall",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The images show a bird's-eye view of a cityscape with tall buildings, roads, and parked cars visible along the streets. There are no fountains, bicycles, dogs, vacant lots, construction sites, tower cranes, or specific street lights and traffic lights observed in the provided frames. Therefore, option A best describes the observed objects.",
+    "evaluation": "Location: [(0, 55)]\nOption: [A]\nReason: From the video, especially between 0-55 seconds, I can observe tall buildings, roads, and parked cars. Therefore, option A is the correct answer.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The images show a bird's-eye view of a cityscape with tall buildings, roads, and parked cars visible along the streets. There are no fountains, bicycles, dogs, vacant lots, construction sites, tower cranes, or specific street lights and traffic lights observed in the provided frames. Therefore, option A best describes the observed objects."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_33_3NL0RFNU0OL3AF8P06HHQFT8R6LK40_4.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off the drone, go straight. turn left, move towards the tree side area. reach beyond the tallest building. then move towards the chocolate shop. dive in the land near daves car shop. take left move toward the sea side. again take left to reach the destination and then land off the drone.]. At the initial position, you are asked to follow a series of movement instructions. What are you doing now?  \nchoose:  \nA. I sneak into the land near Dave's Auto Shop.  \nB. I fly over buildings.  \nC. I go straight.  \nD. I go to the chocolate shop.  \nE. I turn left to reach my destination.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The initial instruction is to \"take off the drone, go straight,\" and the first few frames show a forward-moving perspective down a street, indicating that the agent is going straight as instructed.",
+    "evaluation": "Location: [(0, 15)]\nOption: C\nReason: The video shows the drone moving forward along a street lined with buildings. The initial instruction was to \"take off the drone, go straight.\" Therefore, the drone is currently going straight.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The initial instruction is to \"take off the drone, go straight,\" and the first few frames show a forward-moving perspective down a street, indicating that the agent is going straight as instructed."
+  }
+}

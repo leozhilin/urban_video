@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_102_3QAVNHZ3EV2TWA6OU739IISOS5ULAN.mp4",
+  "question": "Question: Which of the following options better summarizes your movement?  \nChoice:  \nA. I overlook the high-rise buildings in the distance from the rooftop, fly over the wide street, drop to the height of the street lamp, and hover slightly above the second intersection from the seaside. There is a high-rise building directly in front.  \nB. I overlook the skyline of tall buildings in the distance from the roof, then descend and hover in the air, slightly above the second intersection from the seaside.  \nC. I rise from the edge of the park to roof height and reach the base of the tower.  \nD. When I approach the first intersection from the road below, I move in a zigzag pattern and reach the top of the hill.  \nE. I overlook the skyline of high-rise buildings in the distance from the rooftop, turn left at the edge of the park, fly forward along the street, and hover over the second intersection from the seaside.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The sequence of images shows a first-person perspective starting from a high vantage point overlooking the city skyline, then moving forward along a street, and finally hovering over an intersection. This matches the description in option E, which includes overlooking the skyline from a rooftop, turning left at the edge of a park, flying forward along the street, and hovering over the second intersection from the seaside.",
+    "evaluation": "Location: [(0, 18), (18, 47), (47, 159)]\nOption: E\nReason: The video starts with a view overlooking the skyline of high-rise buildings from a rooftop (0-18s). Then, the camera moves forward along the street (18-47s). Finally, the camera hovers over the second intersection from the seaside (47-159s). This matches the description in option E.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The sequence of images shows a first-person perspective starting from a high vantage point overlooking the city skyline, then moving forward along a street, and finally hovering over an intersection. This matches the description in option E, which includes overlooking the skyline from a rooftop, turning left at the edge of a park, flying forward along the street, and hovering over the second intersection from the seaside."
+  }
+}

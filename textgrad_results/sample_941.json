@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_42_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to ALL-STAR Cafe in Central. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. I see the Central ALL-STAR Cafe on the right side of my field of view.  \nB. I see the Central ALL-STAR Cafe in the upper left corner of my field of view.  \nC. I do not see the Central ALL-STAR Cafe in my field of view.  \nD. I see the Central ALL-STAR Cafe to the left of my field of view.  \nE. I see the Central ALL-STAR Cafe in the lower right corner of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The Central ALL-STAR Cafe is not visible within the current field of view from the initial position. The perspective shows a road with vehicles and buildings, but the specific destination is not in sight.",
+    "evaluation": "Location: [(0, 12)]\nOption: [C]\nReason: From the initial position (0-12s), the view shows a wide street with buildings and traffic. The Central ALL-STAR Cafe is not visible in the field of view.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The Central ALL-STAR Cafe is not visible within the current field of view from the initial position. The perspective shows a road with vehicles and buildings, but the specific destination is not in sight."
+  }
+}

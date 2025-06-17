@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_0_35H6S234SJYE7JR0C76QLOU436G65H_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [rise from the concrete and turn right. fly over the middle of the street until you reach the buildings on the left with the short concrete wall like structure around them. turn left right beside the buildings and fly along beside them. when you get to the middle darker brown building then angle straight up and fly toward the top of the building. before you get to the top turn right and begin to level off. fly toward the building with the half pipe or half circle design on the edge of the roof. when you get to the half circle then turn left and downward and fly toward the red roof of the smaller building beside the one you climbed. stop well before you get to the roof.]. You move according to a series of movement instructions. In terms of next steps, what is your best next step?  \nchoose:  \nA. I go up and turn right.  \nB. I descend and turn left.  \nC. I fly forward while rising.  \nD. I turn left and go up.  \nE. I fly forward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The navigation instruction indicates that after turning left beside the buildings and flying along beside them, the next step is to angle straight up towards the top of the middle, darker brown building. Therefore, the best next step is to fly forward while rising to align with this part of the instructions.",
+    "evaluation": "Location: [(0, 39)]\nOption: [C]\nReason: The video shows the agent has already risen from the concrete and turned right, and flown over the middle of the street until reaching the buildings on the left. The agent has also turned left beside the buildings and is flying along beside them. The next instruction is to angle straight up and fly toward the top of the middle darker brown building. Therefore, the best next step is to fly forward while rising.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The navigation instruction indicates that after turning left beside the buildings and flying along beside them, the next step is to angle straight up towards the top of the middle, darker brown building. Therefore, the best next step is to fly forward while rising to align with this part of the instructions."
+  }
+}

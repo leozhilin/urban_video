@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_4_30X31N5D6COG0N1EEG0AU46JK6WSAG.mp4",
+  "question": "Question: What is near the base of the pyramid-shaped sky-blue-roofed building?  \nChoices:  \nA. A large garden near the base.  \nB. A parking lot near the base.  \nC. A cluster of small houses near the base.  \nD. A swimming pool near the base.  \nE. A street intersection near the base.  ",
+  "question_category": "Object Recall",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The images show that near the base of the pyramid-shaped sky-blue-roofed building, there is a street intersection. This is evident from the visible road markings and the layout of the streets converging at that point.",
+    "evaluation": "Location: [(0, 5), (12, 17), (46, 52)]\nOption: [E]\nReason: The video shows the pyramid-shaped sky-blue-roofed building. Near the base of the building, there is a street intersection. This is evident from the visible road markings and the layout of the streets converging at that point.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The images show that near the base of the pyramid-shaped sky-blue-roofed building, there is a street intersection. This is evident from the visible road markings and the layout of the streets converging at that point."
+  }
+}

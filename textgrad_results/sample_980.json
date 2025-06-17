@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_40.mp4",
+  "question": "Question: You are navigating to the first air conditioning unit on the left side of the top floor. What is the correct summary of your trajectory from the beginning to the current position?  \nChoice:  \nA. I start from one roof, move horizontally to another roof, and then descend to the target air conditioning unit.  \nB. I start from the park, fly directly upward, and then move horizontally to the target air conditioning unit.  \nC. I start from the street corner, rise vertically to the height of the building, and then move horizontally along the building to the first air conditioning unit.  \nD. I start from the street corner, rise vertically to the roof, move to the edge of the roof, and then move horizontally across the roof.  \nE. I start from the roof of the building, rise for a certain distance, then descend to the top of the sidewalk, reach the same height as the roof of the building, and then fly forward to the target air conditioning unit.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The trajectory starts from a street corner, rises vertically to the height of the building, and then moves horizontally along the building towards the first air conditioning unit on the left side of the top floor. This matches the sequence of events shown in the images where the perspective initially shows ground-level streets and gradually ascends to a higher vantage point alongside the building.",
+    "evaluation": "Location: [(0, 47)]\nOption: [C]\nReason: The video starts with a view of the street corner and gradually rises to the height of the building, then moves horizontally along the building to the first air conditioning unit on the left side of the top floor. This matches option C.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The trajectory starts from a street corner, rises vertically to the height of the building, and then moves horizontally along the building towards the first air conditioning unit on the left side of the top floor. This matches the sequence of events shown in the images where the perspective initially shows ground-level streets and gradually ascends to a higher vantage point alongside the building."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_70_3EKVH9QME72LTVNS4BC6TN1L76S2D5_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn right and go over the brown buildings and get down towards the white terrace. now turn left and fly over the buildings and get down towards the trees. now turn left and cross the road and go over the buildings towards the ash terrace. now turn right and move forward and get down towards the road. now turn left and go over the road and reach the white building and stay there.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I turn left and go up.  \nB. I descend and then fly forward.  \nC. I rotate the camera downward and fly forward.  \nD. I turn right and go up.  \nE. I turn right and fly forward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The navigation instruction indicates that the next step involves moving forward after turning left and going over the road to reach the white building. Given the current perspective, descending and then flying forward aligns with approaching the target location as described in the instructions.",
+    "evaluation": "Location: [(32, 40), (40, 48), (48, 56), (56, 60)]\nOption: B\nReason: The instruction was to turn left and go over the road and reach the white building and stay there. From the current view, the road is below and the white building is in front. So, the best next step is to descend and then fly forward.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The navigation instruction indicates that the next step involves moving forward after turning left and going over the road to reach the white building. Given the current perspective, descending and then flying forward aligns with approaching the target location as described in the instructions."
+  }
+}

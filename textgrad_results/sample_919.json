@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_97_3Q5C1WP23VZJ0XQ361U9QS3O2S551Q_6.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and move between to the two building and towards to the green tree and move into the tree. now turn right and fly over the buildings and get high and move forward near to the antenna tower. now turn right and move little forward and get down to the bridge and towards to the building and get down to the building and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. What is your position relative to the antenna tower when you reach the current location?  \nchoose:  \nA. I am located to the left of the antenna tower.  \nB. I am far away from the antenna tower.  \nC. I am located below the antenna tower.  \nD. I am located above the antenna tower.  \nE. I am located to the right of the antenna tower.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The sequence of images shows the agent moving towards and then past the antenna tower. The final frames indicate that the agent has moved to a position where the antenna tower is on its right side, suggesting that the agent is now located to the right of the antenna tower.",
+    "evaluation": "Location: [(0, 50), (50, 120), (120, 150)]\nOption: [E]\nReason: The agent starts on the ground, moves through the trees, flies over buildings, and then moves towards the antenna tower. The agent then turns right and moves forward, descending to a building near a bridge. The final frames show the agent on top of a building, with the antenna tower visible to the right. Therefore, the agent is located to the right of the antenna tower.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The sequence of images shows the agent moving towards and then past the antenna tower. The final frames indicate that the agent has moved to a position where the antenna tower is on its right side, suggesting that the agent is now located to the right of the antenna tower."
+  }
+}

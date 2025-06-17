@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_107_3RSDURM96JKGMMUZTRUL89KBMYHEYM.mp4",
+  "question": "Question: Where are the starting and ending points of your journey?  \nChoices:  \nA. Start on the street and end on the rooftop with the billboard.  \nB. Start from a rooftop with a hat-shaped advertisement and end at a tall building overlooking the city.  \nC. Start from the top of a tall building overlooking the city and end on a rooftop with a hat-shaped advertisement.  \nD. Start in the park and end on the rooftop with the flag.  \nE. Start from the bridge and play hat-shaped advertisements on the roof.  ",
+  "question_category": "Start/End Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The journey begins with a view from the top of a tall building overlooking the city, as indicated by the wide-angle perspective of the urban landscape in the initial frames. It ends on a rooftop featuring a hat-shaped advertisement, which is prominently displayed in the final frames. This sequence of images shows a transition from a broad cityscape to a specific rooftop detail, matching the description in option C.",
+    "evaluation": "Location: [(0, 3), (42, 46)]\nOption: C\nReason: The video starts with a wide view of the city from a high vantage point, indicating the top of a tall building overlooking the city. The video ends with a close-up view of a rooftop with a hat-shaped advertisement. Therefore, the journey starts from the top of a tall building overlooking the city and ends on a rooftop with a hat-shaped advertisement, which matches option C.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The journey begins with a view from the top of a tall building overlooking the city, as indicated by the wide-angle perspective of the urban landscape in the initial frames. It ends on a rooftop featuring a hat-shaped advertisement, which is prominently displayed in the final frames. This sequence of images shows a transition from a broad cityscape to a specific rooftop detail, matching the description in option C."
+  }
+}

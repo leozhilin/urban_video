@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_65_3IUZPWIU1X5FJHR9ACN0L7C0VNSKWS_6.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take of and go straight towards the daves car wash building and go up of the building and again down to the building. take right from the shop and suddenly take left and go straight toward the street and cross the farmers market on the left. and take up to the building and go straight the turn the first right and go straight towards the loans building then take immediate left from the building. go straight toward the charlie a chocolate shop and again return to the front building of national optician health insurance is our destination.]. At the initial position, you are asked to follow a series of movement instructions. What is your best next step?  \nchoose:  \nA. I fly forward and then rise.  \nB. I drop down and turn right.  \nC. I rotate the camera downward and fly forward.  \nD. I turn left and go up.  \nE. I turn right.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The initial instruction is to \"take off and go straight towards the daves car wash building and go up of the building.\" This indicates that the first action should be to fly forward and then rise, aligning with option A.",
+    "evaluation": "Location: [(0, 2)]\nOption: [A]\nReason: From the video at 0-2 seconds, the camera is at a high position, and the instruction is to \"take off and go straight towards the daves car wash building and go up of the building\". So the next step is to fly forward and then rise.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The initial instruction is to \"take off and go straight towards the daves car wash building and go up of the building.\" This indicates that the first action should be to fly forward and then rise, aligning with option A."
+  }
+}

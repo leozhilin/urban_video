@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_80.mp4",
+  "question": "Question: What is near the garden area visible between the buildings?  \nChoices:  \nA. A playground is near the garden area.  \nB. A roadlamp is near the garden area.  \nC. A parking lot is near the garden area.  \nD. A small house with a blue-tiled roof is near the garden area.  \nE. A billboard is near the garden area.  ",
+  "question_category": "Object Recall",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The images show a small building with a blue-tiled roof located near the garden area between the larger buildings. This matches the description in option D.",
+    "evaluation": "Location: [(0, 37)]\nOption: D\nReason: The video shows a garden area between the buildings. Near this garden area, there is a small building with a blue-tiled roof. This matches option D.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The images show a small building with a blue-tiled roof located near the garden area between the larger buildings. This matches the description in option D."
+  }
+}

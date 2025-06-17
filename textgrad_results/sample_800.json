@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_77_3JWH6J9I91BO3KE1CYJKQLGJFT2BNJ.mp4",
+  "question": "Question: If you choose to continue ascending instead of lining up directly with the tower facade, will you be able to complete your mission and what are the alternative routes?  \nChoice: A. If I choose to continue ascending, I will not be able to complete the mission because I will exceed the platform height.  \n           B. If I choose to continue ascending, I can complete the mission, but the hypothetical movement will take longer.  \n           C. If I choose to continue ascending, I will not be able to complete my mission due to my distance from the facade.  ",
+  "question_category": "Counterfactual",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: If you choose to continue ascending, you will not be able to complete your mission due to your distance from the facade. The images show that moving upwards increases the horizontal distance from the target tower, making it difficult to align directly with the facade for mission completion. Alternative routes would involve descending or moving horizontally to get closer to the tower's facade.",
+    "evaluation": "Location: [(0, 48)]\nOption: [C]\nReason: The video shows a cityscape with several tall buildings. If the agent continues to ascend without aligning with the target tower's facade, the horizontal distance between the agent and the tower will increase. This increased distance will make it difficult, if not impossible, to complete the mission, which presumably involves interacting with the tower's facade. Alternative routes would involve descending and/or moving horizontally to reduce the distance to the facade. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: If you choose to continue ascending, you will not be able to complete your mission due to your distance from the facade. The images show that moving upwards increases the horizontal distance from the target tower, making it difficult to align directly with the facade for mission completion. Alternative routes would involve descending or moving horizontally to get closer to the tower's facade."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_16_3634BBTX0XSM20FQKKSO43BN9L9IFO_4.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and view nearby stone flower pot. then go straight to view trees. then go straight and turn left to view the traffic lights on the road. then go straight and view the single tree near by water area then view water area from the top of the tree. then turn left to view the chimney on the highest building and view the all over buildings from top. then turn left and go straight to view the tree between the two buildings. then go straight to view the american advertisement board.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is the Landmark Position of the single tree near the water when you arrive at your current location?  \nchoose:  \nA. I am to the right of a single tree near the water.  \nB. I am under a single tree near the water.  \nC. I am on the left side of a single tree near the water.  \nD. I am above a single tree near the water.  \nE. I am behind a tree near the water.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The instruction indicates that the agent views the single tree near the water area from the top of the tree, which implies that the agent is above the tree when arriving at the current location. Therefore, the correct option is D.",
+    "evaluation": "Location: [(0, 59), (1:16, 1:59)]\nOption: D\nReason: The video shows the agent navigating to a position where it is viewing the single tree near the water from above. The final view shows the tree and the water from a high vantage point, indicating that the agent is above the tree.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The instruction indicates that the agent views the single tree near the water area from the top of the tree, which implies that the agent is above the tree when arriving at the current location. Therefore, the correct option is D."
+  }
+}

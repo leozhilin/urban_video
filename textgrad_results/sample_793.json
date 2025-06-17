@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_6_32EYX73OY97OEHFZ5WHW4VDH3OSRUM_4.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [go to sidewalk and turn on first walk way. turn right over tennis court. stop by nearest lake. face towards right of the subdivision. fly low and fly in open area near shed. move forward and face towards the park. take off, to fountain in center of park. make a sharp left on lake and go to nearest bridge. move forward beyond patio area.. fly over third row of trees.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I stop at the nearest lake.  \nB. I go to the sidewalk and turn onto the first walking path.  \nC. I turn sharp left on the lake to get to the nearest bridge.  \nD. I move forward beyond the patio area.  \nE. I am flying over the trees.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The sequence of images shows a progression from ground-level navigation to an aerial view, indicating flight. The final frames depict a view above the trees, consistent with the instruction \"fly over third row of trees.\" This matches option E, suggesting that the agent is currently flying over the trees.",
+    "evaluation": "Location: [(0, 4), (50, 55)]\nOption: E\nReason: The video shows the agent starting from a low position, then gradually rising above the trees. The instruction \"fly over third row of trees\" indicates the agent is currently flying over the trees. The video segments from 0 to 4 seconds and 50 to 55 seconds show the agent's perspective above the trees.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The sequence of images shows a progression from ground-level navigation to an aerial view, indicating flight. The final frames depict a view above the trees, consistent with the instruction \"fly over third row of trees.\" This matches option E, suggesting that the agent is currently flying over the trees."
+  }
+}

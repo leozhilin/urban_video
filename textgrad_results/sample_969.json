@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_28_3VELCLL3GTHB2UJSCD7IC4U1RE41FA_4.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn left move towards the dates car wash building move towards the top slow down. now move little forward and turn left move towards the crossing bridge and fly over the trees. now move along the road move towards the top of white tower slow down. now turn left move forward to the white buildings slow down and look around the buildings and stay there.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I move toward the bridge and fly over the trees.  \nB. I move slowly toward the top of the white tower.  \nC. I move forward to the white building, slow down, look around the building, and stay there.  \nD. I take off and turn left toward the Date Car Wash building and slow down near the top.  \nE. I turn left toward the bridge and fly through the trees.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows that the agent has already passed the car wash building, crossed the bridge, and flown over the trees. It then moved along the road towards the white tower and is now near white buildings, slowing down and looking around, which matches the final part of the navigation instruction.",
+    "evaluation": "Location: [(0, 22), (133, 156), (404, 408)]\nOption: [C]\nReason: The video shows the agent flying towards a building with a \"Dave's Car Wash\" sign (0:20-0:22). Later, the agent is seen flying along a road with buildings on either side (1:33-1:56). Finally, the agent is seen near some white buildings, slowing down and looking around (4:04-4:08). This matches the instruction \"move forward to the white buildings slow down and look around the buildings and stay there.\" Therefore, the correct answer is C.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows that the agent has already passed the car wash building, crossed the bridge, and flown over the trees. It then moved along the road towards the white tower and is now near white buildings, slowing down and looking around, which matches the final part of the navigation instruction."
+  }
+}

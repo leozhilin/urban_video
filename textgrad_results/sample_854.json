@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_1_3WR9XG3T6C9FF015HCS8MAON6F774C_5.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [step rise up until the two building appears. go towards the building crossing over pond. go decent down slightly and take round turn. head towards twin building and take right turn near the right building. take round turn above billboard cross the pond once again. head towards the intersection and take left turn near the grey building. cross over the intersection and head towards the second tall building on left. go beside that building and land in front of billboard.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I go across the water.  \nB. I go down the street.  \nC. I turn back.  \nD. I walk to the building and stop in front of the billboard.  \nE. I turn right at the building.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The sequence of images shows the agent moving through various parts of the environment, including crossing water and navigating around buildings. The final frames depict the agent approaching a building with a visible billboard, indicating that the agent is about to stop in front of it as per the navigation instructions.",
+    "evaluation": "Location: [(1:57, 2:11)]\nOption: [D]\nReason: From 1:57 to 2:11, the agent is moving towards the twin building and a billboard is visible. So the agent is walking to the building and stop in front of the billboard.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The sequence of images shows the agent moving through various parts of the environment, including crossing water and navigating around buildings. The final frames depict the agent approaching a building with a visible billboard, indicating that the agent is about to stop in front of it as per the navigation instructions."
+  }
+}

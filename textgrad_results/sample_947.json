@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_8.mp4",
+  "question": "Question: After exposing the light gray building, surrounding buildings, parking lots, and roads, what is your next move?  \n\nChoice: A. I descend to the roof of the red building.  \n           B. I move slightly forward to the left.  \n           C. I move forward to re-approach the light gray building and turn to the left, revealing the school track and field and a red building in the distance.  \n           D. I hover in place for a few seconds.  \n           E. I rise to a higher altitude.  ",
+  "question_category": "Sequence Recall",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows a progression from viewing the light gray building and its surroundings to gradually revealing more of the environment, including a school track and field and a red building in the distance. This suggests that the next logical move would be to continue moving forward and turning left to further explore and reveal these elements.",
+    "evaluation": "Location: [(0, 60)]\nOption: C\nReason: From the beginning of the video to 0:35, the light gray building, surrounding buildings, parking lots, and roads are exposed. From 0:35 to 0:60, the video shows the school track and field and a red building in the distance. Therefore, the next move is to move forward to re-approach the light gray building and turn to the left, revealing the school track and field and a red building in the distance.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows a progression from viewing the light gray building and its surroundings to gradually revealing more of the environment, including a school track and field and a red building in the distance. This suggests that the next logical move would be to continue moving forward and turning left to further explore and reveal these elements."
+  }
+}

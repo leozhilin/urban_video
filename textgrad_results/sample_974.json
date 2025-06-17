@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_0.mp4",
+  "question": "Question: Which of the following options best summarizes your flight path to the gazebo next to the pond?\n\nChoice:  \nA. Start from above the red brick path in the courtyard, fly forward along the edge of the pond, reach the top of the pavilion by the pond, look down at the path, trees, pond, and pavilion by the water, and finally descend to the roof of the pavilion.  \nB. Start near a small pond, fly over several residential buildings, cross a road, fly over an open space, descend to a parking lot, and finally stop above the pavilion.  \nC. Start from a low altitude near the pavilion, rise to take pictures of the building, and end at a high altitude above the pond.  \nD. Start from a distant high-rise building, avoid all intermediate structures and plants, reach directly to the pavilion, and end your journey above the pavilion roof.  \nE. Start from a nearby city, fly over a major highway, then over the suburbs, and eventually arrive at the gazebo.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The flight path starts from above the red brick path in the courtyard, moves forward along the edge of the pond, reaches the top of the pavilion by the pond, provides a view of the path, trees, pond, and pavilion by the water, and finally descends to the roof of the pavilion. This matches the sequence of images showing an aerial view starting from a broader area and gradually focusing on the roof of the pavilion next to the pond.",
+    "evaluation": "Location: [(0, 42)]\nOption: [A]\nReason: The video starts with a view above a red brick path in a courtyard (0-5s). It then moves forward along the edge of a pond (5-8s), showing the pond and the surrounding trees. The video then shows the pavilion by the pond (8-42s), and finally descends to the roof of the pavilion (42-50s). This matches the description in option A.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The flight path starts from above the red brick path in the courtyard, moves forward along the edge of the pond, reaches the top of the pavilion by the pond, provides a view of the path, trees, pond, and pavilion by the water, and finally descends to the roof of the pavilion. This matches the sequence of images showing an aerial view starting from a broader area and gradually focusing on the roof of the pavilion next to the pond."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_87_30ZX6P7VFHTYWHNKE7YHWLWYAKP2J5_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn left and turn right move forward to the blue building. now turn left move towards the top and slow down to the road fly along the road. now turn right move towards the building turn left and slow down behind the grey building closely and stay there.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I fly along the road.  \nB. I go to the chair between the buildings.  \nC. I slow down behind the gray building and stay there.  \nD. I take off and turn left.  \nE. I turn right toward the building.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows the agent moving through various parts of the environment, following the given navigation instructions. The final frames depict the agent positioned closely behind a grey building, which aligns with the last part of the instruction: \"slow down behind the grey building closely and stay there.\" This indicates that the agent has completed the navigation task and is now stationary behind the grey building as instructed.",
+    "evaluation": "Location: [(27, 32)]\nOption: [C]\nReason: The last instruction is \"slow down behind the grey building closely and stay there\". From 27s to 32s, the agent is behind the grey building. So the answer is C.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows the agent moving through various parts of the environment, following the given navigation instructions. The final frames depict the agent positioned closely behind a grey building, which aligns with the last part of the instruction: \"slow down behind the grey building closely and stay there.\" This indicates that the agent has completed the navigation task and is now stationary behind the grey building as instructed."
+  }
+}

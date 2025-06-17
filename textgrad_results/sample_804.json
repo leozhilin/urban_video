@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_6_1.mp4",
+  "question": "Question: You are navigating to near the fountain at the entrance of the community. What is the correct summary of your trajectory from the beginning to the current position?  \nChoice:  \nA. I started from the street corner, flew over a row of parked motorcycles, and then moved towards the entrance of the community.  \nB. I started flying over the Maco paint store, ascended to observe the surrounding area, and then moved toward the fountain in the residential area.  \nC. I start from the street, fly over the parking lot, and finally reach the current position above the fountain.  \nD. I started over the Maco paint store, flew over the parking lot full of scooters, ascended to view the wider streets and parking lots, and then descended to the fountain at the entrance to the residential area.  \nE. I start from the entrance of the community, move backward to the street corner, and then move to my current location.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The trajectory described in option D matches the visual sequence of the video. It starts over the Maco paint store, flies over the parking lot filled with scooters, ascends to provide a broader view of the area, and then descends towards the fountain at the entrance of the residential area, which is visible in the final frames.",
+    "evaluation": "Location: [(0, 17)]\nOption: [D]\nReason: The video starts with a view of the Maco paint store (0-3s). Then, it flies over a parking lot filled with scooters (3-7s). The camera ascends to provide a broader view of the streets and parking lots (7-10s), and finally descends to the fountain at the entrance of the residential area (10-17s). Therefore, option D is the correct answer.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The trajectory described in option D matches the visual sequence of the video. It starts over the Maco paint store, flies over the parking lot filled with scooters, ascends to provide a broader view of the area, and then descends towards the fountain at the entrance of the residential area, which is visible in the final frames."
+  }
+}

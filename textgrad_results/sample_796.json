@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_58_30BUDKLTXMTIKYKFIPPOXCMISXQE5S_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn right and cross the trees towards the pond. now turn right and move forward and go over the trees and get down towards the tree. now turn right and move forward and go over the buildings towards the white building. now turn right and move forward reach the top of the brown building and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach the current location, what is your landmark position relative to the white building?  \nChoose:  \nA. I am to the left of the white building.  \nB. I am above the white building.  \nC. I am to the right of the white building.  \nD. I am under the white building.  \nE. I am behind the white building.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The navigation instructions lead to the top of a brown building after passing over trees and buildings towards the white building. The current view shows a high vantage point overlooking the city, indicating that the agent is above the white building.",
+    "evaluation": "Location: [(0, 60)]\nOption: B\nReason: The navigation instruction is to reach the top of the brown building after passing over trees and buildings towards the white building. From the current location, the white building is visible in the distance, and the agent is at a higher altitude, indicating that the agent is above the white building.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The navigation instructions lead to the top of a brown building after passing over trees and buildings towards the white building. The current view shows a high vantage point overlooking the city, indicating that the agent is above the white building."
+  }
+}

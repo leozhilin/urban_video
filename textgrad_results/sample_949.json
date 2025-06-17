@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_4.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the balcony on the 29th floor. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. I am currently viewing the balcony on the 29th floor in the lower left corner of my field of view.  \nB. I am currently viewing the balcony on the 29th floor on the right side of my field of view.  \nC. I am currently viewing the balcony on the 29th floor in the upper right corner of my field of view.  \nD. The balcony on the 29th floor is not within my field of view.  \nE. I am currently viewing the balcony on the 29th floor in the center of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The initial position shows a view between tall buildings with no visible balcony on the 29th floor in sight. The frames provided do not show the destination within the current field of view.",
+    "evaluation": "Location: [(0, 1)]\nOption: [D]\nReason: At the initial position (0-1s), the view is between tall buildings, and there is no balcony on the 29th floor visible in the field of view. Therefore, the destination is not within sight.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The initial position shows a view between tall buildings with no visible balcony on the 29th floor in sight. The frames provided do not show the destination within the current field of view."
+  }
+}

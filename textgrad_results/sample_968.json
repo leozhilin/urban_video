@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_7_3HVVDCPGTNQIB5CWJMJG7VKB4LPYTK_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [ascend straight up, turn to the left, and fly past the soccer fields. go to the tennis courts, turn to the right, and fly straight towards the river. turn around and fly past the bridge. once the second bridge is reached, turn to the right. fly straight past the baseball diamond, and once the intersection is approached, make a descent until the drone lands. turn around and face the construction cones.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I turn around and fly across the bridge.  \nB. I turn right.  \nC. I go straight up.  \nD. I go to the tennis court.  \nE. I am flying over the baseball field.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The sequence of images shows a progression from an initial position near a park area, moving towards and past various landmarks such as fields and a bridge. The current view in the last few images indicates that the agent is now flying over a baseball field, which aligns with the instruction to \"fly straight past the baseball diamond.\" This matches option E, confirming that the agent is currently flying over the baseball field.",
+    "evaluation": "Location: [(25, 34)]\nOption: [E]\nReason: The instruction was to fly straight past the baseball diamond. From 25s to 34s, the drone is flying over a baseball field. So the answer is E.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The sequence of images shows a progression from an initial position near a park area, moving towards and past various landmarks such as fields and a bridge. The current view in the last few images indicates that the agent is now flying over a baseball field, which aligns with the instruction to \"fly straight past the baseball diamond.\" This matches option E, confirming that the agent is currently flying over the baseball field."
+  }
+}

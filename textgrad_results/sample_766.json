@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_19_2.mp4",
+  "question": "Question: You are navigating to the balcony on the 14th floor. What is the correct summary of your trajectory from the beginning to the current location?  \nChoice:  \nA. I start from a high-rise building, descend towards the street, and move towards the target building.  \nB. I start from the left side of the building with a huge conical dome, turn right, and descend to a certain height.  \nC. I start from the park, move along the road, and then ascend to my current location next to the target building.  \nD. I start from the street level and rise directly to my current position outside the 14th floor.  \nE. I start from the top of a high-rise building, fly straight to the destination, and descend to my current location.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The sequence of images shows a direct ascent from the street level to a high position outside the 14th floor of a building, without any indication of starting from a park, descending, or moving horizontally. Therefore, option D accurately describes the trajectory.",
+    "evaluation": "Location: [(0, 49)]\nOption: [D]\nReason: The video shows the camera starting at street level and directly ascending to the 14th floor of the target building. There is no evidence of starting from a park, descending from a high-rise, or moving horizontally. Therefore, option D is the most accurate description of the trajectory. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The sequence of images shows a direct ascent from the street level to a high position outside the 14th floor of a building, without any indication of starting from a park, descending, or moving horizontally. Therefore, option D accurately describes the trajectory."
+  }
+}

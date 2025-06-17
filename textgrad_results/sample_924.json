@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_87_1.mp4",
+  "question": "Question: At the starting position, you were asked to navigate to a small two-story house with a blue roof in the community below. Thinking back on past actions and objects you've seen, what does your current surroundings look like?  \nChoice:  \nA. I am located above a community consisting of several high-rise buildings. There is a small tree-lined park and a small building with a blue roof in the corner of the community.  \nB. There are several high-rise buildings around me, and there is a large square in the center. A highway is visible in the distance.  \nC. I overlook a residential area with low-rise buildings and a few trees. There is a large parking lot directly below me.  \nD. There is a large body of water to the north of me. High-rise buildings can be seen in the east and west.  \nE. I am located over a densely populated area, surrounded by buildings of different heights. A large highway can be seen in the background.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The current surroundings show a community with several high-rise buildings, a small tree-lined park, and a small building with a blue roof in the corner, which matches the description in option A.",
+    "evaluation": "Location: [(0, 5)]\nOption: A\nReason: The video begins with an aerial view of a community. From this starting position, we can clearly see several tall, high-rise buildings. There are also green areas with trees, which can be described as a small tree-lined park or landscaped areas. Most importantly, a small building with a blue roof is distinctly visible in the bottom-left corner of the community in the initial frames (e.g., 0:00-0:05). This perfectly matches the description provided in Option A. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The current surroundings show a community with several high-rise buildings, a small tree-lined park, and a small building with a blue roof in the corner, which matches the description in option A."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_31_34HJIJKLPEUHQQ21ZAVOSO4QR0YV4H_1.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn right and fly over the trees and cross towards the grass. now turn right and fly over the river and trees towards the little house. now turn right and go over the river and trees and cross the fountain towards the river. now turn left and go over the trees towards the play ground. now turn right and go over the trees and grass and reach the tree and stay there.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I fly through the trees and toward the grass.  \nB. I go over the river and trees, past the fountain towards the river.  \nC. I turn left through the woods to the playground.  \nD. I turn right and fly over the river and trees towards the small house.  \nE. I turn right, past the trees and grass, to the tree and stay there.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The sequence of images shows the agent moving through various landmarks as described in the navigation instructions. The final frames depict an area with trees and grass, aligning with the last part of the instruction: \"now turn right and go over the trees and grass and reach the tree and stay there.\" This indicates that the agent has completed the navigation and is now stationary at the specified location.",
+    "evaluation": "Location: [(0, 60)]\nOption: [E]\nReason:The video shows the agent flying over trees, a river, and grass. The final part of the video shows the agent reaching a tree and stopping. This aligns with the instruction \"now turn right and go over the trees and grass and reach the tree and stay there.\" Therefore, the agent is currently turning right, passing the trees and grass, and reaching the tree to stay there.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The sequence of images shows the agent moving through various landmarks as described in the navigation instructions. The final frames depict an area with trees and grass, aligning with the last part of the instruction: \"now turn right and go over the trees and grass and reach the tree and stay there.\" This indicates that the agent has completed the navigation and is now stationary at the specified location."
+  }
+}

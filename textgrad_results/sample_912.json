@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_74_3DBQWDE4YFWME4XSBOS7NZGR3FWN58_7.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn left move forward and fly over the building and towards to the blue colour it. now since the blue colour and turn right back and towards to the brown building. now get down to the white building with pillar and turn left back get high it and suddenly get down in the top building and land there.]. At the initial position, you are following a series of movement instructions. What are you doing now?  \nchoose:  \nA. I go down to the white building with pillars.  \nB. I fly over buildings.  \nC. I turn left and fly forward.  \nD. I turn right back toward the brown building.  \nE. I take off and turn left.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The initial instruction is to \"take off and turn left,\" which is the first action in the series of movements described. The provided frames show a progression that starts with a view consistent with taking off and turning left, aligning with the beginning of the navigation instructions.",
+    "evaluation": "Location: [(0, 22)]\nOption: [E]\nReason: The video starts with a view from the ground, then gradually rises and turns left, which aligns with the instruction \"take off and turn left\".",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The initial instruction is to \"take off and turn left,\" which is the first action in the series of movements described. The provided frames show a progression that starts with a view consistent with taking off and turning left, aligning with the beginning of the navigation instructions."
+  }
+}

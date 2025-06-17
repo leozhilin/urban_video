@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_10_32EYX73OY97OEHFZ5WHW4VDH3OSRUM.mp4",
+  "question": "Question: Where do you start and end your journey?  \nChoices:  \nA. Start at the road and end behind a tall building.  \nB. Start at the lake bund and end at the beginning of the road.  \nC. Start above a car park and end at the road with trees on both sides.  \nD. Start at the pavilion and end in the middle of the lake.  \nE. Start above the tree-lined road and end at the wooden pavilion by the lake.  ",
+  "question_category": "Start/End Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The journey begins with a view of a tree-lined road (as seen in the initial frames) and progresses towards a wooden pavilion situated by the lake (visible in the later frames). This matches the description in option E.",
+    "evaluation": "Location: [(0, 10), (45, 53)]\nOption: E\nReason: The video starts with a view from above a tree-lined road. As the video progresses, the view moves towards a wooden pavilion by the lake. This matches option E.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The journey begins with a view of a tree-lined road (as seen in the initial frames) and progresses towards a wooden pavilion situated by the lake (visible in the later frames). This matches the description in option E."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_38_3BEFOD78WFRY038SLIUX5SLD16S4ME_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [rise, turn to the right and fly to the center of the lake. turn slightly to the left and fly to the building across from the 'instant coffee' billboard. turn to the right and fly to the tall stone building with the half oval windows. turn to the left and fly to the intersection with the blue mailbox by the park.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I fly over buildings.  \nB. I turn right at the building.  \nC. I turn left and fly to the intersection with the blue mailbox next to the park.  \nD. I rise.  \nE. I turn right and fly towards the tall stone building with the semi-oval windows.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The sequence of images shows the agent has already risen and turned right to fly towards the center of the lake, then slightly left towards a building. The current view indicates the agent is now turning right and flying towards a tall stone building with half oval windows, as described in the navigation instruction.",
+    "evaluation": "Location: [(0, 14), (47, 56), (101, 107)]\nOption: E\nReason: From the beginning of the video to 14 seconds, the agent is flying over the road and towards the lake. From 47 to 56 seconds, the agent is flying over the lake. From 1:01 to 1:07, the agent is turning right and flying towards the tall stone building with the semi-oval windows. Therefore, the answer is E.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The sequence of images shows the agent has already risen and turned right to fly towards the center of the lake, then slightly left towards a building. The current view indicates the agent is now turning right and flying towards a tall stone building with half oval windows, as described in the navigation instruction."
+  }
+}

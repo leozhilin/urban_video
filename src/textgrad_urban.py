@@ -1,5 +1,6 @@
 import re
 from typing import List, Dict, Any
+from few_shot_lib import make_few_shot_msg
 from prompts import (
     REASONER_PROMPT, 
     EVALUATOR_PROMPT, 
@@ -114,7 +115,9 @@ class UrbanEvaluator:
                     "type": "image_url",
                     "image_url": {"url": f"data:image/jpeg;base64,{frame}"}
                 })
-            messages = [{"role": "user", "content": content}]
+                
+            example_content = make_few_shot_msg(question_category)
+            messages = [{"role": "user", "content": content + example_content}]
             evaluation = self.model(messages)
         elif isinstance(self.model, GeminiModel):
             evaluation = self.model(question, answer, video_path, question_category)
@@ -139,7 +142,6 @@ class UrbanOptimizer:
         self.model = model
         
     def __call__(self, question: str, answer: str, feedback: str, frames: List[str], question_category: str) -> str:
-        print("-- question_category: ", question_category)
         content = [{"type": "text", "text": OPTIMIZER_PROMPT.format(
             question=question,
             answer=answer,
@@ -158,7 +160,7 @@ class UrbanOptimizer:
         return improved
 
 class UrbanTextGrad:
-    def __init__(self, qwen_model_name: str = "qwen-vl-max-latest", gemini_model_name: str = "gemini-2.0-flash"):
+    def __init__(self, qwen_model_name: str = "qwen-vl-max-latest", gemini_model_name: str = "gemini-2.5-flash-preview-05-20"):
         self.qwen_model = QwenModel(qwen_model_name)
         self.gemini_model = GeminiModel(gemini_model_name)
 

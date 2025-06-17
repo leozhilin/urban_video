@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_1_30BUDKLTXMTIKYKFIPPOXCMISXQE5S.mp4",
+  "question": "Question: Which would take you longer\u2014to travel to an intersection near the ocean or to line up along a street parallel to the shoreline?\n\nChoice: A. It takes longer to travel to an intersection near the ocean than to move along the street.  \n           B. Travel time to an intersection near the seaside is shorter than moving along the street.  \n           C. I travel to the intersection near the ocean at the same time as I align along the street.",
+  "question_category": "Duration",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The video shows the agent moving towards an intersection near the ocean, which appears to be a direct path with fewer obstacles. In contrast, lining up along a street parallel to the shoreline might involve navigating through more buildings and streets, potentially taking more time. Therefore, reaching the intersection near the ocean seems quicker.",
+    "evaluation": "Location: [(0, 31)]\nOption: B\nReason: The video shows a clear path towards the ocean intersection. Lining up along the street parallel to the shoreline would require navigating around buildings and potentially taking a longer route. Therefore, traveling to the intersection near the seaside would be quicker. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The video shows the agent moving towards an intersection near the ocean, which appears to be a direct path with fewer obstacles. In contrast, lining up along a street parallel to the shoreline might involve navigating through more buildings and streets, potentially taking more time. Therefore, reaching the intersection near the ocean seems quicker."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_20_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the \"Huaji Shimo Rice Rice Roll\" store. When you reach the current location, what is the direction to the destination?  \nchoose:  \nA. I am currently locating above the parking lot in front of the store, slightly to the right.  \nB. I am currently locating further away from the store, above the main thoroughfare across the street.  \nC. I am currently locating directly above the store.  \nD. I am currently locating behind the store, above the building.  \nE. I am currently locating to the left of the store, above a small square.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The current location appears to be further away from the store, positioned above the main thoroughfare across the street. This is indicated by the wide view of the road and the distance from the buildings that likely house the store.",
+    "evaluation": "Location: [(0, 29)]\nOption: [B]\nReason: The video shows the camera is positioned above a main road, with the row of shops, including what appears to be the \"Huaji Shimo Rice Rice Roll\" store, located across the street. The camera is further away from the store. Therefore, the current location is further away from the store, above the main thoroughfare across the street.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The current location appears to be further away from the store, positioned above the main thoroughfare across the street. This is indicated by the wide view of the road and the distance from the buildings that likely house the store."
+  }
+}

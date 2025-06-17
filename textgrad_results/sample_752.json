@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_15_1.mp4",
+  "question": "Question: You are navigating to the 18th floor balcony. Thinking back on past Action Generations and objects you've seen, what is the surrounding environment like at your current location?  \nChoice:  \nA. There is a highway to your right. There are several low-rise buildings surrounding you. There is parking underneath you.  \nB. There are many high-rise buildings around you. There is a large park behind you. There is a road underneath you.  \nC. There is a large square in front of you. There is a river behind you. There is a highway below you.  \nD. There are roads and trees next to you. There are many high-rise buildings around you.  \nE. There is only one high-rise building in front of you. There is a residential area behind you. There is a small garden beneath you.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The images show a high-rise building with multiple floors, and the surrounding environment includes roads and trees next to the building. There are also other high-rise buildings visible in the background, which aligns with option D's description.",
+    "evaluation": "Location: [(0, 34)]\nOption: D\nReason: The video shows the agent is on the 18th floor of a high-rise building. From the perspective of the 18th floor, there are roads and trees next to the building. Also, there are many other high-rise buildings around. Therefore, option D is the most accurate description of the surrounding environment.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The images show a high-rise building with multiple floors, and the surrounding environment includes roads and trees next to the building. There are also other high-rise buildings visible in the background, which aligns with option D's description."
+  }
+}

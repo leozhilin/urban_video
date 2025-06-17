@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_14_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the [landing point]. Thinking back on past actions and objects you have seen, what should you approach next in order to get from your current location to your destination?  \nchoose:  \nA. I approach the center of the intersection.  \nB. I approach the park edge.  \nC. I approach the top of the tallest building.  \nD. I approach the streetlights at intersections.  \nE. I approach vehicles traveling in the middle of the road.",
+  "question_category": "High-level Planning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: To navigate to the landing point, approaching the center of the intersection is a logical next step as it allows for better orientation and decision-making regarding which direction to take next based on the layout of the roads and any visible landmarks or signs.",
+    "evaluation": "Location: [(0, 10), (30, 40)]\nOption: A\nReason: From the initial position, approaching the center of the intersection is a logical next step. This allows for a better view of the surrounding environment, including the layout of the roads, traffic signals, and any visible landmarks or signs that could aid in navigation towards the landing point. The video shows the intersection and the surrounding buildings, making it clear that the intersection is a key point for orientation.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: To navigate to the landing point, approaching the center of the intersection is a logical next step as it allows for better orientation and decision-making regarding which direction to take next based on the layout of the roads and any visible landmarks or signs."
+  }
+}

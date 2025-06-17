@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_15.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a gray-signed store on the curb of the building to your right. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. I see the gray-signed store in the upper left corner of my field of view.  \nB. I see the gray-signed store in the center of my field of view.  \nC. I cannot see the gray-signed store in my field of view.  \nD. I see the gray-signed store in the lower left corner of my field of view.  \nE. I see the gray-signed store in the lower right corner of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The initial position does not show a gray-signed store on the curb of the building to the right. The stores visible are with different colored signs, and none of them appear to be gray-signed. Therefore, the destination is not within sight at the current location.",
+    "evaluation": "Location: [(0, 17), (109, 138)]\nOption: [C]\nReason: From the initial position (0-17s), the view shows buildings and streets, but no gray-signed store is visible on the curb of the building to the right. As the video progresses (109-138s), the camera zooms in and reveals a row of stores. Among them, there is a store with a gray sign, \"\u5353\u9ad8\u7f8e\u7f1d\". However, this store is not visible from the initial position. Therefore, the destination is not within sight at the current location.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The initial position does not show a gray-signed store on the curb of the building to the right. The stores visible are with different colored signs, and none of them appear to be gray-signed. Therefore, the destination is not within sight at the current location."
+  }
+}

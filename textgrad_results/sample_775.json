@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_16_1.mp4",
+  "question": "Question: You are navigating to [the green screen balcony of the tall building opposite]. Thinking back on past actions and objects you\u2019ve seen, what is the surrounding environment like at your current location?  \nChoice:  \nA. There are several high-rise buildings around me, with a large parking lot in front and a park in the back.  \nB. There are three tall buildings across the street, and the name \"Sunshine City\" is prominently written on the middle one. Behind me is a park with trees and sidewalks. Below me is the parking lot.  \nC. I am surrounded by low-rise buildings, with a busy road in front and a large shopping mall on the left.  \nD. In front of me is a large highway, with several high-rise buildings on the other side. There is a small garden behind me.  \nE. There are tall buildings in all directions. In front of me is a busy intersection and behind me is a playground.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The images show a dense urban environment with several tall buildings, including one with the name \"Sunshine City\" visible. There is a parking lot in the foreground and a park with trees and sidewalks in the background, which matches the description in option B.",
+    "evaluation": "Location: [(0, 11)]\nOption: B\nReason: The video shows a dense urban environment with several tall buildings, including one with the name \"Sunshine City\" visible. There is a parking lot in the foreground and a park with trees and sidewalks in the background, which matches the description in option B.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The images show a dense urban environment with several tall buildings, including one with the name \"Sunshine City\" visible. There is a parking lot in the foreground and a park with trees and sidewalks in the background, which matches the description in option B."
+  }
+}

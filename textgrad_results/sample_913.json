@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_112_3TESA3PJ3A8E4TXYRMUTRM2DJ0QMM6.mp4",
+  "question": "Question: After you move smoothly along the street, how does the distance from the utility pole change?  \nChoice: A. I increase the distance from the utility pole.  \n           B. I decrease the distance from the utility pole.  \n           C. The distance remains constant.  ",
+  "question_category": "Proximity",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: As the agent moves smoothly along the street, the utility pole initially appears closer but gradually becomes smaller and less prominent in the frame, indicating an increase in distance from the utility pole.",
+    "evaluation": "Location: [(0, 28)]\nOption: [A]\nReason: From the beginning of the video to the end, the agent moves forward along the street. As the agent moves, the utility poles in the distance appear smaller, indicating that the distance between the agent and the utility poles is increasing.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: As the agent moves smoothly along the street, the utility pole initially appears closer but gradually becomes smaller and less prominent in the frame, indicating an increase in distance from the utility pole."
+  }
+}

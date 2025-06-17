@@ -46,7 +46,8 @@ def main():
     # Process each sample
     for idx, row in QA_df.iterrows(): 
         # if row['question_category'] == "Action Generation":
-        if idx in [649, 458, 338, 574, 243, 631, 663, 147, 463, 366, 516, 239, 509, 309, 24, 563, 69, 46, 398, 474]:
+        if idx in [649, 458, 338, 830, 790, 574, 243, 631, 663, 147, 882, 463, 366, 516, 239, 509, 309, 924, 24, 789, 563, 69, 994, 46, 398, 474, 780, 910]:
+        # if idx >= 714:
             try:
                 print(f"Processing sample {idx}/{len(QA_df)}")
                 

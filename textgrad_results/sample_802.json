@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_7_3HVVDCPGTNQIB5CWJMJG7VKB4LPYTK_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [ascend straight up, turn to the left, and fly past the soccer fields. go to the tennis courts, turn to the right, and fly straight towards the river. turn around and fly past the bridge. once the second bridge is reached, turn to the right. fly straight past the baseball diamond, and once the intersection is approached, make a descent until the drone lands. turn around and face the construction cones.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is the Landmark Position of the river when you reach your current location?  \nchoose:  \nA. I am on the left side of the river.  \nB. I am far away from the river.  \nC. I am located above the river.  \nD. I am located on the right side of the river.  \nE. I am located below the river.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: According to the navigation instructions, after flying straight towards the river and turning around to fly past the bridge, the agent would be on the right side of the river when reaching the current location. The images show a consistent path that aligns with this reasoning, placing the agent on the right side of the river.",
+    "evaluation": "Location: [(0, 144)]\nOption: [D]\nReason: The drone ascends straight up, turns left, and flies past the soccer fields. It then goes to the tennis courts, turns right, and flies straight towards the river. After turning around and flying past the bridge, the drone reaches its current location. Based on the video, the river is on the left side of the drone's path after it turns around. Therefore, the drone is located on the right side of the river.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: According to the navigation instructions, after flying straight towards the river and turning around to fly past the bridge, the agent would be on the right side of the river when reaching the current location. The images show a consistent path that aligns with this reasoning, placing the agent on the right side of the river."
+  }
+}

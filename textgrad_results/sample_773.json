@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_18_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the 15th floor balcony. Thinking back on past Action Generations and objects you saw in the video, what should you approach next in order to get from your current location to your destination?  \nchoose:  \nA. I approach the foundation of a building.  \nB. I approach the center of a highway intersection.  \nC. I approach the entrance to the building.  \nD. I approach the 15th floor of the building.  \nE. I approach the top of the adjacent high-rise building.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: To navigate to the 15th floor balcony, the first step is to approach the entrance to the building. From there, you can enter the building and use the elevator or stairs to reach the 15th floor. The other options do not provide a logical starting point for entering the building and reaching the desired floor.",
+    "evaluation": "Location: [(0, 23)]\nOption: [C]\nReason: The video shows the building and its surroundings. To reach the 15th floor balcony, the most logical first step is to approach the entrance of the building. From there, one can enter and use the elevator or stairs to reach the desired floor.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: To navigate to the 15th floor balcony, the first step is to approach the entrance to the building. From there, you can enter the building and use the elevator or stairs to reach the 15th floor. The other options do not provide a logical starting point for entering the building and reaching the desired floor."
+  }
+}

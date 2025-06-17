@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_90_3X4MXAO0BPM16L440WWXMJYDJQUWRI_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [go to sun. go to brown building. go towards trees.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I go to the trees.  \nB. I go to the chair between the buildings.  \nC. I go and bask in the sun.  \nD. I go to the brown building.  \nE. I turn back.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The sequence of images shows the agent initially moving towards a brown building, then navigating through the environment, and finally approaching an area with trees. This aligns with the last part of the navigation instruction \"go towards trees,\" indicating that the current action is to go to the trees.",
+    "evaluation": "Location: [(0, 53)]\nOption: [A]\nReason: The video shows the agent initially facing down a street with buildings on either side. As the video progresses, the camera pans to the right, revealing a brown building. The camera continues to pan, and in the distance, trees become visible. Given the instructions \"go to sun. go to brown building. go towards trees,\" and the current view showing trees in the distance, the agent is currently going towards the trees.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The sequence of images shows the agent initially moving towards a brown building, then navigating through the environment, and finally approaching an area with trees. This aligns with the last part of the navigation instruction \"go towards trees,\" indicating that the current action is to go to the trees."
+  }
+}

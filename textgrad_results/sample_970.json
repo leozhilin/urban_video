@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_18_3RWE2M8QWQ8NJXBREIMV64KZ4S70N8_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [rise up and go straight down the bridge and stop halfway. turn to the right and go over water look left and go under bridge. turn right and go forward back the street stopping at intersection and looking right. rise up and go right stopping at the red and white bottle cap. go straight until reaching brown and then look down and right at the water.]. At the initial position, you are asked to move according to a series of movement instructions. What is your landmark position relative to the water when you reach the current position?  \nchoose:  \nA. I am on the left side of the water.  \nB. I am far away from the water.  \nC. I am above the water.  \nD. I am on the right side of the water.  \nE. I am below the surface of the water.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows the agent initially on a bridge and then moving to a position where it is directly above the water, as indicated by the perspective looking down at the water's surface from under the bridge. This aligns with the instruction to \"go under bridge,\" confirming that the agent is above the water at the current position.",
+    "evaluation": "Location: [(2:12, 2:35)]\nOption: [C]\nReason: From 2:12 to 2:35, the video shows the agent is under the bridge and looking up at the bridge structure. Therefore, the agent is above the water.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows the agent initially on a bridge and then moving to a position where it is directly above the water, as indicated by the perspective looking down at the water's surface from under the bridge. This aligns with the instruction to \"go under bridge,\" confirming that the agent is above the water at the current position."
+  }
+}

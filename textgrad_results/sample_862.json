@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_106_3RSDURM96JKGMMUZTRUL89KBMYHEYM.mp4",
+  "question": "Question: Why do you increase your height after approaching a street with buildings on both sides?  \nChoice: A. To change direction.  \n           B. To capture a wider view of the park below.  \n           C. To maintain a stable speed against the wind.  \n           D. To align with the roof and eventually approach the ad.  \n           E. To avoid the crowded pedestrian area below.  ",
+  "question_category": "Causal",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The agent increases its height to align with the roof of the buildings, which allows it to approach and focus on the advertisement displayed on the rooftop. This is evident from the gradual ascent and the final focus on the ad in the sequence of images.",
+    "evaluation": "Location: [(0, 32)]\nOption: D\nReason: From 0 to 32 seconds, the agent gradually increases its height to align with the roof of the buildings. As the agent ascends, the advertisement on the rooftop becomes more and more clear. Therefore, the agent increases its height to align with the roof and eventually approach the ad.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The agent increases its height to align with the roof of the buildings, which allows it to approach and focus on the advertisement displayed on the rooftop. This is evident from the gradual ascent and the final focus on the ad in the sequence of images."
+  }
+}

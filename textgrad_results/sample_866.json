@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_73_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a store with a green billboard. When you reach the current location, what is your relative position to the destination?  \nchoose:  \nA. I am currently located directly above the store with the green billboard.  \nB. I am currently located across the street from a store with a green billboard, but at a significantly lower height.  \nC. I am currently located above the park drive, much higher than the store.  \nD. I am currently located on the sidewalk in front of a row of stores at ground level, but the location of the store with the green sign is unknown.  \nE. I am currently on the same side of the street as the store with the green billboard, but further down the street.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The agent is currently on the same side of the street as the store with the green billboard but appears to be further down the street from it, as indicated by the perspective and distance in the final frames.",
+    "evaluation": "Location: [(0, 42)]\nOption: [E]\nReason: The video shows the agent moving along a street. At the end of the video, a store with a green billboard is visible. The agent is on the same side of the street as the store, but further down the street. Therefore, the correct answer is E.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The agent is currently on the same side of the street as the store with the green billboard but appears to be further down the street from it, as indicated by the perspective and distance in the final frames."
+  }
+}

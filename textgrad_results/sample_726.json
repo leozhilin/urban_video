@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_73_3FTYUGLFS3JDSS6FMUE4RU4XSMUD55_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn left and go over the buildings towards the top of the brown building. now turn right and move forward and go over the buildings towards the white building. now turn right and move forward and go over the buildings and get down reach the road. now turn left and get up and move forward and get down towards the brown building. now turn back reach the brown building and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I retrace my steps to the brown building and stay there.  \nB. I turn left, stand up, and walk forward toward the brown building.  \nC. I turn right and move forward, past the building and onto the road.  \nD. I take off and turn left, over the building, to the top of the brown building.  \nE. I turn right and move forward, past the buildings, toward the white building.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The sequence of images shows the agent has completed the navigation instructions and is now at the final destination, which is the brown building. The last part of the instruction was to \"retrace my steps to the brown building and stay there,\" and the current view aligns with being at that location.",
+    "evaluation": "Location: [(0, 158)]\nOption: A\nReason: The video shows the agent flying over buildings and eventually settling on a rooftop. The final instruction was to \"retrace my steps to the brown building and stay there.\" The current view from the rooftop aligns with being at the final destination, which is the brown building. Therefore, the agent is retracing its steps to the brown building and staying there.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The sequence of images shows the agent has completed the navigation instructions and is now at the final destination, which is the brown building. The last part of the instruction was to \"retrace my steps to the brown building and stay there,\" and the current view aligns with being at that location."
+  }
+}

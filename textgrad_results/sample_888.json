@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_3_3NQL1CS1506XOXGLOHJV8D8XNYAYVD_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off turn left and fly towards the building present in the left and fly upwards from the building and turn left and fly straight and cross the first two buildings and fly downwards to the small building and fly upwards. cross the building and fly straight to the advertisement banner and turn left and turn right after crossing the first right and cross the eds butcher shop banner fly downwards in front of the juniors restaurant and bar. turn around the area on right left and turn turn at the opposite of the juniors restaurant.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I turn left and fly toward the building on the left.  \nB. I fly upward.  \nC. I cross the water.  \nD. I go around the right-turn-left area and then turn around.  \nE. I fly over buildings.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The sequence of images shows the agent flying over various buildings, which aligns with the instruction to \"fly upwards from the building and turn left and fly straight and cross the first two buildings.\" This indicates that the current action is flying over buildings.",
+    "evaluation": "Location: [(0, 55)]\nOption: [E]\nReason: From the beginning of the video to 0:55, the agent is flying over buildings. This aligns with the instruction to \"fly upwards from the building and turn left and fly straight and cross the first two buildings.\" This indicates that the current action is flying over buildings.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The sequence of images shows the agent flying over various buildings, which aligns with the instruction to \"fly upwards from the building and turn left and fly straight and cross the first two buildings.\" This indicates that the current action is flying over buildings."
+  }
+}

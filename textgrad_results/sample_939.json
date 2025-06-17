@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_0_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the center of the apron. When you reach the current location, what is the direction to the destination?  \nchoose:  \nA. I am currently located above an adjacent building rather than near the helipad.  \nB. I am currently located slightly northeast of the center of the helipad.  \nC. I am currently located away from the helipad and above a busy intersection.  \nD. I am currently located southwest of the helipad, near the edge of the building.  \nE. I am currently located directly above the center of the helipad.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The current view shows that the agent is directly above the center of the helipad, as indicated by the centered position over the helipad's markings.",
+    "evaluation": "Location: [(0, 9)]\nOption: [E]\nReason: From the beginning of the video to the end, the view is directly above the center of the helipad, as indicated by the centered position over the helipad's markings.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The current view shows that the agent is directly above the center of the helipad, as indicated by the centered position over the helipad's markings."
+  }
+}

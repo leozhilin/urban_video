@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_53_3II4UPYCOS52LEPD6M27P5ZONEUQDZ_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off go straight and reach the pool land slightly and see the city. from the pool take left and go straight and next to the top building comes a little right. from there taking right and reaching the four side road. take a left fro the road and travel to the large building opposite to the charlie chocolate. take a right from the chocolate factory and go to the roof top. after the roof top and reach the road then landed before the lamp post.]. At the initial position, you are asked to navigate based on a series of movement instructions. When you reach the current location, what is your position relative to the large building across from Charlie's Chocolate Factory?  \nchoose:  \nA. I am located to the left of the large building across from Charlie's Chocolate Factory.  \nB. I am located above the large building across from Charlie's Chocolate Factory.  \nC. I am far away from the large building opposite Charlie's Chocolate Factory.  \nD. I am located to the right of the large building across from Charlie's Chocolate Factory.  \nE. I am located underneath the large building across from Charlie's Chocolate Factory.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The current location is on a rooftop, which indicates that the agent is above the large building across from Charlie's Chocolate Factory. The view shows an elevated perspective over the cityscape, consistent with being on a roof top.",
+    "evaluation": "Location: [(0, 15)]\nOption: [B]\nReason: The instruction says \"after the roof top and reach the road then landed before the lamp post\". The video shows the agent is on the roof top. Therefore, the agent is located above the large building across from Charlie's Chocolate Factory.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The current location is on a rooftop, which indicates that the agent is above the large building across from Charlie's Chocolate Factory. The view shows an elevated perspective over the cityscape, consistent with being on a roof top."
+  }
+}

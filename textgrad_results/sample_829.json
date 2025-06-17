@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_22_2.mp4",
+  "question": "Question: You are navigating to the 11th-floor balcony. Thinking back on past Action Generations and objects you have seen, what is the surrounding environment like at your current location?  \nChoice:  \nA. There is a park in front of me with a bicycle path and trees. There is a high-rise building behind me, and parking underneath me.  \nB. There is a large roundabout in front of me, with multiple roads leading to it.  \nC. There is a high-rise building in front of me, and other high-rise buildings around it. There is a highway to my right.  \nD. There are roads and trees next to me, with many high-rise buildings around me.  \nE. There are several low-rise buildings around me, with a small square in the middle.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The images show a high-rise building in front of the viewer, with other high-rise buildings around it. Additionally, there is a highway visible to the right side of the frames, which matches the description in option C.",
+    "evaluation": "Location: [(0, 55)]\nOption: [C]\nReason: The video shows the agent navigating to the 11th-floor balcony. At the current location, there is a high-rise building in front of the agent, and other high-rise buildings around it. There is also a highway to the right. This matches the description in option C. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The images show a high-rise building in front of the viewer, with other high-rise buildings around it. Additionally, there is a highway visible to the right side of the frames, which matches the description in option C."
+  }
+}

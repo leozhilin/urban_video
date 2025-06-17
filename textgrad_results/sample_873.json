@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_29_3OHYZ19UGL312V9L7ZJ1AZWIN8TOAX_4.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn left and move forward and go over the buildings and road and turn right and move forward and go over the buildings and turn left at front of the dates car wash board and move forward. now move forward and get down and besidecharlies chocolate building and turn back and move forward and go over the buildings and get down at intersection road and get up and turn back and move forward. now move forward and get down at front of the white building and turn right and beside sea and move forward and go over the building alley and get down at tastes board with building and land there.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach your current location, what is the Landmark Position from the \"Dave's Car Wash\" board?  \nchoose:  \nA. I am located above Dave's car wash.  \nB. I am located underneath Dave's car wash.  \nC. I am located to the left of Dave's car wash.  \nD. I am located to the right of Dave's car wash.  \nE. I am located behind Dave's car wash.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The navigation instructions mention turning left at the front of the \"Dates Car Wash\" board and moving forward. Given the sequence of movements and the final position described, the agent would logically end up to the right of Dave's Car Wash when facing it after completing the instructed path. Therefore, the correct landmark position relative to Dave's Car Wash is to its right.",
+    "evaluation": "Location: [(0, 134)]\nOption: D\nReason: The video shows the agent moving through the city, following the instructions. At the end of the video, the agent is positioned on a rooftop, looking down at the street. From this vantage point, Dave's Car Wash is visible to the left. Therefore, the agent is located to the right of Dave's Car Wash.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The navigation instructions mention turning left at the front of the \"Dates Car Wash\" board and moving forward. Given the sequence of movements and the final position described, the agent would logically end up to the right of Dave's Car Wash when facing it after completing the instructed path. Therefore, the correct landmark position relative to Dave's Car Wash is to its right."
+  }
+}

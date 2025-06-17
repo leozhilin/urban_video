@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_53_3II4UPYCOS52LEPD6M27P5ZONEUQDZ_1.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off go straight and reach the pool land slightly and see the city. from the pool take left and go straight and next to the top building comes a little right. from there taking right and reaching the four side road. take a left fro the road and travel to the large building opposite to the charlie chocolate. take a right from the chocolate factory and go to the roof top. after the roof top and reach the road then landed before the lamp post.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I go across the water.  \nB. I turn left at the intersection and go to the large building opposite Charlie's Chocolate.  \nC. I turn right from the Chocolate Factory and go to the rooftop.  \nD. I turn left from the swimming pool, go straight, and turn slightly right next to the top building.  \nE. I take off and walk straight until I reach the edge of the pool, where I can see the city.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The initial instruction is to \"take off go straight and reach the pool land slightly and see the city.\" The images show a view of the city from an elevated position near a pool, which aligns with the described action of taking off, going straight, and reaching the pool to see the city. This matches option E, indicating that the agent has taken off and is now at the edge of the pool with a view of the city.",
+    "evaluation": "Location: [(0, 12)]\nOption: [E]\nReason: The video shows a view of the city from an elevated position near a pool. This aligns with the initial instruction to \"take off go straight and reach the pool land slightly and see the city.\" Therefore, the agent has taken off and is now at the edge of the pool with a view of the city.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The initial instruction is to \"take off go straight and reach the pool land slightly and see the city.\" The images show a view of the city from an elevated position near a pool, which aligns with the described action of taking off, going straight, and reaching the pool to see the city. This matches option E, indicating that the agent has taken off and is now at the edge of the pool with a view of the city."
+  }
+}

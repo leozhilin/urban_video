@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_24_3OVR4I9USYHPLI6KDB1EM15IB5R4QZ_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn back and move forward towards the green tress and right and get closer to the red tree. now turn right and fly over the river till the red trees visible and move forward towards the road till the white building visible. now move forwards the top of the white building which have a tower on its top. now turn right and turn left move forward till the brown building have a banner named charlie a chocolate. now turn around and get closer to the white building and stay there.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I fly forward and then rise.  \nB. I drop down and turn right.  \nC. I fly forward while rising.  \nD. I turn left and descend.  \nE. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The navigation instruction indicates that after moving forward towards the green trees and getting closer to the red tree, the next step is to turn right and fly over the river. Since the current view shows a proximity to the trees and no immediate indication of being over the river, the logical next step would be to prepare for this maneuver by dropping down and turning right, aligning with option B.",
+    "evaluation": "Location: [(0, 43)]\nOption: B\nReason: The instruction is to \"take off and turn back and move forward towards the green tress and right and get closer to the red tree. now turn right and fly over the river\". From the video, we can see the agent is currently on top of a building. The next step is to turn right and fly over the river. Therefore, the best next step is to drop down and turn right.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The navigation instruction indicates that after moving forward towards the green trees and getting closer to the red tree, the next step is to turn right and fly over the river. Since the current view shows a proximity to the trees and no immediate indication of being over the river, the logical next step would be to prepare for this maneuver by dropping down and turning right, aligning with option B."
+  }
+}

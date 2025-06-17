@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_52.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the stone statue to the right of the entrance. Thinking back on past Action Generations and objects seen, what should you approach next in order to get from your current location to your destination?  \nchoose:  \nA. I approach the crosswalk on the street corner.  \nB. I approach the ground level at the building entrance.  \nC. I approach the height of adjacent building roofs.  \nD. I approach the cars parked along the road.  \nE. I approach the stone lion statue.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The goal is to navigate to the stone statue to the right of the entrance. Based on the provided frames, the agent has already approached the area near the entrance and is now close to the stone lion statue, which matches the description of the destination. Therefore, the next logical step is to approach the stone lion statue.",
+    "evaluation": "Location: [(0, 52)]\nOption: [E]\nReason: The video shows a top-down view of the environment. The agent is located near the entrance, and the stone lion statue is nearby. Therefore, the next logical step is to approach the stone lion statue. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The goal is to navigate to the stone statue to the right of the entrance. Based on the provided frames, the agent has already approached the area near the entrance and is now close to the stone lion statue, which matches the description of the destination. Therefore, the next logical step is to approach the stone lion statue."
+  }
+}

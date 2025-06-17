@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_RN_12_4.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [Raise the altitude, fly over the opposite road, and fly in the direction of the mountains]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I go up and turn right.  \nB. I descend and turn right.  \nC. I fly forward while rising.  \nD. I turn left and descend.  \nE. I rotate the camera downward and fly forward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The navigation instruction is to \"Raise the altitude, fly over the opposite road, and fly in the direction of the mountains.\" Given the current position and the need to follow this instruction, the best next step is to fly forward while rising. This will help in gaining the necessary altitude to fly over the opposite road and continue towards the mountains. Options A, B, D, and E do not align as closely with the given instructions as they involve turning or descending, which are not required at this stage.",
+    "evaluation": "Location: [(0, 35)]\nOption: [C]\nReason: From the initial position (0:00-0:10), the camera is looking down at the parking lot. The instruction is to \"Raise the altitude, fly over the opposite road, and fly in the direction of the mountains.\" From (0:10-0:35), the camera is looking towards the mountains in the distance. Therefore, the best next step is to fly forward while rising to gain altitude and move towards the mountains.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The navigation instruction is to \"Raise the altitude, fly over the opposite road, and fly in the direction of the mountains.\" Given the current position and the need to follow this instruction, the best next step is to fly forward while rising. This will help in gaining the necessary altitude to fly over the opposite road and continue towards the mountains. Options A, B, D, and E do not align as closely with the given instructions as they involve turning or descending, which are not required at this stage."
+  }
+}

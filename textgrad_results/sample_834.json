@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_51_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the stone statue to the left of the entrance. Thinking back on past Action Generations and objects you saw, what should you approach next in order to get from your current location to the destination?  \nchoose:  \nA. I approach the center of the square.  \nB. I approach a crosswalk on a street.  \nC. I approach the entrance to the building.  \nD. I approach the height of the building across the street.  \nE. I approach the top of the nearest tree.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The current view shows a large open square with a building entrance visible ahead. To navigate to the stone statue to the left of the entrance, the next logical step is to approach the entrance itself, as it is the key reference point mentioned in the goal.",
+    "evaluation": "Location: [(0, 43)]\nOption: C\nReason: The video shows the agent's perspective from above, looking down at a square. The goal is to navigate to the stone statue to the left of the entrance. The most logical next step is to approach the entrance to the building, as it is the key reference point mentioned in the goal. The stone statue is located to the left of the entrance.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The current view shows a large open square with a building entrance visible ahead. To navigate to the stone statue to the left of the entrance, the next logical step is to approach the entrance itself, as it is the key reference point mentioned in the goal."
+  }
+}

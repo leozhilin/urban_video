@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_73_3FTYUGLFS3JDSS6FMUE4RU4XSMUD55_5.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn left and go over the buildings towards the top of the brown building. now turn right and move forward and go over the buildings towards the white building. now turn right and move forward and go over the buildings and get down reach the road. now turn left and get up and move forward and get down towards the brown building. now turn back reach the brown building and stay there.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I turn left and go up.  \nB. I descend, turn right, and fly forward.  \nC. I fly forward and then descend.  \nD. I turn right and go up.  \nE. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: Based on the navigation instruction, the next step after reaching the brown building and staying there would logically involve moving towards the next objective. The instruction \"now turn right and move forward and go over the buildings towards the white building\" suggests that turning right and proceeding forward is the appropriate action. Therefore, descending, turning right, and flying forward aligns with the given instructions to navigate towards the white building.",
+    "evaluation": "Location: [(0, 10), (158, 160), (218, 220)]\nOption: B\nReason: The navigation instruction states: \"now turn right and move forward and go over the buildings towards the white building.\" The video shows the agent is currently at the brown building. Therefore, the next step is to turn right and move forward. Descending is necessary to reach the level of the next buildings. So, the best next step is to descend, turn right, and fly forward.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: Based on the navigation instruction, the next step after reaching the brown building and staying there would logically involve moving towards the next objective. The instruction \"now turn right and move forward and go over the buildings towards the white building\" suggests that turning right and proceeding forward is the appropriate action. Therefore, descending, turning right, and flying forward aligns with the given instructions to navigate towards the white building."
+  }
+}

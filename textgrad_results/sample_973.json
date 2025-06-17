@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_51_3RSDURM96JKGMMUZTRUL89KBMYHEYM_4.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take of from the river and turn left towards the city and go straight towards the buildings. then take left and then take immediate right towards the board and then suddenly take left and go straight towards the statue then turn right and take of. then go towards the drink ice cold, sun noon board and then take left there was an highest building and then take right from the building then take immediate left from that building in opposite there was an bolt cola board is that our destination.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I go across the water.  \nB. I walk straight toward the statue.  \nC. I turn right and take.  \nD. I fly over buildings.  \nE. I go in the morning to drink something cold and enjoy the afternoon sun.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The sequence of images shows a progression from an initial position near a river, moving through various urban landscapes, and eventually reaching a high vantage point overlooking the city. This suggests that the agent is flying over buildings, as indicated by the aerial views and the changing perspectives of the cityscape.",
+    "evaluation": "Location: [(0, 17), (35, 47), (55, 60), (110, 125), (130, 150)]\nOption: [D]\nReason: The video shows the agent starting from a river and then moving towards the city. The perspective changes from ground level to an aerial view, indicating that the agent is flying over buildings. The instructions mention going straight towards the buildings, taking left and right turns, and then going towards a statue. The video shows the agent moving through the city, passing by buildings, and eventually reaching a point where it has a high vantage point overlooking the city. This suggests that the agent is flying over buildings. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The sequence of images shows a progression from an initial position near a river, moving through various urban landscapes, and eventually reaching a high vantage point overlooking the city. This suggests that the agent is flying over buildings, as indicated by the aerial views and the changing perspectives of the cityscape."
+  }
+}

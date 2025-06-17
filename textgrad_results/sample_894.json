@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_22_0.mp4",
+  "question": "Question: You are navigating to [the roof of a very short building with a yellow exterior wall]. Thinking back on past actions and objects you\u2019ve seen, what is the surrounding environment like at your current location?  \nChoice:  \nA. Many high-rise residential buildings are around me, with a busy road in front and a park visible behind me.  \nB. I am surrounded by low-rise commercial buildings, with a quiet street in front and a large parking lot visible behind me.  \nC. Across the street in front of me are three buildings in a row\u2014the middle one much taller than the other two. There is a park behind me with scooter lanes and trees, and a walkway is underneath me.  \nD. I am in a rural area, surrounded by fields and trees, with a small dirt road visible in front of me.  \nE. High-rise office buildings are around me, with a highway in front and a small square visible behind me.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The images show a dense urban environment with many high-rise residential buildings, a busy road in front, and what appears to be a park visible behind the buildings. This matches the description in option A.",
+    "evaluation": "Location: [(0, 20)]\nOption: [A]\nReason: The video shows a dense urban environment with many high-rise residential buildings. There is a busy road in front of the buildings and a park visible behind them. This matches the description in option A.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The images show a dense urban environment with many high-rise residential buildings, a busy road in front, and what appears to be a park visible behind the buildings. This matches the description in option A."
+  }
+}

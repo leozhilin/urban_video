@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_25_34MAJL3QPDLXEH0IF0PI9TC71F134N.mp4",
+  "question": "Question: What objects do you observe while traveling through the park?  \nChoice:  \nA. A row of palm trees, a playground, and a basketball court.  \nB. A vast city skyline, large fountains, and statues.  \nC. A carousel, street performers, and a pond.  \nD. Rows of trees at the edge of the park, city buildings outside the park, and two skyscrapers in the background.  \nE. A soccer field, picnic area, and pavilion.  ",
+  "question_category": "Scene Recall",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The images show rows of trees at the edge of the park, city buildings outside the park, and two prominent skyscrapers in the background, which aligns with the description in option D.",
+    "evaluation": "Location: [(0, 50)]\nOption: [D]\nReason: Throughout the video, rows of trees are visible at the edge of the park. City buildings are seen outside the park, and two prominent skyscrapers are visible in the background. This aligns with the description in option D.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The images show rows of trees at the edge of the park, city buildings outside the park, and two prominent skyscrapers in the background, which aligns with the description in option D."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_8.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the roof of the red teaching building of a nearby school. When you reach the current location, what is the direction to the destination?  \nchoose:  \nA. I am currently located over the school playground, with the red building slightly behind and to the right.  \nB. I am currently located above the red building.  \nC. I am currently located above the parking lot next to the old apartment building, with the red building directly ahead.  \nD. I am currently above the street, with the red building farther to the left.  \nE. I am currently above the old apartment building, with the red building further to the left.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The current location is over the school playground, as indicated by the visible track and field area. The red building is slightly behind and to the right, which matches the description in option A.",
+    "evaluation": "Location: [(0, 60)]\nOption: [A]\nReason: From the video, especially between 0:35 and 0:60, the camera pans to reveal the school playground with its running track. The red teaching building is visible slightly behind and to the right of the current location. Therefore, option A is the correct answer.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The current location is over the school playground, as indicated by the visible track and field area. The red building is slightly behind and to the right, which matches the description in option A."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_69_3M0BCWMB84UEQENF4ZA7M4T9OECBWC_6.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and look at the sea and turn back to fly over the buildings a trees and pond is visible. now get down on the land and look at the tree. now turn back and fly over the trees and reach the road and turn little right. now move towards the sea and look at the grey building. now turn right side of the building and move between two building and go top the back side of the building. now turn to the building named with drink ice cold and fly over the building and take little right and look at the tall building. now move forwards to the pond is visible and take right and move forward to the roads and take little right and move to the brown building. now turn left and move towards the brown building and stay there.]. You move according to a series of movement instructions. In terms of next steps, what is your best next step?  \nchoose:  \nA. I fly forward and then rise.  \nB. I drop down and turn left.  \nC. I turn right and fly forward.  \nD. I turn right and go up.  \nE. I turn left and descend.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: According to the navigation instruction, after observing the grey building and moving between two buildings to the back side of a building, the next step is to turn right towards the building named \"DRINK ICE COLD.\" Therefore, turning right and flying forward aligns with the given instructions.",
+    "evaluation": "Location: [(00:36, 00:40), (00:45, 00:50), (01:20, 01:25), (05:30, 05:37)]\nOption: [C]\nReason: From the video, after flying between the two buildings, the building with \"DRINK ICE COLD\" is visible on the right. Therefore, the next step is to turn right and fly forward.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: According to the navigation instruction, after observing the grey building and moving between two buildings to the back side of a building, the next step is to turn right towards the building named \"DRINK ICE COLD.\" Therefore, turning right and flying forward aligns with the given instructions."
+  }
+}

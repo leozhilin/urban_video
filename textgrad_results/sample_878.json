@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_6_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the fountain at the entrance of the community. Thinking back on past actions and objects you saw, what should you approach next in order to get from your current location to your destination?  \nchoose:  \nA. I approach a street light at the corner of an intersection.  \nB. I approach the green pickup truck parked near the fountain.  \nC. I approach scooters parked near building entrances.  \nD. I approach the center of the roundabout with a fountain.  \nE. I approach the roof of the building with Maco store signage.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The goal is to navigate to the fountain at the entrance of the community. Based on the provided frames, the most direct and relevant option is to approach the center of the roundabout with a fountain, as it matches the description of the destination. The other options do not directly lead to the fountain.",
+    "evaluation": "Location: [(0, 13)]\nOption: D\nReason: The video shows an aerial view of the area. From the initial position, the roundabout with the fountain is visible. Approaching the roundabout is the most direct way to reach the fountain at the entrance of the community.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The goal is to navigate to the fountain at the entrance of the community. Based on the provided frames, the most direct and relevant option is to approach the center of the roundabout with a fountain, as it matches the description of the destination. The other options do not directly lead to the fountain."
+  }
+}

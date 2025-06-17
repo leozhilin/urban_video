@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_42_30OG32W0S39MANQLMPLARTM4IDDNE3_6.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn right move forward and fly towards the top of brown tower. now turn right move little forward near by pond slow down to the floor. now turn left move towards the mid centre of pond behind the tree slow down and stay there.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I fly forward and then rise.  \nB. I turn left and fly forward.  \nC. I fly forward while descending.  \nD. I turn right and go up.  \nE. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The agent has already flown towards the top of the brown tower and turned right to move near the pond. The next step according to the instructions is to slow down to the floor, which means descending while moving forward towards the mid-center of the pond behind the tree. Therefore, flying forward while descending aligns with the next steps in the navigation instruction.",
+    "evaluation": "Location: [(0, 2), (218, 222)]\nOption: [C]\nReason: From the beginning of the video to 0:02, the agent is in the air. From 2:18 to 2:22, the agent is near the pond. According to the instruction, the agent should slow down to the floor near the pond. Therefore, the agent should fly forward while descending.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The agent has already flown towards the top of the brown tower and turned right to move near the pond. The next step according to the instructions is to slow down to the floor, which means descending while moving forward towards the mid-center of the pond behind the tree. Therefore, flying forward while descending aligns with the next steps in the navigation instruction."
+  }
+}

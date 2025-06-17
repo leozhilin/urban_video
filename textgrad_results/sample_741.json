@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_88_0.mp4",
+  "question": "Question: In the starting position, you are asked to navigate over a residential lawn with a small blue house. Thinking back on past Action Generations and objects seen, what is the surrounding environment like at your current location?  \nChoose:  \nA. There are three buildings in a row below you, with a lawn next to it, a scooter lane, and trees.  \nB. There are two tall buildings on your right side and a parking lot on your left. Below is a wide road.  \nC. A large park surrounds you, with a few low-rise buildings scattered in the distance.  \nD. You are located above a large open square, with only one high-rise building visible in the distance.  \nE. Several low-rise buildings cluster around you, with a path underneath. There is a high-rise building on the far left.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The starting position shows a cluster of low-rise buildings around the agent, with a path underneath. Additionally, there is a high-rise building visible on the far left, which matches the description in option E. The environment does not match the descriptions in the other options, such as a large park, a wide road, or three buildings in a row.",
+    "evaluation": "Location: [(0, 2)]\nOption: E\nReason: From the starting position (0-2 seconds), the video shows several low-rise buildings clustered together. There's also a high-rise building visible on the left side of the screen. This matches the description in option E.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The starting position shows a cluster of low-rise buildings around the agent, with a path underneath. Additionally, there is a high-rise building visible on the far left, which matches the description in option E. The environment does not match the descriptions in the other options, such as a large park, a wide road, or three buildings in a row."
+  }
+}

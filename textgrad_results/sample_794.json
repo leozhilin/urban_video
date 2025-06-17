@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_43_30X31N5D6COG0N1EEG0AU46JK6WSAG_4.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn left and move forward and get down towards the road. now get up and move forward towards the brown terrace and turn left. now fly over the buildings and get down towards the brown building terrace. now turn left and get up fly over the buildings and get down reach the brown terrace and stay there.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I am near the white building.  \nB. I walk toward the road.  \nC. I go to the chair between the buildings.  \nD. I cross the water.  \nE. I turn left and get up.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The sequence of images shows that the agent has already moved forward towards the brown terrace and turned left. The current view suggests that the agent is now preparing to get up and fly over the buildings, as indicated by the elevated perspective in the latest frames. Therefore, the next action according to the instructions would be to turn left and get up to fly over the buildings.",
+    "evaluation": "Location: [(0, 4), (16, 24), (32, 40), (150, 158), (220, 230), (237, 247), (255, 265), (300, 310), (320, 330), (340, 350), (360, 370), (380, 390), (400, 410), (420, 430), (440, 450), (460, 470), (480, 490), (500, 510)]\nOption: E\nReason: The video shows the agent taking off from the road (0-4s), flying over a road and some trees (16-24s), and then flying over buildings (32-40s). The agent then gets down on a brown terrace (150-158s). The agent then turns left and gets up to fly over the buildings (220-230s, 237-247s, 255-265s, 300-310s, 320-330s, 340-350s, 360-370s, 380-390s, 400-410s, 420-430s, 440-450s, 460-470s, 480-490s, 500-510s). Therefore, the agent is currently turning left and getting up.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The sequence of images shows that the agent has already moved forward towards the brown terrace and turned left. The current view suggests that the agent is now preparing to get up and fly over the buildings, as indicated by the elevated perspective in the latest frames. Therefore, the next action according to the instructions would be to turn left and get up to fly over the buildings."
+  }
+}

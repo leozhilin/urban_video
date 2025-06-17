@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_2.mp4",
+  "question": "Question: Starting from a starting position, you are asked to navigate to a basketball court near a building below. What is the correct summary of your trajectory from the starting position to the current position?  \nChoice:  \nA. Start from a high-rise building, descend to the height of the basketball court, and move forward to reach the current position above the basketball court.  \nB. Start from the parking lot, move forward to the playground, and rise to the height of the building above the basketball court.  \nC. Start from the scooter lane in the park, turn left to face the street outside the park, rise to the height of the rooftop of the high-rise building across the street, and move forward to reach the current position above the basketball court.  \nD. Start from the park, move forward across the street to the high-rise building, and then descend to the height of the basketball court.  \nE. Start from above the high-rise building, rise a certain distance, rotate to the left, descend towards the basketball court, and move to your current position above the basketball court.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The trajectory starts from a high vantage point overlooking the buildings, then descends to the height of the basketball court, and continues moving forward to reach the current position directly above the basketball court. This matches the description in option A.",
+    "evaluation": "Location: [(0, 57)]\nOption: A\nReason: The video starts from a high-rise building, then descends to the height of the basketball court, and moves forward to reach the current position above the basketball court. This matches the description in option A.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The trajectory starts from a high vantage point overlooking the buildings, then descends to the height of the basketball court, and continues moving forward to reach the current position directly above the basketball court. This matches the description in option A."
+  }
+}

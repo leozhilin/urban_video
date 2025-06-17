@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_6_32EYX73OY97OEHFZ5WHW4VDH3OSRUM_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [go to sidewalk and turn on first walk way. turn right over tennis court. stop by nearest lake. face towards right of the subdivision. fly low and fly in open area near shed. move forward and face towards the park. take off, to fountain in center of park. make a sharp left on lake and go to nearest bridge. move forward beyond patio area.. fly over third row of trees.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach your current location, what is your Landmark Position to the kiosk?  \nchoose:  \nA. I am on the left side of the pavilion.  \nB. I am far away from the pavilion.  \nC. I am located above the pavilion.  \nD. I am located on the right side of the pavilion.  \nE. I am in the pavilion.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The current location, as indicated by the sequence of images, shows a view from an elevated position overlooking a park area with no immediate proximity to a pavilion or kiosk. The environment appears open and distant from any specific structures like a pavilion, suggesting that the agent is far away from such landmarks.",
+    "evaluation": "Location: [(0, 51)]\nOption: [B]\nReason: From the video, the agent is at an elevated position overlooking a park. The kiosk is not visible and appears to be far away. Therefore, the agent is far away from the pavilion.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The current location, as indicated by the sequence of images, shows a view from an elevated position overlooking a park area with no immediate proximity to a pavilion or kiosk. The environment appears open and distant from any specific structures like a pavilion, suggesting that the agent is far away from such landmarks."
+  }
+}

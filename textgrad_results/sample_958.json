@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_15.mp4",
+  "question": "Question: If you do not descend directly to the gray sign store, but choose to fly across the entire street before descending, can you still reach the store?\n\nChoices: A. Yes, I can still get to the store, but the alternative route will take longer.  \n           B. No, I cannot reach the store because my camera cannot see the store from that location.  \n           C. Yes, I can still get to the store, and it will take about the same amount of time.  ",
+  "question_category": "Counterfactual",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: Flying across the entire street before descending will still allow you to reach the gray sign store, but it will take longer due to the additional distance traveled.",
+    "evaluation": "Location: [(0, 13), (55, 110)]\nOption: A\nReason: The video shows the gray sign store located on one side of the street. If the agent chooses to fly across the entire street before descending, it will still be able to reach the store, but the route will be longer because it involves traveling a greater distance. The video shows the layout of the street and the location of the store, making it clear that an alternative route is possible, albeit a longer one.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: Flying across the entire street before descending will still allow you to reach the gray sign store, but it will take longer due to the additional distance traveled."
+  }
+}

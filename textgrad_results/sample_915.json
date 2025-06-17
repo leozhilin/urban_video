@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_94_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the platform area, and the billboard above reads \"Zhengyong Yishang Dance.\" Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. I can see the platform area above the \"Zhengyong Yishang Dance\" billboard in the lower left corner of my field of view.  \nB. I can see the platform area above the \"Zhengyong Yishang Dance\" billboard in the center of my field of view.  \nC. I can see the platform area above the \"Zhengyong Yishang Dance\" billboard in the upper right corner of my field of view.  \nD. The platform area above the \"Zhengyong Yishang Dance\" billboard is not within my field of view.  \nE. I can see the platform area above the \"Zhengyong Yishang Dance\" billboard in the upper left corner of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The initial position shows a view of a street with buildings and trees, but there is no visible platform area or any billboard that reads \"Zhengyong Yishang Dance\" in the field of view. Therefore, the destination is not within sight at the current location.",
+    "evaluation": "Location: [(0, 9)]\nOption: D\nReason: From the initial position (0-9 seconds), the view shows a cityscape with buildings and roads. There is no visible platform area or a billboard with the specified text \"Zhengyong Yishang Dance\". Therefore, the destination is not within sight.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The initial position shows a view of a street with buildings and trees, but there is no visible platform area or any billboard that reads \"Zhengyong Yishang Dance\" in the field of view. Therefore, the destination is not within sight at the current location."
+  }
+}

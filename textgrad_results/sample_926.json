@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_80_3ATPCQ38JH8DW9DNDMSZCQUK2ODYAG_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off from the lane and shows lamp post and turn right enter into pathway. turn left and show marketing signage and fly high. turn left and fly over the lake area and turn right fly towards high building. turn left and show loan signage and turn left near building.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I am flying over the Lake District.  \nB. I am moving across the water.  \nC. I am displaying marketing signage.  \nD. I turn left near the building.  \nE. I turn right at the building.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The sequence of images shows the agent moving through various urban environments, following the given navigation instructions. After displaying marketing signage and flying over the lake area, the next step in the instructions is to \"turn left near the building.\" The images depict a turn near a building, aligning with this specific instruction. Therefore, the current action is turning left near the building.",
+    "evaluation": "Location: [(47, 57), (57, 117)]\nOption: D\nReason: The video shows the agent flying over the lake area from 0:00 to 0:47. From 0:47 to 0:57, the agent is showing the loan signage. From 0:57 to 1:17, the agent is turning left near the building. Therefore, the answer is D. I turn left near the building. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The sequence of images shows the agent moving through various urban environments, following the given navigation instructions. After displaying marketing signage and flying over the lake area, the next step in the instructions is to \"turn left near the building.\" The images depict a turn near a building, aligning with this specific instruction. Therefore, the current action is turning left near the building."
+  }
+}

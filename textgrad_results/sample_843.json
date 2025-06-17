@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_7_0.mp4",
+  "question": "Question: You are navigating to the 26th-floor balcony. Thinking back on past Action Generations and objects seen, what is the surrounding environment like at your current location?  \nChoice:  \nA. Two high-rise buildings are on my left and right. There is a highway in front of me and a large park behind me.  \nB. Three buildings are in a row across the street in front of me. The middle one is much taller than the other two. There is a park behind me with scooter lanes and trees, and there is a walkway underneath me.  \nC. There is a high-rise building directly in front of me. Two tall buildings with glass curtain walls are behind me on the left, and there is an elevated road below and to my right.  \nD. Low-rise buildings surround me. There is a small green space to my left and a wide road to my right.  \nE. Tall buildings are in all directions, and the vast highway system is visible below me.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The images show a high vantage point with tall buildings in all directions and a vast highway system visible below, which matches the description in option E.",
+    "evaluation": "Location: [(0, 13)]\nOption: [E]\nReason: The video shows a high vantage point from the 26th-floor balcony. From this height, tall buildings are visible in all directions. A vast highway system is also clearly visible below. This aligns perfectly with the description in option E.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The images show a high vantage point with tall buildings in all directions and a vast highway system visible below, which matches the description in option E."
+  }
+}

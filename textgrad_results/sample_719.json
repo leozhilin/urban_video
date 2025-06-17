@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_49_3NJM2BJS4547GAIK6DS75URVDUYPCB_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn left and move forward and go over the building and and turn left and little move forward and turn right and move forward and get down at intersection road and turn right at tree and fly up and move forward. now get down at intersection road and turn left and move forward and our back and fly up and move forward and go over the building and road. now get down front of the pink building and turn back and your see daves car wash building and fly up and move forward and go over the building. now move towards the american board of the building and turn left and fly up and move forward. now get down beside white building and move forward and go over the road and turn left and forward and turn right and move forward and landed at front of american board of the building.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I turn left and fly upward.  \nB. I get off the bus at the intersection and turn left.  \nC. I fly over buildings.  \nD. I turn right at the tree.  \nE. I walk toward the American Board of the building and turn left.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The series of images show a high aerial view with the agent moving over various buildings, which aligns with the instruction to \"fly over buildings.\" This indicates that the current action is flying over buildings.",
+    "evaluation": "Location: [(0, 41)]\nOption: [C]\nReason: The video shows a continuous aerial view of the city, with the agent moving over buildings. This aligns with the instruction to \"fly over buildings.\" Therefore, the current action is flying over buildings. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The series of images show a high aerial view with the agent moving over various buildings, which aligns with the instruction to \"fly over buildings.\" This indicates that the current action is flying over buildings."
+  }
+}

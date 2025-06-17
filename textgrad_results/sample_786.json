@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_6.mp4",
+  "question": "Question: Where are the starting and ending points of your journey?  \nChoice:  \nA. I begin with a ground view near the fountain and end above the Maco Paint Store.  \nB. I start in a parking lot with many motorcycles and a pickup truck and end above a fountain.  \nC. I begin above the Maco Paint Store and end in low shrubs near the fountain.  \nD. I start with a wider view of the street where there are many parked motorcycles and end on the paved stone floor surrounding the fountain.  \nE. I start above the fountain and end with a ground view of the paved area, with a human leg visible in the lower right corner.  ",
+  "question_category": "Start/End Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The journey starts with an aerial view above the fountain and ends with a ground-level view of the paved area, where a human leg is visible in the lower right corner, matching the description in option E.",
+    "evaluation": "Location: [(0, 10), (40, 47)]\nOption: E\nReason: The video starts with a high-angle view above the fountain (0-10s). It ends with a ground-level view of the paved area surrounding the fountain, with a human leg visible in the lower right corner (40-47s). This matches the description in option E. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The journey starts with an aerial view above the fountain and ends with a ground-level view of the paved area, where a human leg is visible in the lower right corner, matching the description in option E."
+  }
+}

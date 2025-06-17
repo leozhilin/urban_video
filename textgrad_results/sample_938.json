@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_32_0.mp4",
+  "question": "Question: You are navigating to a red car at the edge of a residential area ahead. Thinking back on past actions and objects you\u2019ve seen, what is the surrounding environment like at your current location?  \nChoice:  \nA. There are several stores and a residential building to your right. In front of you is a wide road with busy traffic, and behind you is a large parking lot. There is no sidewalk directly below you.  \nB. From your initial perspective, there are two dark gray high-rise residential buildings on both sides of the community courtyard, and there is a small park and fountain in front of you. Shops and a road are to your right, and a larger road and more buildings extend here.  \nC. You are positioned above a narrow street. There is a short building directly in front of you, and a vast park to your left. There is a road behind you with parked cars.  \nD. On your right are various shops. The entrance to a residential area you just passed is on your left and in front of you. There is a large open space behind you with a pond.  \nE. There are several high-rise residential buildings in every direction. Ahead of you is a large roundabout, and behind you is a construction area.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The images show a residential area with high-rise buildings on both sides, a community courtyard with a small park and fountain in the center, and shops along the right side. This matches the description in option B.",
+    "evaluation": "Location: [(0, 10)]\nOption: B\nReason: The video shows the agent is in a residential area with high-rise buildings on both sides. There is a community courtyard with a small park and fountain in the center. There are shops on the right side. This matches the description in option B.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The images show a residential area with high-rise buildings on both sides, a community courtyard with a small park and fountain in the center, and shops along the right side. This matches the description in option B."
+  }
+}

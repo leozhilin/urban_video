@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_29.mp4",
+  "question": "Question: You are navigating to the elevator to the left of the entrance. What is the correct summary of your trajectory from the start to the current position?  \nChoose:  \nA. I start from a high-rise building, descend to the ground, and move towards the entrance of the building.  \nB. I start from the left side of the building with a huge conical dome, turn right, then descend to a certain height, move toward the entrance, and descend to the ground.  \nC. I start from the street, move towards the building, and land at the entrance.  \nD. I start from the park, rise to a high altitude, and then descend to my current position near the elevator.  \nE. I start from the top of the high-rise building, move toward the entrance, and descend to the ground.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The trajectory starts from a high vantage point overlooking the city, indicating the top of a high-rise building. The agent then moves towards the entrance of the building and descends to the ground level, aligning with the final position near the elevator at the base of the building.",
+    "evaluation": "Location: [(0, 355)]\nOption: E\nReason: The video starts from a high altitude, showing a panoramic view of the city, indicating the top of a high-rise building. The agent then descends and moves towards the entrance of the building, eventually reaching the ground level near the elevator. Therefore, the correct summary of the trajectory is: \"I start from the top of the high-rise building, move toward the entrance, and descend to the ground.\"\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The trajectory starts from a high vantage point overlooking the city, indicating the top of a high-rise building. The agent then moves towards the entrance of the building and descends to the ground level, aligning with the final position near the elevator at the base of the building."
+  }
+}

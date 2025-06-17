@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_87_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a small two-story house with a blue roof in the community below. At your current location, if there is no two-story house with a blue roof in your field of view, what is the most relevant object in your field of view, and where is this object?  \nchoose:  \nA. I do not see a two-story small house with a blue roof, but I see a circular green space in the upper right corner of my field of view.  \nB. I do not see a two-story small house with a blue roof, but I see a high-rise building in the center of my field of view.  \nC. I do not see a two-story house with a blue roof, but I see a parking lot near some high-rise buildings in the lower part of my field of view.  \nD. I do not see a two-story small house with a blue roof, but I see a small blue building on the left side of my field of view.  \nE. I see a two-story small house with a blue roof in my field of vision.  ",
+  "question_category": "Association Reasoning",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The initial position shows a high-rise building in the center of the field of view, which is the most prominent object since there is no two-story house with a blue roof visible.",
+    "evaluation": "Location: [(0, 2)]\nOption: B\nReason: At the initial position (0-2 seconds), the view is dominated by high-rise buildings in the center of the frame. There is no two-story house with a blue roof visible. Therefore, the most relevant object is the high-rise building.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The initial position shows a high-rise building in the center of the field of view, which is the most prominent object since there is no two-story house with a blue roof visible."
+  }
+}

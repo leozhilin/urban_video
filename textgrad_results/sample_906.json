@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_42.mp4",
+  "question": "```\nQuestion: Why do you descend further after passing over the road with cars and trees?\nChoices:    A. I descend further to avoid a collision with a tall building.\n             B. I descend further to get a closer look at the rooftop details and the basketball court.\n             C. I descend further because the higher altitude provides a less detailed view.\n             D. I descend further to maintain a consistent altitude throughout the flight.\n             E. I descend further to improve the camera's field of view of the city.\n\n```\n",
+  "question_category": "Causal",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The agent descends further after passing over the road with cars and trees to get a closer look at the rooftop details and the basketball court, as indicated by the detailed view of the court and surrounding structures in the subsequent frames.",
+    "evaluation": "Location: [(6, 20)]\nOption: B\nReason: After passing over the road with cars and trees, the agent descends further to get a closer look at the rooftop details and the basketball court. The video shows a clear view of the basketball court and surrounding structures in the subsequent frames.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The agent descends further after passing over the road with cars and trees to get a closer look at the rooftop details and the basketball court, as indicated by the detailed view of the court and surrounding structures in the subsequent frames."
+  }
+}

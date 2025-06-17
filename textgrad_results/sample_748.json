@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_18.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a seller's store behind a nearby bus stop. At the current location, if the seller's store is not within your field of view, what is the most relevant object in your field of view, and where is this object?  \nchoose:  \nA. The seller\u2019s store is already within my field of view.  \nB. The seller's store is not visible in my field of view, but there is a parking lot in the lower right corner of my field of view.  \nC. The seller's store is not visible in my field of view, but there is a bus stop below my field of view.  \nD. The seller's store is not visible in my field of view, but the facade of a high-rise building is visible on the right side of my field of view.  \nE. The seller's store is not visible in my field of view, but there is an intersection below my field of view.  ",
+  "question_category": "Association Reasoning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The seller's store is not visible in the field of view, but there is a bus stop below the field of view. The video frames show an aerial view of a street with a bus stop and people waiting, indicating that the bus stop is a prominent object in the current field of view.",
+    "evaluation": "Location: [(00:26, 00:30), (00:36, 00:41), (00:59, 01:02), (02:05, 02:07), (02:13, 02:16), (02:20, 02:22), (02:30, 02:34), (02:37, 02:40), (02:46, 02:50)]\nOption: C\nReason: From the initial position, the seller's store is not visible. However, a bus stop is visible below the field of view. The video shows a bus stop with people waiting at it.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The seller's store is not visible in the field of view, but there is a bus stop below the field of view. The video frames show an aerial view of a street with a bus stop and people waiting, indicating that the bus stop is a prominent object in the current field of view."
+  }
+}

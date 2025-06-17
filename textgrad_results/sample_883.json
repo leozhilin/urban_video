@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_47_3BEFOD78WFRY038SLIUX5SLD16S4ME.mp4",
+  "question": "Question: If you choose to fly directly over the lake, rather than over a tree-lined path, will you be able to reach small openings surrounded by low-rise buildings?  \nChoice: A. No, because you bypass key navigation points, and the alternative will take longer.  \n         B. Yes, because you avoid obstacles, but the alternative will take longer.  \n         C. No, because you cannot see your destination.  ",
+  "question_category": "Counterfactual",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: Flying directly over the lake allows you to avoid obstacles such as trees and buildings, which might be present along a tree-lined path. Although this route may take longer compared to a more direct land-based path, it ensures a smoother journey without interruptions from physical barriers.",
+    "evaluation": "Location: [(0, 6), (11, 17), (36, 46), (56, 106)]\nOption: B\nReason: From the video, it's evident that flying over the lake would avoid the trees and buildings that line the path along the lake's edge. While the lake route might be longer, it would provide a clear, unobstructed path to the buildings on the other side. Therefore, the answer is B. Yes, because you avoid obstacles, but the alternative will take longer. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: Flying directly over the lake allows you to avoid obstacles such as trees and buildings, which might be present along a tree-lined path. Although this route may take longer compared to a more direct land-based path, it ensures a smoother journey without interruptions from physical barriers."
+  }
+}

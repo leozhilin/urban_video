@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_11_3T3IWE1XGFL923LASC2MU9HAR8YQTF_7.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [turn around. fly forward over the buildings to the next road. turn around and fly forward. go to above the four lane highway on the left. fly down to the intersection and stop. turn left at the billboard. fly over the buildings to the left. go towards the water. stop one block away from the water and lower down into the alley. turn around and fly forward one block. go to the taller dark building. lower down to the road. turn left. fly to the white building. fly over the building and go to the next road. stop in front of the red brick building.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I go up and turn right.  \nB. I descend and fly forward.  \nC. I fly forward while rotating my camera upward.  \nD. I turn left and go up.  \nE. I fly forward and descend.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The current instruction requires stopping in front of the red brick building, which implies that the agent is already near or at the target location. Therefore, the best next step would be to fly forward and descend to align with the ground level in front of the red brick building as instructed.",
+    "evaluation": "Location: [(454, 457), (457, 460), (460, 463), (463, 466), (466, 469), (469, 472), (472, 475), (475, 478), (478, 481), (481, 484), (484, 487), (487, 490), (490, 493), (493, 496), (496, 499), (499, 502), (502, 505), (505, 508)]\nOption: E\nReason: The video shows the agent flying towards the red brick building. The instruction is to stop in front of the red brick building, so the agent needs to fly forward and descend to the ground level.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The current instruction requires stopping in front of the red brick building, which implies that the agent is already near or at the target location. Therefore, the best next step would be to fly forward and descend to align with the ground level in front of the red brick building as instructed."
+  }
+}

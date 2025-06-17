@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_99_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a high-rise rooftop directly below your starting point. At your current location, if the top of a tall building across the street is not in view, what is the most relevant object in view, and where is this object?  \nchoose:  \nA. I can\u2019t see the roof of the tall building across the street, but I can see a bus stop in the lower part of my field of vision.  \nB. I can\u2019t see the roofs of the high-rise buildings across the street, but I can see the facade of a low-rise building to the left of my field of view.  \nC. I can\u2019t see the roof of the high-rise building across the street, but I can see the main entrance of the high-rise building across the street on the left side of my field of view.  \nD. I can already see the roof of the tall building across the street.  \nE. I can\u2019t see the roofs of the tall buildings across the street, but I can see the lake area in the park in the lower right corner of my field of view.  ",
+  "question_category": "Association Reasoning",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The initial frames show a high-rise building directly ahead, and as the agent moves forward, the main entrance of this high-rise building becomes visible on the left side of the field of view. The top of the tall building across the street is not in view, which aligns with the description in option C.",
+    "evaluation": "Location: [(0, 5)]\nOption: [C]\nReason: From the initial position (0-5 seconds), the camera is looking down. We can see the top of the building we are on, and the buildings across the street. The question asks what we can see if we cannot see the roof of the tall building across the street. From the initial view, we can see the main entrance of the high-rise building across the street on the left side of the field of view.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The initial frames show a high-rise building directly ahead, and as the agent moves forward, the main entrance of this high-rise building becomes visible on the left side of the field of view. The top of the tall building across the street is not in view, which aligns with the description in option C."
+  }
+}

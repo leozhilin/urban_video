@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_34.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a red billboard on the fifth floor (top floor). Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. I see the red billboard on the fifth floor (top floor) in the lower left corner of my field of view.  \nB. I see the red billboard on the fifth floor (top floor) in the center of my field of view.  \nC. I see the red billboard on the fifth floor (top floor) in the upper right corner of my field of view.  \nD. The red billboard on the fifth floor (top floor) is not within my field of view.  \nE. I see the red billboard on the fifth floor (top floor) on the left side of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The red billboard on the fifth floor (top floor) is not visible within the current field of view. The images show various buildings and streets, but no red billboard can be seen.",
+    "evaluation": "Location: [(0, 57)]\nOption: [D]\nReason: From the initial position (0:00-0:57), the view shows a wide cityscape with various buildings and streets. However, a red billboard on the fifth floor (top floor) is not visible in the current field of view.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The red billboard on the fifth floor (top floor) is not visible within the current field of view. The images show various buildings and streets, but no red billboard can be seen."
+  }
+}

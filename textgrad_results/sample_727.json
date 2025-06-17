@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_44.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the tables and chairs in front of ALL-STAR Cafe in Central. Thinking back on past Action Generations and objects you have seen, what should you approach next to get from your current location to your destination?  \nchoose:  \nA. I approach the bus stop across the street.  \nB. I approach the crosswalk at an intersection.  \nC. I approach the entrance to ALL-STAR Cafe in Central.  \nD. I approach the grass separating roads and sidewalks.  \nE. I approach the roof of a high-rise building.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The agent is already in front of the ALL-STAR Cafe in Central, as indicated by the visible signage and outdoor seating area. Therefore, the next logical step to reach the tables and chairs in front of the cafe is to approach the entrance or the seating area directly.",
+    "evaluation": "Location: [(34, 51)]\nOption: [C]\nReason: From 0:34 to 0:51, the video shows the tables and chairs in front of the ALL-STAR Cafe in Central. Therefore, the next logical step to reach the tables and chairs in front of the cafe is to approach the entrance or the seating area directly.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The agent is already in front of the ALL-STAR Cafe in Central, as indicated by the visible signage and outdoor seating area. Therefore, the next logical step to reach the tables and chairs in front of the cafe is to approach the entrance or the seating area directly."
+  }
+}

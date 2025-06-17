@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_15.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the 18th floor balcony. What is your next move, given the target location for your next move?  \nchoose:  \nA. I rise.  \nB. I descend.  \nC. I fly forward.  \nD. I turn left.  \nE. I turn right.  \nF. I rotate the camera upward.  \nG. I rotate the camera downward.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: To navigate to the 18th floor balcony, the next logical move is to rise towards the building since the current perspective suggests the agent is not yet at the desired height.",
+    "evaluation": "Location: [(0, 6)]\nOption: [A]\nReason: From the initial position (0-6s), the camera is looking at the building from a ground-level perspective. To reach the 18th-floor balcony, the agent needs to move upwards. Therefore, the next move is to rise.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: To navigate to the 18th floor balcony, the next logical move is to rise towards the building since the current perspective suggests the agent is not yet at the desired height."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_38_3634BBTX0XSM20FQKKSO43BN9L9IFO.mp4",
+  "question": "Question: Where are the starting and ending points of your journey?  \nChoice:  \nA. Start from the seaside road and end at the frontmost buildings on the right.  \nB. Start from the seaside road and end at a tall building with visible shutters.  \nC. Start with a row of trees lining the sidewalk and end with a panoramic view of a rooftop.  \nD. Start from the seaside road and end at the shutters of high-rise buildings.  \nE. Start from the main road into the city and end at the second row of buildings on the beach.  ",
+  "question_category": "Start/End Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The journey starts from a seaside road, as indicated by the initial frames showing a road adjacent to a body of water with trees and a clear view of the sea. It ends at a tall building with visible shutters, as seen in the final frames where the focus is on a close-up of a building's exterior with shutters.",
+    "evaluation": "Location: [(0, 5), (31, 41)]\nOption: B\nReason: The video starts with a view of the seaside road with trees lining the sidewalk (0-5s). The video ends with a close-up of a tall building with visible shutters (31-41s). Therefore, the journey starts from the seaside road and ends at a tall building with visible shutters.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The journey starts from a seaside road, as indicated by the initial frames showing a road adjacent to a body of water with trees and a clear view of the sea. It ends at a tall building with visible shutters, as seen in the final frames where the focus is on a close-up of a building's exterior with shutters."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_18_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to [the seller\u2019s store behind a nearby bus stop]. Thinking back on past actions and objects seen earlier, what should you approach next in order to get from your current location to your destination?  \nchoose:  \nA. I approach the center of the intersection.  \nB. I approach the top of the traffic light pole.  \nC. I approach the entrance of the parking lot.  \nD. I approach the roof of a building with solar panels.  \nE. I approach the bus stop.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The goal is to navigate to the seller\u2019s store behind a nearby bus stop. Given the current view, approaching the bus stop is the logical next step as it will likely provide access or visibility to the store located behind it. The other options do not directly relate to reaching the bus stop or the store.",
+    "evaluation": "Location: [(0, 1), (25, 27), (36, 41), (116, 120), (205, 217)]\nOption: [E]\nReason: The video shows the bus stop and the seller's store behind it. To navigate to the seller's store behind the bus stop, the next logical step is to approach the bus stop.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The goal is to navigate to the seller\u2019s store behind a nearby bus stop. Given the current view, approaching the bus stop is the logical next step as it will likely provide access or visibility to the store located behind it. The other options do not directly relate to reaching the bus stop or the store."
+  }
+}

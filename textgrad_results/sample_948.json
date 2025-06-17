@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_12_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the balcony on the 21st floor. When you reach the current location, what is the direction to the destination?  \nchoose:  \nA. I am at the same street level, across the street from the building, and slightly to one side of the building.  \nB. I am located above the building at a height of 30 stories.  \nC. I am located above the balcony on the 21st floor and at a horizontal distance.  \nD. I am several blocks away from the building.  \nE. I am on the other side of the highway overpass, away from the building.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The current location is above the balcony on the 21st floor and at a horizontal distance, as indicated by the perspective which shows a view from an elevated position looking down towards the building's side.",
+    "evaluation": "Location: [(0, 27)]\nOption: [C]\nReason: The video shows a view from above the building, looking down at an angle. The floors are numbered, and the camera is clearly above the 21st floor. Therefore, the current location is above the balcony on the 21st floor and at a horizontal distance. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The current location is above the balcony on the 21st floor and at a horizontal distance, as indicated by the perspective which shows a view from an elevated position looking down towards the building's side."
+  }
+}

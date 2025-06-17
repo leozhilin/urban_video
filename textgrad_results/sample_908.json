@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_28_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the pond and rockery in the community. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. I see the pond and rockery in the community in the lower left corner of my field of view.  \nB. I see the pond and rockery in the community in the center of my field of view.  \nC. I see the pond and rockery in the community in the upper right corner of my field of view.  \nD. I do not see the pond and rockery in the community within my field of view.  \nE. I see the pond and rockery in the community in the lower right corner of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The initial position shows a view of high-rise buildings and a road, but the pond and rockery are not visible within the field of view at that moment. The pond and rockery only come into view as the agent moves forward in the sequence of frames.",
+    "evaluation": "Location: [(0, 5)]\nOption: [D]\nReason: At the initial position (0-5s), the view shows high-rise buildings and a road. The pond and rockery are not visible in the field of view. Therefore, the destination is not within sight at the current location.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The initial position shows a view of high-rise buildings and a road, but the pond and rockery are not visible within the field of view at that moment. The pond and rockery only come into view as the agent moves forward in the sequence of frames."
+  }
+}

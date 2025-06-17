@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_62_3ERMJ6L4D7QVJQQBNGS4845NR1TM7C.mp4",
+  "question": "Question: After you move to the outside of the park, how does the distance between you and the staircase-like building change?  \nChoice: A. The distance decreases.  \n          B. The distance increases.  \n          C. The distance remains constant.  ",
+  "question_category": "Proximity",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: As the agent moves from the outside of the park towards the staircase-like building, the building becomes more prominent and detailed in the frames, indicating a decrease in distance.",
+    "evaluation": "Location: [(0, 136)]\nOption: [A]\nReason: From the beginning of the video to the end, the agent is moving towards the staircase-like building. The building becomes more and more prominent and detailed in the frames, indicating a decrease in distance.\n",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: As the agent moves from the outside of the park towards the staircase-like building, the building becomes more prominent and detailed in the frames, indicating a decrease in distance."
+  }
+}

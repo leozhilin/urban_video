@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_98_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the parking space on the right after entering the entrance of the community. Given the next steps for [planned milestone], what are your next steps?  \nchoose:  \nA. I rise.  \nB. I rotate the camera downward.  \nC. I fly forward and then turn left.  \nD. I turn left.  \nE. I already reached the destination, no next step required.  \nF. I rotate the camera upward.  \nG. I fly forward after falling.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "G",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: To navigate to the parking space on the right after entering the community, the initial step should be to turn left to align with the road that leads into the community entrance. This will position the agent correctly to proceed towards the parking area on the right side as instructed.",
+    "evaluation": "Location: [(0, 37)]\nOption: [D]\nReason: From the initial position, the agent needs to turn left to enter the community. The parking space is on the right after entering the community. Therefore, the first step is to turn left.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: To navigate to the parking space on the right after entering the community, the initial step should be to turn left to align with the road that leads into the community entrance. This will position the agent correctly to proceed towards the parking area on the right side as instructed."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_42_30OG32W0S39MANQLMPLARTM4IDDNE3_1.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn right move forward and fly towards the top of brown tower. now turn right move little forward near by pond slow down to the floor. now turn left move towards the mid centre of pond behind the tree slow down and stay there.]. You move according to a series of movement instructions. When you reach your current location, what is your position relative to the brown tower?  \nchoose:  \nA. I am to the left of the brown tower.  \nB. I am far away from the brown tower.  \nC. I am above the brown tower.  \nD. I am to the right of the brown tower.  \nE. I am below the brown tower. ",
+  "question_category": "Landmark Position",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The navigation instructions indicate that the agent initially flies towards the top of the brown tower and then continues to move away from it, turning right and moving forward near a pond. The final position is described as being at the mid-center of the pond behind a tree, which suggests that the agent is no longer close to the brown tower but rather at a distance from it. Therefore, the correct answer is that the agent is far away from the brown tower.",
+    "evaluation": "Location: [(0, 52)]\nOption: [B]\nReason: The video shows the agent starting at ground level, then flying up and away from the brown tower. The instructions state the agent flies towards the brown tower, then turns right and moves towards a pond. The final location is the middle of the pond, behind a tree. Therefore, the agent is far away from the brown tower. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The navigation instructions indicate that the agent initially flies towards the top of the brown tower and then continues to move away from it, turning right and moving forward near a pond. The final position is described as being at the mid-center of the pond behind a tree, which suggests that the agent is no longer close to the brown tower but rather at a distance from it. Therefore, the correct answer is that the agent is far away from the brown tower."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_23_1.mp4",
+  "question": "Question: What is the correct summary of your trajectory from the beginning to the current location as you navigate to the 10th-floor balcony?  \nChoice:  \nA. I start from the sidewalk in the park, proceed forward to the street, and turn left to face the lamppost.  \nB. I start from the left side of the building with a huge conical dome, turn right, and descend to a certain height.  \nC. I start from the park, move toward the street, rise to the 10th floor, and approach the balcony.  \nD. I start from the park, rise to the height of the high-rise building, and then move to the current position on the edge of the roof.  \nE. I start from a high-rise building, descend to street level, and move toward the park.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The trajectory starts from a park-like area (as seen in the initial frames with greenery and open space), moves towards the street, then ascends to the 10th floor of a high-rise building, and finally approaches the balcony, which matches the description in option C.",
+    "evaluation": "Location: [(0, 46)]\nOption: [C]\nReason: The video starts with a wide view showing the building surrounded by greenery and roads, which can be considered a park-like area. The camera then moves closer to the building, ascending to the 10th floor (as indicated by the floor numbers on the building's exterior), and finally focuses on the balcony. This trajectory matches the description in option C: \"I start from the park, move toward the street, rise to the 10th floor, and approach the balcony.\"\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The trajectory starts from a park-like area (as seen in the initial frames with greenery and open space), moves towards the street, then ascends to the 10th floor of a high-rise building, and finally approaches the balcony, which matches the description in option C."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_0_35H6S234SJYE7JR0C76QLOU436G65H_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [rise from the concrete and turn right. fly over the middle of the street until you reach the buildings on the left with the short concrete wall like structure around them. turn left right beside the buildings and fly along beside them. when you get to the middle darker brown building then angle straight up and fly toward the top of the building. before you get to the top turn right and begin to level off. fly toward the building with the half pipe or half circle design on the edge of the roof. when you get to the half circle then turn left and downward and fly toward the red roof of the smaller building beside the one you climbed. stop well before you get to the roof.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is the Landmark Position of the intersection with the high-rise building when you reach your current location?  \nchoose:  \nA. I am located above the high-rise building bypass intersection.  \nB. I am located on the left side of the high-rise building bypass intersection.  \nC. I am under the intersection next to the high-rise building.  \nD. I am located on the right side of the high-rise building bypass intersection.  \nE. I am on the ground at the intersection of a high-rise building.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The agent is navigating through the city and has turned left beside the buildings as instructed. The current position shows that the agent is on the left side of the high-rise building bypass intersection, aligning with the navigation instructions provided.",
+    "evaluation": "Location: [(0, 39)]\nOption: B\nReason: The video shows the agent starting on the ground, rising, and then flying along the left side of a building. The question asks about the agent's position relative to the \"high-rise building bypass intersection.\" Based on the video, the agent is on the left side of the intersection.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The agent is navigating through the city and has turned left beside the buildings as instructed. The current position shows that the agent is on the left side of the high-rise building bypass intersection, aligning with the navigation instructions provided."
+  }
+}

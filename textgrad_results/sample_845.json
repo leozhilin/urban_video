@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_97_3OHYZ19UGL312V9L7ZJ1AZWIN8TOAX.mp4",
+  "question": "Question: Which takes longer, you moving forward on a building roof and gaining altitude to see the distant skyline, or approaching a larger building with prominent advertising?  \nChoice: A. I take longer to move forward and gain altitude on the roof of the building than I do to approach the larger building with the advertisement.  \n           B. I take longer to approach a larger building with a prominent advertisement than I do to move forward on the roof of the building.  \n           C. It takes me the same amount of time to move forward and approach the larger building.  ",
+  "question_category": "Duration",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The sequence of images shows a gradual ascent and forward movement over the rooftops, which takes multiple frames to achieve a view of the distant skyline. In contrast, approaching a larger building with prominent advertising (as seen in the initial frames) happens more quickly within fewer frames. Therefore, moving forward and gaining altitude on the roof takes longer.",
+    "evaluation": "Location: [(0, 17), (32, 52)]\nOption: A\nReason: The video shows the camera ascending and moving forward on a building roof from 0 to 17 seconds, gradually revealing the distant skyline. From 32 to 52 seconds, the camera approaches a larger building with prominent advertising. Visually, the ascent and forward movement on the roof take longer than approaching the larger building.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The sequence of images shows a gradual ascent and forward movement over the rooftops, which takes multiple frames to achieve a view of the distant skyline. In contrast, approaching a larger building with prominent advertising (as seen in the initial frames) happens more quickly within fewer frames. Therefore, moving forward and gaining altitude on the roof takes longer."
+  }
+}

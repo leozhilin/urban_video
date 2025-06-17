@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_93_3NL0RFNU0OL3AF8P06HHQFT8R6LK40.mp4",
+  "question": "Question: How does the distance between you and the park change after you tilt to the right to align more directly with the park?  \nChoice: A. I increase the distance from the park.  \n           B. I decrease the distance from the park.  \n           C. My distance from the park remains constant.  ",
+  "question_category": "Proximity",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: Tilting to the right aligns the agent more directly with the park, which suggests a change in direction that would typically decrease the distance to the target location if the new direction is towards the park.",
+    "evaluation": "Location: [(0, 60)]\nOption: B\nReason: From the beginning of the video to around 60 seconds, the camera pans to the right, aligning the view more directly with the park in the distance. As the view aligns, the park appears larger and closer, indicating a decrease in distance.\n\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: Tilting to the right aligns the agent more directly with the park, which suggests a change in direction that would typically decrease the distance to the target location if the new direction is towards the park."
+  }
+}

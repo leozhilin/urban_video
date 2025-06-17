@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_82_33FBRBDW6XXMAIJ3KWQWJ8W69D98CU_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [go straight and move to the top of the view. take slowly left and turn around the top of the building. near by the building and in front of advertisements on the board. go straight and move to the bridge and turn right into the building. more than the advertisements in the building. go straight and move to cross the lake and nearby the building blocks. turn around the building and turn right to the top of the view. move upwards and turn around the building.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I move across the water.  \nB. I turn right at the building.  \nC. I turn back.  \nD. I fly over buildings.  \nE. I go to the chair between the buildings.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The sequence of images shows a progression from an initial position near buildings and advertisements, moving towards and across a body of water (lake), which aligns with the instruction to \"go straight and move to cross the lake.\" The frames depict a clear transition from urban structures to a water body, indicating that the current action is crossing the water.",
+    "evaluation": "Location: [(0, 25), (25, 50), (50, 100), (100, 150), (150, 200), (200, 250), (250, 319)]\nOption: [A]\nReason: The video shows the agent moving from an area with buildings and advertisements towards a lake. The instruction \"go straight and move to cross the lake\" indicates that the agent should be moving across the water. The video shows the agent moving closer and closer to the lake, and eventually the lake becomes the main focus of the view. Therefore, the agent is currently moving across the water.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The sequence of images shows a progression from an initial position near buildings and advertisements, moving towards and across a body of water (lake), which aligns with the instruction to \"go straight and move to cross the lake.\" The frames depict a clear transition from urban structures to a water body, indicating that the current action is crossing the water."
+  }
+}

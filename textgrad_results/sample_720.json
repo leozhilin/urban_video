@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_RN_12_1.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [Raise the altitude, fly over the opposite road, and fly in the direction of the mountains]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is the direction to the row of white cars?  \nchoose:  \nA. I am behind a row of white cars.  \nB. I am located to the left of a row of white cars.  \nC. I am located above a row of white cars.  \nD. I am located in front of a row of white cars.  \nE. I am located to the right of a row of white cars.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: From the current aerial view, the row of white cars is visible to the left side of the frame. The agent's perspective indicates that the agent is located to the left of the row of white cars. Therefore, option B is the correct choice.",
+    "evaluation": "Location: [(0, 15)]\nOption: [B]\nReason: From the initial position, the instruction is to raise the altitude, fly over the opposite road, and fly in the direction of the mountains. After the agent follows the instruction and reaches the current location, the row of white cars is visible to the left side of the frame. Therefore, the agent is located to the left of the row of white cars.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: From the current aerial view, the row of white cars is visible to the left side of the frame. The agent's perspective indicates that the agent is located to the left of the row of white cars. Therefore, option B is the correct choice."
+  }
+}

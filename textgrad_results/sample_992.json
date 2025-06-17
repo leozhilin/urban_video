@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_69_3M0BCWMB84UEQENF4ZA7M4T9OECBWC_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and look at the sea and turn back to fly over the buildings a trees and pond is visible. now get down on the land and look at the tree. now turn back and fly over the trees and reach the road and turn little right. now move towards the sea and look at the grey building. now turn right side of the building and move between two building and go top the back side of the building. now turn to the building named with drink ice cold and fly over the building and take little right and look at the tall building. now move forwards to the pond is visible and take right and move forward to the roads and take little right and move to the brown building. now turn left and move towards the brown building and stay there.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is the Landmark Position from the pond when you reach the current location?  \nchoose:  \nA. I am located on the left side of the pond.  \nB. I am located above the pond.  \nC. I am located on the right side of the pond.  \nD. I am far away from the pond.  \nE. I am under the pond.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The current location, as described in the navigation instructions and visualized in the final frames, is near a brown building after moving through various landmarks including the sea, buildings, trees, and roads. The pond was last mentioned earlier in the sequence and is not in the immediate vicinity of the final position, indicating that the agent is far away from the pond.",
+    "evaluation": "Location: [(01:40, 02:57)]\nOption: [D]\nReason: The video shows the pond is far away from the brown building. The navigation instruction also indicates that the agent needs to move forward to the roads and take little right and move to the brown building. So the pond is far away from the current location.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The current location, as described in the navigation instructions and visualized in the final frames, is near a brown building after moving through various landmarks including the sea, buildings, trees, and roads. The pond was last mentioned earlier in the sequence and is not in the immediate vicinity of the final position, indicating that the agent is far away from the pond."
+  }
+}

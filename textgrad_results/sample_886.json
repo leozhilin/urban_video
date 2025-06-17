@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_29_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the elevator to the left of the entrance. At the current location, if the elevator to the left of the entrance is not within your field of view, what is the most relevant object in your field of view and where is this object?  \nchoose:  \nA. I can see the elevator on the left side of the entrance within my field of view.  \nB. The elevator on the left side of the entrance is not within my view, but I can see some blue glass of high-rise buildings on the right side of my field of view.  \nC. I cannot see the elevator on the left side of the entrance, but I can see the main entrance of a high-rise building on the left side of my field of view.  \nD. The elevator to the left of the entrance is out of my view, but I can see the highway in the lower right corner of my view.  \nE. The elevator on the left side of the entrance is not within my view, but I can see traffic lights at the lower part of my field of view.  ",
+  "question_category": "Association Reasoning",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The elevator to the left of the entrance is not visible in the current field of view. However, the highway is clearly visible in the lower right corner of the view, making it the most relevant object mentioned in the options.",
+    "evaluation": "Location: [(0, 15)]\nOption: D\nReason: The elevator on the left side of the entrance is not within the field of view. The highway is visible in the lower right corner of the view.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The elevator to the left of the entrance is not visible in the current field of view. However, the highway is clearly visible in the lower right corner of the view, making it the most relevant object mentioned in the options."
+  }
+}

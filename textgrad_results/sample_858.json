@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_48_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a red motorcycle with a yellow sign in front of a store. Is the destination within sight at your current location? If yes, where is the destination in the view?  \nchoose:  \nA. I see the red motorcycle with a yellow sign in front of the store in the center of my field of view.  \nB. I see the red motorcycle with a yellow sign in front of the store on the left side of my field of view.  \nC. I see the red motorcycle with a yellow sign in front of the store in the upper right corner of my field of view.  \nD. I do not see the red motorcycle with a yellow sign in front of the store in my field of view.  \nE. I see the red motorcycle with a yellow sign in front of the store in the lower right corner of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The provided frames do not show a red motorcycle with a yellow sign in front of a store within the current field of view. The images primarily depict buildings, streets, and some vehicles, but the specific destination described is not visible.",
+    "evaluation": "Location: [(0, 7)]\nOption: D\nReason: From the initial position (frames 0-7), the view shows a wide cityscape with buildings, streets, and trees. There is no red motorcycle with a yellow sign in front of a store visible in the field of view.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The provided frames do not show a red motorcycle with a yellow sign in front of a store within the current field of view. The images primarily depict buildings, streets, and some vehicles, but the specific destination described is not visible."
+  }
+}

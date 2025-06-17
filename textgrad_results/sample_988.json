@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_57_3ON104KXQTUU5F26PK0KEQN3EEB4WZ_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off , turn left and turn around focus the entire locations. slightly go down and focus that board american , turn slightly left go high of the building and cross the building there will be a river contains small bridge. slightly go left of that bridge slightly go down of the river and look up , go up in that place cover the entire location.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I turn left and focus on the entire location.  \nB. I turn slightly left, go to the top of the building, and walk through the building.  \nC. I go slightly downstream and look up.  \nD. I go down slightly and focus on the American board.  \nE. I take off.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The initial instruction is to \"take off,\" and the first image shows an aerial view of the city, indicating that the agent has already taken off from the ground. This aligns with the starting point of the navigation instructions provided.",
+    "evaluation": "Location: [(0, 05)]\nOption: E\nReason: The video starts with an aerial view of the city, which indicates that the agent has already taken off. This aligns with the initial instruction to \"take off.\"\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The initial instruction is to \"take off,\" and the first image shows an aerial view of the city, indicating that the agent has already taken off from the ground. This aligns with the starting point of the navigation instructions provided."
+  }
+}

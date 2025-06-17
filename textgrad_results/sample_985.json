@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_37_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the street light behind the bus stop. When you reach the current location, what is the direction to the destination?  \nchoose:  \nA. I am currently located above a nearby building instead of near the street light.  \nB. I am currently located slightly to the right of the street light.  \nC. I am currently located away from the bus stop, near the main road.  \nD. I am currently located to the left of the street light, near the edge of the crosswalk.  \nE. I am currently located directly behind the bus stop.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The current location is near the edge of the crosswalk, and the street light behind the bus stop is to the right, indicating that the agent is to the left of the street light.",
+    "evaluation": "Location: [(23, 31)]\nOption: []; Reason: []\nLocation: [(23, 31)]\nOption: [D]\nReason: From 23s to 31s, the view shows the bus stop and the street light behind it. The current location is near the edge of the crosswalk. The street light behind the bus stop is to the right. Therefore, the agent is to the left of the street light.\n",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The current location is near the edge of the crosswalk, and the street light behind the bus stop is to the right, indicating that the agent is to the left of the street light."
+  }
+}

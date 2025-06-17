@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_34_35DR22AR5MIOCJOSZBRN6495RXNX3K.mp4",
+  "question": "Question: Which of the following options better summarizes your movement?  \nChoice:  \nA. I descend from the bridge entrance to the tree-lined path in the middle of the bridge.  \nB. I fly straight forward from the skyscraper on the right, then turn left to reach the bridge entrance.  \nC. I descend from the sky above the street, move forward to the midpoint between two tall buildings, and then choose to look at the street view behind.  \nD. I move slowly to the left from the bridge and approach the skyscraper on the right.  \nE. I rise from the street and move backward to reach the location past the building.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows a movement starting from an elevated position above the street, moving forward between two tall buildings, and then turning to look back at the street view. This matches the description in option C.",
+    "evaluation": "Location: [(0, 60)]\nOption: [C]\nReason: The video starts with a high-angle view of the street. The camera then moves forward between two tall buildings. The view then shifts to focus on the street behind. This matches option C.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows a movement starting from an elevated position above the street, moving forward between two tall buildings, and then turning to look back at the street view. This matches the description in option C."
+  }
+}

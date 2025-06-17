@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_78_3VBEN272MTXHAEEH0GSKQQHMJYXGSZ_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn back and move forward towards the road. now turn back and move forward towards the trees till the pond visible and fly over the pond and turn left. now move forward towards the building which have a tower on its top and move forward. now turn right and move forward get closer to the ash building and turn right and move forward towards the buildings and get down to the blue building and stay there.]. You move according to a series of movement instructions. In terms of next steps, what is your best next step?  \nchoose:  \nA. I fly forward, then turn right.  \nB. I descend and turn right.  \nC. I turn left and fly forward.  \nD. I go up and turn left.  \nE. I fly forward while descending.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: According to the navigation instruction, after flying over the pond and turning left towards the building with a tower on its top, the next step is to turn right and move forward to get closer to the ash building. The current image shows that the agent is near buildings, suggesting it's time to descend and turn right as per the instructions.",
+    "evaluation": "Location: [(25, 47)]\nOption: [B]\nReason: The video shows that the agent is approaching the buildings. According to the instruction, the agent needs to get down to the blue building and stay there. So the best next step is to descend and turn right.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: According to the navigation instruction, after flying over the pond and turning left towards the building with a tower on its top, the next step is to turn right and move forward to get closer to the ash building. The current image shows that the agent is near buildings, suggesting it's time to descend and turn right as per the instructions."
+  }
+}

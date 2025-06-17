@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_8_3A4NIXBJ7FXUYBFDRATER9NNFVUMLS_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn right. fly down the street to to the yellow building, stopping over the building front of it. turn right, fly over the building in front of you and down to the one behind it. turn left, flying to the stairs at the columns building.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach your current location, what is your Landmark Position relative to the yellow building?  \nchoose:  \nA. I am to the left of the yellow building.  \nB. I am far away from the yellow building.  \nC. I am above the yellow building.  \nD. I am on the right side of the yellow building.  \nE. I am located underneath the yellow building.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The current location, as depicted in the frames, shows a wide view of the cityscape with no immediate proximity to the yellow building mentioned in the navigation instructions. The agent appears to be at a significant distance from the yellow building, which was a key point in the earlier part of the navigation instructions. Therefore, the most accurate description is that the agent is far away from the yellow building.",
+    "evaluation": "Here's my analysis of the question and the provided answer:\n\nLocation: [(0, 11), (53, 57)]\nOption: B\nReason: The yellow building is visible in the distance in the later frames of the video (53-57). The agent is currently on top of a building, looking out over the city. The yellow building is not close by, so the agent is far away from the yellow building.\n\nThe provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The current location, as depicted in the frames, shows a wide view of the cityscape with no immediate proximity to the yellow building mentioned in the navigation instructions. The agent appears to be at a significant distance from the yellow building, which was a key point in the earlier part of the navigation instructions. Therefore, the most accurate description is that the agent is far away from the yellow building."
+  }
+}

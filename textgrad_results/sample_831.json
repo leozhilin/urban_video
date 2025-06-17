@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_17.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the 16th-floor balcony. If the balcony on the 16th floor is not within your field of view at the current location, what is the most relevant object in the field of view, and where is this object?  \nchoose:  \nA. I can't see the balcony on the 16th floor, but there is a tree in the lower left corner of my field of view.  \nB. I can already see the balcony on the 16th floor.  \nC. The balcony on the 16th floor cannot be seen, but the front of the high-rise building is in the center of my field of view.  \nD. I can't see the balcony on the 16th floor, but I can see the main entrance of a tall building across the street on the left side of my field of vision.  \nE. I can't see the balcony on the 16th floor, but there is a bus stop in the lower right corner of my field of view.  ",
+  "question_category": "Association Reasoning",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The initial position shows a view of the front of a high-rise building in the center of the field of view, but the 16th-floor balcony is not visible from this perspective.",
+    "evaluation": "Location: [(0, 5)]\nOption: C\nReason: From the initial position (0-5s), the balcony on the 16th floor is not visible. The front of a high-rise building is in the center of the field of view.\n",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The initial position shows a view of the front of a high-rise building in the center of the field of view, but the 16th-floor balcony is not visible from this perspective."
+  }
+}

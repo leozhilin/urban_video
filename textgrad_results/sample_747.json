@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_5_1.mp4",
+  "question": "Question: You are navigating to the 28th-floor balcony. Thinking back on past Action Generations and objects seen, what is the surrounding environment like at your current location?  \nChoice:  \nA. There is a park with a playground in front of me, a high-rise building behind me, and a road below me.  \nB. There are four buildings in a row across the street in front of me; the two middle buildings are much taller than the others. There is a square with a fountain behind me and a road below me.  \nC. There is a high-rise building across the street in front of me, a river with a bridge behind me, and a highway below me.  \nD. There are no buildings in front of me, a wide open space behind me, and a railway underneath me.  \nE. There are roads and trees next to me, and many high-rise buildings around me.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The images show a high-rise building with a view of roads and trees next to it, as well as many other high-rise buildings around, which matches the description in option E.",
+    "evaluation": "Location: [(0, 23)]\nOption: [E]\nReason: The video shows the agent is on the 28th-floor balcony. From the balcony, we can see roads and trees next to the building, and many high-rise buildings around. Therefore, option E is the correct answer. The provided answer is correct.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The images show a high-rise building with a view of roads and trees next to it, as well as many other high-rise buildings around, which matches the description in option E."
+  }
+}

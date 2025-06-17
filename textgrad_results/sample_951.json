@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_36_3UJ1CZ6IZQNJUHPXJK9TMTQXTML5S2_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [rise up and turn to the right and move forward and keep moving till you are about at the middle of the lake. stop and turn to the right so that you are having the two large towers and move forward. stop right over the trees, turn to the right then lower you height then turn back again to the left. rise up and move the trees and stop when you are in front of the building. move slightly to the right so that you are able to go between the buildings keep moving so that you are in front or the blue building. rise up and look at the billboard then drop your height and stop.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your landmark position relative to the blue building?  \nchoose:  \nA. I am to the left of the blue building.  \nB. I am above the blue building.  \nC. I am on the right side of the blue building.  \nD. I am located under the blue building.  \nE. I am located behind the blue building.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The navigation instructions lead the agent to move forward towards the blue building after passing through trees and positioning themselves in front of it. The final step involves moving slightly to the right to go between buildings, indicating that the agent ends up on the right side of the blue building. Therefore, the correct answer is C.",
+    "evaluation": "Location: [(0, 60)]\nOption: [C]\nReason: The navigation instructions lead the agent to move forward towards the blue building after passing through trees and positioning themselves in front of it. The final step involves moving slightly to the right to go between buildings, indicating that the agent ends up on the right side of the blue building. Therefore, the correct answer is C.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The navigation instructions lead the agent to move forward towards the blue building after passing through trees and positioning themselves in front of it. The final step involves moving slightly to the right to go between buildings, indicating that the agent ends up on the right side of the blue building. Therefore, the correct answer is C."
+  }
+}

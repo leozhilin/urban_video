@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_85_34MAJL3QPDLXEH0IF0PI9TC71F134N_1.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off turn back go straight up to the ice cold bar take right go until the fountain take left go straight. up to the ensure advertisement turn right go straight until the center of the lake take left go straight. take left go through buildings move forward until the road near blue three stored building look around see the blue postbox land near that.]. You move according to a series of movement instructions. In terms of next steps, what is the best next step for you?  \nchoose:  \nA. I go up and turn left.  \nB. I descend and then fly forward.  \nC. I rotate the camera downward and fly forward.  \nD. I turn right and go up.  \nE. I rotate the camera up, then down.  ",
+  "question_category": "Action Generation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The navigation instruction indicates that after reaching the center of the lake, the next step is to \"take left go straight. take left go through buildings move forward until the road near blue three stored building look around see the blue postbox land near that.\" Given the current position appears to be above or near the lake, descending and then flying forward aligns with moving towards the next landmark, which involves navigating through buildings and finding a specific road and postbox. This requires a descent to get closer to the ground level where these details can be observed.",
+    "evaluation": "Location: [(35, 40)]\nOption: [B]\nReason: From 35s to 40s, the video shows the agent is near the center of the lake. The next instruction is to take left go through buildings move forward until the road near blue three stored building look around see the blue postbox land near that. So the agent should descend and then fly forward.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The navigation instruction indicates that after reaching the center of the lake, the next step is to \"take left go straight. take left go through buildings move forward until the road near blue three stored building look around see the blue postbox land near that.\" Given the current position appears to be above or near the lake, descending and then flying forward aligns with moving towards the next landmark, which involves navigating through buildings and finding a specific road and postbox. This requires a descent to get closer to the ground level where these details can be observed."
+  }
+}

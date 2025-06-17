@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_19_1.mp4",
+  "question": "Question: You are navigating to the balcony on the 14th floor. What is the correct summary of your trajectory from the beginning to the current location?  \nChoice:  \nA. I start from the park, move towards the road, ascend to the high-rise building, and finally reach the 14th-floor balcony.  \nB. I start from the street, fly over parks and high-rise buildings, and then descend to the 14th-floor balcony.  \nC. I start from the park, rise to the height of the roof of a high-rise building, circle it, and then descend to my current location on the 14th floor.  \nD. I launch from the rooftop of a high-rise building, descend to street level, and then head to a park.  \nE. I start from the left side of the building with a huge conical dome, turn right, and descend to a certain height.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The trajectory starts from a high vantage point on the left side of a building with a conical dome, moves rightward, and then descends to a lower height, aligning with the description in option E. The other options do not match the visual sequence of starting at a high point near a distinctive building feature and then descending.",
+    "evaluation": "Location: [(0, 33)]\nOption: [E]\nReason: The video starts with a view from a high vantage point, near a building with a conical dome. The camera then turns right and descends to the 14th floor. This matches the description in option E.\n",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The trajectory starts from a high vantage point on the left side of a building with a conical dome, moves rightward, and then descends to a lower height, aligning with the description in option E. The other options do not match the visual sequence of starting at a high point near a distinctive building feature and then descending."
+  }
+}
