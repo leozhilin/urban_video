@@ -35,6 +35,8 @@ def process_textgrad_results():
     evaluation_error = 0
     init_answer_error = 0
     # Process each json file
+
+    error_idx_list = []
     for json_file in json_files:
         with open(json_file, 'r') as f:
             result = json.load(f)
@@ -47,14 +49,21 @@ def process_textgrad_results():
             
 
             if extracted_option_init == result['ground_truth'] and extracted_option != result['ground_truth']: # 改错
-                print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
+                # print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
                 evaluation_error += 1
             if extracted_option == result['ground_truth'] and extracted_option_init != result['ground_truth']: # 改对
                 # print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
                 init_answer_error += 1
 
-            # if extracted_option_init != result['ground_truth'] or extracted_option != result['ground_truth']:
-            #     print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
+            if extracted_option_init != result['ground_truth'] or extracted_option != result['ground_truth']: # 回答错误
+                
+                match = re.search(r"sample_(\d+)\.json", json_file)
+                if match:
+                    id = match.group(1)
+                    error_idx_list.append(int(id))
+
+                if result['question_category'] in ["Landmark Position", "Association Reasoning"]:
+                    print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
             # Create a row of data
             row = {
                 'video_id': result['video_id'],
@@ -65,6 +74,8 @@ def process_textgrad_results():
                 'extracted_option': extracted_option
             }
             data.append(row)
+    
+    print(error_idx_list)
     
     # Convert to DataFrame
     df = pd.DataFrame(data)
