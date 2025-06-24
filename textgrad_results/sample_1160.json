@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_14_3YW4XOSQKZJ0LCGI722HY4V3HMY1U8_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [lift off and turn left facing left of the bridge and head straight. at the end of the road turn right facing the left of the pop bottle sign and head straight. at the left of the sign turn left facing the road and follow it. veer right to behind the bottle cap sign then veer left to the car wash sign. at the car wash sign turn right facing the yellow sign and head straight. veer right of the sign around the building. at the tall white building climb it to the top and stop at the top.]. You move according to a series of movement instructions. When you reach your current location, what is your Landmark Position from the trees?  \nchoose:  \nA. I am to the left of the trees.  \nB. I am beneath the trees.  \nC. I am to the right of the trees.  \nD. I am above the trees.  \nE. I am on the ground near the trees.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The agent has climbed to the top of a tall white building as per the navigation instructions, which places the agent above the trees visible in the environment.",
+    "evaluation": "Location: [(1:39, 3:15)]\nOption: D\nReason: The navigation instruction clearly states \"at the tall white building climb it to the top and stop at the top.\" From approximately 1:39 onwards in the video, the agent's perspective is from a high vantage point, looking down at a large park area filled with trees. This visual evidence confirms that the agent is positioned above the trees, consistent with having climbed to the top of a tall building. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The agent has climbed to the top of a tall white building as per the navigation instructions, which places the agent above the trees visible in the environment."
+  }
+}

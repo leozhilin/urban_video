@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_88_2.mp4",
+  "question": "Question: In the starting position, you are asked to navigate over a residential lawn with a small blue house. What is the correct summary of your trajectory from the starting position to the current position?  \nChoice:  \nA. I start from a high-rise building, descend to street level, move toward the target building, and then ascend to my current location.  \nB. I start from the street, move to the target building, and then rise to the middle floor.  \nC. I start from the park, rise to a high altitude, move to the target building, and descend to the current location.  \nD. I start from the sky above the residential area, move above the lawn of the residential area, and then descend.  \nE. I start from a distance and fly directly to the current position above the target building without any intermediate actions.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The starting position appears to be at a high vantage point overlooking the residential area, and the trajectory involves moving over the lawn of the residential area before descending to the current position. This matches the description in option D.",
+    "evaluation": "Location: [(0, 58)]\nOption: D\nReason: The video begins with a very high aerial view, indicating a starting position \"from the sky above the residential area\" (00:00-00:05). As the video progresses, the camera moves horizontally and descends, positioning itself directly \"above the lawn of the residential area\" which contains a small blue structure (visible more clearly from 00:40 onwards). The entire trajectory involves a continuous downward movement, meaning the agent \"descends\" to the current position at the end of the video. This sequence of actions perfectly matches the description in Option D. The provided answer's reasoning is accurate and aligns with the visual evidence.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The starting position appears to be at a high vantage point overlooking the residential area, and the trajectory involves moving over the lawn of the residential area before descending to the current position. This matches the description in option D."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_14_32XVDSJFP8VOXPT5H4B9CDOFHRK2M2.mp4",
+  "question": "Question: Instead of ascending to gain a better view, if you maintain altitude at the starting rooftop, can you still successfully capture the overview of the lake in the park?  \nChoices:  \nA. I can complete the task because I will be closer to the park, thus the alternative takes shorter time.  \nB. I cannot complete the task because my view of the cityscape and the park will be obstructed by the buildings around.  \nC. I can complete the task because I follow the correct path, but the alternative takes longer time.  ",
+  "question_category": "Counterfactual",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: Maintaining altitude at the starting rooftop would likely result in the view of the cityscape and the park being obstructed by the surrounding buildings, making it impossible to capture a clear overview of the lake in the park.",
+    "evaluation": "Location: [(0, 25)]\nOption: B\nReason: The video starts at the initial rooftop (0:00-0:03), where the view of the distant cityscape and the park is significantly obstructed by the surrounding buildings, especially the large building directly in front. The agent then ascends (0:03-0:22), and it is only after gaining considerable altitude that a clear and comprehensive overview of the lake in the park becomes visible (0:22-0:25). This demonstrates that maintaining the altitude at the starting rooftop would indeed result in the view of the lake being obstructed by the buildings, making it impossible to capture the desired overview. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: Maintaining altitude at the starting rooftop would likely result in the view of the cityscape and the park being obstructed by the surrounding buildings, making it impossible to capture a clear overview of the lake in the park."
+  }
+}

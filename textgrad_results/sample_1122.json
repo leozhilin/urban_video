@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_31.mp4",
+  "question": "Question: Which of the following best summarizes your flight path?  \n\nChoice:  \nA. Start above a street with shops and apartment buildings, fly over a busy street and a large intersection, pass several apartment buildings and a vacant lot, and then descend to the underground garage entrance.  \nB. Start in a clearing, fly over the entrance to an underground garage, pass through a large intersection and a busy street, and end up above a street with shops and apartment buildings.  \nC. Start at the underground garage entrance and ascend over vacant lots, large intersections, and busy streets before finally arriving above several apartment buildings.  \nD. Start near several apartment buildings and fly directly to the entrance of the underground garage, ignoring streets and intersections.  \nE. Start above a group of apartment buildings, fly around a vacant lot, and then descend into a garage.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The flight path begins above a street with shops and apartment buildings, then flies over a busy street and a large intersection. It continues past several apartment buildings and a vacant lot before descending towards the underground garage entrance, which matches the sequence described in option A.",
+    "evaluation": "Location: [(0, 120)]\nOption: A\nReason: The video begins at 0:00 with an aerial view above a street lined with shops and tall apartment buildings. From 0:10 to approximately 0:30, the camera pans right, revealing a busy street and a large intersection in the distance, with numerous cars. Throughout the first minute of the video, the flight path passes by several apartment buildings and a prominent vacant lot (e.g., visible from 0:20 to 0:50). Finally, from around 1:00, the camera descends steadily towards a covered entrance located between two apartment buildings, which clearly appears to be the entrance to an underground garage. This sequence of events perfectly matches the description provided in Option A. The provided answer's reasoning is accurate.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The flight path begins above a street with shops and apartment buildings, then flies over a busy street and a large intersection. It continues past several apartment buildings and a vacant lot before descending towards the underground garage entrance, which matches the sequence described in option A."
+  }
+}

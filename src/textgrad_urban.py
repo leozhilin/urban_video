@@ -40,7 +40,7 @@ class QwenModel():
             
         response = self.client.chat.completions.create(
             model=self.model_name,
-            temperature=0.0,
+            # temperature=0.0,
             messages=messages
         )
         return response.choices[0].message.content 
@@ -115,7 +115,7 @@ class UrbanEvaluator:
                     "type": "image_url",
                     "image_url": {"url": f"data:image/jpeg;base64,{frame}"}
                 })
-                
+
             example_content = make_few_shot_msg(question_category)
             messages = [{"role": "user", "content": content + example_content}]
             evaluation = self.model(messages)

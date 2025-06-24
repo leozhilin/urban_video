@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_8.mp4",
+  "question": "Question: Why do you have to move backward from the starting position?\n\nChoice: A. To avoid obstacles that suddenly appear in the air nearby.  \n           B. To get a closer look at the roof of the red building, your intended destination.  \n           C. Due to low battery power, and you need to land immediately.  \n           D. To capture a wider view of the surrounding area.  \n           E. To adjust your position for a more beautiful shooting composition.  ",
+  "question_category": "Causal",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: Moving backward from the starting position allows the agent to capture a wider view of the surrounding area, including the buildings, trees, and the track field, providing a broader perspective of the environment.",
+    "evaluation": "Location: [(0, 15)]\nOption: D\nReason: At the beginning of the video, the camera is very close to the facade of a building, showing only a limited portion of it. As the agent moves backward from approximately 0:01 to 0:15, the field of view progressively widens, revealing more of the building, the parking lot below, other buildings in the distance, and the surrounding landscape including trees and a track field. This movement clearly serves the purpose of capturing a broader and more comprehensive view of the environment. The provided answer correctly identifies this reason.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: Moving backward from the starting position allows the agent to capture a wider view of the surrounding area, including the buildings, trees, and the track field, providing a broader perspective of the environment."
+  }
+}

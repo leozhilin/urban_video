@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_21.mp4",
+  "question": "Question: What is near the tower crane?\n\nChoices:  \nA. There is a large overgrown area with small buildings and gardens.  \nB. There is a road with vehicles passing through.  \nC. There are other construction equipment, construction sites, and residential buildings.  \nD. There is a street with buildings on the left and a temporary piece of land on the right.  \nE. There is nothing nearby.  ",
+  "question_category": "Object Recall",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The images show that near the tower crane, there are other construction equipment and construction sites visible. Additionally, residential buildings can be seen in the background, indicating an urban environment with ongoing construction activities. Therefore, option C best describes the scene near the tower crane.",
+    "evaluation": "Location: [(0, 43)]\nOption: C\nReason: The video prominently features a large yellow tower crane. Near the tower crane, specifically from approximately 0:14 onwards, an active construction site is clearly visible, complete with other construction equipment such as a red concrete pump truck, various machinery, and building materials. Additionally, numerous tall residential buildings are seen in the background and surrounding areas throughout the video, confirming an urban environment with ongoing construction activities. Therefore, option C accurately describes what is near the tower crane. The provided answer's reasoning is consistent with this observation.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The images show that near the tower crane, there are other construction equipment and construction sites visible. Additionally, residential buildings can be seen in the background, indicating an urban environment with ongoing construction activities. Therefore, option C best describes the scene near the tower crane."
+  }
+}

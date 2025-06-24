@@ -1,10 +1,43 @@
 import os
+import re
 import cv2
 import base64
 import json
 import pandas as pd
 from src.textgrad_urban import UrbanTextGrad
 import math
+
+def truncate_text(text, max_length=100):
+    """截断文本到指定长度，并添加省略号"""
+    if not isinstance(text, str):
+        return str(text)
+    if len(text) <= max_length:
+        return text
+    return text[:max_length-3] + "..."
+
+def print_header(text):
+    """打印带装饰的标题"""
+    print("=" * 60)
+    print(f"  {text}")
+    print("=" * 60)
+
+def print_step(step_name, details=""):
+    """打印处理步骤"""
+    print(f"🔄 {step_name}")
+    if details:
+        print(f"   {details}")
+
+def print_success(message):
+    """打印成功消息"""
+    print(f"✅ {message}")
+
+def print_error(message):
+    """打印错误消息"""
+    print(f"❌ {message}")
+
+def print_info(message):
+    """打印信息消息"""
+    print(f"ℹ️  {message}")
 
 def read_video_frames(video_path: str, max_frames: int = 32) -> list:
     """Read video frames and convert to base64."""
@@ -29,33 +62,73 @@ def read_video_frames(video_path: str, max_frames: int = 32) -> list:
     
     return frames
 
+def extract_option_letter(text):
+    """Extract option letter from text."""
+    if not isinstance(text, str):
+        return None
+    
+    # Try to find option in the format "Option: X"
+    match = re.search(r'Option:\s*[\[\s]*(\w)', text)
+    if match:
+        return match.group(1)
+    
+    # Try to find option in the format "Final Answer: X"
+    match = re.search(r'Final Answer:\s*[\[\s]*(\w)', text)
+    if match:
+        return match.group(1)
+    
+    # If no match found, try to get the first letter
+    return text[0].upper() if text else None
+
 def main():
+    print_header("Urban TextGrad 测试开始")
+    
     # Initialize TextGrad with your model
+    print_step("初始化 TextGrad 模型")
     # textgrad = UrbanTextGrad(model_name="qwen-vl-max-latest")
     textgrad = UrbanTextGrad()
+    print_success("TextGrad 模型初始化完成")
     
     # Load test samples
+    print_step("加载测试样本")
     with open('baseline/test_samples.jsonl', 'r') as f:
         data = [json.loads(line) for line in f]
     QA_df = pd.DataFrame(data)
+    print_success(f"成功加载测试样本")
     
     # Create results directory if it doesn't exist
     results_dir = 'textgrad_results'
     os.makedirs(results_dir, exist_ok=True)
+    print_info(f"结果将保存到: {results_dir}")
+    
+    print_header("开始处理测试样本")
     
     # Process each sample
     for idx, row in QA_df.iterrows(): 
         # if row['question_category'] == "Action Generation":
-        if idx in [158, 308, 174, 788, 425, 913, 163, 215, 505, 283, 654, 802, 484, 4, 726, 987, 244, 374, 155, 331, 165, 401, 148, 586, 937, 195, 899, 224, 597, 572, 753, 472, 891, 549, 170, 921, 150, 222, 10, 122, 905, 557, 458, 555, 356, 338, 339, 755, 651, 717, 591, 857, 583, 159, 767, 979, 19, 606, 380, 818, 616, 569, 285, 988, 59, 986, 794, 843, 468, 402, 790, 877, 453, 879, 256, 548, 678, 41, 580, 135, 923, 815, 415, 596, 385, 14, 610, 189, 517, 112, 82, 392, 530, 352, 689, 103, 573, 341, 592, 306, 149, 629, 261, 373, 868, 854, 485, 784, 743, 437, 617, 603, 60, 18, 571, 97, 169, 37, 34, 98, 273, 759, 151, 566, 108, 723, 677, 147, 367, 709, 660, 668, 281, 358, 303, 202, 221, 845, 852, 785, 718, 985, 746, 473, 210, 251, 157, 365, 544, 959, 233, 856, 263, 410, 42, 581, 160, 411, 257, 213, 693, 882, 208, 683, 301, 846, 940, 564, 212, 190, 960, 181, 716, 952, 849, 936, 537, 276, 232, 957, 685, 346, 619, 294, 287, 883, 782, 713, 996, 841, 467, 972, 656, 109, 556, 932, 386, 634, 152, 205, 114, 329, 446, 35, 81, 246, 482, 461, 420, 130, 796, 744, 844, 90, 432, 969, 73, 322, 956, 894, 334, 834, 666, 773, 735, 831, 602, 258, 500, 659, 980, 47, 760, 28, 463, 728, 26, 438, 703, 585, 870, 803, 361, 139, 533, 589, 307, 800, 344, 620, 912, 413, 105, 372, 866, 635, 125, 193, 486, 918, 16, 973, 313, 154, 820, 954, 769, 640, 11, 32, 87, 588, 262, 832, 396, 892, 914, 171, 901, 715, 403, 999, 417, 614, 58, 945, 705, 692, 259, 414, 593, 539, 354, 464, 239, 297, 70, 179, 576, 115, 183, 318, 71, 730, 327, 860, 300, 509, 284, 518, 177, 887, 188, 330, 859, 874, 911, 180, 653, 896, 720, 858, 350, 776, 421, 819, 370, 783, 89, 381, 748, 33, 536, 405, 568, 762, 138, 56, 853, 113, 546, 810, 460, 194, 871, 440, 661, 265, 756, 176, 824, 806, 529, 298, 24, 110, 454, 679, 873, 699, 333, 293, 7, 133, 550, 513, 118, 827, 623, 353, 770, 662, 102, 245, 542, 669, 976, 455, 168, 470, 989, 766, 511, 672, 65, 704, 120, 314, 821, 319, 377, 535, 642, 682, 68, 875, 431, 684, 953, 270, 855, 321, 927, 225, 638, 884, 497, 248, 459, 267, 897, 219, 328, 423, 75, 310, 978, 426, 551, 792, 889, 920, 734, 578, 457, 837, 304, 909, 885, 282, 641, 671, 478, 292, 949, 407, 881, 779, 227, 902, 637, 448, 128, 508, 199, 78, 761, 495, 323, 524, 712, 201, 904, 584, 701, 975, 126, 812, 153, 38, 908, 192, 362, 240, 554, 252, 167, 811, 156, 359, 211, 198, 131, 941, 275, 3, 590, 434, 488, 950, 740, 136, 223, 737, 447, 652, 218, 1, 490, 994, 443, 676, 349, 658, 838, 890, 630, 85, 922, 646, 612, 422, 696, 104, 919, 51, 99, 521, 394, 598, 250, 835, 465, 101, 842, 816, 714, 449, 655, 925, 558, 436, 496, 708, 119, 817, 77, 964, 264, 340, 236, 17, 624, 76, 84, 441, 238, 745, 268, 872, 129, 325, 829, 53, 736, 186, 741, 930, 504, 378, 203, 124, 575, 433, 786, 80, 462, 552, 944, 395, 288, 337, 506, 175, 600, 828, 825, 962, 797, 977, 739, 907, 955, 207, 742, 547, 412, 280, 869, 67, 260, 648, 886, 383, 695, 608, 360, 48, 963, 200, 140, 898, 931, 958, 966, 710, 502, 916, 900, 384, 299, 780, 162, 942, 514, 670, 673, 191, 809, 798, 79, 917, 451, 733, 439, 910, 515]:
+        if  idx >= 0:
         # if idx >= 714:
             try:
-                print(f"Processing sample {idx}/{len(QA_df)}")
+                print(f"\n{'='*50}")
+                print(f"📊 处理样本 {idx+1} (ID: {idx})")
+                print(f"📹 视频ID: {row['video_id']}")
+                print(f"📝 问题类别: {row['question_category']}")
+                print(f"❓ 问题: {truncate_text(row['question'], 80)}")
+                print(f"✔️  正确答案: {row['answer']}")
+                print(f"{'='*50}")
                 
                 # Read video frames
+                print_step("读取视频帧")
                 video_path = os.path.join('UrbanVideo-Bench/videos', str(row['video_id']))
+                print_info(f"视频路径: {video_path}")
+                
                 frames = read_video_frames(video_path)
+                print_success(f"成功读取 {len(frames)} 帧")
                 
                 # Process with TextGrad
+                print_step("使用 TextGrad 处理")
+                print_info("正在生成初始答案...")
+                
                 result = textgrad.process(
                     question=row['question'],
                     frames=frames,
@@ -63,20 +136,47 @@ def main():
                     question_category=row['question_category']
                 )
                 
-                # Save result
-                output_path = os.path.join(results_dir, f'sample_{idx}.json')
-                with open(output_path, 'w') as f:
-                    json.dump({
-                        'video_id': row['video_id'],
-                        'question': row['question'],
-                        'question_category': row['question_category'],
-                        'ground_truth': row['answer'],
-                        'textgrad_result': result
-                    }, f, indent=2)
+                print_success("TextGrad 处理完成")
                 
-                print(f"Saved result to {output_path}")
+                # Extract and display results
+                final_answer = result["final_answer"]
+                init_answer = result["init_answer"]
+                init_option = extract_option_letter(init_answer)
+                final_option = extract_option_letter(final_answer)
+                
+                print("\n📋 处理结果:")
+                print(f"   初始答案: {truncate_text(init_answer)}")
+                print(f"   初始选项: {init_option}")
+                print(f"   最终答案: {truncate_text(final_answer)}")
+                print(f"   最终选项: {final_option}")
+                print(f"   正确答案: {row['answer']}")
+                
+                # Check if initial answer is correct
+                if init_option == row['answer']:
+                    print_success("初始答案正确！保存结果...")
+                    
+                    # Save result
+                    output_path = os.path.join(results_dir, f'sample_{idx}.json')
+                    with open(output_path, 'w') as f:
+                        json.dump({
+                            'video_id': row['video_id'],
+                            'question': row['question'],
+                            'question_category': row['question_category'],
+                            'ground_truth': row['answer'],
+                            'textgrad_result': result
+                        }, f, indent=2)
+                    
+                    print_success(f"结果已保存: {output_path}")
+                else:
+                    print_info("初始答案不正确, 保存结果...")
+                
             except Exception as e:
-                print(f"Error processing sample {idx}/{len(QA_df)}: {e}")
+                print_error(f"处理样本 {idx+1}/{len(QA_df)} 时发生错误:")
+                print_error(f"错误详情: {str(e)}")
+                print_info("继续处理下一个样本...")
+    
+    print_header("测试完成")
+    print_success("所有样本处理完毕")
 
 if __name__ == "__main__":
     main() 

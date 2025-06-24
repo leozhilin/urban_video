@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_9_3ERMJ6L4D7QVJQQBNGS4845NR1TM7C_3.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [fly high on the brick building and shoe the fire exits. fly on top of the park and go to the end of the park where the red trees are. fly on front of the street lights and capture the bank signage and enter in to the next street. show the stars of building on your left and and capture the red rocket board. make a turn around the building on the left show the view of end of the street. fly over the lamp post and show the johnny signage.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is the Landmark Position between you and the park when you reach the current location?  \nchoose:  \nA. I am on the left side of the park.  \nB. I am on the right side of the park.  \nC. I am over the park.  \nD. I am located below the park.  \nE. I am behind the park.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows that the agent has flown over the park, as indicated by the aerial view of the park and surrounding buildings. This aligns with the instruction to \"fly on top of the park,\" confirming that the landmark position relative to the park is overhead.",
+    "evaluation": "Location: [(0, 123)]\nOption: C\nReason: The navigation instruction explicitly states \"fly on top of the park\". The video frames from approximately 0:20 onwards show the agent ascending and then providing an aerial view of a large park with trees and a lake. This visual evidence confirms that the agent is positioned directly over the park, fulfilling the instruction. Therefore, the landmark position between the agent and the park is \"over the park\". The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows that the agent has flown over the park, as indicated by the aerial view of the park and surrounding buildings. This aligns with the instruction to \"fly on top of the park,\" confirming that the landmark position relative to the park is overhead."
+  }
+}

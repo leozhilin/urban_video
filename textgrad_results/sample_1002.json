@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_12.mp4",
+  "question": "Question: Which takes longer, your flight over the dome-shaped structure or your descent towards the 21st floor balcony?  \nChoices:  \nA. My flight over the dome-shaped structure takes longer than my descent towards the 21st floor balcony.  \nB. My descent towards the 21st floor balcony takes longer than my flight over the dome-shaped structure.  \nC. My flight over the dome-shaped structure takes the same time as my descent towards the 21st floor balcony.  ",
+  "question_category": "Duration",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The descent towards the 21st floor balcony involves a continuous and detailed view of each floor, which suggests a slower, more gradual movement. In contrast, the flight over the dome-shaped structure appears to be a quicker, broader sweep across the landscape, indicating a faster pace. Therefore, the descent takes longer due to the closer and more detailed traversal of the building's exterior.",
+    "evaluation": "Location: [(0, 5), (5, 41)]\nOption: B\nReason: The flight over the dome-shaped structure occurs between approximately 0:03 and 0:05, lasting about 2 seconds. The descent towards the 21st floor balcony begins around 0:05 and continues until the 21st floor is clearly visible at approximately 0:41. This descent lasts for about 36 seconds. Comparing the durations, the descent towards the 21st floor balcony takes significantly longer than the flight over the dome-shaped structure. The provided answer's reasoning is qualitatively correct, stating that the descent involves a more detailed and gradual movement compared to the quicker sweep over the dome, which aligns with the observed time differences.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The descent towards the 21st floor balcony involves a continuous and detailed view of each floor, which suggests a slower, more gradual movement. In contrast, the flight over the dome-shaped structure appears to be a quicker, broader sweep across the landscape, indicating a faster pace. Therefore, the descent takes longer due to the closer and more detailed traversal of the building's exterior."
+  }
+}

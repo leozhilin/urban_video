@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_121_3WR9XG3T6C9FF015HCS8MAON6F774C.mp4",
+  "question": "Question: Which of the following options better summarizes your movement?  \nChoice: A. I fly from the starting roof of the city building directly over the city landscape and park to the main entrance of the taller low-rise building.  \n         B. I fly from the roof garden to the sky above the park, aiming at the entrance and reaching the urban landscape.  \n         C. I descend from the pond in the park to street level and reach the entrance to the high-rise building.  \n         D. I provide an aerial view of the cityscape, descending through the rooftop garden to the edge of the pond.  \n         E. I hover from the tall building immediately on the right to the main entrance of the target building.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The sequence of images shows a movement starting from a high vantage point overlooking city buildings, transitioning over a park area, and then focusing on the main entrance of a taller low-rise building, which aligns with the description in option A.",
+    "evaluation": "Location: [(0, 1:15)]\nOption: A\nReason: The video begins with a view from a high vantage point, specifically the rooftop of a city building (0:00-0:10), overlooking the cityscape. The camera then proceeds to fly forward and descend, moving directly over a large park area that includes a pond (0:10-1:00). As the flight continues, the camera approaches and ultimately focuses on the main entrance of a distinct low-rise building within the urban landscape (1:00-1:15). This entire trajectory is accurately summarized by Option A, which states the movement is \"from the starting roof of the city building directly over the city landscape and park to the main entrance of the taller low-rise building.\" The provided answer's reasoning aligns perfectly with this observation.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The sequence of images shows a movement starting from a high vantage point overlooking city buildings, transitioning over a park area, and then focusing on the main entrance of a taller low-rise building, which aligns with the description in option A."
+  }
+}

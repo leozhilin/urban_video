@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_7_3HVVDCPGTNQIB5CWJMJG7VKB4LPYTK_5.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [ascend straight up, turn to the left, and fly past the soccer fields. go to the tennis courts, turn to the right, and fly straight towards the river. turn around and fly past the bridge. once the second bridge is reached, turn to the right. fly straight past the baseball diamond, and once the intersection is approached, make a descent until the drone lands. turn around and face the construction cones.]. At the initial position, you are asked to navigate according to a series of movement instructions. When you reach the current location, what is your Landmark Position relative to the bridge?  \nchoose:  \nA. I am on the left side of the bridge.  \nB. I am under the bridge.  \nC. I am located above the bridge.  \nD. I am located on the right side of the bridge.  \nE. I am on the bridge floor.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The navigation instructions indicate that the agent flies past the bridge and then reaches the second bridge before turning right. Given the current location, the agent is above the second bridge as it continues to follow the flight path described in the instructions.",
+    "evaluation": "Location: [(3:15, 3:29)]\nOption: C\nReason: The navigation instructions state \"once the second bridge is reached, turn to the right.\" At the current location (the end of the video), the agent has just flown over the second bridge. The bridge is clearly visible directly below the agent, indicating that the agent is located above the bridge. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The navigation instructions indicate that the agent flies past the bridge and then reaches the second bridge before turning right. Given the current location, the agent is above the second bridge as it continues to follow the flight path described in the instructions."
+  }
+}

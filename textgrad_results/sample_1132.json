@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_73_2.mp4",
+  "question": "Question: You are navigating to a store with a green billboard. Thinking back on past Action Generations and objects seen, what do the surroundings of your current location look like?  \nChoose:  \nA. There is a large park with a playground in front of you. There are several low-rise buildings behind you. There is a wide road below you.  \nB. There is a single building behind you with a green billboard on one side. There is a street with trees and sidewalks to your left.  \nC. On your left is a high-rise building and a row of shops at the bottom. Below is a sidewalk. On your right is a row of green belts and a road.  \nD. There is a highway in front of you with heavy traffic. There is a large factory complex behind you. There is a railroad track underneath you.  \nE. No buildings are visible from your current position. You are located in a large clearing. There is a river below you.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The surroundings show a high-rise building on the left with a row of shops at the bottom, a sidewalk in front, and a row of green belts and a road on the right, which matches the description in option C.",
+    "evaluation": "Location: [(0, 42)]\nOption: C\nReason: The video transitions from an aerial view to a first-person perspective at street level. From approximately 0:35 onwards, and clearly visible in frames like 0:38-0:42, the agent's current surroundings are depicted. On the left, there is a tall high-rise building with multiple windows and what appear to be shops or commercial displays at its base. Directly in front of the agent (or below, from the top-down perspective that transitions to eye-level) is a wide sidewalk. To the right of the sidewalk, there is a distinct green belt with trees, and further to the right, a road is visible. This perfectly matches the description in Option C. The provided answer correctly identifies the visual elements and their relative positions.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The surroundings show a high-rise building on the left with a row of shops at the bottom, a sidewalk in front, and a row of green belts and a road on the right, which matches the description in option C."
+  }
+}

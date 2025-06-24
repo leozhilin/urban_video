@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_82_3L2IS5HSFJG3ZJN7CP0FVB8756KNU8.mp4",
+  "question": "Question: How does the distance between you and the tall telecommunications tower change after you fly to the rooftop of your final destination?  \nChoice: A. It increases.  \n           B. It decreases.  \n           C. It remains constant.  ",
+  "question_category": "Proximity",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The sequence of images shows the agent moving closer to the tall telecommunications tower as it progresses towards the rooftop of the final destination. The tower becomes more prominent and detailed in the later frames, indicating a decrease in distance.",
+    "evaluation": "Location: [(0:27, 0:52)]\nOption: B\nReason: As the agent flies towards and reaches the rooftop of the final destination, a distinct tall telecommunications tower on an adjacent building comes into view and rapidly increases in size and detail (e.g., from 0:27 to 0:44). This visual change clearly indicates that the distance between the agent and this tower significantly decreases during the flight to the destination rooftop. The provided answer's reasoning is consistent with this observation.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The sequence of images shows the agent moving closer to the tall telecommunications tower as it progresses towards the rooftop of the final destination. The tower becomes more prominent and detailed in the later frames, indicating a decrease in distance."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_14_1.mp4",
+  "question": "Question: You are navigating to the 19th-floor balcony. Thinking back on past action generations and objects you have seen, what is the surrounding environment like at your current location?  \nChoice:  \nA. There are two high-rise buildings on your left side and one on your right side. A highway and green space are below and to your right.  \nB. There is a big park in front of you, several low-rise buildings behind you, and a highway to your right.  \nC. There are roads and trees next to you and many high-rise buildings around you.  \nD. There is a high-rise building directly in front of you, blocking most of your view, and a large empty square behind you.  \nE. There is a large body of water in front of you and several small residential buildings to your right.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The images show a high-rise building with many floors, and the surrounding environment includes roads and trees next to the building. There are also numerous high-rise buildings visible in the background, indicating a dense urban area. This matches the description in option C.",
+    "evaluation": "Location: [(0, 29)]\nOption: C\nReason: The video frames consistently show a high-rise urban environment. From 0:00 to 0:07, the view reveals numerous high-rise buildings in the distance, indicating a dense city skyline. From 0:08 to 0:29, the camera pans down, clearly showing roads and trees directly adjacent to the building where the agent is located. This visual evidence directly supports the description in Option C: \"There are roads and trees next to you and many high-rise buildings around you.\" The provided answer is consistent with this analysis.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The images show a high-rise building with many floors, and the surrounding environment includes roads and trees next to the building. There are also numerous high-rise buildings visible in the background, indicating a dense urban area. This matches the description in option C."
+  }
+}

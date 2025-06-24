@@ -46,6 +46,7 @@ def process_textgrad_results():
             init_answer = result['textgrad_result']['init_answer']
             extracted_option = extract_option_letter(final_answer)
             extracted_option_init = extract_option_letter(init_answer)
+            extracted_option_eval = extract_option_letter(result['textgrad_result']['evaluation'])
             
 
             if extracted_option_init == result['ground_truth'] and extracted_option != result['ground_truth']: # 改错
@@ -55,7 +56,7 @@ def process_textgrad_results():
                 # print(json_file, extracted_option_init, extracted_option, result['ground_truth'])
                 init_answer_error += 1
 
-            if extracted_option_init != result['ground_truth'] or extracted_option != result['ground_truth']: # 回答错误
+            if extracted_option_init != result['ground_truth'] and extracted_option != result['ground_truth']: # 回答错误
                 
                 match = re.search(r"sample_(\d+)\.json", json_file)
                 if match:
@@ -71,7 +72,7 @@ def process_textgrad_results():
                 'question_category': result['question_category'],
                 'ground_truth': result['ground_truth'],
                 'model_answer': final_answer,
-                'extracted_option': extracted_option
+                'extracted_option': extracted_option_eval
             }
             data.append(row)
     

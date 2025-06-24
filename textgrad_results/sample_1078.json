@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_32.mp4",
+  "question": "Question: Summarize your flight path from start to finish, including key landmarks.\n\nChoice:  \nA. I start above the entrance to a residential area, rise, move back to reveal the cityscape, then move to the right along the street, and finally descend above a red car after turning left near the square.  \nB. I start from a high altitude overlooking the city, descend to the entrance of the residential area, and then fly straight to the red car.  \nC. I ascend from near the red car, then fly backward through the streets and over residential areas before ending my flight.  \nD. I start flying above the red car, then move to the entrance of the residential area, rise, and finally fly backward to capture the vast urban landscape.  \nE. I start flying in the center of a big city square, fly over a park, and then fly toward the red car.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The flight path starts above the entrance to a residential area, rises to reveal the cityscape, moves to the right along the street, and finally descends above a red car after turning left near the square. This sequence matches the visual journey captured in the frames provided.",
+    "evaluation": "Location: [(0, 116)]\nOption: A\nReason: The video begins at 0:00 with the drone positioned above the entrance to a residential area, showing a gate and surrounding buildings. From 0:01 to 0:14, the drone rises and moves backward, progressively revealing a wider cityscape with numerous tall buildings and a distant horizon. Subsequently, from 0:14 to approximately 0:30, the drone moves horizontally to the right, following a main street. Around 0:30, the drone starts to turn left, approaching a prominent square with a fountain (visible from 0:38). After passing this square, the drone descends, and by 01:05, it is directly above a red car parked on the side of the street, where the video concludes. This sequence of movements and landmarks perfectly matches the description in Option A. The provided answer's reason is consistent with this observation.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The flight path starts above the entrance to a residential area, rises to reveal the cityscape, moves to the right along the street, and finally descends above a red car after turning left near the square. This sequence matches the visual journey captured in the frames provided."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_16_32ZKVD547OLHZGLRUFZ5H7IDB2WB35.mp4",
+  "question": "Question: Which of the following choices better summarizes your movement route?  \nChoices:   \nA. I go from the rooftop with two large vents to above the skyline by turning right and ascending.  \nB. I go from the rooftop with satellite dishes to the skyline view by flying straight across.  \nC. I go from the rooftop with two large water tanks to facing the brown car advertisement by ascending and turning left past satellite dishes.  \nD. I go from the tall building to the large billboards by descending and flying forward.  \nE. I go from the brown car advertisement to the rooftop with two large vents by turning left and descending.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows a movement starting from a rooftop with two large water tanks, then ascending and turning left past satellite dishes, eventually facing the brown car advertisement. This matches the description in option C.",
+    "evaluation": "Location: [(0, 16)]\nOption: C\nReason: The video begins at 00:00 on a rooftop, with two large, dark, circular objects in the foreground that resemble water tanks or large vents. As the video progresses, the camera moves upwards (ascending) and shifts to the left. Around 00:05-00:07, a white satellite dish and other rooftop structures are clearly visible and are passed by the camera. By 00:16, the camera has completed its ascent and left turn, now directly facing a large billboard with a brown car advertisement. This entire trajectory perfectly matches the description in Option C: \"I go from the rooftop with two large water tanks to facing the brown car advertisement by ascending and turning left past satellite dishes.\" The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows a movement starting from a rooftop with two large water tanks, then ascending and turning left past satellite dishes, eventually facing the brown car advertisement. This matches the description in option C."
+  }
+}

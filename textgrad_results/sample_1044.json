@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_51_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the stone statue on the left side of the entrance. When you reach the current location, what is the direction to the destination?  \nchoose:  \nA. I am currently above the street, directly opposite the statue.  \nB. I am currently directly above the statue.  \nC. I am currently located on the left side of the square, far away from the statue.  \nD. I am currently located on the right side of the square, far away from the statue.  \nE. I am currently above the square, slightly to the right of the statue.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The current location is above the square, and the stone statue on the left side of the entrance is slightly to the left from this vantage point, indicating that the correct direction is slightly to the right of the statue.",
+    "evaluation": "Location: [(0, 43)]\nOption: E\nReason: The video shows an aerial view of a city square. The camera descends and pans, eventually settling on a view high above the square. The \"current location\" refers to this final vantage point (e.g., 0:43). The \"stone statue on the left side of the entrance\" refers to the statue located on the square, to the left of the large building's entrance (the curved structure on the right side of the square). From the camera's final perspective, this target statue is visible in the lower-left portion of the frame. If the statue is to the left of the camera's central view, it means the camera's position is horizontally to the right of the statue. Therefore, the statement \"I am currently above the square, slightly to the right of the statue\" accurately describes the current location relative to the destination. The provided answer's reasoning is also correct: the current location is above the square, and the statue is slightly to the left from this vantage point, which implies the camera is slightly to the right of the statue.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The current location is above the square, and the stone statue on the left side of the entrance is slightly to the left from this vantage point, indicating that the correct direction is slightly to the right of the statue."
+  }
+}
