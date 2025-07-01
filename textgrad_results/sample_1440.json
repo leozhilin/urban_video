@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_32_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a red car at the edge of a residential area ahead. Is the destination within sight at the current location? If yes, where is the destination in your view?  \nchoose:  \nA. I see the red car in the lower left corner of my field of view.  \nB. I see the red car in the center of my field of view.  \nC. I do not see the red car in my field of view.  \nD. I see the red car in the upper right corner of my field of view.  \nE. I see the red car on the right side of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The initial frames show a view of a residential area with buildings, trees, and parked cars, but there is no red car visible in the field of view. The agent's current location does not have the destination (red car) within sight.",
+    "evaluation": "Location: [(0, 38)]\nOption: C\nReason: The video starts by showing the entrance to a residential area and then pans to reveal a wider street view with numerous parked and moving vehicles. Throughout the entire video, from the initial frames to the end, no red car is visible in the field of view. All visible cars are predominantly white, black, grey, or other non-red colors. Therefore, the destination (a red car) is not within sight at the current location. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The initial frames show a view of a residential area with buildings, trees, and parked cars, but there is no red car visible in the field of view. The agent's current location does not have the destination (red car) within sight."
+  }
+}

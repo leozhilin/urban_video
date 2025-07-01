@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_33_3NL0RFNU0OL3AF8P06HHQFT8R6LK40_7.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off the drone, go straight. turn left, move towards the tree side area. reach beyond the tallest building. then move towards the chocolate shop. dive in the land near daves car shop. take left move toward the sea side. again take left to reach the destination and then land off the drone.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I sneak into the land near Dave's Auto Shop.  \nB. I fly over buildings.  \nC. I go straight.  \nD. I move beyond the tallest building.  \nE. I go left, toward the ocean.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The initial instruction is to \"take off the drone, go straight.\" The first few frames show a forward-moving perspective along a straight path, indicating that the agent is following the instruction to go straight. Therefore, the correct option is C.",
+    "evaluation": "Location: [(0, 5:00)]\nOption: C\nReason: The navigation instructions given at the initial position begin with \"take off the drone, go straight.\" The video starts with a ground-level view, then shows the drone ascending (taking off) from approximately 00:15 to 00:27. Following this ascent, the drone proceeds to move forward in a generally straight direction for the remainder of the video, particularly evident from 01:10 onwards. Therefore, the agent is currently executing the \"go straight\" instruction. The provided answer correctly identifies this action.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The initial instruction is to \"take off the drone, go straight.\" The first few frames show a forward-moving perspective along a straight path, indicating that the agent is following the instruction to go straight. Therefore, the correct option is C."
+  }
+}

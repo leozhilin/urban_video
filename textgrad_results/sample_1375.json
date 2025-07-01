@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_19_33ISQZVXPYKOML9G1861LUSPYXOCCJ.mp4",
+  "question": "Question: Which of the following choices better summarizes your movement route?  \nChoices:  \nA. I go from the view above the rooftops with more cityscape visible to the edge of the park by turning left above the rooftops.  \nB. I go from the roof level of the surrounding buildings to the urban area in the direction of the park by moving straight and descending.  \nC. I go from the front of the residential building on the street to hovering above the lake with the city skyline reflecting on the water by rising above the rooftops and descending towards the lake.  \nD. I go from the front of the residential building on the street to the view above the rooftops with more cityscape visible by flying around the buildings.  \nE. I go from the urban area in the direction of the park to descending toward the lake following the water's edge by flying diagonally.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows a transition from a street-level view in front of a residential building to an aerial view above the rooftops, and finally to a position hovering above a lake with the city skyline reflecting on the water. This matches the description in option C.",
+    "evaluation": "Location: [(0, 58)]\nOption: C\nReason: The video begins with a close-up view of a residential building on a street (0:00-0:02). The camera then rises steadily, moving above the rooftops of the surrounding buildings (0:03-0:10), revealing a wider cityscape with taller buildings in the distance. As the camera continues to move, it descends towards a large body of water, which is clearly a lake, with the city skyline prominently reflected on its surface (0:20-0:58). This entire trajectory perfectly matches the description in Option C: \"I go from the front of the residential building on the street to hovering above the lake with the city skyline reflecting on the water by rising above the rooftops and descending towards the lake.\" The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows a transition from a street-level view in front of a residential building to an aerial view above the rooftops, and finally to a position hovering above a lake with the city skyline reflecting on the water. This matches the description in option C."
+  }
+}

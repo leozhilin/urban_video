@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_8_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the roof of a nearby school\u2019s red classroom building. Thinking back on past actions and objects you\u2019ve seen, what should you approach next to get from your current location to your destination?  \nchoose:  \nA. I approach the top of the tallest building in the background.  \nB. I approach the parking lot in front of the building.  \nC. I approach the school playground.  \nD. I approach the corner next to the parking lot.  \nE. I approach the building windows with clothes hanging on them.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The school playground is visible in the frames and appears to be a central area that can provide a clear path towards the red classroom building. Approaching the playground will likely offer a more direct and accessible route to the destination.",
+    "evaluation": "Location: [(0, 53)]\nOption: C\nReason: The video starts by showing a grey building. As the camera pans down and to the left (from approximately 0:35 to 0:53), a school playground becomes clearly visible in the foreground, and beyond it, a distinct red building, which is identified as the \"red classroom building\" in the question. To navigate from the initial position (implied to be near or above the grey building, overlooking the scene) to the roof of the red classroom building, approaching the school playground is the most logical and direct next step. The playground serves as a clear entry point or pathway to the school complex where the red building is located. The parking lot (Option B) is directly below the initial position, but the playground is the area that leads towards the specific school building. The other options are either irrelevant or lead away from the destination. The provided answer correctly identifies the school playground as the next logical approach.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The school playground is visible in the frames and appears to be a central area that can provide a clear path towards the red classroom building. Approaching the playground will likely offer a more direct and accessible route to the destination."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_34_35DR22AR5MIOCJOSZBRN6495RXNX3K.mp4",
+  "question": "Question: What is to your left at the midpoint between the buildings?  \nChoice: A. A lamppost.  \n           B. A tree.  \n           C. A bench.  \n           D. A statue.  \n           E. Nothing.  ",
+  "question_category": "Object Recall",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: At the midpoint between the buildings, there is a tree visible on the left side of the path.",
+    "evaluation": "Location: [(0, 25)]\nOption: B\nReason: At the approximate midpoint between the two tall buildings (visible from approximately 0:10 to 0:25), specifically around the 0:15-0:20 mark, several trees are clearly visible on the left side of the path, lining the sidewalk. While a lamppost is also present, trees are a prominent and continuous feature of the landscape on the left at this location. The provided answer is consistent with this observation.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: At the midpoint between the buildings, there is a tree visible on the left side of the path."
+  }
+}

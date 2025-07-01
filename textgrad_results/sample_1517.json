@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_20.mp4",
+  "question": "Question: When you turn left to face the \"Huaji Stone Rice Rolled Rice Roll\" store, how does the distance between you and the \"Huaji Stone Rolled Rice Roll Rice\" store change?  \nChoice: A. It remains the same.  \n           B. It increases.  \n           C. It decreases.  ",
+  "question_category": "Proximity",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: When you turn left to face the \"Huaji Stone Rice Rolled Rice Roll\" store, the distance between you and the store decreases as you are now facing it directly and moving closer to it.",
+    "evaluation": "Location: [(1:42, 1:58)]\nOption: C\nReason: The \"Huaji Stone Rice Rolled Rice Roll\" store (\u534e\u8bb0\u77f3\u78e8\u80a0\u7c89) becomes clearly visible around the 1:42 mark. From this point until the end of the video at 1:58, the camera descends and moves significantly closer to the store. This is evident as the store occupies a progressively larger portion of the screen, and its details become much clearer. Therefore, the distance between the camera (representing \"you\") and the store decreases. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: When you turn left to face the \"Huaji Stone Rice Rolled Rice Roll\" store, the distance between you and the store decreases as you are now facing it directly and moving closer to it."
+  }
+}

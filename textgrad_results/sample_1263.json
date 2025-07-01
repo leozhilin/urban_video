@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_0_2.mp4",
+  "question": "Question: You are navigating to [pavilion by the pond]. Thinking back on past actions and objects you\u2019ve seen, what is the surrounding environment like at your current location?  \nChoice:  \nA. There are several tall buildings around, with a large pond and a pavilion in the middle. A swimming pool is near the pavilion.  \nB. I am above a paved road with lush greenery and a few scattered trees on both sides. There is a small pond in front with a pavilion.  \nC. I am in a large open area. High-rise buildings are in the distance, but the surroundings are mostly open space with some low bushes.  \nD. The upper part in front of me has part of the square, with the top of the pavilion in the center and green plants on the left and right sides.  \nE. I am above the park, with a pond and pavilion in the distance to the right. There are walking paths and landscaping nearby.  ",
+  "question_category": "Cognitive Map",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The current location shows a large pond with a pavilion in the middle, surrounded by several tall buildings. There is also a swimming pool visible near the pavilion, which matches the description in option A.",
+    "evaluation": "Location: [(0, 49)]\nOption: A\nReason: The video, particularly from 0:07 onwards, provides an aerial view of the environment. It clearly shows a large pond with a pavilion (red-roofed structure) situated by or within the pond area. Surrounding this central feature are numerous tall, multi-story apartment buildings. Additionally, a swimming pool area is distinctly visible near the pavilion, especially from 0:27 to 0:40. Option A accurately describes all these prominent features of the surrounding environment. The provided answer's reasoning is consistent with my observations.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The current location shows a large pond with a pavilion in the middle, surrounded by several tall buildings. There is also a swimming pool visible near the pavilion, which matches the description in option A."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_2_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to a basketball court near a building below. Thinking back on past actions and objects you have seen, what should you approach next in order to get from your current location to your destination?  \nchoose:  \nA. I approach the center of the pond.  \nB. I approach the basketball court near the building below.  \nC. I approach the highest point of a building.  \nD. I approach the playground in the park.  \nE. I approach the street next to the building.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The goal is to navigate to a basketball court near a building below. From the aerial view, the basketball court is clearly visible and located near the buildings. Therefore, approaching the basketball court near the building below is the correct next step.",
+    "evaluation": "Location: [(0, 107)]\nOption: B\nReason: The question asks to navigate to a basketball court near a building from the initial position. The video provides an aerial view of a residential complex. As the camera zooms out and pans (especially from 0:50 onwards), a distinct green-colored basketball court becomes clearly visible in the upper-left portion of the screen, surrounded by buildings and green areas. Since the goal is to reach this specific basketball court, the most direct and logical next step is to approach it. The provided answer correctly identifies the basketball court as the target and states that it is clearly visible from the aerial view, making option B the correct choice.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The goal is to navigate to a basketball court near a building below. From the aerial view, the basketball court is clearly visible and located near the buildings. Therefore, approaching the basketball court near the building below is the correct next step."
+  }
+}

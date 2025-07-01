@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_70_3EKVH9QME72LTVNS4BC6TN1L76S2D5_6.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn right and go over the brown buildings and get down towards the white terrace. now turn left and fly over the buildings and get down towards the trees. now turn left and cross the road and go over the buildings towards the ash terrace. now turn right and move forward and get down towards the road. now turn left and go over the road and reach the white building and stay there.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I head towards the road.  \nB. I fly over buildings.  \nC. I reach the white building and stay there.  \nD. I turn right and drive forward toward the road.  \nE. I turn left, fly over the building, and land toward the trees.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The final instruction in the navigation sequence is to \"reach the white building and stay there,\" and the image shows a stationary position on a rooftop with a clear view of the city, suggesting that the agent has reached its destination and is now staying there.",
+    "evaluation": "Location: [(5:40, 6:00)]\nOption: C\nReason: The navigation instruction explicitly states, \"now turn left and go over the road and reach the white building and stay there.\" In the video, from approximately 5:40 onwards, the agent is seen approaching and landing on a white building, and then remains stationary on its rooftop until the end of the video. This directly corresponds to the final instruction given, indicating that the agent has reached its destination and is staying there. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The final instruction in the navigation sequence is to \"reach the white building and stay there,\" and the image shows a stationary position on a rooftop with a clear view of the city, suggesting that the agent has reached its destination and is now staying there."
+  }
+}

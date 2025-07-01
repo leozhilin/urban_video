@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_44_392CY0QWGAPC4KI103W5DZEWKVCI4C_5.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn left and move forward and get down towards the white building terrace. now turn right and go over the buildings and trees towards the pond. now turn left and go over the buildings and get down reach the road and landed.]. At the initial position, you are asked to navigate according to a series of movement instructions. What is the Landmark Position from the pond when you reach your current location?  \nchoose:  \nA. I am on the left side of the pond.  \nB. I am above the pond.  \nC. I am on the right side of the pond.  \nD. I am below the pond.  \nE. I am far away from the pond.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The current location, as depicted in the final frames, is over a cityscape with buildings and trees, far removed from the pond which was encountered earlier in the sequence. The agent has moved significantly away from the pond to reach this new position, making the pond no longer a nearby landmark.",
+    "evaluation": "Location: [(1:50, 3:00)]\nOption: E\nReason: The navigation instructions state, \"now turn right and go over the buildings and trees towards the pond. now turn left and go over the buildings and get down reach the road and landed.\"\nThe video shows the agent approaching and flying over the pond around the 1:50 to 2:30 mark. After this, the agent turns left and continues to fly over buildings, descending towards a road. The final frames (from approximately 2:50 to 3:00) show the agent at a street level or low altitude, surrounded by buildings, with the pond no longer in immediate view. The agent has clearly moved a significant distance away from the pond to reach this final landing spot. Therefore, the pond is now far away from the current location. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The current location, as depicted in the final frames, is over a cityscape with buildings and trees, far removed from the pond which was encountered earlier in the sequence. The agent has moved significantly away from the pond to reach this new position, making the pond no longer a nearby landmark."
+  }
+}

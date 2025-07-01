@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_10_3HYA4D4520HIRF1OVH7WHN46KPYF2W_4.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off to the ground near the flag and turn left move upward to reach the terrace of the building. to reach the antenna in that building and cross the building to the next building to see the red colour eds butcher shop board in it. to move forward to see the pool shines by sunlight and cross the pool to reach the street. move towards to the top of the building and see the cloudy, shiny sky and also the reflected sea. turn left side and move towards the pool and fully surrounded by red leaves of trees and move towards to the street. move to the same road on the street and go straight to the corner of the road and reach the optician board on the right side. and move down to the board and see the health insurance in the down to the optician in that board.]. At the initial position, you are asked to move according to a series of movement instructions. When you reach the current location, what is your Landmark Position to the pool?  \nchoose:  \nA. I am on the left side of the pool.  \nB. I am located below the pool.  \nC. I am on the right side of the pool.  \nD. I am located above the pool.  \nE. I am on the pool floor.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The current view shows an elevated perspective overlooking the pool, indicating that the agent is located above the pool. This aligns with the instruction to move towards the top of the building and observe the surroundings from a high vantage point.",
+    "evaluation": "Location: [(0, 22), (1, 0)]\nOption: D\nReason: The navigation instruction states \"move towards to the top of the building and see the cloudy, shiny sky and also the reflected sea.\" In the video, from approximately 0:20 onwards, and clearly from 1:00 to the end, the agent is at a high altitude, looking down upon the city and the large body of water referred to as the \"pool.\" This elevated viewpoint confirms that the agent is located above the pool. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The current view shows an elevated perspective overlooking the pool, indicating that the agent is located above the pool. This aligns with the instruction to move towards the top of the building and observe the surroundings from a high vantage point."
+  }
+}

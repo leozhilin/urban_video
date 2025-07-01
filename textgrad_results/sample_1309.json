@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_40.mp4",
+  "question": "```\nQuestion: According to the video, what is located to the left of the blue bus?\n\nChoices:    A. There is a row of greenhouses to the left of the blue bus.\n            B. There is a parking lot to the left of the blue bus.\n            C. There is a small building to the left of the blue bus.\n            D. There is a group of trees to the left of the blue bus.\n            E. There is a road with crosswalks to the left of the blue bus.\n\n\n```\n",
+  "question_category": "Object Recall",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The video shows a row of greenhouses to the left of the blue bus. The structures have a characteristic greenhouse appearance with transparent or semi-transparent roofs, which is consistent with option A.",
+    "evaluation": "Location: [(0, 6)]\nOption: A\nReason: At the beginning of the video, specifically from 0:00 to 0:06, a blue bus is clearly visible parked on a patch of ground. To the immediate left of this blue bus, there is a long row of structures covered with transparent or semi-transparent material, which are characteristic of greenhouses. The provided answer correctly identifies these structures as greenhouses.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The video shows a row of greenhouses to the left of the blue bus. The structures have a characteristic greenhouse appearance with transparent or semi-transparent roofs, which is consistent with option A."
+  }
+}

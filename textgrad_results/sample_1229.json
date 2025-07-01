@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_89_35DR22AR5MIOCJOSZBRN6495RXNX3K_5.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and move forward slow down near pond. now turn left move towards behind the ridge. now turn on your back view and move forward turn left fly towards the mid of pond. now turn left move towards behind the dates car wash building and stay there.]. At the initial position, you are asked to navigate to the Golden Gate Bridge. When you reach the current location, what is your Landmark Position to the Golden Gate Bridge?  \nchoose:  \nA. I am diagonally in front of the Golden Gate Bridge.  \nB. I am over the Golden Gate Bridge.  \nC. I am on the right side of the Golden Gate Bridge.  \nD. I am beneath the Golden Gate Bridge.  \nE. I am behind the Golden Gate Bridge.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The current location, as indicated by the frames, is behind the Golden Gate Bridge. The sequence of images shows a progression towards and then past the bridge, placing the final position behind it.",
+    "evaluation": "Location: [(3:34, 5:10)]\nOption: E\nReason: The navigation instructions guide the agent through various parts of the city. The video clearly shows the agent approaching the Golden Gate Bridge between 2:25 and 3:20. Subsequently, the agent flies over the Golden Gate Bridge from approximately 3:20 to 3:34. After crossing the bridge, the agent continues to move forward, turning into a street (3:34-3:40) and then into a park area (4:00-4:15). The final frames of the video (4:15-5:10) show the agent in a park with a pond and a city skyline in the distance, but the Golden Gate Bridge is no longer visible in the forward view. Since the agent has flown over and past the bridge, its current location places the Golden Gate Bridge behind it. The provided answer's reasoning is consistent with this observation.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The current location, as indicated by the frames, is behind the Golden Gate Bridge. The sequence of images shows a progression towards and then past the bridge, placing the final position behind it."
+  }
+}

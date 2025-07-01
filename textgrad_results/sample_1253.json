@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_37_1.mp4",
+  "question": "Question: What is the correct summary of your trajectory from the start to the current location as you navigate to a street light behind a bus stop?  \nChoice:  \nA. I start from a high-rise building, move to a lower building, and then descend to street level to reach a street light.  \nB. I start from a high altitude above the city and hover in the sky, with the camera turning to the right and overlooking the entire city.  \nC. I start from the roof of the building, descend to street level, move along the road, and finally reach my current location near bus stops and street lights.  \nD. I start from a position above the street, move toward the bus stop, and then reach my current position overlooking the street lights.  \nE. I start from the roof of the building and move parallel to the road, eventually arriving at my current location overlooking the street lights behind the bus stop.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The trajectory starts from a higher vantage point, likely the roof of a building, and then descends to street level. It follows the road, moving forward until it reaches the current location near bus stops and street lights, which matches the description in option C.",
+    "evaluation": "Location: [(0, 19)]\nOption: C\nReason: The video begins with a high-angle view of a city street, suggesting the camera is positioned on a high vantage point, such as the roof of a building (0:00-0:01). From approximately 0:01 to 0:07, the camera clearly descends, moving closer to the street level. By 0:07 and onwards, the camera is at street level, moving forward along the road, with cars and buildings visible on either side. The final frames show the camera at street level, consistent with being near bus stops and street lights. Therefore, the trajectory accurately described as starting from a building's roof, descending to street level, and then moving along the road to the current location. The provided answer correctly identifies Option C and its reasoning aligns with the visual evidence.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The trajectory starts from a higher vantage point, likely the roof of a building, and then descends to street level. It follows the road, moving forward until it reaches the current location near bus stops and street lights, which matches the description in option C."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_95_3NQL1CS1506XOXGLOHJV8D8XNYAYVD.mp4",
+  "question": "Question: Which of the following options better summarizes your movement?  \nChoice: A. Advance from a point above the streets of the central city, turn left, and pass between two tall buildings to reach near the roof with the red billboard.  \n         B. Fly directly down from the top of the tall building to the end of the road, reaching street level.  \n         C. Fly over the city and turn right at the first intersection to the edge of the main road.  \n         D. Travel from one side of the city to the other by passing above skyscrapers and landing on the streets.  \n         E. Travel from an open park area to a street advertisement near a large pond.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The sequence of images shows the agent starting from a high vantage point above the city, moving forward, turning left, and navigating between buildings. The final frames indicate proximity to a rooftop with a red billboard, aligning with the description in option A.",
+    "evaluation": "Location: [(0, 139)]\nOption: A\nReason: The video begins with the agent positioned high above a city street, looking down a long thoroughfare (0:00-0:04), which aligns with \"Advance from a point above the streets of the central city.\" The agent then moves forward, gradually descending and passing between the tall buildings lining the street (0:05-0:55). A clear left turn is executed around the 0:55-1:05 mark, shifting the view to a perpendicular street. Following this turn, the agent continues to move towards a building that features a large billboard on its roof (1:05-1:20). The final frames show the agent in close proximity to this rooftop and its billboard (1:20-1:39), accurately matching \"to reach near the roof with the red billboard.\" While the billboard's color isn't explicitly red, it is a prominent advertisement on a rooftop, making option A the most accurate summary of the movement. The other options contain significant inaccuracies regarding the starting point, direction of turn, or final destination/altitude.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The sequence of images shows the agent starting from a high vantage point above the city, moving forward, turning left, and navigating between buildings. The final frames indicate proximity to a rooftop with a red billboard, aligning with the description in option A."
+  }
+}

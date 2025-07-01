@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_6_32EYX73OY97OEHFZ5WHW4VDH3OSRUM_2.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [go to sidewalk and turn on first walk way. turn right over tennis court. stop by nearest lake. face towards right of the subdivision. fly low and fly in open area near shed. move forward and face towards the park. take off, to fountain in center of park. make a sharp left on lake and go to nearest bridge. move forward beyond patio area.. fly over third row of trees.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I move forward beyond the patio area.  \nB. I fly low and in open areas near sheds.  \nC. I go to the sidewalk and turn onto the first walking path.  \nD. I turn sharp left on the lake to get to the nearest bridge.  \nE. I am flying over the trees.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The current view shows an aerial perspective flying over a dense area of trees, which aligns with the instruction \"fly over third row of trees.\" This indicates that the agent is currently executing this part of the navigation instructions.",
+    "evaluation": "Location: [(2, 01, 2, 35)]\nOption: E\nReason: The navigation instructions are a sequence of actions. By observing the video, the agent progresses through several steps. Initially, the agent is in a park-like setting, then flies low near a shed (around 0:20-0:26), then moves along a lake (around 0:53-1:42). The final instruction in the list is \"fly over third row of trees.\" From approximately 2:01 to the end of the video, the agent is clearly shown flying at a significant altitude over a vast expanse of trees, indicating that this is the current action being performed. The provided answer correctly identifies this.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The current view shows an aerial perspective flying over a dense area of trees, which aligns with the instruction \"fly over third row of trees.\" This indicates that the agent is currently executing this part of the navigation instructions."
+  }
+}

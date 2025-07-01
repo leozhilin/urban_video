@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_25_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the swimming pool in the community ahead. Is the destination within sight at your current location? If yes, where is the destination in your view?  \nChoose:  \nA. I see the swimming pool in the residential area ahead in the lower left corner of my field of view.  \nB. I see the swimming pool in the residential area ahead in the center of my field of view.  \nC. I see the swimming pool in the residential area ahead in the upper right corner of my field of view.  \nD. I do not see the swimming pool in the residential area ahead within my field of view.  \nE. I see the swimming pool in the residential area ahead on the right side of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The swimming pool is not visible within the current field of view. The frames show residential buildings and a playground area, but no swimming pool can be seen.",
+    "evaluation": "Location: [(0, 121)]\nOption: D\nReason: The video starts with a wide aerial view of a residential community. As the camera pans and zooms in, it reveals various parts of the community, including multiple high-rise buildings, landscaped green areas, and pathways. A blue and yellow patterned area is visible on the ground between some buildings (e.g., clearly seen from 0:20 onwards), which is identified as a children's playground with text like \"HAPPY CHILDHOOD\" and \"YAHOO\". There is no visible swimming pool anywhere within the field of view at the initial position or as the camera explores the immediate community area. Therefore, the destination (swimming pool) is not within sight. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The swimming pool is not visible within the current field of view. The frames show residential buildings and a playground area, but no swimming pool can be seen."
+  }
+}

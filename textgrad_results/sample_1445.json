@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_41_388U7OUMFGZ8YV3J7P3CFOPAP930RT.mp4",
+  "question": "Question: As you continue along the street, how does the distance to a prominent building with a tower on the street change?  \nChoice: A. I increase the distance to protruding buildings.  \n           B. I maintain a constant distance to the protruding building.  \n           C. I decrease the distance to protruding buildings.  ",
+  "question_category": "Proximity",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The sequence of images shows the agent moving forward along the street, and the prominent building with a tower appears to get closer as the frames progress. This indicates that the distance to the building is decreasing.",
+    "evaluation": "Location: [(0, 52)]\nOption: C\nReason: As the video progresses from 0:00 to 0:52, the agent is clearly moving forward along the street. The prominent building with a tower, initially seen in the distance, steadily increases in apparent size and fills a larger portion of the frame. This visual change directly indicates that the agent is decreasing the distance to the building. The provided answer correctly identifies this change and provides a valid reason.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The sequence of images shows the agent moving forward along the street, and the prominent building with a tower appears to get closer as the frames progress. This indicates that the distance to the building is decreasing."
+  }
+}

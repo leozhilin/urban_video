@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_19_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the balcony on the 14th floor. Thinking back on past Action Generations and objects you have seen, what should you approach next in order to get from your current location to your destination?  \nchoose:  \nA. I approach the foundation of high-rise buildings.  \nB. I approach the center of the highway intersection.  \nC. I approach the 14th floor of the building.  \nD. I approach the top of an adjacent skyscraper.  \nE. I approach the roof of a building.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The goal is to navigate to the balcony on the 14th floor. Given the current perspective, which shows a high vantage point of a building with visible floor numbers, the logical next step is to approach the 14th floor of the building. This aligns with the objective of reaching the specified destination efficiently.",
+    "evaluation": "Location: [(0, 16)]\nOption: C\nReason: The question asks to navigate to the balcony on the 14th floor. The video begins with a high-level view of a city and then pans down to reveal a tall building. From approximately 0:06 onwards, the camera clearly shows the side of this building with floor numbers explicitly marked, ranging from 31 down to 1. The 14th floor is clearly visible and identifiable within this sequence. Given the objective of reaching the 14th floor balcony, the most direct and logical next action is to approach the 14th floor of the building that is clearly presented in the video. The provided answer correctly identifies Option C and provides a sound reason based on the visual evidence and the stated goal.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The goal is to navigate to the balcony on the 14th floor. Given the current perspective, which shows a high vantage point of a building with visible floor numbers, the logical next step is to approach the 14th floor of the building. This aligns with the objective of reaching the specified destination efficiently."
+  }
+}

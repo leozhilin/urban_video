@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_59.mp4",
+  "question": "Question: You are navigating to the store labeled \"\u996d\u5148\u751f.\" What is the correct summary of your trajectory from the start to the current location?  \nChoice:  \nA. I start from a high-rise building, descend to street level, and move toward the store.  \nB. I start from the park, move toward the street, and then fly directly to the store.  \nC. I start from the street, fly over high-rise buildings, and then descend to the store.  \nD. I start from the park, rise to the roof of the high-rise building across the street, then descend and move to the store location.  \nE. I start from the sky above the roof of a high-rise building, move horizontally to just above the sidewalk on the street, descend to the ground, rotate the camera upward, and finally move toward the target store sign.",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "D",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The trajectory starts from a high vantage point (sky above the roof of a high-rise building), moves horizontally at a high altitude towards the target area, descends to ground level, and then approaches the \"\u996d\u5148\u751f\" store sign. This matches the description in option E.",
+    "evaluation": "Location: [(0, 114)]\nOption: E\nReason: The video begins with an extremely high aerial view, showing the agent starting from the \"sky above the roof of a high-rise building\" (00:00-00:01). The agent then moves horizontally while gradually descending (00:01-00:10), eventually reaching a level just above the street and sidewalk (00:10-00:52). It continues to move horizontally along this level, approaching the row of stores. As the agent gets close to the \"\u996d\u5148\u751f\" store (around 01:05), it moves directly towards it and then rotates the camera upward to focus on the store sign (01:07-01:08). This sequence of movements perfectly matches the description in Option E. The provided answer's reasoning is consistent with this observation.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The trajectory starts from a high vantage point (sky above the roof of a high-rise building), moves horizontally at a high altitude towards the target area, descends to ground level, and then approaches the \"\u996d\u5148\u751f\" store sign. This matches the description in option E."
+  }
+}

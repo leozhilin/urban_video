@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_8_31T4R4OBO1EIA4EKARYQ580BYSNC7T.mp4",
+  "question": "Question: How does the distance between you and the rooftop with the black and white soap advertisement change after you descend?  \nChoices:  \nA. The distance increases.  \nB. The distance remains the same.  \nC. The distance decreases.  ",
+  "question_category": "Proximity",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: As the agent descends, it gets closer to the rooftop with the black and white soap advertisement, thus the distance between the agent and the rooftop decreases.",
+    "evaluation": "Location: [(0, 55)]\nOption: C\nReason: The video begins with the agent at a high altitude, looking down at a city skyline. As the video progresses, the agent descends towards the buildings. From approximately 0:42, a rooftop with a black and white soap advertisement becomes clearly visible. As the agent continues to descend and move closer to the buildings (especially evident from 0:40 to 0:55), the advertisement and the rooftop it's on appear larger and more detailed, indicating a significant decrease in the distance between the agent and the rooftop. Therefore, after the descent, the distance between the agent and the rooftop with the black and white soap advertisement decreases. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: As the agent descends, it gets closer to the rooftop with the black and white soap advertisement, thus the distance between the agent and the rooftop decreases."
+  }
+}

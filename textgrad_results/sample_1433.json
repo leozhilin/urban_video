@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_11_1.mp4",
+  "question": "Question: You are navigating to a nearby green delivery locker. What is the correct summary of your trajectory from the start to the current location?  \nChoice:  \nA. Start from the runway, move upward, and then fly toward the street.  \nB. Start from the runway, rise, then turn left, looking left and right to find the green delivery cabinet.  \nC. Start from the parking lot, move upward, and then fly to the current location.  \nD. Start from the runway, move upward and forward, fly over the parking lot, then fly over the road, and reach your current location.  \nE. Start from the center of the runway, fly straight upward, and then move to the current position.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The trajectory shown in the video starts from a runway, moves upward and forward, flies over a parking lot, then flies over a road, and reaches the current location. This matches the description in option D.",
+    "evaluation": "Location: [(0, 108)]\nOption: D\nReason: The video begins with an aerial view directly above a running track, which serves as the starting point (runway). From approximately 0:05, the camera clearly moves both upward and forward, revealing more of the surrounding environment. Around 0:25, the camera is seen flying over a parking lot adjacent to the running track. Subsequently, from about 0:35, it continues its upward and forward trajectory, flying over a main road. The movement continues until it reaches the final elevated position, which is the \"current location.\" This sequence of events perfectly matches the description provided in Option D. The provided answer's reasoning is accurate and aligns with the visual evidence.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The trajectory shown in the video starts from a runway, moves upward and forward, flies over a parking lot, then flies over a road, and reaches the current location. This matches the description in option D."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_118_3VBEN272MTXHAEEH0GSKQQHMJYXGSZ.mp4",
+  "question": "Question: Which of the following options better summarizes your movement?  \nChoice: A. I fly from my starting point on the lake directly over trees and buildings to above the rooftop triangle antenna.  \n           B. I descend from above the tree line to the ground and reach the central building.  \n           C. I turn right from the leftmost tall building around the center building to reach the street.  \n           D. I fly backward from the middle floor of the multi-story building to the lake.  \n           E. I gradually rise from my starting point on the lake to the endpoint above the rooftop antenna.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The sequence of images shows a gradual ascent from a starting point near the lake, moving upwards and forward over the buildings until reaching a high vantage point above the rooftop antenna. This matches the description in option E.",
+    "evaluation": "Location: [(0, 138)]\nOption: E\nReason: The video begins with a view from a low vantage point, showing a lake in the foreground and a city skyline with tall buildings in the background (0:00-0:04). As the video progresses, the camera steadily moves upwards, gradually rising above the lake, then over the trees on the shoreline (0:05-0:20), and continues to ascend, passing by and eventually rising above the various buildings in the city (0:21-1:19). The movement culminates with the camera positioned high above the tallest building, specifically above its rooftop antenna, offering a panoramic view of the city and the distant water (1:20-1:38). This entire sequence clearly depicts a continuous and gradual ascent from the lake level to a high point above the rooftop antenna, which is accurately summarized by option E. The provided answer's reasoning aligns with this observation.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The sequence of images shows a gradual ascent from a starting point near the lake, moving upwards and forward over the buildings until reaching a high vantage point above the rooftop antenna. This matches the description in option E."
+  }
+}

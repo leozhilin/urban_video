@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_81_1.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the underground parking entrance next to a house with a blue roof. Is the destination within sight at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. The entrance to the underground parking lot is currently in the center of my field of view.  \nB. The entrance to the underground parking lot is currently in the upper right corner of my field of view.  \nC. The entrance to the underground parking lot is not within my field of view.  \nD. The entrance to the underground parking lot is currently on the left side of my field of view.  \nE. The entrance to the underground parking lot is currently in the upper middle of my field of view.",
+  "question_category": "Goal Detection",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The initial position shows a wide view of the environment with buildings and roads, but there is no visible entrance to an underground parking lot next to a house with a blue roof in the current field of view. The destination is not immediately apparent from this perspective.",
+    "evaluation": "Location: [(0, 22)]\nOption: C\nReason: The video displays a static overhead view of a residential area. While a small building with a blue roof is visible in the upper-left portion of the central green space, there is no clear or discernible entrance to an *underground* parking lot directly adjacent to it. The visible parking areas appear to be at ground level, and no ramps or specific architectural features indicating an underground entrance are present in the current field of view. Therefore, the specified destination is not within sight.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The initial position shows a wide view of the environment with buildings and roads, but there is no visible entrance to an underground parking lot next to a house with a blue roof in the current field of view. The destination is not immediately apparent from this perspective."
+  }
+}

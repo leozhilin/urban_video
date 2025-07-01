@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_8_2.mp4",
+  "question": "Question: You are navigating to the roof of a nearby school\u2019s red classroom building. Thinking back on past actions and objects seen, what is the surrounding environment like at your current location?  \nChoice:  \nA. There is a parking lot in front of me with many cars. Behind me is a school with a playground and running track. To my left is a small green building.  \nB. There is a tall gray apartment building to my right. There are school playgrounds and trees in front of me.  \nC. There is a big river in front of me. There is a bridge across the river to my left.  \nD. There is a shopping mall in front of me and a highway behind me.  \nE. There is a gray apartment building directly in front of me, followed by a school with a runway and several smaller buildings.",
+  "question_category": "Cognitive Map",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The current location shows a gray apartment building directly in front, with a school featuring a runway and several smaller buildings visible in the background. This matches the description in option E.",
+    "evaluation": "Location: [(0, 53)]\nOption: E\nReason: The video begins with a close-up view of a tall, gray apartment building, which is the most prominent structure directly in front of the camera's initial perspective (0:00-0:10). As the camera pans down and then to the left (0:10-0:53), a school complex becomes visible. This complex includes a running track (referred to as a \"runway\" in the option, which is a common term for a track in this context) and several smaller buildings, including a distinct red one and other white/beige buildings, situated beyond the parking lot and to the left of the gray apartment building. This visual evidence directly supports the description in Option E. The provided answer correctly identifies these key features and their relative positions.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The current location shows a gray apartment building directly in front, with a school featuring a runway and several smaller buildings visible in the background. This matches the description in option E."
+  }
+}

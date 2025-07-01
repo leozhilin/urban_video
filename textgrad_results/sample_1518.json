@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_22_3E47SOBEYZUFZOVGTI2NWXQKCCTICX_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and move forward and get down at above statue and turn left and move forward and go over the trees and beside pond. now move forward and go over the road and beside buildings and little turn left and move forward and go over the intersection road and get down and by up and turn right and move forward. now move forward and slightly turn right and get down at front of the optician wooden board and land there.]. You move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I fly over the intersection road.  \nB. I sit down in front of the optician's board.  \nC. I take off and fly forward.  \nD. I go forward and cross the road.  \nE. I turn left and continue forward.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The initial instruction starts with \"take off and move forward,\" and the images show a view from a high vantage point, suggesting that the agent is preparing to or has just taken off. Therefore, the current action aligns with taking off and flying forward.",
+    "evaluation": "Location: [(0, 15)]\nOption: C\nReason: The navigation instruction begins with \"take off and move forward\". The video starts with a view from a high vantage point (likely a rooftop or balcony), and then the camera smoothly moves upwards and forward, revealing a wider aerial view of the park and city. This visual progression directly corresponds to the action of taking off and moving forward, as stated in the initial part of the instruction. Therefore, the agent is currently taking off and flying forward. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The initial instruction starts with \"take off and move forward,\" and the images show a view from a high vantage point, suggesting that the agent is preparing to or has just taken off. Therefore, the current action aligns with taking off and flying forward."
+  }
+}

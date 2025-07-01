@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_51_2.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the stone statue to the left of the entrance. Is the destination within sight at your current location? If yes, where is the destination in your view?  \nchoose:  \nA. The stone statue on the left side of the entrance is currently in the center of my field of view.  \nB. The stone statue on the left side of the entrance is currently located in the upper right corner of my field of view.  \nC. The stone statue on the left side of the entrance is currently located in the lower left corner of my field of view.  \nD. The stone statue on the left side of the entrance is not within my field of view.  \nE. The stone statue on the left side of the entrance is currently at the bottom of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The stone statue to the left of the entrance is not visible within the current field of view. The images show a progression towards a building with a plaza, but the specific stone statue mentioned is not in sight.",
+    "evaluation": "Location: [(0, 3)]\nOption: D\nReason: At the initial position (00:00-00:03), the camera is looking forward down a street between tall buildings. The stone statue to the left of the entrance, which is later revealed to be in a plaza area below and to the right of the initial view (visible clearly from 00:37 onwards), is not within the field of view at the starting point. The camera needs to pan significantly to reveal this area.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The stone statue to the left of the entrance is not visible within the current field of view. The images show a progression towards a building with a plaza, but the specific stone statue mentioned is not in sight."
+  }
+}

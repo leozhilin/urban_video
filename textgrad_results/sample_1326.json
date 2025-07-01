@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_85.mp4",
+  "question": "Question: Which of the following choices better summarizes your movement route?  \nChoices:  \nA. I go from the skyline of the city to a row of high-rises by flying leftward, aligning with the buildings.  \nB. I go from above a cityscape to the rooftop of a low building by descending past the rooftops and aligning with a pathway.  \nC. I go from above a city landscape to the entrance of the community by moving across grass and a paved path.  \nD. I go from the edge of the open courtyard to the tall apartment buildings by ascending to higher altitudes over the rooftops.  \nE. I go from the street level to the top of the buildings by turning right and ascending above the cityscape.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The sequence of images shows a transition from an elevated view above the cityscape to a closer, more detailed view of specific buildings and streets. This suggests a descending movement past rooftops and aligning with a pathway, which matches the description in option B.",
+    "evaluation": "Location: [(0, 3:09)]\nOption: B\nReason: The video begins with a wide, elevated view of a cityscape (0:00-1:42). From approximately 1:43, the camera rapidly descends, transitioning to a top-down view of a residential area, clearly showing the rooftops of buildings and the layout of the community. As the descent continues (around 2:10 onwards), the perspective shifts to ground level, moving along a paved path and green areas, eventually focusing on the entrance/frontage of a building. Therefore, the movement is best summarized as going \"from above a cityscape\" by \"descending past the rooftops\" and then \"aligning with a pathway\" to reach a closer view of the buildings and street level. Option B accurately captures this entire trajectory. The provided answer's reasoning is correct and aligns with this observation.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The sequence of images shows a transition from an elevated view above the cityscape to a closer, more detailed view of specific buildings and streets. This suggests a descending movement past rooftops and aligning with a pathway, which matches the description in option B."
+  }
+}

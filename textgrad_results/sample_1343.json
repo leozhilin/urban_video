@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_3.mp4",
+  "question": "Question: What is the center of the open space below when your flight begins?  \nOptions:  \nA. A large fountain with surrounding landscaping.  \nB. A swimming pool and a small park.  \nC. A basketball court.  \nD. Residential parking lots.  \nE. Community centers and shops.  ",
+  "question_category": "Object Recall",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The center of the open space below, when the flight begins, is a basketball court. This is evident from the green surface with white lines typical of a basketball court, surrounded by a red track or pathway.",
+    "evaluation": "Location: [(0, 0:10)]\nOption: C\nReason: The video begins with an aerial view looking directly down into an open space within a residential area. In the very center of this open space, there is a large rectangular area with a green surface and distinct white lines, which are characteristic markings of a basketball court. This court is also surrounded by a reddish track or pathway. The provided answer correctly identifies this central feature as a basketball court, and its reasoning aligns with the visual evidence.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The center of the open space below, when the flight begins, is a basketball court. This is evident from the green surface with white lines typical of a basketball court, surrounded by a red track or pathway."
+  }
+}

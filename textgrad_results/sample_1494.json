@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_59_3BQU611VFYIKQPVAD4MJHEQ82YK99C_0.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [rise to the top of the building. rise to the top of the highest building turn around and fly to the satellite dishes. turn around and look below. go down to the alley way. turn to your left and go to the end. stop at the trees and go left go then go straight up. go ahead to the buildings ahead and lower yourself in front of it and do a spin. go over that building and land on the other side.]. At the initial position, you are asked to move according to a series of movement instructions. What are you doing now?  \nchoose:  \nA. I go over the building and land on the other side.  \nB. I rise to the top of the tallest building.  \nC. I turn around and look below.  \nD. I turn around and fly toward the satellite dish.  \nE. I rise to the top of the building.  ",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: E; Reason: The initial instruction is to \"rise to the top of the building,\" and the frames show a progression from a lower level to an elevated position, indicating that the agent is ascending. Therefore, the current action aligns with rising to the top of the building.",
+    "evaluation": "Location: [(0, 31)]\nOption: E\nReason: The video begins with a dark, low-level view and progressively shows the agent ascending. From approximately 0:09 onwards, the view clearly transitions from a ground or very low level to a rooftop perspective, and then continues to rise higher, revealing more of the surrounding buildings and the cityscape below. This continuous upward movement directly corresponds to the first instruction given: \"rise to the top of the building.\" The provided answer correctly identifies this action and its alignment with the initial instruction.",
+    "feedback": null,
+    "final_answer": "Option: E; Reason: The initial instruction is to \"rise to the top of the building,\" and the frames show a progression from a lower level to an elevated position, indicating that the agent is ascending. Therefore, the current action aligns with rising to the top of the building."
+  }
+}

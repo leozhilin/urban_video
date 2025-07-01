@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_51_2.mp4",
+  "question": "\"\"\"\nQuestion: You are moving following a series of movement instructions: \"Adjust the camera pan tilt upwards. Then rotate it to the left. Fly towards the right side of the brown high-rise building. After flying forward for a distance around the building, fly back again.\" What is your current move?\nChoices:\nA. I adjust the camera pan tilt upwards.\nB. I fly back again.\nC. I fly towards the right side of the brown high-rise building.\nD. I rotate the camera to the left.\nE. I am flying forward for a distance around the building.\n\n\"\"\"\n",
+  "question_category": "Progress Evaluation",
+  "ground_truth": "B",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The sequence of images shows the agent initially adjusting the camera upwards and to the left, then moving towards and around a building. The final frames depict a backward movement, indicating the agent is flying back again after completing the forward motion around the building.",
+    "evaluation": "Location: [(1, 37)]\nOption: B\nReason: The video demonstrates a sequence of movements as described in the instructions.\n1.  From 0:03 to 0:06, the camera clearly tilts upwards, fulfilling the first instruction.\n2.  From 0:06 to 0:11, the camera rotates to the left, fulfilling the second instruction.\n3.  From 0:11 to approximately 0:15, the agent flies towards the brown high-rise buildings, aligning with \"Fly towards the right side of the brown high-rise building.\"\n4.  From approximately 0:15 to 1:06, the agent continues to fly forward and around the buildings, completing the \"flying forward for a distance around the building\" part of the instruction.\n5.  From 1:06 to the end of the video at 1:37, the agent is visibly moving backward, away from the city and buildings, indicating that it is \"flying back again.\" This is the final and current action being performed in the video.\n\nThe provided answer correctly identifies Option B and provides a consistent reason based on the visual evidence.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The sequence of images shows the agent initially adjusting the camera upwards and to the left, then moving towards and around a building. The final frames depict a backward movement, indicating the agent is flying back again after completing the forward motion around the building."
+  }
+}

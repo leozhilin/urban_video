@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_88_0.mp4",
+  "question": "Question: In the starting position, you are asked to navigate over a residential lawn with a small blue house. What is the correct summary of your trajectory from the starting position to the current position?  \nChoice:  \nA. Start from a high altitude, descend to street level, and then move towards the target building.  \nB. Start from the street, rise to a height above the target building, and then descend toward the middle floor.  \nC. Start from the park, fly to the high-rise building, and then move horizontally to the current location.  \nD. Start from a distance, approach the target building, and then descend to a position above the middle floor.  \nE. Start from the sky above the residential area and fly to the left.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The trajectory starts from a higher altitude providing a broad view of the area, then moves closer to the target building, and finally descends to a position that is above the middle floor of the building, which matches the description in option D.",
+    "evaluation": "Location: [(0, 19)]\nOption: D\nReason: The video begins with a very high-altitude, wide-angle view of a city model, which can be described as \"starting from a distance\" or \"higher altitude providing a broad view.\" As the video progresses, the camera moves forward and continuously descends, approaching a cluster of tall buildings. By the end of the video (0:19), the camera has descended significantly and is positioned above the rooftops and courtyards of these buildings, looking down. This final position is clearly \"above the middle floor\" of the high-rise buildings. Therefore, the trajectory accurately summarized as starting from a distance, approaching the target buildings, and then descending to a position above their middle floors. The provided answer correctly identifies this trajectory.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The trajectory starts from a higher altitude providing a broad view of the area, then moves closer to the target building, and finally descends to a position that is above the middle floor of the building, which matches the description in option D."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "EmbodiedCity_89_0.mp4",
+  "question": "Question: In the starting position, you are asked to navigate to the middle elevated level of the building on the right front. What is the correct summary of your trajectory from start to current position?  \nChoice:  \nA. I start high above the city, descend toward the building complex, and then hover over the street between two tall buildings.  \nB. I start flying from the ground, rise vertically to the height of a high-rise building, and then move horizontally to my current location.  \nC. I start from a position above the park, move toward the street, descend to street level, and then continue to my destination.  \nD. I start from a high altitude, observe the overall city landscape, gradually descend, focus on a specific area, and then approach the pink window sill building from above.  \nE. I start from the sky above the residential area, first adjust the camera gimbal downward, and then fly downward.  ",
+  "question_category": "Trajectory Captioning",
+  "ground_truth": "E",
+  "textgrad_result": {
+    "init_answer": "Option: D; Reason: The trajectory starts from a high altitude with a broad view of the city, then gradually descends while focusing on a specific area, and finally approaches the target building from above, which matches the description in option D.",
+    "evaluation": "Location: [(0, 10)]\nOption: D\nReason: The video begins at 00:00 with a wide aerial view, showing a significant portion of a city landscape from a very high altitude. As the video progresses from 00:01 to 00:10, the camera continuously descends, gradually narrowing its focus from the overall city to a specific complex of buildings. By 00:10, the agent is much closer to the buildings, still observing them from above, and is clearly approaching the target building (the one on the right front) from an elevated position. This trajectory perfectly matches the description in Option D: \"I start from a high altitude, observe the overall city landscape, gradually descend, focus on a specific area, and then approach the pink window sill building from above.\" The provided answer's reasoning is accurate and aligns with the visual evidence.",
+    "feedback": null,
+    "final_answer": "Option: D; Reason: The trajectory starts from a high altitude with a broad view of the city, then gradually descends while focusing on a specific area, and finally approaches the target building from above, which matches the description in option D."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_80_3KB8R4ZV1N5ITSXFPU6P017MCZSGBQ.mp4",
+  "question": "Question: After you are aimed at the road leading to the bridge, what is the next step?  \nChoice: A. Turn left toward the park.  \n           B. Fly over the bridge and maintain a stable altitude.  \n           C. Move forward for a while, then descend to the river.  \n           D. Return to the cityscape.  \n           E. Rise again and gain a higher altitude.  ",
+  "question_category": "Sequence Recall",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The sequence of images shows a progression towards the bridge, and once aimed at the road leading to the bridge, the logical next step is to fly over it while maintaining a stable altitude to continue the journey.",
+    "evaluation": "Location: [(0, 25), (0, 55)]\nOption: B\nReason: The video initially shows a cityscape view. From approximately 0:17 to 0:25, the camera pans and adjusts its view, clearly aiming towards the road leading to a large red suspension bridge. After 0:25, the perspective moves forward, and the agent proceeds to fly directly over the bridge, maintaining an altitude that allows it to traverse the bridge structure. This directly corresponds to \"Fly over the bridge and maintain a stable altitude.\" Options A, C, D, and E are not supported by the visual progression of the video after the agent is aimed at the bridge. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The sequence of images shows a progression towards the bridge, and once aimed at the road leading to the bridge, the logical next step is to fly over it while maintaining a stable altitude to continue the journey."
+  }
+}

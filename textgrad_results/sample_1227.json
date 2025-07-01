@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_15_3YMTUJH0D1E2DYYCUFV9R6G5V9TT4Z_5.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [fly through the medal bars at the beginning. fly down to the tree in the center of the water. make a stop at the bridge over the water. go to the car wash bill board and make a left. go to the coca cola cap and make a right. finish at the park. back to the bridge over the water.]. At the initial position, you are asked to navigate to the park. What is the Landmark Position of the tall buildings after you arrive at the park?\n\nchoose:  \nA. I am located on the left side of the tall building.  \nB. I am located above a tall building.  \nC. The tall building is in front of me.  \nD. I am located under a tall building.  \nE. There is no positional relationship between me and high-rise buildings.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: After arriving at the park, the tall buildings are visible in the background, indicating that they are in front of the current position.",
+    "evaluation": "Location: [(2:10, 2:40)]\nOption: C\nReason: After following the navigation instructions and arriving at the park (visible from approximately 2:10 onwards), the tall buildings are clearly visible directly in front of the camera's perspective, across the water and trees. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: After arriving at the park, the tall buildings are visible in the background, indicating that they are in front of the current position."
+  }
+}

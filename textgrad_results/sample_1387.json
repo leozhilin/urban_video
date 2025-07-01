@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_11.mp4",
+  "question": "Question: After you adjust your perspective upward from above the school runway, what is the next step?  \nChoice: A. I turn left and face the roof of the white building on the left.  \n           B. I descend to the height of the parking lot.  \n           C. I turn right and face the parking lot between the two buildings.  \n           D. I move forward to the parking lot.  \n           E. I hover over the school runway.  ",
+  "question_category": "Sequence Recall",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: After adjusting the perspective upward from above the school runway, the next step is to turn right and face the parking lot between the two buildings. This is evident from the sequence of frames where the view transitions from the school runway to a position overlooking the parking lot situated between two buildings.",
+    "evaluation": "Location: [(0:25, 0:36)]\nOption: C\nReason: The video begins with an overhead view of a school runway. Around the 0:25 mark, the camera begins to adjust its perspective upward (tilting from a top-down view to a more angled, horizontal view) and simultaneously starts to pan to the right. This rightward turn continues, and by 0:36, the camera is clearly facing a large parking lot situated between several buildings. Therefore, the next step after adjusting the perspective upward is to turn right and face the parking lot between the buildings. The provided answer correctly identifies this sequence of events.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: After adjusting the perspective upward from above the school runway, the next step is to turn right and face the parking lot between the two buildings. This is evident from the sequence of frames where the view transitions from the school runway to a position overlooking the parking lot situated between two buildings."
+  }
+}

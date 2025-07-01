@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_12_388U7OUMFGZ8YV3J7P3CFOPAP930RT_6.mp4",
+  "question": "Question: Navigation Instruction given at initial position: [take off and turn back and move forward and go over the trees and pond and get down and get up and move forward and go over the trees and reach front of the brown building. now turn right and move forward and go over the building and slightly turn right and move forward and go over the intersection road and buildings. now turn right and move forward and turn back at front of the red board and move fly forward and get up at front of the white building and move forward and get down and stay there.]. You move according to a series of movement instructions. When you reach your current location, what is your landmark position from the road?  \nchoose:  \nA. I am located on the left side of the road.  \nB. I am located on the right side of the road.  \nC. I am located above the road.  \nD. I am located behind the road.  \nE. I am located in front of the road.  ",
+  "question_category": "Landmark Position",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The final frames show an aerial view of the city, indicating that the agent is above the road, not on either side or in front/behind it.",
+    "evaluation": "Location: [(3:25, 4:19)]\nOption: C\nReason: The navigation instructions lead the agent to \"get up at front of the white building and move forward and get down and stay there.\" In the final frames of the video, specifically from around 3:25 to 4:19, the agent is positioned at an elevated height, looking down at the street and the buildings. The road is clearly visible below the agent, indicating that the agent is located above the road. The provided answer correctly identifies this position.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The final frames show an aerial view of the city, indicating that the agent is above the road, not on either side or in front/behind it."
+  }
+}

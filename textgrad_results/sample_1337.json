@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_GN_1_0.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the blue roof of a nearby building. Is the destination within view at the current location? If yes, where is the destination in the view?  \nchoose:  \nA. I see a nearby building with a blue roof in the upper left corner of my field of view.  \nB. I see a nearby building with a blue roof to the left of my field of view.  \nC. I do not see any nearby buildings with blue roofs within my field of view.  \nD. I see a nearby building with a blue roof in the center of my field of view.  \nE. I see a nearby building with a blue roof in the lower right corner of my field of view.  ",
+  "question_category": "Goal Detection",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The initial position shows a view of buildings with red roofs and surrounding greenery, but there is no blue roof visible within the field of view. Therefore, the destination is not within view at the current location.",
+    "evaluation": "Location: [(0, 9)]\nOption: C\nReason: At the initial position of the video (from 0:00 to approximately 0:09), the camera is either looking directly down at a building with a red tiled roof or panning upwards to reveal surrounding buildings. All visible building roofs are either red, grey, or white. There are some light blue areas which appear to be swimming pools or decorative water features, not building roofs. No nearby buildings with blue roofs are visible within the field of view at the initial location. Therefore, the destination is not within view. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The initial position shows a view of buildings with red roofs and surrounding greenery, but there is no blue roof visible within the field of view. Therefore, the destination is not within view at the current location."
+  }
+}

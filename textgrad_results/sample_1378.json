@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_18.mp4",
+  "question": "Question: Which movement takes you longer: from above the bus stop to the door of the appliance store, or getting closer to the store sign?  \nChoice: A. It takes me a long time to go from the top of the bus station to the door of the home appliance store.  \n           B. It takes me longer to get close to the store sign.  \n           C. Both actions take me approximately the same amount of time.  ",
+  "question_category": "Duration",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: A; Reason: The video shows a continuous movement from above the bus stop towards the appliance store, covering a significant distance and taking more time compared to the shorter movement closer to the store sign.",
+    "evaluation": "Location: [(2, 0), (3, 4)]\nOption: A\nReason: The first movement, \"from above the bus stop to the door of the appliance store,\" starts with the camera high above the general area, including the bus stop (visible from approximately 02:00) and then descends and moves horizontally towards the appliance store, reaching its door around 02:50. This entire sequence covers a significant change in altitude and horizontal distance, lasting approximately 50 seconds (from 02:00 to 02:50). The second movement, \"getting closer to the store sign,\" begins around 02:45 when the camera is already relatively close to the store and primarily involves a zoom-in or a slight final approach to the sign, concluding at the end of the video (03:04). This movement lasts approximately 19 seconds (from 02:45 to 03:04). Therefore, the movement from above the bus stop to the door of the appliance store takes significantly longer. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: A; Reason: The video shows a continuous movement from above the bus stop towards the appliance store, covering a significant distance and taking more time compared to the shorter movement closer to the store sign."
+  }
+}

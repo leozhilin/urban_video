@@ -1,0 +1,12 @@
+{
+  "video_id": "RealWorld_3.mp4",
+  "question": "Question: At the initial position, you are asked to navigate to the entrance of the community, with a moon-shaped blue pool in front. Thinking back on past actions and objects you saw, what should you approach next to get from your current location to your destination?  \nchoose:  \nA. I approach the center of the roundabout.  \nB. I approach the edge of the parking lot.  \nC. I approach the blue crescent-shaped pond edge.  \nD. I approach a lamppost next to the main road.  \nE. I approach the top of the tallest building.  ",
+  "question_category": "High-level Planning",
+  "ground_truth": "C",
+  "textgrad_result": {
+    "init_answer": "Option: C; Reason: The goal is to navigate to the entrance of the community with a moon-shaped blue pool in front. Based on the provided images, approaching the blue crescent-shaped pond edge (option C) aligns with this goal as it directly leads to the described feature. The other options do not specifically target the moon-shaped blue pool area.",
+    "evaluation": "Location: [(2, 4), (2:08, 2:48)]\nOption: C\nReason: The question asks to navigate to the entrance of the community, specifically mentioning a \"moon-shaped blue pool in front.\" From the initial overhead view (e.g., 0:02), the entire community layout is shown. As the video pans out and shifts perspective (around 2:08), a distinct blue, crescent-shaped pool with a fountain is clearly visible at what appears to be the main entrance of the residential complex, facing a large road. This feature perfectly matches the description in the question. Therefore, to reach this specific entrance, one should approach the edge of this blue crescent-shaped pond. The other options do not accurately describe the target landmark for the community entrance as specified. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: C; Reason: The goal is to navigate to the entrance of the community with a moon-shaped blue pool in front. Based on the provided images, approaching the blue crescent-shaped pond edge (option C) aligns with this goal as it directly leads to the described feature. The other options do not specifically target the moon-shaped blue pool area."
+  }
+}

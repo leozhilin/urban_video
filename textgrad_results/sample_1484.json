@@ -1,0 +1,12 @@
+{
+  "video_id": "AerialVLN_23_34HJIJKLPEUHQQ21ZAVOSO4QR0YV4H.mp4",
+  "question": "Question: Does it take you longer to ascend to clear taller trees at the edge of a park or to maneuver to the left to view park paths and structures?  \nChoice: A. It takes me longer to ascend to clear taller trees than it does to maneuver to the left.  \n           B. I take less time to ascend to clear taller trees than I do to maneuver to the left.  \n           C. I take the same amount of time to ascend to clear the taller trees as I do to maneuver to the left.  ",
+  "question_category": "Duration",
+  "ground_truth": "A",
+  "textgrad_result": {
+    "init_answer": "Option: B; Reason: The sequence of images shows that the agent quickly ascends to clear the taller trees, providing a broad view of the park. Maneuvering to the left to view park paths and structures appears to take more time as the agent needs to navigate around various elements within the park. Therefore, it takes less time to ascend to clear taller trees than to maneuver to the left.",
+    "evaluation": "Location: [(0, 4), (4, 31)]\nOption: B\nReason: The video begins with an aerial view, already clearing the taller trees. Any subtle ascent or stabilization to achieve this clear view occurs very quickly within the first few seconds (approximately 0:00-0:04). In contrast, the agent then continuously maneuvers and pans to the left to reveal more park paths and structures (including a building and tennis courts) from approximately 0:04 to 0:31. This leftward maneuver is a prolonged action, taking significantly more time than the initial ascent or height adjustment. Therefore, it takes less time to ascend to clear taller trees than it does to maneuver to the left. The provided answer is correct.",
+    "feedback": null,
+    "final_answer": "Option: B; Reason: The sequence of images shows that the agent quickly ascends to clear the taller trees, providing a broad view of the park. Maneuvering to the left to view park paths and structures appears to take more time as the agent needs to navigate around various elements within the park. Therefore, it takes less time to ascend to clear taller trees than to maneuver to the left."
+  }
+}
